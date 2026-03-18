@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>Admin.Shared310</RootNamespace>
+    <AssemblyName>Admin.Shared310</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Imaging.Service</RootNamespace>
+    <AssemblyName>Imaging.Service</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Events5\Auth.Events5.csproj" />
+    <ProjectReference Include="..\Security.Models284\Security.Models284.csproj" />
+    <ProjectReference Include="..\Reporting.Contracts\Reporting.Contracts.csproj" />
+    <ProjectReference Include="..\Security.Validators217\Security.Validators217.csproj" />
+    <ProjectReference Include="..\Documents.Validators102\Documents.Validators102.csproj" />
+    <ProjectReference Include="..\BatchJobs.Events435\BatchJobs.Events435.csproj" />
+    <ProjectReference Include="..\Portal.Models413\Portal.Models413.csproj" />
+    <ProjectReference Include="..\DataAccess.Events283\DataAccess.Events283.csproj" />
+    <ProjectReference Include="..\Common.Api213\Common.Api213.csproj" />
+    <ProjectReference Include="..\Documents.Validators\Documents.Validators.csproj" />
+    <ProjectReference Include="..\Imaging.Events\Imaging.Events.csproj" />
+    <ProjectReference Include="..\Documents.Api439\Documents.Api439.csproj" />
+    <ProjectReference Include="..\Portal.Contracts181\Portal.Contracts181.csproj" />
+    <ProjectReference Include="..\Scheduling.Processors\Scheduling.Processors.csproj" />
+    <ProjectReference Include="..\Auth.Processors319\Auth.Processors319.csproj" />
+    <ProjectReference Include="..\Auth.Data\Auth.Data.csproj" />
+  </ItemGroup>
+</Project>

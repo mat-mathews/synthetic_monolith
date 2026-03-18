@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <RootNamespace>Utilities.Validators</RootNamespace>
+    <AssemblyName>Utilities.Validators</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Validators\Admin.Validators.csproj" />
+    <ProjectReference Include="..\Auth.Contracts\Auth.Contracts.csproj" />
+    <ProjectReference Include="..\BatchJobs.Models329\BatchJobs.Models329.csproj" />
+    <ProjectReference Include="..\Documents.Api439\Documents.Api439.csproj" />
+    <ProjectReference Include="..\Admin.Client346\Admin.Client346.csproj" />
+    <ProjectReference Include="..\Portal.Api123\Portal.Api123.csproj" />
+    <ProjectReference Include="..\Integration.Tests92\Integration.Tests92.csproj" />
+    <ProjectReference Include="..\Common.Tests350\Common.Tests350.csproj" />
+    <ProjectReference Include="..\Admin.Core\Admin.Core.csproj" />
+    <ProjectReference Include="..\Notifications.Tests195\Notifications.Tests195.csproj" />
+    <ProjectReference Include="..\Portal.Models\Portal.Models.csproj" />
+    <ProjectReference Include="..\Logging.Api316\Logging.Api316.csproj" />
+    <ProjectReference Include="..\Billing.Contracts\Billing.Contracts.csproj" />
+    <ProjectReference Include="..\Utilities.Events\Utilities.Events.csproj" />
+    <ProjectReference Include="..\Admin.Core121\Admin.Core121.csproj" />
+    <ProjectReference Include="..\Scheduling.Models\Scheduling.Models.csproj" />
+    <ProjectReference Include="..\Integration.Processors71\Integration.Processors71.csproj" />
+  </ItemGroup>
+</Project>

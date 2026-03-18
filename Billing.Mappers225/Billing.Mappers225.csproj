@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <RootNamespace>Billing.Mappers225</RootNamespace>
+    <AssemblyName>Billing.Mappers225</AssemblyName>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Data117\Admin.Data117.csproj" />
+    <ProjectReference Include="..\Integration.Handlers\Integration.Handlers.csproj" />
+    <ProjectReference Include="..\Admin.Models199\Admin.Models199.csproj" />
+    <ProjectReference Include="..\Utilities.Models41\Utilities.Models41.csproj" />
+    <ProjectReference Include="..\Notifications.Validators\Notifications.Validators.csproj" />
+    <ProjectReference Include="..\Logging.Web\Logging.Web.csproj" />
+    <ProjectReference Include="..\Scheduling.Core\Scheduling.Core.csproj" />
+    <ProjectReference Include="..\Reporting.Api393\Reporting.Api393.csproj" />
+    <ProjectReference Include="..\Export.Events163\Export.Events163.csproj" />
+    <ProjectReference Include="..\Scheduling.Web221\Scheduling.Web221.csproj" />
+    <ProjectReference Include="..\Notifications.Contracts\Notifications.Contracts.csproj" />
+    <ProjectReference Include="..\Admin.Shared\Admin.Shared.csproj" />
+    <ProjectReference Include="..\Auth.Mappers28\Auth.Mappers28.csproj" />
+    <ProjectReference Include="..\Portal.Api51\Portal.Api51.csproj" />
+    <ProjectReference Include="..\Import.Client64\Import.Client64.csproj" />
+    <ProjectReference Include="..\Documents.Service471\Documents.Service471.csproj" />
+  </ItemGroup>
+</Project>

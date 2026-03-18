@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Integration.Mappers242</RootNamespace>
+    <AssemblyName>Integration.Mappers242</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Service339\Admin.Service339.csproj" />
+    <ProjectReference Include="..\Admin.Models\Admin.Models.csproj" />
+    <ProjectReference Include="..\Admin.Core\Admin.Core.csproj" />
+    <ProjectReference Include="..\Security.Service383\Security.Service383.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Data453\GalaxyWorks.Data453.csproj" />
+    <ProjectReference Include="..\Imaging.Events303\Imaging.Events303.csproj" />
+    <ProjectReference Include="..\Documents.Api132\Documents.Api132.csproj" />
+    <ProjectReference Include="..\Documents.Service471\Documents.Service471.csproj" />
+    <ProjectReference Include="..\Admin.Contracts120\Admin.Contracts120.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Models219\GalaxyWorks.Models219.csproj" />
+    <ProjectReference Include="..\Admin.Service247\Admin.Service247.csproj" />
+    <ProjectReference Include="..\Security.Models18\Security.Models18.csproj" />
+    <ProjectReference Include="..\Notifications.Processors\Notifications.Processors.csproj" />
+    <ProjectReference Include="..\Reporting.Processors326\Reporting.Processors326.csproj" />
+    <ProjectReference Include="..\Workflow.Validators\Workflow.Validators.csproj" />
+    <ProjectReference Include="..\Billing.Service432\Billing.Service432.csproj" />
+    <ProjectReference Include="..\Logging.Contracts373\Logging.Contracts373.csproj" />
+    <ProjectReference Include="..\DataAccess.Api341\DataAccess.Api341.csproj" />
+  </ItemGroup>
+</Project>

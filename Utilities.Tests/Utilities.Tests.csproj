@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>Utilities.Tests</RootNamespace>
+    <AssemblyName>Utilities.Tests</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Contracts395\Auth.Contracts395.csproj" />
+    <ProjectReference Include="..\Auth.Models23\Auth.Models23.csproj" />
+    <ProjectReference Include="..\Portal.Handlers\Portal.Handlers.csproj" />
+    <ProjectReference Include="..\Scheduling.Processors397\Scheduling.Processors397.csproj" />
+    <ProjectReference Include="..\DataAccess.Shared\DataAccess.Shared.csproj" />
+    <ProjectReference Include="..\Documents.Processors\Documents.Processors.csproj" />
+    <ProjectReference Include="..\Export.Web130\Export.Web130.csproj" />
+    <ProjectReference Include="..\Auth.Mappers208\Auth.Mappers208.csproj" />
+    <ProjectReference Include="..\Scheduling.Mappers48\Scheduling.Mappers48.csproj" />
+    <ProjectReference Include="..\Imaging.Events\Imaging.Events.csproj" />
+    <ProjectReference Include="..\Utilities.Validators\Utilities.Validators.csproj" />
+    <ProjectReference Include="..\Utilities.Api\Utilities.Api.csproj" />
+    <ProjectReference Include="..\Auth.Events5\Auth.Events5.csproj" />
+    <ProjectReference Include="..\Common.Contracts279\Common.Contracts279.csproj" />
+    <ProjectReference Include="..\Export.Web479\Export.Web479.csproj" />
+    <ProjectReference Include="..\Billing.Contracts\Billing.Contracts.csproj" />
+    <ProjectReference Include="..\Notifications.Handlers112\Notifications.Handlers112.csproj" />
+  </ItemGroup>
+</Project>

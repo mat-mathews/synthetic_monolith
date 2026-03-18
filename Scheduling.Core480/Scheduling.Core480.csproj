@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <RootNamespace>Scheduling.Core480</RootNamespace>
+    <AssemblyName>Scheduling.Core480</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Tests\Admin.Tests.csproj" />
+    <ProjectReference Include="..\Admin.Data465\Admin.Data465.csproj" />
+    <ProjectReference Include="..\Admin.Service339\Admin.Service339.csproj" />
+    <ProjectReference Include="..\Workflow.Service\Workflow.Service.csproj" />
+    <ProjectReference Include="..\Export.Processors361\Export.Processors361.csproj" />
+    <ProjectReference Include="..\Export.Api12\Export.Api12.csproj" />
+    <ProjectReference Include="..\Security.Client349\Security.Client349.csproj" />
+    <ProjectReference Include="..\Logging.Data29\Logging.Data29.csproj" />
+    <ProjectReference Include="..\Imaging.Tests\Imaging.Tests.csproj" />
+    <ProjectReference Include="..\Security.Tests\Security.Tests.csproj" />
+    <ProjectReference Include="..\Auth.Events\Auth.Events.csproj" />
+    <ProjectReference Include="..\Security.Web\Security.Web.csproj" />
+    <ProjectReference Include="..\Reporting.Contracts\Reporting.Contracts.csproj" />
+    <ProjectReference Include="..\Documents.Processors133\Documents.Processors133.csproj" />
+    <ProjectReference Include="..\Portal.Mappers233\Portal.Mappers233.csproj" />
+    <ProjectReference Include="..\DataAccess.Client113\DataAccess.Client113.csproj" />
+    <ProjectReference Include="..\Security.Service383\Security.Service383.csproj" />
+    <ProjectReference Include="..\Logging.Handlers455\Logging.Handlers455.csproj" />
+  </ItemGroup>
+</Project>

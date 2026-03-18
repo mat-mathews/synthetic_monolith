@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Portal.Validators125</RootNamespace>
+    <AssemblyName>Portal.Validators125</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Tests\Admin.Tests.csproj" />
+    <ProjectReference Include="..\Auth.Validators87\Auth.Validators87.csproj" />
+    <ProjectReference Include="..\Utilities.Mappers232\Utilities.Mappers232.csproj" />
+    <ProjectReference Include="..\Admin.Validators240\Admin.Validators240.csproj" />
+    <ProjectReference Include="..\Scheduling.Models260\Scheduling.Models260.csproj" />
+    <ProjectReference Include="..\Logging.Api316\Logging.Api316.csproj" />
+    <ProjectReference Include="..\Security.Web230\Security.Web230.csproj" />
+    <ProjectReference Include="..\Export.Models262\Export.Models262.csproj" />
+    <ProjectReference Include="..\Auth.Contracts395\Auth.Contracts395.csproj" />
+    <ProjectReference Include="..\Billing.Events\Billing.Events.csproj" />
+    <ProjectReference Include="..\Logging.Service\Logging.Service.csproj" />
+    <ProjectReference Include="..\Documents.Tests458\Documents.Tests458.csproj" />
+    <ProjectReference Include="..\Admin.Handlers450\Admin.Handlers450.csproj" />
+    <ProjectReference Include="..\Security.Core\Security.Core.csproj" />
+    <ProjectReference Include="..\Scheduling.Processors80\Scheduling.Processors80.csproj" />
+    <ProjectReference Include="..\Import.Validators\Import.Validators.csproj" />
+  </ItemGroup>
+</Project>

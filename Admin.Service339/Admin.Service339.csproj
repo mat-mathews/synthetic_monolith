@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Admin.Service339</RootNamespace>
+    <AssemblyName>Admin.Service339</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+</Project>

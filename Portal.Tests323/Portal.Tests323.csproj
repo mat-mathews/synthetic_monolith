@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <RootNamespace>Portal.Tests323</RootNamespace>
+    <AssemblyName>Portal.Tests323</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Mappers178\Auth.Mappers178.csproj" />
+    <ProjectReference Include="..\DataAccess.Service\DataAccess.Service.csproj" />
+    <ProjectReference Include="..\Billing.Client491\Billing.Client491.csproj" />
+    <ProjectReference Include="..\Admin.Service364\Admin.Service364.csproj" />
+    <ProjectReference Include="..\Admin.Client177\Admin.Client177.csproj" />
+    <ProjectReference Include="..\Utilities.Contracts228\Utilities.Contracts228.csproj" />
+    <ProjectReference Include="..\Imaging.Web172\Imaging.Web172.csproj" />
+    <ProjectReference Include="..\Export.Core386\Export.Core386.csproj" />
+    <ProjectReference Include="..\Documents.Data\Documents.Data.csproj" />
+    <ProjectReference Include="..\DataAccess.Data474\DataAccess.Data474.csproj" />
+    <ProjectReference Include="..\Security.Contracts499\Security.Contracts499.csproj" />
+    <ProjectReference Include="..\Billing.Validators174\Billing.Validators174.csproj" />
+    <ProjectReference Include="..\Common.Processors142\Common.Processors142.csproj" />
+    <ProjectReference Include="..\Workflow.Validators\Workflow.Validators.csproj" />
+    <ProjectReference Include="..\Workflow.Handlers\Workflow.Handlers.csproj" />
+    <ProjectReference Include="..\Import.Tests\Import.Tests.csproj" />
+  </ItemGroup>
+</Project>

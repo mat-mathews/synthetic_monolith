@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Portal.Api99</RootNamespace>
+    <AssemblyName>Portal.Api99</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Processors\Auth.Processors.csproj" />
+    <ProjectReference Include="..\Security.Shared155\Security.Shared155.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Events\GalaxyWorks.Events.csproj" />
+    <ProjectReference Include="..\BatchJobs.Client\BatchJobs.Client.csproj" />
+    <ProjectReference Include="..\Imaging.Processors\Imaging.Processors.csproj" />
+    <ProjectReference Include="..\Export.Core168\Export.Core168.csproj" />
+    <ProjectReference Include="..\Security.Processors\Security.Processors.csproj" />
+    <ProjectReference Include="..\Integration.Api469\Integration.Api469.csproj" />
+    <ProjectReference Include="..\Security.Web376\Security.Web376.csproj" />
+    <ProjectReference Include="..\Reporting.Handlers\Reporting.Handlers.csproj" />
+    <ProjectReference Include="..\DataAccess.Client82\DataAccess.Client82.csproj" />
+    <ProjectReference Include="..\DataAccess.Api98\DataAccess.Api98.csproj" />
+    <ProjectReference Include="..\Utilities.Events\Utilities.Events.csproj" />
+    <ProjectReference Include="..\Documents.Api132\Documents.Api132.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Handlers385\GalaxyWorks.Handlers385.csproj" />
+    <ProjectReference Include="..\Utilities.Data415\Utilities.Data415.csproj" />
+  </ItemGroup>
+</Project>

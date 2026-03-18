@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Reporting.Handlers347</RootNamespace>
+    <AssemblyName>Reporting.Handlers347</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Data465\Admin.Data465.csproj" />
+    <ProjectReference Include="..\Portal.Mappers233\Portal.Mappers233.csproj" />
+    <ProjectReference Include="..\Workflow.Api\Workflow.Api.csproj" />
+    <ProjectReference Include="..\Integration.Contracts290\Integration.Contracts290.csproj" />
+    <ProjectReference Include="..\Security.Api\Security.Api.csproj" />
+    <ProjectReference Include="..\Integration.Service107\Integration.Service107.csproj" />
+    <ProjectReference Include="..\Integration.Web\Integration.Web.csproj" />
+    <ProjectReference Include="..\Export.Data\Export.Data.csproj" />
+    <ProjectReference Include="..\Notifications.Shared\Notifications.Shared.csproj" />
+    <ProjectReference Include="..\Integration.Api469\Integration.Api469.csproj" />
+    <ProjectReference Include="..\Integration.Service147\Integration.Service147.csproj" />
+    <ProjectReference Include="..\Imaging.Client\Imaging.Client.csproj" />
+    <ProjectReference Include="..\Reporting.Shared\Reporting.Shared.csproj" />
+    <ProjectReference Include="..\Imaging.Contracts\Imaging.Contracts.csproj" />
+    <ProjectReference Include="..\BatchJobs.Tests\BatchJobs.Tests.csproj" />
+    <ProjectReference Include="..\Scheduling.Tests85\Scheduling.Tests85.csproj" />
+  </ItemGroup>
+</Project>

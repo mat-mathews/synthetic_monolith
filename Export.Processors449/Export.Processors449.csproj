@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Export.Processors449</RootNamespace>
+    <AssemblyName>Export.Processors449</AssemblyName>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Events\Auth.Events.csproj" />
+    <ProjectReference Include="..\Export.Events276\Export.Events276.csproj" />
+    <ProjectReference Include="..\Security.Processors295\Security.Processors295.csproj" />
+    <ProjectReference Include="..\Admin.Tests\Admin.Tests.csproj" />
+    <ProjectReference Include="..\Scheduling.Data\Scheduling.Data.csproj" />
+    <ProjectReference Include="..\DataAccess.Shared486\DataAccess.Shared486.csproj" />
+    <ProjectReference Include="..\Reporting.Events317\Reporting.Events317.csproj" />
+    <ProjectReference Include="..\Billing.Shared384\Billing.Shared384.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Service293\GalaxyWorks.Service293.csproj" />
+    <ProjectReference Include="..\BatchJobs.Mappers31\BatchJobs.Mappers31.csproj" />
+    <ProjectReference Include="..\Reporting.Api393\Reporting.Api393.csproj" />
+    <ProjectReference Include="..\Scheduling.Api185\Scheduling.Api185.csproj" />
+    <ProjectReference Include="..\Reporting.Web345\Reporting.Web345.csproj" />
+    <ProjectReference Include="..\Documents.Events\Documents.Events.csproj" />
+    <ProjectReference Include="..\Security.Service\Security.Service.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Tests\GalaxyWorks.Tests.csproj" />
+  </ItemGroup>
+</Project>

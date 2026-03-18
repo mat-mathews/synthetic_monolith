@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>DataAccess.Web</RootNamespace>
+    <AssemblyName>DataAccess.Web</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Events78\Auth.Events78.csproj" />
+    <ProjectReference Include="..\BatchJobs.Contracts\BatchJobs.Contracts.csproj" />
+    <ProjectReference Include="..\Import.Mappers\Import.Mappers.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Data453\GalaxyWorks.Data453.csproj" />
+    <ProjectReference Include="..\Auth.Api116\Auth.Api116.csproj" />
+    <ProjectReference Include="..\Import.Core\Import.Core.csproj" />
+    <ProjectReference Include="..\Documents.Mappers\Documents.Mappers.csproj" />
+    <ProjectReference Include="..\Import.Api314\Import.Api314.csproj" />
+    <ProjectReference Include="..\Common.Web438\Common.Web438.csproj" />
+    <ProjectReference Include="..\Admin.Client\Admin.Client.csproj" />
+    <ProjectReference Include="..\Security.Handlers\Security.Handlers.csproj" />
+    <ProjectReference Include="..\Auth.Core140\Auth.Core140.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Mappers\GalaxyWorks.Mappers.csproj" />
+    <ProjectReference Include="..\Utilities.Contracts\Utilities.Contracts.csproj" />
+    <ProjectReference Include="..\Reporting.Events\Reporting.Events.csproj" />
+    <ProjectReference Include="..\DataAccess.Validators409\DataAccess.Validators409.csproj" />
+  </ItemGroup>
+</Project>

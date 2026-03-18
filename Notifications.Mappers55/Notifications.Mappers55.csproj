@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>Notifications.Mappers55</RootNamespace>
+    <AssemblyName>Notifications.Mappers55</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Shared\Admin.Shared.csproj" />
+    <ProjectReference Include="..\Auth.Events78\Auth.Events78.csproj" />
+    <ProjectReference Include="..\Workflow.Data\Workflow.Data.csproj" />
+    <ProjectReference Include="..\Auth.Shared325\Auth.Shared325.csproj" />
+    <ProjectReference Include="..\Security.Tests\Security.Tests.csproj" />
+    <ProjectReference Include="..\Notifications.Shared396\Notifications.Shared396.csproj" />
+    <ProjectReference Include="..\Integration.Core\Integration.Core.csproj" />
+    <ProjectReference Include="..\Imaging.Core\Imaging.Core.csproj" />
+    <ProjectReference Include="..\Export.Client414\Export.Client414.csproj" />
+    <ProjectReference Include="..\Security.Events\Security.Events.csproj" />
+    <ProjectReference Include="..\Admin.Handlers\Admin.Handlers.csproj" />
+    <ProjectReference Include="..\Documents.Core\Documents.Core.csproj" />
+    <ProjectReference Include="..\Import.Client65\Import.Client65.csproj" />
+    <ProjectReference Include="..\Security.Tests360\Security.Tests360.csproj" />
+    <ProjectReference Include="..\Documents.Web\Documents.Web.csproj" />
+    <ProjectReference Include="..\Notifications.Core166\Notifications.Core166.csproj" />
+    <ProjectReference Include="..\Portal.Api99\Portal.Api99.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,33 @@
+using Admin.Mappers;
+using Admin.Processors;
+using Admin.Service247;
+using BatchJobs.Handlers;
+using Billing.Validators174;
+using Common.Shared297;
+using DataAccess.Tests;
+using GalaxyWorks.Service;
+using Integration.Shared83;
+using Notifications.Core166;
+using Notifications.Web90;
+using Reporting.Mappers;
+using Reporting.Shared394;
+using Security.Core;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Utilities.Core;
+using Utilities.Models;
+using Utilities.Processors440;
+using Utilities.Tests;
+
+namespace GalaxyWorks.Contracts392
+{
+    public struct GalaxyWorks_Contracts392_Options10
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public DateTime CreatedAt { get; set; }
+    }
+
+}

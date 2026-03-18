@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <RootNamespace>Integration.Service107</RootNamespace>
+    <AssemblyName>Integration.Service107</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Api255\Admin.Api255.csproj" />
+    <ProjectReference Include="..\Admin.Client346\Admin.Client346.csproj" />
+    <ProjectReference Include="..\Admin.Tests10\Admin.Tests10.csproj" />
+    <ProjectReference Include="..\Reporting.Api\Reporting.Api.csproj" />
+    <ProjectReference Include="..\DataAccess.Api307\DataAccess.Api307.csproj" />
+    <ProjectReference Include="..\DataAccess.Core\DataAccess.Core.csproj" />
+    <ProjectReference Include="..\Common.Service258\Common.Service258.csproj" />
+    <ProjectReference Include="..\Import.Handlers167\Import.Handlers167.csproj" />
+    <ProjectReference Include="..\Integration.Service401\Integration.Service401.csproj" />
+    <ProjectReference Include="..\Common.Processors245\Common.Processors245.csproj" />
+    <ProjectReference Include="..\Documents.Models\Documents.Models.csproj" />
+    <ProjectReference Include="..\Export.Core\Export.Core.csproj" />
+    <ProjectReference Include="..\Imaging.Mappers93\Imaging.Mappers93.csproj" />
+    <ProjectReference Include="..\Portal.Validators227\Portal.Validators227.csproj" />
+    <ProjectReference Include="..\DataAccess.Tests\DataAccess.Tests.csproj" />
+    <ProjectReference Include="..\BatchJobs.Tests270\BatchJobs.Tests270.csproj" />
+    <ProjectReference Include="..\Integration.Data175\Integration.Data175.csproj" />
+    <ProjectReference Include="..\Common.Client\Common.Client.csproj" />
+  </ItemGroup>
+</Project>

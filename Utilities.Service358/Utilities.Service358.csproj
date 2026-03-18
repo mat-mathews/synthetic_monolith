@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Utilities.Service358</RootNamespace>
+    <AssemblyName>Utilities.Service358</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Core121\Admin.Core121.csproj" />
+    <ProjectReference Include="..\Auth.Models23\Auth.Models23.csproj" />
+    <ProjectReference Include="..\Admin.Web154\Admin.Web154.csproj" />
+    <ProjectReference Include="..\Import.Processors472\Import.Processors472.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Core\GalaxyWorks.Core.csproj" />
+    <ProjectReference Include="..\Integration.Data\Integration.Data.csproj" />
+    <ProjectReference Include="..\Security.Validators428\Security.Validators428.csproj" />
+    <ProjectReference Include="..\Billing.Tests\Billing.Tests.csproj" />
+    <ProjectReference Include="..\Portal.Api51\Portal.Api51.csproj" />
+    <ProjectReference Include="..\Imaging.Events\Imaging.Events.csproj" />
+    <ProjectReference Include="..\Documents.Data490\Documents.Data490.csproj" />
+    <ProjectReference Include="..\Imaging.Contracts473\Imaging.Contracts473.csproj" />
+    <ProjectReference Include="..\Documents.Client58\Documents.Client58.csproj" />
+    <ProjectReference Include="..\Documents.Data492\Documents.Data492.csproj" />
+    <ProjectReference Include="..\Portal.Validators227\Portal.Validators227.csproj" />
+    <ProjectReference Include="..\Scheduling.Tests85\Scheduling.Tests85.csproj" />
+    <ProjectReference Include="..\Reporting.Data\Reporting.Data.csproj" />
+    <ProjectReference Include="..\Workflow.Tests27\Workflow.Tests27.csproj" />
+  </ItemGroup>
+</Project>

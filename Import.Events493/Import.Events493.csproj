@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <RootNamespace>Import.Events493</RootNamespace>
+    <AssemblyName>Import.Events493</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Events235\Admin.Events235.csproj" />
+    <ProjectReference Include="..\Admin.Client346\Admin.Client346.csproj" />
+    <ProjectReference Include="..\Auth.Events78\Auth.Events78.csproj" />
+    <ProjectReference Include="..\Integration.Tests45\Integration.Tests45.csproj" />
+    <ProjectReference Include="..\Reporting.Mappers239\Reporting.Mappers239.csproj" />
+    <ProjectReference Include="..\Common.Events\Common.Events.csproj" />
+    <ProjectReference Include="..\DataAccess.Processors\DataAccess.Processors.csproj" />
+    <ProjectReference Include="..\Auth.Core140\Auth.Core140.csproj" />
+    <ProjectReference Include="..\Documents.Shared452\Documents.Shared452.csproj" />
+    <ProjectReference Include="..\Import.Service291\Import.Service291.csproj" />
+    <ProjectReference Include="..\Import.Data100\Import.Data100.csproj" />
+    <ProjectReference Include="..\Admin.Processors35\Admin.Processors35.csproj" />
+    <ProjectReference Include="..\Auth.Core\Auth.Core.csproj" />
+    <ProjectReference Include="..\Auth.Web70\Auth.Web70.csproj" />
+    <ProjectReference Include="..\Billing.Core\Billing.Core.csproj" />
+    <ProjectReference Include="..\Portal.Mappers233\Portal.Mappers233.csproj" />
+    <ProjectReference Include="..\Documents.Core\Documents.Core.csproj" />
+  </ItemGroup>
+</Project>

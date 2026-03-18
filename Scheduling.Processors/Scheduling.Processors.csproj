@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <RootNamespace>Scheduling.Processors</RootNamespace>
+    <AssemblyName>Scheduling.Processors</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Processors319\Auth.Processors319.csproj" />
+    <ProjectReference Include="..\Security.Contracts\Security.Contracts.csproj" />
+    <ProjectReference Include="..\Import.Contracts183\Import.Contracts183.csproj" />
+    <ProjectReference Include="..\Scheduling.Data54\Scheduling.Data54.csproj" />
+    <ProjectReference Include="..\Notifications.Models\Notifications.Models.csproj" />
+    <ProjectReference Include="..\Export.Web229\Export.Web229.csproj" />
+    <ProjectReference Include="..\Import.Processors412\Import.Processors412.csproj" />
+    <ProjectReference Include="..\Export.Processors111\Export.Processors111.csproj" />
+    <ProjectReference Include="..\Billing.Core\Billing.Core.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Core309\GalaxyWorks.Core309.csproj" />
+    <ProjectReference Include="..\Workflow.Mappers370\Workflow.Mappers370.csproj" />
+    <ProjectReference Include="..\Integration.Processors241\Integration.Processors241.csproj" />
+    <ProjectReference Include="..\Auth.Contracts\Auth.Contracts.csproj" />
+    <ProjectReference Include="..\Import.Contracts296\Import.Contracts296.csproj" />
+    <ProjectReference Include="..\Scheduling.Models342\Scheduling.Models342.csproj" />
+    <ProjectReference Include="..\Portal.Api99\Portal.Api99.csproj" />
+  </ItemGroup>
+</Project>

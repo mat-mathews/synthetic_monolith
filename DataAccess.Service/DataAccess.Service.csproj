@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>DataAccess.Service</RootNamespace>
+    <AssemblyName>DataAccess.Service</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Mappers\Auth.Mappers.csproj" />
+    <ProjectReference Include="..\Auth.Mappers206\Auth.Mappers206.csproj" />
+    <ProjectReference Include="..\Auth.Client271\Auth.Client271.csproj" />
+    <ProjectReference Include="..\Notifications.Data348\Notifications.Data348.csproj" />
+    <ProjectReference Include="..\Documents.Processors\Documents.Processors.csproj" />
+    <ProjectReference Include="..\Documents.Data\Documents.Data.csproj" />
+    <ProjectReference Include="..\Admin.Events235\Admin.Events235.csproj" />
+    <ProjectReference Include="..\Billing.Validators\Billing.Validators.csproj" />
+    <ProjectReference Include="..\Billing.Api\Billing.Api.csproj" />
+    <ProjectReference Include="..\BatchJobs.Client\BatchJobs.Client.csproj" />
+    <ProjectReference Include="..\Imaging.Shared338\Imaging.Shared338.csproj" />
+    <ProjectReference Include="..\Import.Api272\Import.Api272.csproj" />
+    <ProjectReference Include="..\Integration.Handlers17\Integration.Handlers17.csproj" />
+    <ProjectReference Include="..\DataAccess.Shared\DataAccess.Shared.csproj" />
+    <ProjectReference Include="..\Billing.Mappers198\Billing.Mappers198.csproj" />
+    <ProjectReference Include="..\Scheduling.Api\Scheduling.Api.csproj" />
+    <ProjectReference Include="..\Admin.Contracts120\Admin.Contracts120.csproj" />
+    <ProjectReference Include="..\Export.Core386\Export.Core386.csproj" />
+  </ItemGroup>
+</Project>

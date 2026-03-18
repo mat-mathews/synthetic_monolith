@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>Common.Api57</RootNamespace>
+    <AssemblyName>Common.Api57</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Web\Admin.Web.csproj" />
+    <ProjectReference Include="..\Auth.Handlers467\Auth.Handlers467.csproj" />
+    <ProjectReference Include="..\Admin.Service339\Admin.Service339.csproj" />
+    <ProjectReference Include="..\Portal.Service489\Portal.Service489.csproj" />
+    <ProjectReference Include="..\Integration.Models\Integration.Models.csproj" />
+    <ProjectReference Include="..\Export.Shared\Export.Shared.csproj" />
+    <ProjectReference Include="..\Workflow.Shared298\Workflow.Shared298.csproj" />
+    <ProjectReference Include="..\Export.Web479\Export.Web479.csproj" />
+    <ProjectReference Include="..\DataAccess.Shared\DataAccess.Shared.csproj" />
+    <ProjectReference Include="..\Common.Validators430\Common.Validators430.csproj" />
+    <ProjectReference Include="..\Notifications.Client257\Notifications.Client257.csproj" />
+    <ProjectReference Include="..\Reporting.Shared\Reporting.Shared.csproj" />
+    <ProjectReference Include="..\Import.Service265\Import.Service265.csproj" />
+    <ProjectReference Include="..\Billing.Data\Billing.Data.csproj" />
+    <ProjectReference Include="..\Documents.Core357\Documents.Core357.csproj" />
+    <ProjectReference Include="..\Imaging.Events\Imaging.Events.csproj" />
+    <ProjectReference Include="..\Documents.Service215\Documents.Service215.csproj" />
+  </ItemGroup>
+</Project>

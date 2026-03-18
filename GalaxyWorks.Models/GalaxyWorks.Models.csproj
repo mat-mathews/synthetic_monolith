@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <RootNamespace>GalaxyWorks.Models</RootNamespace>
+    <AssemblyName>GalaxyWorks.Models</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Mappers\Admin.Mappers.csproj" />
+    <ProjectReference Include="..\Auth.Contracts\Auth.Contracts.csproj" />
+    <ProjectReference Include="..\Workflow.Tests75\Workflow.Tests75.csproj" />
+    <ProjectReference Include="..\Documents.Validators102\Documents.Validators102.csproj" />
+    <ProjectReference Include="..\Notifications.Tests299\Notifications.Tests299.csproj" />
+    <ProjectReference Include="..\Scheduling.Processors\Scheduling.Processors.csproj" />
+    <ProjectReference Include="..\Portal.Api51\Portal.Api51.csproj" />
+    <ProjectReference Include="..\Utilities.Processors440\Utilities.Processors440.csproj" />
+    <ProjectReference Include="..\Documents.Data484\Documents.Data484.csproj" />
+    <ProjectReference Include="..\Scheduling.Api\Scheduling.Api.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Mappers403\GalaxyWorks.Mappers403.csproj" />
+    <ProjectReference Include="..\Portal.Events\Portal.Events.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Api\GalaxyWorks.Api.csproj" />
+    <ProjectReference Include="..\Utilities.Api66\Utilities.Api66.csproj" />
+    <ProjectReference Include="..\Security.Core243\Security.Core243.csproj" />
+    <ProjectReference Include="..\Portal.Data216\Portal.Data216.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Contracts\GalaxyWorks.Contracts.csproj" />
+  </ItemGroup>
+</Project>

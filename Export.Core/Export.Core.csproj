@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Export.Core</RootNamespace>
+    <AssemblyName>Export.Core</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Shared\Admin.Shared.csproj" />
+    <ProjectReference Include="..\Admin.Data\Admin.Data.csproj" />
+    <ProjectReference Include="..\Admin.Validators240\Admin.Validators240.csproj" />
+    <ProjectReference Include="..\Reporting.Tests67\Reporting.Tests67.csproj" />
+    <ProjectReference Include="..\Billing.Client22\Billing.Client22.csproj" />
+    <ProjectReference Include="..\Import.Client356\Import.Client356.csproj" />
+    <ProjectReference Include="..\Portal.Service489\Portal.Service489.csproj" />
+    <ProjectReference Include="..\Reporting.Processors\Reporting.Processors.csproj" />
+    <ProjectReference Include="..\Reporting.Contracts\Reporting.Contracts.csproj" />
+    <ProjectReference Include="..\Documents.Data419\Documents.Data419.csproj" />
+    <ProjectReference Include="..\Workflow.Data340\Workflow.Data340.csproj" />
+    <ProjectReference Include="..\Reporting.Shared\Reporting.Shared.csproj" />
+    <ProjectReference Include="..\Documents.Core357\Documents.Core357.csproj" />
+    <ProjectReference Include="..\Security.Web\Security.Web.csproj" />
+    <ProjectReference Include="..\Documents.Service215\Documents.Service215.csproj" />
+    <ProjectReference Include="..\Export.Client\Export.Client.csproj" />
+    <ProjectReference Include="..\Portal.Validators250\Portal.Validators250.csproj" />
+    <ProjectReference Include="..\Integration.Processors\Integration.Processors.csproj" />
+  </ItemGroup>
+</Project>

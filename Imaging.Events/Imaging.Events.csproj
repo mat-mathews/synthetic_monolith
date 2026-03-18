@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <RootNamespace>Imaging.Events</RootNamespace>
+    <AssemblyName>Imaging.Events</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Api116\Auth.Api116.csproj" />
+    <ProjectReference Include="..\Export.Events163\Export.Events163.csproj" />
+    <ProjectReference Include="..\Documents.Data419\Documents.Data419.csproj" />
+    <ProjectReference Include="..\Import.Api\Import.Api.csproj" />
+    <ProjectReference Include="..\Security.Data278\Security.Data278.csproj" />
+    <ProjectReference Include="..\Reporting.Tests67\Reporting.Tests67.csproj" />
+    <ProjectReference Include="..\Admin.Web\Admin.Web.csproj" />
+    <ProjectReference Include="..\Scheduling.Web19\Scheduling.Web19.csproj" />
+    <ProjectReference Include="..\Billing.Handlers101\Billing.Handlers101.csproj" />
+    <ProjectReference Include="..\Notifications.Contracts\Notifications.Contracts.csproj" />
+    <ProjectReference Include="..\Documents.Api439\Documents.Api439.csproj" />
+    <ProjectReference Include="..\Logging.Api\Logging.Api.csproj" />
+    <ProjectReference Include="..\Logging.Handlers285\Logging.Handlers285.csproj" />
+    <ProjectReference Include="..\Common.Models381\Common.Models381.csproj" />
+    <ProjectReference Include="..\Integration.Processors71\Integration.Processors71.csproj" />
+    <ProjectReference Include="..\Admin.Service247\Admin.Service247.csproj" />
+  </ItemGroup>
+</Project>

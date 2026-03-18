@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Common.Api</RootNamespace>
+    <AssemblyName>Common.Api</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Service456\Admin.Service456.csproj" />
+    <ProjectReference Include="..\Auth.Client271\Auth.Client271.csproj" />
+    <ProjectReference Include="..\Utilities.Api\Utilities.Api.csproj" />
+    <ProjectReference Include="..\Scheduling.Service\Scheduling.Service.csproj" />
+    <ProjectReference Include="..\Billing.Contracts\Billing.Contracts.csproj" />
+    <ProjectReference Include="..\BatchJobs.Handlers\BatchJobs.Handlers.csproj" />
+    <ProjectReference Include="..\Notifications.Events42\Notifications.Events42.csproj" />
+    <ProjectReference Include="..\Portal.Validators250\Portal.Validators250.csproj" />
+    <ProjectReference Include="..\Documents.Shared\Documents.Shared.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Core\GalaxyWorks.Core.csproj" />
+    <ProjectReference Include="..\Imaging.Events424\Imaging.Events424.csproj" />
+    <ProjectReference Include="..\Reporting.Handlers\Reporting.Handlers.csproj" />
+    <ProjectReference Include="..\Auth.Core2\Auth.Core2.csproj" />
+    <ProjectReference Include="..\Imaging.Models459\Imaging.Models459.csproj" />
+    <ProjectReference Include="..\Logging.Handlers368\Logging.Handlers368.csproj" />
+    <ProjectReference Include="..\Admin.Core\Admin.Core.csproj" />
+    <ProjectReference Include="..\Auth.Client249\Auth.Client249.csproj" />
+  </ItemGroup>
+</Project>

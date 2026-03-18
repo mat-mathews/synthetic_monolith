@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>Integration.Processors241</RootNamespace>
+    <AssemblyName>Integration.Processors241</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Models199\Admin.Models199.csproj" />
+    <ProjectReference Include="..\Logging.Contracts74\Logging.Contracts74.csproj" />
+    <ProjectReference Include="..\DataAccess.Core\DataAccess.Core.csproj" />
+    <ProjectReference Include="..\Import.Contracts\Import.Contracts.csproj" />
+    <ProjectReference Include="..\Workflow.Contracts\Workflow.Contracts.csproj" />
+    <ProjectReference Include="..\Billing.Core34\Billing.Core34.csproj" />
+    <ProjectReference Include="..\Integration.Processors321\Integration.Processors321.csproj" />
+    <ProjectReference Include="..\Utilities.Mappers97\Utilities.Mappers97.csproj" />
+    <ProjectReference Include="..\DataAccess.Client82\DataAccess.Client82.csproj" />
+    <ProjectReference Include="..\Common.Mappers343\Common.Mappers343.csproj" />
+    <ProjectReference Include="..\Auth.Events\Auth.Events.csproj" />
+    <ProjectReference Include="..\Security.Validators428\Security.Validators428.csproj" />
+    <ProjectReference Include="..\Common.Events367\Common.Events367.csproj" />
+    <ProjectReference Include="..\Common.Events280\Common.Events280.csproj" />
+    <ProjectReference Include="..\Scheduling.Processors\Scheduling.Processors.csproj" />
+    <ProjectReference Include="..\Billing.Service432\Billing.Service432.csproj" />
+  </ItemGroup>
+</Project>

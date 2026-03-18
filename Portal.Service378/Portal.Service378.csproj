@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>Portal.Service378</RootNamespace>
+    <AssemblyName>Portal.Service378</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Processors\Auth.Processors.csproj" />
+    <ProjectReference Include="..\Security.Shared365\Security.Shared365.csproj" />
+    <ProjectReference Include="..\Logging.Core\Logging.Core.csproj" />
+    <ProjectReference Include="..\DataAccess.Data36\DataAccess.Data36.csproj" />
+    <ProjectReference Include="..\Security.Handlers\Security.Handlers.csproj" />
+    <ProjectReference Include="..\Billing.Handlers\Billing.Handlers.csproj" />
+    <ProjectReference Include="..\DataAccess.Core\DataAccess.Core.csproj" />
+    <ProjectReference Include="..\Portal.Models413\Portal.Models413.csproj" />
+    <ProjectReference Include="..\Import.Contracts180\Import.Contracts180.csproj" />
+    <ProjectReference Include="..\Export.Events\Export.Events.csproj" />
+    <ProjectReference Include="..\Documents.Service\Documents.Service.csproj" />
+    <ProjectReference Include="..\Admin.Validators336\Admin.Validators336.csproj" />
+    <ProjectReference Include="..\Common.Service\Common.Service.csproj" />
+    <ProjectReference Include="..\Portal.Handlers\Portal.Handlers.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Api\GalaxyWorks.Api.csproj" />
+    <ProjectReference Include="..\Documents.Api439\Documents.Api439.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <RootNamespace>Import.Client65</RootNamespace>
+    <AssemblyName>Import.Client65</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Validators336\Admin.Validators336.csproj" />
+    <ProjectReference Include="..\Admin.Shared363\Admin.Shared363.csproj" />
+    <ProjectReference Include="..\Import.Validators\Import.Validators.csproj" />
+    <ProjectReference Include="..\Common.Shared\Common.Shared.csproj" />
+    <ProjectReference Include="..\Billing.Shared149\Billing.Shared149.csproj" />
+    <ProjectReference Include="..\Utilities.Contracts\Utilities.Contracts.csproj" />
+    <ProjectReference Include="..\Admin.Data\Admin.Data.csproj" />
+    <ProjectReference Include="..\Common.Core417\Common.Core417.csproj" />
+    <ProjectReference Include="..\Auth.Mappers\Auth.Mappers.csproj" />
+    <ProjectReference Include="..\Common.Core118\Common.Core118.csproj" />
+    <ProjectReference Include="..\DataAccess.Api307\DataAccess.Api307.csproj" />
+    <ProjectReference Include="..\Workflow.Api148\Workflow.Api148.csproj" />
+    <ProjectReference Include="..\Utilities.Mappers232\Utilities.Mappers232.csproj" />
+    <ProjectReference Include="..\Logging.Models436\Logging.Models436.csproj" />
+    <ProjectReference Include="..\Security.Models\Security.Models.csproj" />
+    <ProjectReference Include="..\Workflow.Api\Workflow.Api.csproj" />
+    <ProjectReference Include="..\Admin.Events235\Admin.Events235.csproj" />
+  </ItemGroup>
+</Project>

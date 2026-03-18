@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>Reporting.Events188</RootNamespace>
+    <AssemblyName>Reporting.Events188</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Service\Admin.Service.csproj" />
+    <ProjectReference Include="..\Documents.Tests171\Documents.Tests171.csproj" />
+    <ProjectReference Include="..\Security.Client137\Security.Client137.csproj" />
+    <ProjectReference Include="..\Portal.Validators\Portal.Validators.csproj" />
+    <ProjectReference Include="..\Admin.Data465\Admin.Data465.csproj" />
+    <ProjectReference Include="..\Portal.Web\Portal.Web.csproj" />
+    <ProjectReference Include="..\Workflow.Tests\Workflow.Tests.csproj" />
+    <ProjectReference Include="..\Import.Tests119\Import.Tests119.csproj" />
+    <ProjectReference Include="..\Scheduling.Mappers48\Scheduling.Mappers48.csproj" />
+    <ProjectReference Include="..\Auth.Handlers467\Auth.Handlers467.csproj" />
+    <ProjectReference Include="..\Reporting.Processors495\Reporting.Processors495.csproj" />
+    <ProjectReference Include="..\Logging.Contracts\Logging.Contracts.csproj" />
+    <ProjectReference Include="..\Reporting.Events\Reporting.Events.csproj" />
+    <ProjectReference Include="..\Logging.Handlers\Logging.Handlers.csproj" />
+    <ProjectReference Include="..\Portal.Tests173\Portal.Tests173.csproj" />
+    <ProjectReference Include="..\Logging.Handlers285\Logging.Handlers285.csproj" />
+  </ItemGroup>
+</Project>

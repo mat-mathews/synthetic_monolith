@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>Workflow.Contracts330</RootNamespace>
+    <AssemblyName>Workflow.Contracts330</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Handlers450\Admin.Handlers450.csproj" />
+    <ProjectReference Include="..\Admin.Validators240\Admin.Validators240.csproj" />
+    <ProjectReference Include="..\Auth.Client\Auth.Client.csproj" />
+    <ProjectReference Include="..\Notifications.Validators391\Notifications.Validators391.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Data375\GalaxyWorks.Data375.csproj" />
+    <ProjectReference Include="..\Documents.Shared487\Documents.Shared487.csproj" />
+    <ProjectReference Include="..\Reporting.Core\Reporting.Core.csproj" />
+    <ProjectReference Include="..\Common.Core169\Common.Core169.csproj" />
+    <ProjectReference Include="..\Utilities.Data415\Utilities.Data415.csproj" />
+    <ProjectReference Include="..\Logging.Tests\Logging.Tests.csproj" />
+    <ProjectReference Include="..\Security.Client353\Security.Client353.csproj" />
+    <ProjectReference Include="..\Billing.Core34\Billing.Core34.csproj" />
+    <ProjectReference Include="..\Export.Handlers\Export.Handlers.csproj" />
+    <ProjectReference Include="..\Admin.Client\Admin.Client.csproj" />
+    <ProjectReference Include="..\Admin.Validators431\Admin.Validators431.csproj" />
+    <ProjectReference Include="..\Admin.Tests\Admin.Tests.csproj" />
+    <ProjectReference Include="..\Security.Models284\Security.Models284.csproj" />
+    <ProjectReference Include="..\Utilities.Service358\Utilities.Service358.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Imaging.Validators</RootNamespace>
+    <AssemblyName>Imaging.Validators</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Core\Auth.Core.csproj" />
+    <ProjectReference Include="..\Admin.Mappers324\Admin.Mappers324.csproj" />
+    <ProjectReference Include="..\Admin.Mappers\Admin.Mappers.csproj" />
+    <ProjectReference Include="..\BatchJobs.Core\BatchJobs.Core.csproj" />
+    <ProjectReference Include="..\BatchJobs.Processors500\BatchJobs.Processors500.csproj" />
+    <ProjectReference Include="..\DataAccess.Client82\DataAccess.Client82.csproj" />
+    <ProjectReference Include="..\Notifications.Web90\Notifications.Web90.csproj" />
+    <ProjectReference Include="..\Imaging.Processors\Imaging.Processors.csproj" />
+    <ProjectReference Include="..\Portal.Processors52\Portal.Processors52.csproj" />
+    <ProjectReference Include="..\Admin.Web154\Admin.Web154.csproj" />
+    <ProjectReference Include="..\Workflow.Api433\Workflow.Api433.csproj" />
+    <ProjectReference Include="..\Notifications.Data\Notifications.Data.csproj" />
+    <ProjectReference Include="..\Logging.Client405\Logging.Client405.csproj" />
+    <ProjectReference Include="..\Auth.Processors411\Auth.Processors411.csproj" />
+    <ProjectReference Include="..\Scheduling.Tests85\Scheduling.Tests85.csproj" />
+    <ProjectReference Include="..\Imaging.Web172\Imaging.Web172.csproj" />
+    <ProjectReference Include="..\Logging.Shared\Logging.Shared.csproj" />
+    <ProjectReference Include="..\Billing.Processors388\Billing.Processors388.csproj" />
+  </ItemGroup>
+</Project>

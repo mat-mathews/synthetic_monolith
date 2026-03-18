@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>Export.Api</RootNamespace>
+    <AssemblyName>Export.Api</AssemblyName>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Core121\Admin.Core121.csproj" />
+    <ProjectReference Include="..\Admin.Web4\Admin.Web4.csproj" />
+    <ProjectReference Include="..\Admin.Client177\Admin.Client177.csproj" />
+    <ProjectReference Include="..\Workflow.Web\Workflow.Web.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Service\GalaxyWorks.Service.csproj" />
+    <ProjectReference Include="..\Logging.Handlers455\Logging.Handlers455.csproj" />
+    <ProjectReference Include="..\Imaging.Models459\Imaging.Models459.csproj" />
+    <ProjectReference Include="..\Documents.Web164\Documents.Web164.csproj" />
+    <ProjectReference Include="..\Export.Data\Export.Data.csproj" />
+    <ProjectReference Include="..\Portal.Models413\Portal.Models413.csproj" />
+    <ProjectReference Include="..\Scheduling.Models441\Scheduling.Models441.csproj" />
+    <ProjectReference Include="..\Integration.Service107\Integration.Service107.csproj" />
+    <ProjectReference Include="..\Export.Data150\Export.Data150.csproj" />
+    <ProjectReference Include="..\Logging.Events\Logging.Events.csproj" />
+    <ProjectReference Include="..\Admin.Data\Admin.Data.csproj" />
+    <ProjectReference Include="..\Utilities.Api66\Utilities.Api66.csproj" />
+    <ProjectReference Include="..\Auth.Contracts\Auth.Contracts.csproj" />
+    <ProjectReference Include="..\Admin.Api255\Admin.Api255.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <RootNamespace>Portal.Client</RootNamespace>
+    <AssemblyName>Portal.Client</AssemblyName>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Handlers\Admin.Handlers.csproj" />
+    <ProjectReference Include="..\Admin.Processors\Admin.Processors.csproj" />
+    <ProjectReference Include="..\Auth.Core140\Auth.Core140.csproj" />
+    <ProjectReference Include="..\Common.Tests\Common.Tests.csproj" />
+    <ProjectReference Include="..\Reporting.Processors326\Reporting.Processors326.csproj" />
+    <ProjectReference Include="..\Integration.Validators\Integration.Validators.csproj" />
+    <ProjectReference Include="..\Export.Processors111\Export.Processors111.csproj" />
+    <ProjectReference Include="..\Documents.Shared427\Documents.Shared427.csproj" />
+    <ProjectReference Include="..\Admin.Models\Admin.Models.csproj" />
+    <ProjectReference Include="..\Logging.Web\Logging.Web.csproj" />
+    <ProjectReference Include="..\Notifications.Client257\Notifications.Client257.csproj" />
+    <ProjectReference Include="..\Auth.Contracts402\Auth.Contracts402.csproj" />
+    <ProjectReference Include="..\Workflow.Models253\Workflow.Models253.csproj" />
+    <ProjectReference Include="..\Workflow.Tests\Workflow.Tests.csproj" />
+    <ProjectReference Include="..\Import.Tests119\Import.Tests119.csproj" />
+    <ProjectReference Include="..\Logging.Handlers455\Logging.Handlers455.csproj" />
+    <ProjectReference Include="..\Admin.Web4\Admin.Web4.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Documents.Data68</RootNamespace>
+    <AssemblyName>Documents.Data68</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Data117\Admin.Data117.csproj" />
+    <ProjectReference Include="..\Imaging.Core204\Imaging.Core204.csproj" />
+    <ProjectReference Include="..\Utilities.Models\Utilities.Models.csproj" />
+    <ProjectReference Include="..\Portal.Contracts\Portal.Contracts.csproj" />
+    <ProjectReference Include="..\Integration.Handlers244\Integration.Handlers244.csproj" />
+    <ProjectReference Include="..\BatchJobs.Client267\BatchJobs.Client267.csproj" />
+    <ProjectReference Include="..\Portal.Events\Portal.Events.csproj" />
+    <ProjectReference Include="..\Export.Core\Export.Core.csproj" />
+    <ProjectReference Include="..\Export.Web210\Export.Web210.csproj" />
+    <ProjectReference Include="..\Billing.Web\Billing.Web.csproj" />
+    <ProjectReference Include="..\DataAccess.Contracts404\DataAccess.Contracts404.csproj" />
+    <ProjectReference Include="..\Imaging.Client261\Imaging.Client261.csproj" />
+    <ProjectReference Include="..\Scheduling.Validators\Scheduling.Validators.csproj" />
+    <ProjectReference Include="..\Export.Contracts\Export.Contracts.csproj" />
+    <ProjectReference Include="..\Utilities.Tests\Utilities.Tests.csproj" />
+    <ProjectReference Include="..\Common.Events367\Common.Events367.csproj" />
+  </ItemGroup>
+</Project>

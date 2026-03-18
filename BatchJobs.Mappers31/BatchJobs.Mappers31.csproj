@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>BatchJobs.Mappers31</RootNamespace>
+    <AssemblyName>BatchJobs.Mappers31</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Validators37\Admin.Validators37.csproj" />
+    <ProjectReference Include="..\Scheduling.Tests\Scheduling.Tests.csproj" />
+    <ProjectReference Include="..\Imaging.Client331\Imaging.Client331.csproj" />
+    <ProjectReference Include="..\Security.Tests360\Security.Tests360.csproj" />
+    <ProjectReference Include="..\Documents.Data\Documents.Data.csproj" />
+    <ProjectReference Include="..\Portal.Validators\Portal.Validators.csproj" />
+    <ProjectReference Include="..\Notifications.Web\Notifications.Web.csproj" />
+    <ProjectReference Include="..\DataAccess.Client\DataAccess.Client.csproj" />
+    <ProjectReference Include="..\Export.Web479\Export.Web479.csproj" />
+    <ProjectReference Include="..\Portal.Data266\Portal.Data266.csproj" />
+    <ProjectReference Include="..\Export.Service30\Export.Service30.csproj" />
+    <ProjectReference Include="..\Documents.Tests106\Documents.Tests106.csproj" />
+    <ProjectReference Include="..\Import.Mappers\Import.Mappers.csproj" />
+    <ProjectReference Include="..\Billing.Client22\Billing.Client22.csproj" />
+    <ProjectReference Include="..\Logging.Mappers\Logging.Mappers.csproj" />
+    <ProjectReference Include="..\Utilities.Handlers462\Utilities.Handlers462.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Billing.Service302</RootNamespace>
+    <AssemblyName>Billing.Service302</AssemblyName>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Mappers\Auth.Mappers.csproj" />
+    <ProjectReference Include="..\Admin.Service456\Admin.Service456.csproj" />
+    <ProjectReference Include="..\Utilities.Data415\Utilities.Data415.csproj" />
+    <ProjectReference Include="..\Documents.Tests\Documents.Tests.csproj" />
+    <ProjectReference Include="..\Reporting.Tests226\Reporting.Tests226.csproj" />
+    <ProjectReference Include="..\Import.Shared\Import.Shared.csproj" />
+    <ProjectReference Include="..\Admin.Processors35\Admin.Processors35.csproj" />
+    <ProjectReference Include="..\Documents.Tests106\Documents.Tests106.csproj" />
+    <ProjectReference Include="..\Integration.Processors241\Integration.Processors241.csproj" />
+    <ProjectReference Include="..\Notifications.Data348\Notifications.Data348.csproj" />
+    <ProjectReference Include="..\Export.Tests62\Export.Tests62.csproj" />
+    <ProjectReference Include="..\Billing.Validators\Billing.Validators.csproj" />
+    <ProjectReference Include="..\Auth.Handlers281\Auth.Handlers281.csproj" />
+    <ProjectReference Include="..\Integration.Handlers\Integration.Handlers.csproj" />
+    <ProjectReference Include="..\Admin.Data408\Admin.Data408.csproj" />
+    <ProjectReference Include="..\Billing.Validators174\Billing.Validators174.csproj" />
+    <ProjectReference Include="..\Portal.Mappers\Portal.Mappers.csproj" />
+  </ItemGroup>
+</Project>

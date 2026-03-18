@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>Integration.Tests</RootNamespace>
+    <AssemblyName>Integration.Tests</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Contracts\Admin.Contracts.csproj" />
+    <ProjectReference Include="..\Portal.Api352\Portal.Api352.csproj" />
+    <ProjectReference Include="..\Admin.Data408\Admin.Data408.csproj" />
+    <ProjectReference Include="..\Security.Api134\Security.Api134.csproj" />
+    <ProjectReference Include="..\Utilities.Contracts\Utilities.Contracts.csproj" />
+    <ProjectReference Include="..\BatchJobs.Mappers\BatchJobs.Mappers.csproj" />
+    <ProjectReference Include="..\Portal.Models413\Portal.Models413.csproj" />
+    <ProjectReference Include="..\Common.Data126\Common.Data126.csproj" />
+    <ProjectReference Include="..\Reporting.Events\Reporting.Events.csproj" />
+    <ProjectReference Include="..\Auth.Api116\Auth.Api116.csproj" />
+    <ProjectReference Include="..\Common.Contracts279\Common.Contracts279.csproj" />
+    <ProjectReference Include="..\Common.Service\Common.Service.csproj" />
+    <ProjectReference Include="..\Workflow.Tests27\Workflow.Tests27.csproj" />
+    <ProjectReference Include="..\Auth.Processors411\Auth.Processors411.csproj" />
+    <ProjectReference Include="..\Imaging.Events\Imaging.Events.csproj" />
+    <ProjectReference Include="..\Workflow.Web\Workflow.Web.csproj" />
+  </ItemGroup>
+</Project>

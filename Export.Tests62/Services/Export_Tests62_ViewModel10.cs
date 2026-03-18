@@ -1,0 +1,29 @@
+using Admin.Client177;
+using Admin.Validators431;
+using Admin.Web;
+using Admin.Web46;
+using Auth.Mappers178;
+using BatchJobs.Events;
+using BatchJobs.Processors;
+using Common.Web438;
+using DataAccess.Client82;
+using DataAccess.Shared486;
+using DataAccess.Tests;
+using Export.Api;
+using Notifications.Tests299;
+using Notifications.Web;
+using Portal.Tests323;
+using Scheduling.Tests85;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Utilities.Mappers;
+using Workflow.Models;
+
+namespace Export.Tests62
+{
+    /// <summary>Immutable data transfer record for Export_Tests62_ViewModel10.</summary>
+    public record Export_Tests62_ViewModel10(string Value, int Count, DateTime Timestamp);
+
+}

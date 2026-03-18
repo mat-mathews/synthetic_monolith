@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Import.Handlers354</RootNamespace>
+    <AssemblyName>Import.Handlers354</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Validators240\Admin.Validators240.csproj" />
+    <ProjectReference Include="..\Scheduling.Tests444\Scheduling.Tests444.csproj" />
+    <ProjectReference Include="..\Common.Handlers\Common.Handlers.csproj" />
+    <ProjectReference Include="..\Billing.Processors388\Billing.Processors388.csproj" />
+    <ProjectReference Include="..\Integration.Core\Integration.Core.csproj" />
+    <ProjectReference Include="..\Import.Models\Import.Models.csproj" />
+    <ProjectReference Include="..\DataAccess.Models\DataAccess.Models.csproj" />
+    <ProjectReference Include="..\Scheduling.Handlers43\Scheduling.Handlers43.csproj" />
+    <ProjectReference Include="..\Export.Processors104\Export.Processors104.csproj" />
+    <ProjectReference Include="..\Imaging.Service\Imaging.Service.csproj" />
+    <ProjectReference Include="..\Admin.Processors\Admin.Processors.csproj" />
+    <ProjectReference Include="..\BatchJobs.Models304\BatchJobs.Models304.csproj" />
+    <ProjectReference Include="..\Scheduling.Client\Scheduling.Client.csproj" />
+    <ProjectReference Include="..\BatchJobs.Api212\BatchJobs.Api212.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Data153\GalaxyWorks.Data153.csproj" />
+    <ProjectReference Include="..\Documents.Api132\Documents.Api132.csproj" />
+  </ItemGroup>
+</Project>

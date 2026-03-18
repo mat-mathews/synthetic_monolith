@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Security.Tests</RootNamespace>
+    <AssemblyName>Security.Tests</AssemblyName>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Models199\Admin.Models199.csproj" />
+    <ProjectReference Include="..\Auth.Processors400\Auth.Processors400.csproj" />
+    <ProjectReference Include="..\Reporting.Handlers\Reporting.Handlers.csproj" />
+    <ProjectReference Include="..\BatchJobs.Client109\BatchJobs.Client109.csproj" />
+    <ProjectReference Include="..\Integration.Events\Integration.Events.csproj" />
+    <ProjectReference Include="..\Common.Api186\Common.Api186.csproj" />
+    <ProjectReference Include="..\BatchJobs.Events435\BatchJobs.Events435.csproj" />
+    <ProjectReference Include="..\Logging.Handlers285\Logging.Handlers285.csproj" />
+    <ProjectReference Include="..\Export.Models\Export.Models.csproj" />
+    <ProjectReference Include="..\Common.Api\Common.Api.csproj" />
+    <ProjectReference Include="..\Billing.Models\Billing.Models.csproj" />
+    <ProjectReference Include="..\Billing.Events\Billing.Events.csproj" />
+    <ProjectReference Include="..\Admin.Service247\Admin.Service247.csproj" />
+    <ProjectReference Include="..\Export.Processors426\Export.Processors426.csproj" />
+    <ProjectReference Include="..\BatchJobs.Api212\BatchJobs.Api212.csproj" />
+    <ProjectReference Include="..\Import.Data\Import.Data.csproj" />
+    <ProjectReference Include="..\Integration.Tests\Integration.Tests.csproj" />
+  </ItemGroup>
+</Project>

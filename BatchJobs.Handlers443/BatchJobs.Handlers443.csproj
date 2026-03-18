@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>BatchJobs.Handlers443</RootNamespace>
+    <AssemblyName>BatchJobs.Handlers443</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Service\Admin.Service.csproj" />
+    <ProjectReference Include="..\Admin.Processors\Admin.Processors.csproj" />
+    <ProjectReference Include="..\Auth.Contracts402\Auth.Contracts402.csproj" />
+    <ProjectReference Include="..\Utilities.Core\Utilities.Core.csproj" />
+    <ProjectReference Include="..\Utilities.Models\Utilities.Models.csproj" />
+    <ProjectReference Include="..\DataAccess.Processors\DataAccess.Processors.csproj" />
+    <ProjectReference Include="..\Portal.Processors389\Portal.Processors389.csproj" />
+    <ProjectReference Include="..\Scheduling.Validators\Scheduling.Validators.csproj" />
+    <ProjectReference Include="..\Portal.Web494\Portal.Web494.csproj" />
+    <ProjectReference Include="..\Common.Shared297\Common.Shared297.csproj" />
+    <ProjectReference Include="..\Admin.Service456\Admin.Service456.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Contracts94\GalaxyWorks.Contracts94.csproj" />
+    <ProjectReference Include="..\Common.Processors245\Common.Processors245.csproj" />
+    <ProjectReference Include="..\Common.Events280\Common.Events280.csproj" />
+    <ProjectReference Include="..\Common.Api\Common.Api.csproj" />
+    <ProjectReference Include="..\Portal.Validators125\Portal.Validators125.csproj" />
+    <ProjectReference Include="..\Portal.Service\Portal.Service.csproj" />
+    <ProjectReference Include="..\Reporting.Web105\Reporting.Web105.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>Security.Handlers460</RootNamespace>
+    <AssemblyName>Security.Handlers460</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Models\Admin.Models.csproj" />
+    <ProjectReference Include="..\Portal.Data216\Portal.Data216.csproj" />
+    <ProjectReference Include="..\Billing.Validators174\Billing.Validators174.csproj" />
+    <ProjectReference Include="..\Export.Core372\Export.Core372.csproj" />
+    <ProjectReference Include="..\Admin.Events\Admin.Events.csproj" />
+    <ProjectReference Include="..\Notifications.Tests\Notifications.Tests.csproj" />
+    <ProjectReference Include="..\Export.Client\Export.Client.csproj" />
+    <ProjectReference Include="..\Integration.Web\Integration.Web.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Contracts392\GalaxyWorks.Contracts392.csproj" />
+    <ProjectReference Include="..\Billing.Validators305\Billing.Validators305.csproj" />
+    <ProjectReference Include="..\Notifications.Models277\Notifications.Models277.csproj" />
+    <ProjectReference Include="..\Common.Validators\Common.Validators.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Validators\GalaxyWorks.Validators.csproj" />
+    <ProjectReference Include="..\Reporting.Processors\Reporting.Processors.csproj" />
+    <ProjectReference Include="..\Reporting.Client422\Reporting.Client422.csproj" />
+    <ProjectReference Include="..\Reporting.Data\Reporting.Data.csproj" />
+  </ItemGroup>
+</Project>

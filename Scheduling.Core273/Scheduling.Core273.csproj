@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Scheduling.Core273</RootNamespace>
+    <AssemblyName>Scheduling.Core273</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Processors319\Auth.Processors319.csproj" />
+    <ProjectReference Include="..\Admin.Events235\Admin.Events235.csproj" />
+    <ProjectReference Include="..\Auth.Contracts\Auth.Contracts.csproj" />
+    <ProjectReference Include="..\Auth.Handlers281\Auth.Handlers281.csproj" />
+    <ProjectReference Include="..\Integration.Events\Integration.Events.csproj" />
+    <ProjectReference Include="..\Admin.Client177\Admin.Client177.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Events\GalaxyWorks.Events.csproj" />
+    <ProjectReference Include="..\Admin.Events\Admin.Events.csproj" />
+    <ProjectReference Include="..\Common.Client53\Common.Client53.csproj" />
+    <ProjectReference Include="..\Common.Core118\Common.Core118.csproj" />
+    <ProjectReference Include="..\Auth.Service\Auth.Service.csproj" />
+    <ProjectReference Include="..\Notifications.Data446\Notifications.Data446.csproj" />
+    <ProjectReference Include="..\Security.Api320\Security.Api320.csproj" />
+    <ProjectReference Include="..\BatchJobs.Core11\BatchJobs.Core11.csproj" />
+    <ProjectReference Include="..\Import.Contracts296\Import.Contracts296.csproj" />
+    <ProjectReference Include="..\Portal.Processors\Portal.Processors.csproj" />
+    <ProjectReference Include="..\Portal.Core8\Portal.Core8.csproj" />
+    <ProjectReference Include="..\Auth.Models23\Auth.Models23.csproj" />
+  </ItemGroup>
+</Project>

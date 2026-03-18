@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Imaging.Tests328</RootNamespace>
+    <AssemblyName>Imaging.Tests328</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Validators336\Admin.Validators336.csproj" />
+    <ProjectReference Include="..\Admin.Client177\Admin.Client177.csproj" />
+    <ProjectReference Include="..\Admin.Core\Admin.Core.csproj" />
+    <ProjectReference Include="..\BatchJobs.Data176\BatchJobs.Data176.csproj" />
+    <ProjectReference Include="..\Logging.Service382\Logging.Service382.csproj" />
+    <ProjectReference Include="..\Documents.Data\Documents.Data.csproj" />
+    <ProjectReference Include="..\Billing.Mappers198\Billing.Mappers198.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Data375\GalaxyWorks.Data375.csproj" />
+    <ProjectReference Include="..\Portal.Models413\Portal.Models413.csproj" />
+    <ProjectReference Include="..\Admin.Events235\Admin.Events235.csproj" />
+    <ProjectReference Include="..\Admin.Service247\Admin.Service247.csproj" />
+    <ProjectReference Include="..\Integration.Shared83\Integration.Shared83.csproj" />
+    <ProjectReference Include="..\DataAccess.Mappers\DataAccess.Mappers.csproj" />
+    <ProjectReference Include="..\Reporting.Web345\Reporting.Web345.csproj" />
+    <ProjectReference Include="..\BatchJobs.Client109\BatchJobs.Client109.csproj" />
+    <ProjectReference Include="..\Common.Tests350\Common.Tests350.csproj" />
+    <ProjectReference Include="..\Workflow.Data\Workflow.Data.csproj" />
+    <ProjectReference Include="..\Admin.Tests10\Admin.Tests10.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>Export.Events163</RootNamespace>
+    <AssemblyName>Export.Events163</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Client346\Admin.Client346.csproj" />
+    <ProjectReference Include="..\Documents.Data490\Documents.Data490.csproj" />
+    <ProjectReference Include="..\Common.Validators50\Common.Validators50.csproj" />
+    <ProjectReference Include="..\Export.Shared145\Export.Shared145.csproj" />
+    <ProjectReference Include="..\Integration.Service\Integration.Service.csproj" />
+    <ProjectReference Include="..\Export.Handlers202\Export.Handlers202.csproj" />
+    <ProjectReference Include="..\Common.Processors\Common.Processors.csproj" />
+    <ProjectReference Include="..\Documents.Shared452\Documents.Shared452.csproj" />
+    <ProjectReference Include="..\Import.Core\Import.Core.csproj" />
+    <ProjectReference Include="..\DataAccess.Contracts\DataAccess.Contracts.csproj" />
+    <ProjectReference Include="..\Scheduling.Tests76\Scheduling.Tests76.csproj" />
+    <ProjectReference Include="..\BatchJobs.Models329\BatchJobs.Models329.csproj" />
+    <ProjectReference Include="..\Admin.Mappers\Admin.Mappers.csproj" />
+    <ProjectReference Include="..\Export.Processors361\Export.Processors361.csproj" />
+    <ProjectReference Include="..\DataAccess.Validators88\DataAccess.Validators88.csproj" />
+    <ProjectReference Include="..\Scheduling.Web60\Scheduling.Web60.csproj" />
+  </ItemGroup>
+</Project>

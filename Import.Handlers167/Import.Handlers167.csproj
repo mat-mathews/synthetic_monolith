@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <RootNamespace>Import.Handlers167</RootNamespace>
+    <AssemblyName>Import.Handlers167</AssemblyName>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Handlers467\Auth.Handlers467.csproj" />
+    <ProjectReference Include="..\Auth.Api\Auth.Api.csproj" />
+    <ProjectReference Include="..\Admin.Data408\Admin.Data408.csproj" />
+    <ProjectReference Include="..\Logging.Shared315\Logging.Shared315.csproj" />
+    <ProjectReference Include="..\Utilities.Shared\Utilities.Shared.csproj" />
+    <ProjectReference Include="..\Import.Shared\Import.Shared.csproj" />
+    <ProjectReference Include="..\Integration.Api469\Integration.Api469.csproj" />
+    <ProjectReference Include="..\Workflow.Contracts434\Workflow.Contracts434.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Contracts\GalaxyWorks.Contracts.csproj" />
+    <ProjectReference Include="..\DataAccess.Shared486\DataAccess.Shared486.csproj" />
+    <ProjectReference Include="..\Workflow.Tests75\Workflow.Tests75.csproj" />
+    <ProjectReference Include="..\Utilities.Processors\Utilities.Processors.csproj" />
+    <ProjectReference Include="..\Workflow.Data340\Workflow.Data340.csproj" />
+    <ProjectReference Include="..\Documents.Service\Documents.Service.csproj" />
+    <ProjectReference Include="..\Export.Tests\Export.Tests.csproj" />
+    <ProjectReference Include="..\Imaging.Processors\Imaging.Processors.csproj" />
+    <ProjectReference Include="..\Utilities.Mappers\Utilities.Mappers.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>Integration.Handlers423</RootNamespace>
+    <AssemblyName>Integration.Handlers423</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Processors35\Admin.Processors35.csproj" />
+    <ProjectReference Include="..\Admin.Handlers450\Admin.Handlers450.csproj" />
+    <ProjectReference Include="..\Logging.Core159\Logging.Core159.csproj" />
+    <ProjectReference Include="..\Auth.Mappers206\Auth.Mappers206.csproj" />
+    <ProjectReference Include="..\Security.Web\Security.Web.csproj" />
+    <ProjectReference Include="..\DataAccess.Contracts\DataAccess.Contracts.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Events256\GalaxyWorks.Events256.csproj" />
+    <ProjectReference Include="..\DataAccess.Contracts404\DataAccess.Contracts404.csproj" />
+    <ProjectReference Include="..\Utilities.Mappers232\Utilities.Mappers232.csproj" />
+    <ProjectReference Include="..\Portal.Contracts\Portal.Contracts.csproj" />
+    <ProjectReference Include="..\Import.Client7\Import.Client7.csproj" />
+    <ProjectReference Include="..\Logging.Contracts74\Logging.Contracts74.csproj" />
+    <ProjectReference Include="..\Import.Mappers\Import.Mappers.csproj" />
+    <ProjectReference Include="..\Security.Processors246\Security.Processors246.csproj" />
+    <ProjectReference Include="..\Billing.Mappers225\Billing.Mappers225.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Validators355\GalaxyWorks.Validators355.csproj" />
+    <ProjectReference Include="..\Reporting.Processors\Reporting.Processors.csproj" />
+  </ItemGroup>
+</Project>

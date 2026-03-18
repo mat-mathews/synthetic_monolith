@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>Documents.Web</RootNamespace>
+    <AssemblyName>Documents.Web</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Processors400\Auth.Processors400.csproj" />
+    <ProjectReference Include="..\Auth.Data\Auth.Data.csproj" />
+    <ProjectReference Include="..\Auth.Mappers\Auth.Mappers.csproj" />
+    <ProjectReference Include="..\Import.Processors412\Import.Processors412.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Shared437\GalaxyWorks.Shared437.csproj" />
+    <ProjectReference Include="..\Documents.Api251\Documents.Api251.csproj" />
+    <ProjectReference Include="..\Scheduling.Models\Scheduling.Models.csproj" />
+    <ProjectReference Include="..\DataAccess.Contracts404\DataAccess.Contracts404.csproj" />
+    <ProjectReference Include="..\Scheduling.Handlers\Scheduling.Handlers.csproj" />
+    <ProjectReference Include="..\Security.Models\Security.Models.csproj" />
+    <ProjectReference Include="..\Portal.Tests\Portal.Tests.csproj" />
+    <ProjectReference Include="..\Security.Tests\Security.Tests.csproj" />
+    <ProjectReference Include="..\Security.Service\Security.Service.csproj" />
+    <ProjectReference Include="..\Export.Shared332\Export.Shared332.csproj" />
+    <ProjectReference Include="..\DataAccess.Client\DataAccess.Client.csproj" />
+    <ProjectReference Include="..\BatchJobs.Web\BatchJobs.Web.csproj" />
+    <ProjectReference Include="..\Reporting.Processors\Reporting.Processors.csproj" />
+    <ProjectReference Include="..\BatchJobs.Contracts\BatchJobs.Contracts.csproj" />
+  </ItemGroup>
+</Project>

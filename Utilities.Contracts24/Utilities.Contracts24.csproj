@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Utilities.Contracts24</RootNamespace>
+    <AssemblyName>Utilities.Contracts24</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Processors319\Auth.Processors319.csproj" />
+    <ProjectReference Include="..\Auth.Data\Auth.Data.csproj" />
+    <ProjectReference Include="..\Import.Events\Import.Events.csproj" />
+    <ProjectReference Include="..\Documents.Service471\Documents.Service471.csproj" />
+    <ProjectReference Include="..\Notifications.Service\Notifications.Service.csproj" />
+    <ProjectReference Include="..\Integration.Data\Integration.Data.csproj" />
+    <ProjectReference Include="..\Notifications.Data\Notifications.Data.csproj" />
+    <ProjectReference Include="..\Export.Mappers\Export.Mappers.csproj" />
+    <ProjectReference Include="..\Reporting.Client\Reporting.Client.csproj" />
+    <ProjectReference Include="..\Import.Service265\Import.Service265.csproj" />
+    <ProjectReference Include="..\Common.Api57\Common.Api57.csproj" />
+    <ProjectReference Include="..\Common.Contracts279\Common.Contracts279.csproj" />
+    <ProjectReference Include="..\Export.Client414\Export.Client414.csproj" />
+    <ProjectReference Include="..\Portal.Validators\Portal.Validators.csproj" />
+    <ProjectReference Include="..\Export.Data6\Export.Data6.csproj" />
+    <ProjectReference Include="..\Security.Web230\Security.Web230.csproj" />
+    <ProjectReference Include="..\Imaging.Core\Imaging.Core.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>Integration.Tests92</RootNamespace>
+    <AssemblyName>Integration.Tests92</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Client346\Admin.Client346.csproj" />
+    <ProjectReference Include="..\Admin.Service247\Admin.Service247.csproj" />
+    <ProjectReference Include="..\Import.Contracts183\Import.Contracts183.csproj" />
+    <ProjectReference Include="..\Portal.Validators69\Portal.Validators69.csproj" />
+    <ProjectReference Include="..\Notifications.Api144\Notifications.Api144.csproj" />
+    <ProjectReference Include="..\Portal.Data216\Portal.Data216.csproj" />
+    <ProjectReference Include="..\Portal.Handlers26\Portal.Handlers26.csproj" />
+    <ProjectReference Include="..\Export.Data\Export.Data.csproj" />
+    <ProjectReference Include="..\Security.Service383\Security.Service383.csproj" />
+    <ProjectReference Include="..\DataAccess.Contracts404\DataAccess.Contracts404.csproj" />
+    <ProjectReference Include="..\Scheduling.Contracts425\Scheduling.Contracts425.csproj" />
+    <ProjectReference Include="..\Common.Validators50\Common.Validators50.csproj" />
+    <ProjectReference Include="..\Workflow.Events\Workflow.Events.csproj" />
+    <ProjectReference Include="..\Workflow.Web\Workflow.Web.csproj" />
+    <ProjectReference Include="..\Documents.Data419\Documents.Data419.csproj" />
+    <ProjectReference Include="..\Common.Validators430\Common.Validators430.csproj" />
+    <ProjectReference Include="..\Common.Client53\Common.Client53.csproj" />
+  </ItemGroup>
+</Project>

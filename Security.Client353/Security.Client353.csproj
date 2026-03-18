@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>Security.Client353</RootNamespace>
+    <AssemblyName>Security.Client353</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Events306\Admin.Events306.csproj" />
+    <ProjectReference Include="..\Workflow.Tests\Workflow.Tests.csproj" />
+    <ProjectReference Include="..\DataAccess.Api307\DataAccess.Api307.csproj" />
+    <ProjectReference Include="..\Documents.Processors300\Documents.Processors300.csproj" />
+    <ProjectReference Include="..\Logging.Tests292\Logging.Tests292.csproj" />
+    <ProjectReference Include="..\Utilities.Web40\Utilities.Web40.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Core\GalaxyWorks.Core.csproj" />
+    <ProjectReference Include="..\Export.Processors361\Export.Processors361.csproj" />
+    <ProjectReference Include="..\Portal.Core\Portal.Core.csproj" />
+    <ProjectReference Include="..\Documents.Service471\Documents.Service471.csproj" />
+    <ProjectReference Include="..\Billing.Validators305\Billing.Validators305.csproj" />
+    <ProjectReference Include="..\Auth.Events\Auth.Events.csproj" />
+    <ProjectReference Include="..\DataAccess.Contracts404\DataAccess.Contracts404.csproj" />
+    <ProjectReference Include="..\Export.Web210\Export.Web210.csproj" />
+    <ProjectReference Include="..\Common.Web488\Common.Web488.csproj" />
+    <ProjectReference Include="..\Auth.Processors\Auth.Processors.csproj" />
+  </ItemGroup>
+</Project>

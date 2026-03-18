@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Billing.Mappers</RootNamespace>
+    <AssemblyName>Billing.Mappers</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Contracts395\Auth.Contracts395.csproj" />
+    <ProjectReference Include="..\Admin.Models199\Admin.Models199.csproj" />
+    <ProjectReference Include="..\DataAccess.Data36\DataAccess.Data36.csproj" />
+    <ProjectReference Include="..\Utilities.Shared114\Utilities.Shared114.csproj" />
+    <ProjectReference Include="..\Security.Models284\Security.Models284.csproj" />
+    <ProjectReference Include="..\Notifications.Events42\Notifications.Events42.csproj" />
+    <ProjectReference Include="..\Security.Client353\Security.Client353.csproj" />
+    <ProjectReference Include="..\Reporting.Contracts371\Reporting.Contracts371.csproj" />
+    <ProjectReference Include="..\Reporting.Events188\Reporting.Events188.csproj" />
+    <ProjectReference Include="..\Export.Events276\Export.Events276.csproj" />
+    <ProjectReference Include="..\Portal.Web158\Portal.Web158.csproj" />
+    <ProjectReference Include="..\Portal.Service231\Portal.Service231.csproj" />
+    <ProjectReference Include="..\BatchJobs.Tests270\BatchJobs.Tests270.csproj" />
+    <ProjectReference Include="..\Reporting.Tests\Reporting.Tests.csproj" />
+    <ProjectReference Include="..\Integration.Handlers244\Integration.Handlers244.csproj" />
+    <ProjectReference Include="..\Admin.Events306\Admin.Events306.csproj" />
+    <ProjectReference Include="..\Auth.Mappers178\Auth.Mappers178.csproj" />
+  </ItemGroup>
+</Project>

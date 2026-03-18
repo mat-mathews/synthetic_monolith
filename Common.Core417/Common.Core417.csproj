@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>Common.Core417</RootNamespace>
+    <AssemblyName>Common.Core417</AssemblyName>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Handlers450\Admin.Handlers450.csproj" />
+    <ProjectReference Include="..\Admin.Processors\Admin.Processors.csproj" />
+    <ProjectReference Include="..\Auth.Processors411\Auth.Processors411.csproj" />
+    <ProjectReference Include="..\BatchJobs.Shared\BatchJobs.Shared.csproj" />
+    <ProjectReference Include="..\Billing.Processors\Billing.Processors.csproj" />
+    <ProjectReference Include="..\Common.Web\Common.Web.csproj" />
+    <ProjectReference Include="..\Billing.Validators174\Billing.Validators174.csproj" />
+    <ProjectReference Include="..\Utilities.Client\Utilities.Client.csproj" />
+    <ProjectReference Include="..\Integration.Handlers423\Integration.Handlers423.csproj" />
+    <ProjectReference Include="..\Export.Data344\Export.Data344.csproj" />
+    <ProjectReference Include="..\Workflow.Tests222\Workflow.Tests222.csproj" />
+    <ProjectReference Include="..\Notifications.Validators252\Notifications.Validators252.csproj" />
+    <ProjectReference Include="..\Reporting.Web\Reporting.Web.csproj" />
+    <ProjectReference Include="..\Workflow.Service161\Workflow.Service161.csproj" />
+    <ProjectReference Include="..\Utilities.Shared114\Utilities.Shared114.csproj" />
+    <ProjectReference Include="..\Utilities.Processors\Utilities.Processors.csproj" />
+    <ProjectReference Include="..\Logging.Models436\Logging.Models436.csproj" />
+  </ItemGroup>
+</Project>

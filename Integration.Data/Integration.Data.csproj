@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Integration.Data</RootNamespace>
+    <AssemblyName>Integration.Data</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Client38\Auth.Client38.csproj" />
+    <ProjectReference Include="..\Admin.Shared14\Admin.Shared14.csproj" />
+    <ProjectReference Include="..\Workflow.Tests\Workflow.Tests.csproj" />
+    <ProjectReference Include="..\Billing.Web\Billing.Web.csproj" />
+    <ProjectReference Include="..\Logging.Models379\Logging.Models379.csproj" />
+    <ProjectReference Include="..\Notifications.Client\Notifications.Client.csproj" />
+    <ProjectReference Include="..\Reporting.Api287\Reporting.Api287.csproj" />
+    <ProjectReference Include="..\Import.Service\Import.Service.csproj" />
+    <ProjectReference Include="..\Billing.Client22\Billing.Client22.csproj" />
+    <ProjectReference Include="..\Export.Web479\Export.Web479.csproj" />
+    <ProjectReference Include="..\Logging.Client\Logging.Client.csproj" />
+    <ProjectReference Include="..\Documents.Data484\Documents.Data484.csproj" />
+    <ProjectReference Include="..\Portal.Core8\Portal.Core8.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Events\GalaxyWorks.Events.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Api\GalaxyWorks.Api.csproj" />
+    <ProjectReference Include="..\Workflow.Api433\Workflow.Api433.csproj" />
+    <ProjectReference Include="..\Workflow.Service161\Workflow.Service161.csproj" />
+  </ItemGroup>
+</Project>

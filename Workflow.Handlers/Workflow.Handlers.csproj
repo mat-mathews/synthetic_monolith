@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Workflow.Handlers</RootNamespace>
+    <AssemblyName>Workflow.Handlers</AssemblyName>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Handlers209\Auth.Handlers209.csproj" />
+    <ProjectReference Include="..\Admin.Core121\Admin.Core121.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Processors\GalaxyWorks.Processors.csproj" />
+    <ProjectReference Include="..\Workflow.Models\Workflow.Models.csproj" />
+    <ProjectReference Include="..\Portal.Service489\Portal.Service489.csproj" />
+    <ProjectReference Include="..\Export.Processors449\Export.Processors449.csproj" />
+    <ProjectReference Include="..\Integration.Service107\Integration.Service107.csproj" />
+    <ProjectReference Include="..\Security.Shared155\Security.Shared155.csproj" />
+    <ProjectReference Include="..\Documents.Processors133\Documents.Processors133.csproj" />
+    <ProjectReference Include="..\Workflow.Tests\Workflow.Tests.csproj" />
+    <ProjectReference Include="..\Integration.Service\Integration.Service.csproj" />
+    <ProjectReference Include="..\Admin.Client177\Admin.Client177.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Models\GalaxyWorks.Models.csproj" />
+    <ProjectReference Include="..\Utilities.Contracts32\Utilities.Contracts32.csproj" />
+    <ProjectReference Include="..\DataAccess.Service\DataAccess.Service.csproj" />
+    <ProjectReference Include="..\Auth.Processors\Auth.Processors.csproj" />
+    <ProjectReference Include="..\BatchJobs.Api501\BatchJobs.Api501.csproj" />
+  </ItemGroup>
+</Project>

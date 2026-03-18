@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <RootNamespace>Logging.Api</RootNamespace>
+    <AssemblyName>Logging.Api</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Api143\Auth.Api143.csproj" />
+    <ProjectReference Include="..\Common.Models381\Common.Models381.csproj" />
+    <ProjectReference Include="..\Reporting.Events\Reporting.Events.csproj" />
+    <ProjectReference Include="..\Workflow.Validators138\Workflow.Validators138.csproj" />
+    <ProjectReference Include="..\Documents.Tests106\Documents.Tests106.csproj" />
+    <ProjectReference Include="..\Scheduling.Models342\Scheduling.Models342.csproj" />
+    <ProjectReference Include="..\BatchJobs.Contracts\BatchJobs.Contracts.csproj" />
+    <ProjectReference Include="..\Portal.Processors\Portal.Processors.csproj" />
+    <ProjectReference Include="..\DataAccess.Api98\DataAccess.Api98.csproj" />
+    <ProjectReference Include="..\Integration.Handlers244\Integration.Handlers244.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Handlers385\GalaxyWorks.Handlers385.csproj" />
+    <ProjectReference Include="..\Scheduling.Client187\Scheduling.Client187.csproj" />
+    <ProjectReference Include="..\BatchJobs.Data176\BatchJobs.Data176.csproj" />
+    <ProjectReference Include="..\Reporting.Api287\Reporting.Api287.csproj" />
+    <ProjectReference Include="..\Billing.Events\Billing.Events.csproj" />
+    <ProjectReference Include="..\Common.Models\Common.Models.csproj" />
+  </ItemGroup>
+</Project>

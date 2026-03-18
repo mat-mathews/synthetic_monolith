@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Scheduling.Data54</RootNamespace>
+    <AssemblyName>Scheduling.Data54</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Web154\Admin.Web154.csproj" />
+    <ProjectReference Include="..\Admin.Client177\Admin.Client177.csproj" />
+    <ProjectReference Include="..\Portal.Tests173\Portal.Tests173.csproj" />
+    <ProjectReference Include="..\Utilities.Mappers197\Utilities.Mappers197.csproj" />
+    <ProjectReference Include="..\Scheduling.Processors397\Scheduling.Processors397.csproj" />
+    <ProjectReference Include="..\Reporting.Api\Reporting.Api.csproj" />
+    <ProjectReference Include="..\Imaging.Shared115\Imaging.Shared115.csproj" />
+    <ProjectReference Include="..\Security.Web230\Security.Web230.csproj" />
+    <ProjectReference Include="..\Common.Shared\Common.Shared.csproj" />
+    <ProjectReference Include="..\BatchJobs.Web\BatchJobs.Web.csproj" />
+    <ProjectReference Include="..\Portal.Events139\Portal.Events139.csproj" />
+    <ProjectReference Include="..\Common.Shared95\Common.Shared95.csproj" />
+    <ProjectReference Include="..\Import.Handlers354\Import.Handlers354.csproj" />
+    <ProjectReference Include="..\Imaging.Mappers93\Imaging.Mappers93.csproj" />
+    <ProjectReference Include="..\Integration.Processors\Integration.Processors.csproj" />
+    <ProjectReference Include="..\Integration.Service147\Integration.Service147.csproj" />
+    <ProjectReference Include="..\Billing.Client491\Billing.Client491.csproj" />
+  </ItemGroup>
+</Project>

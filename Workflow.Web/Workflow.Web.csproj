@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <RootNamespace>Workflow.Web</RootNamespace>
+    <AssemblyName>Workflow.Web</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Validators\Admin.Validators.csproj" />
+    <ProjectReference Include="..\Auth.Handlers209\Auth.Handlers209.csproj" />
+    <ProjectReference Include="..\Export.Tests62\Export.Tests62.csproj" />
+    <ProjectReference Include="..\Documents.Client58\Documents.Client58.csproj" />
+    <ProjectReference Include="..\Billing.Validators174\Billing.Validators174.csproj" />
+    <ProjectReference Include="..\Admin.Service364\Admin.Service364.csproj" />
+    <ProjectReference Include="..\Scheduling.Web264\Scheduling.Web264.csproj" />
+    <ProjectReference Include="..\Integration.Service401\Integration.Service401.csproj" />
+    <ProjectReference Include="..\Logging.Client\Logging.Client.csproj" />
+    <ProjectReference Include="..\Imaging.Contracts\Imaging.Contracts.csproj" />
+    <ProjectReference Include="..\Notifications.Models277\Notifications.Models277.csproj" />
+    <ProjectReference Include="..\Logging.Api\Logging.Api.csproj" />
+    <ProjectReference Include="..\Admin.Client346\Admin.Client346.csproj" />
+    <ProjectReference Include="..\Notifications.Contracts\Notifications.Contracts.csproj" />
+    <ProjectReference Include="..\Reporting.Service207\Reporting.Service207.csproj" />
+    <ProjectReference Include="..\Export.Events276\Export.Events276.csproj" />
+    <ProjectReference Include="..\Documents.Core357\Documents.Core357.csproj" />
+  </ItemGroup>
+</Project>

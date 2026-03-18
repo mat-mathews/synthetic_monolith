@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Portal.Api51</RootNamespace>
+    <AssemblyName>Portal.Api51</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Api\Auth.Api.csproj" />
+    <ProjectReference Include="..\Auth.Mappers\Auth.Mappers.csproj" />
+    <ProjectReference Include="..\Auth.Mappers178\Auth.Mappers178.csproj" />
+    <ProjectReference Include="..\Import.Client65\Import.Client65.csproj" />
+    <ProjectReference Include="..\Security.Mappers313\Security.Mappers313.csproj" />
+    <ProjectReference Include="..\Export.Contracts\Export.Contracts.csproj" />
+    <ProjectReference Include="..\Scheduling.Data54\Scheduling.Data54.csproj" />
+    <ProjectReference Include="..\Security.Service383\Security.Service383.csproj" />
+    <ProjectReference Include="..\Workflow.Api433\Workflow.Api433.csproj" />
+    <ProjectReference Include="..\Admin.Mappers324\Admin.Mappers324.csproj" />
+    <ProjectReference Include="..\Scheduling.Web221\Scheduling.Web221.csproj" />
+    <ProjectReference Include="..\Integration.Handlers17\Integration.Handlers17.csproj" />
+    <ProjectReference Include="..\Notifications.Tests\Notifications.Tests.csproj" />
+    <ProjectReference Include="..\Notifications.Web308\Notifications.Web308.csproj" />
+    <ProjectReference Include="..\Admin.Data465\Admin.Data465.csproj" />
+    <ProjectReference Include="..\Billing.Validators\Billing.Validators.csproj" />
+    <ProjectReference Include="..\Import.Api\Import.Api.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Client\GalaxyWorks.Client.csproj" />
+  </ItemGroup>
+</Project>

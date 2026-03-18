@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <RootNamespace>Security.Web376</RootNamespace>
+    <AssemblyName>Security.Web376</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Validators37\Admin.Validators37.csproj" />
+    <ProjectReference Include="..\Logging.Contracts373\Logging.Contracts373.csproj" />
+    <ProjectReference Include="..\Portal.Api51\Portal.Api51.csproj" />
+    <ProjectReference Include="..\Auth.Core\Auth.Core.csproj" />
+    <ProjectReference Include="..\Import.Contracts296\Import.Contracts296.csproj" />
+    <ProjectReference Include="..\Scheduling.Web221\Scheduling.Web221.csproj" />
+    <ProjectReference Include="..\Auth.Models236\Auth.Models236.csproj" />
+    <ProjectReference Include="..\Utilities.Data415\Utilities.Data415.csproj" />
+    <ProjectReference Include="..\Scheduling.Contracts\Scheduling.Contracts.csproj" />
+    <ProjectReference Include="..\Auth.Events\Auth.Events.csproj" />
+    <ProjectReference Include="..\Billing.Validators305\Billing.Validators305.csproj" />
+    <ProjectReference Include="..\Billing.Events\Billing.Events.csproj" />
+    <ProjectReference Include="..\Documents.Data\Documents.Data.csproj" />
+    <ProjectReference Include="..\Auth.Mappers206\Auth.Mappers206.csproj" />
+    <ProjectReference Include="..\Security.Contracts72\Security.Contracts72.csproj" />
+    <ProjectReference Include="..\BatchJobs.Tests\BatchJobs.Tests.csproj" />
+  </ItemGroup>
+</Project>

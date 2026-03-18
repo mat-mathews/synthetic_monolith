@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <RootNamespace>Common.Data81</RootNamespace>
+    <AssemblyName>Common.Data81</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Service339\Admin.Service339.csproj" />
+    <ProjectReference Include="..\Admin.Validators431\Admin.Validators431.csproj" />
+    <ProjectReference Include="..\Admin.Validators240\Admin.Validators240.csproj" />
+    <ProjectReference Include="..\Admin.Data465\Admin.Data465.csproj" />
+    <ProjectReference Include="..\Admin.Tests10\Admin.Tests10.csproj" />
+    <ProjectReference Include="..\Security.Tests223\Security.Tests223.csproj" />
+    <ProjectReference Include="..\Scheduling.Mappers\Scheduling.Mappers.csproj" />
+    <ProjectReference Include="..\Utilities.Web40\Utilities.Web40.csproj" />
+    <ProjectReference Include="..\BatchJobs.Models\BatchJobs.Models.csproj" />
+    <ProjectReference Include="..\Notifications.Handlers\Notifications.Handlers.csproj" />
+    <ProjectReference Include="..\Auth.Mappers28\Auth.Mappers28.csproj" />
+    <ProjectReference Include="..\Utilities.Contracts24\Utilities.Contracts24.csproj" />
+    <ProjectReference Include="..\Import.Client356\Import.Client356.csproj" />
+    <ProjectReference Include="..\Integration.Events\Integration.Events.csproj" />
+    <ProjectReference Include="..\Logging.Contracts373\Logging.Contracts373.csproj" />
+    <ProjectReference Include="..\Notifications.Client257\Notifications.Client257.csproj" />
+    <ProjectReference Include="..\Export.Events\Export.Events.csproj" />
+    <ProjectReference Include="..\Notifications.Events42\Notifications.Events42.csproj" />
+  </ItemGroup>
+</Project>

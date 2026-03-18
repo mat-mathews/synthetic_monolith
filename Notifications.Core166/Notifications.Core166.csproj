@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>Notifications.Core166</RootNamespace>
+    <AssemblyName>Notifications.Core166</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Web4\Admin.Web4.csproj" />
+    <ProjectReference Include="..\Auth.Mappers208\Auth.Mappers208.csproj" />
+    <ProjectReference Include="..\Reporting.Tests\Reporting.Tests.csproj" />
+    <ProjectReference Include="..\Import.Mappers56\Import.Mappers56.csproj" />
+    <ProjectReference Include="..\Integration.Mappers\Integration.Mappers.csproj" />
+    <ProjectReference Include="..\Admin.Service\Admin.Service.csproj" />
+    <ProjectReference Include="..\Imaging.Models459\Imaging.Models459.csproj" />
+    <ProjectReference Include="..\Reporting.Handlers\Reporting.Handlers.csproj" />
+    <ProjectReference Include="..\Common.Mappers343\Common.Mappers343.csproj" />
+    <ProjectReference Include="..\Auth.Handlers209\Auth.Handlers209.csproj" />
+    <ProjectReference Include="..\Reporting.Web345\Reporting.Web345.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Handlers\GalaxyWorks.Handlers.csproj" />
+    <ProjectReference Include="..\Notifications.Validators391\Notifications.Validators391.csproj" />
+    <ProjectReference Include="..\Integration.Contracts290\Integration.Contracts290.csproj" />
+    <ProjectReference Include="..\Common.Tests\Common.Tests.csproj" />
+    <ProjectReference Include="..\Admin.Client\Admin.Client.csproj" />
+    <ProjectReference Include="..\Imaging.Core\Imaging.Core.csproj" />
+  </ItemGroup>
+</Project>

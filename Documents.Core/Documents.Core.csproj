@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Documents.Core</RootNamespace>
+    <AssemblyName>Documents.Core</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Shared310\Admin.Shared310.csproj" />
+    <ProjectReference Include="..\Auth.Api\Auth.Api.csproj" />
+    <ProjectReference Include="..\Integration.Validators\Integration.Validators.csproj" />
+    <ProjectReference Include="..\Utilities.Mappers97\Utilities.Mappers97.csproj" />
+    <ProjectReference Include="..\Imaging.Web\Imaging.Web.csproj" />
+    <ProjectReference Include="..\Security.Models420\Security.Models420.csproj" />
+    <ProjectReference Include="..\Portal.Models413\Portal.Models413.csproj" />
+    <ProjectReference Include="..\Security.Core243\Security.Core243.csproj" />
+    <ProjectReference Include="..\Documents.Validators\Documents.Validators.csproj" />
+    <ProjectReference Include="..\Logging.Tests292\Logging.Tests292.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Data153\GalaxyWorks.Data153.csproj" />
+    <ProjectReference Include="..\Integration.Processors248\Integration.Processors248.csproj" />
+    <ProjectReference Include="..\Import.Contracts131\Import.Contracts131.csproj" />
+    <ProjectReference Include="..\Reporting.Api393\Reporting.Api393.csproj" />
+    <ProjectReference Include="..\Utilities.Api66\Utilities.Api66.csproj" />
+    <ProjectReference Include="..\Utilities.Data415\Utilities.Data415.csproj" />
+    <ProjectReference Include="..\Documents.Tests458\Documents.Tests458.csproj" />
+  </ItemGroup>
+</Project>

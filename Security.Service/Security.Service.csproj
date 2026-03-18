@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <RootNamespace>Security.Service</RootNamespace>
+    <AssemblyName>Security.Service</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Validators\Admin.Validators.csproj" />
+    <ProjectReference Include="..\Reporting.Api287\Reporting.Api287.csproj" />
+    <ProjectReference Include="..\Portal.Contracts181\Portal.Contracts181.csproj" />
+    <ProjectReference Include="..\Auth.Data\Auth.Data.csproj" />
+    <ProjectReference Include="..\Billing.Models\Billing.Models.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Validators\GalaxyWorks.Validators.csproj" />
+    <ProjectReference Include="..\DataAccess.Processors\DataAccess.Processors.csproj" />
+    <ProjectReference Include="..\Scheduling.Handlers43\Scheduling.Handlers43.csproj" />
+    <ProjectReference Include="..\Admin.Mappers\Admin.Mappers.csproj" />
+    <ProjectReference Include="..\Notifications.Data\Notifications.Data.csproj" />
+    <ProjectReference Include="..\Export.Contracts\Export.Contracts.csproj" />
+    <ProjectReference Include="..\Common.Validators50\Common.Validators50.csproj" />
+    <ProjectReference Include="..\Logging.Core\Logging.Core.csproj" />
+    <ProjectReference Include="..\Utilities.Handlers\Utilities.Handlers.csproj" />
+    <ProjectReference Include="..\Import.Client356\Import.Client356.csproj" />
+    <ProjectReference Include="..\Reporting.Validators\Reporting.Validators.csproj" />
+  </ItemGroup>
+</Project>

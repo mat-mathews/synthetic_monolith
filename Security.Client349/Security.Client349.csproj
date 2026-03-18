@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <RootNamespace>Security.Client349</RootNamespace>
+    <AssemblyName>Security.Client349</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Client346\Admin.Client346.csproj" />
+    <ProjectReference Include="..\Billing.Shared384\Billing.Shared384.csproj" />
+    <ProjectReference Include="..\Notifications.Service\Notifications.Service.csproj" />
+    <ProjectReference Include="..\Portal.Handlers26\Portal.Handlers26.csproj" />
+    <ProjectReference Include="..\Import.Handlers407\Import.Handlers407.csproj" />
+    <ProjectReference Include="..\Billing.Api\Billing.Api.csproj" />
+    <ProjectReference Include="..\Import.Contracts131\Import.Contracts131.csproj" />
+    <ProjectReference Include="..\Portal.Api\Portal.Api.csproj" />
+    <ProjectReference Include="..\Admin.Shared310\Admin.Shared310.csproj" />
+    <ProjectReference Include="..\Workflow.Client351\Workflow.Client351.csproj" />
+    <ProjectReference Include="..\Auth.Models23\Auth.Models23.csproj" />
+    <ProjectReference Include="..\Scheduling.Api185\Scheduling.Api185.csproj" />
+    <ProjectReference Include="..\Reporting.Handlers347\Reporting.Handlers347.csproj" />
+    <ProjectReference Include="..\Admin.Validators37\Admin.Validators37.csproj" />
+    <ProjectReference Include="..\Documents.Data419\Documents.Data419.csproj" />
+    <ProjectReference Include="..\Export.Events276\Export.Events276.csproj" />
+  </ItemGroup>
+</Project>

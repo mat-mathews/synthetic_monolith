@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>Import.Client64</RootNamespace>
+    <AssemblyName>Import.Client64</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Handlers\Admin.Handlers.csproj" />
+    <ProjectReference Include="..\Admin.Processors\Admin.Processors.csproj" />
+    <ProjectReference Include="..\Admin.Validators37\Admin.Validators37.csproj" />
+    <ProjectReference Include="..\DataAccess.Validators88\DataAccess.Validators88.csproj" />
+    <ProjectReference Include="..\Export.Contracts\Export.Contracts.csproj" />
+    <ProjectReference Include="..\Notifications.Web90\Notifications.Web90.csproj" />
+    <ProjectReference Include="..\Documents.Validators\Documents.Validators.csproj" />
+    <ProjectReference Include="..\Notifications.Data348\Notifications.Data348.csproj" />
+    <ProjectReference Include="..\Integration.Contracts290\Integration.Contracts290.csproj" />
+    <ProjectReference Include="..\Documents.Validators102\Documents.Validators102.csproj" />
+    <ProjectReference Include="..\Integration.Mappers242\Integration.Mappers242.csproj" />
+    <ProjectReference Include="..\Admin.Web\Admin.Web.csproj" />
+    <ProjectReference Include="..\Notifications.Client\Notifications.Client.csproj" />
+    <ProjectReference Include="..\Common.Api213\Common.Api213.csproj" />
+    <ProjectReference Include="..\Billing.Api497\Billing.Api497.csproj" />
+    <ProjectReference Include="..\DataAccess.Tests\DataAccess.Tests.csproj" />
+    <ProjectReference Include="..\Portal.Tests323\Portal.Tests323.csproj" />
+    <ProjectReference Include="..\Notifications.Service165\Notifications.Service165.csproj" />
+  </ItemGroup>
+</Project>

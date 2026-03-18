@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Common.Web488</RootNamespace>
+    <AssemblyName>Common.Web488</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Api\Auth.Api.csproj" />
+    <ProjectReference Include="..\Admin.Api\Admin.Api.csproj" />
+    <ProjectReference Include="..\Auth.Data135\Auth.Data135.csproj" />
+    <ProjectReference Include="..\Auth.Mappers178\Auth.Mappers178.csproj" />
+    <ProjectReference Include="..\Auth.Events5\Auth.Events5.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Shared\GalaxyWorks.Shared.csproj" />
+    <ProjectReference Include="..\Portal.Models\Portal.Models.csproj" />
+    <ProjectReference Include="..\Scheduling.Processors\Scheduling.Processors.csproj" />
+    <ProjectReference Include="..\Security.Shared448\Security.Shared448.csproj" />
+    <ProjectReference Include="..\Workflow.Data340\Workflow.Data340.csproj" />
+    <ProjectReference Include="..\BatchJobs.Contracts\BatchJobs.Contracts.csproj" />
+    <ProjectReference Include="..\BatchJobs.Web\BatchJobs.Web.csproj" />
+    <ProjectReference Include="..\Portal.Tests481\Portal.Tests481.csproj" />
+    <ProjectReference Include="..\Imaging.Events424\Imaging.Events424.csproj" />
+    <ProjectReference Include="..\Admin.Client\Admin.Client.csproj" />
+    <ProjectReference Include="..\Reporting.Tests226\Reporting.Tests226.csproj" />
+    <ProjectReference Include="..\Common.Mappers343\Common.Mappers343.csproj" />
+    <ProjectReference Include="..\Integration.Tests45\Integration.Tests45.csproj" />
+  </ItemGroup>
+</Project>

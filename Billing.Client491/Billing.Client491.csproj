@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Billing.Client491</RootNamespace>
+    <AssemblyName>Billing.Client491</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Contracts\Auth.Contracts.csproj" />
+    <ProjectReference Include="..\Admin.Models\Admin.Models.csproj" />
+    <ProjectReference Include="..\Documents.Data490\Documents.Data490.csproj" />
+    <ProjectReference Include="..\Documents.Handlers\Documents.Handlers.csproj" />
+    <ProjectReference Include="..\Logging.Data29\Logging.Data29.csproj" />
+    <ProjectReference Include="..\BatchJobs.Models304\BatchJobs.Models304.csproj" />
+    <ProjectReference Include="..\Billing.Mappers225\Billing.Mappers225.csproj" />
+    <ProjectReference Include="..\Integration.Shared\Integration.Shared.csproj" />
+    <ProjectReference Include="..\Integration.Api\Integration.Api.csproj" />
+    <ProjectReference Include="..\Admin.Client\Admin.Client.csproj" />
+    <ProjectReference Include="..\BatchJobs.Service\BatchJobs.Service.csproj" />
+    <ProjectReference Include="..\Admin.Web46\Admin.Web46.csproj" />
+    <ProjectReference Include="..\Portal.Data266\Portal.Data266.csproj" />
+    <ProjectReference Include="..\Auth.Events\Auth.Events.csproj" />
+    <ProjectReference Include="..\Workflow.Tests\Workflow.Tests.csproj" />
+    <ProjectReference Include="..\Billing.Api497\Billing.Api497.csproj" />
+    <ProjectReference Include="..\Notifications.Events\Notifications.Events.csproj" />
+  </ItemGroup>
+</Project>

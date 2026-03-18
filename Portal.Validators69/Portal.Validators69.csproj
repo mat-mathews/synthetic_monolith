@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <RootNamespace>Portal.Validators69</RootNamespace>
+    <AssemblyName>Portal.Validators69</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Models23\Auth.Models23.csproj" />
+    <ProjectReference Include="..\Admin.Processors35\Admin.Processors35.csproj" />
+    <ProjectReference Include="..\Admin.Events\Admin.Events.csproj" />
+    <ProjectReference Include="..\Notifications.Models\Notifications.Models.csproj" />
+    <ProjectReference Include="..\DataAccess.Models\DataAccess.Models.csproj" />
+    <ProjectReference Include="..\Reporting.Client146\Reporting.Client146.csproj" />
+    <ProjectReference Include="..\Security.Tests\Security.Tests.csproj" />
+    <ProjectReference Include="..\Workflow.Tests27\Workflow.Tests27.csproj" />
+    <ProjectReference Include="..\Portal.Service489\Portal.Service489.csproj" />
+    <ProjectReference Include="..\Security.Events288\Security.Events288.csproj" />
+    <ProjectReference Include="..\Logging.Handlers285\Logging.Handlers285.csproj" />
+    <ProjectReference Include="..\Workflow.Contracts192\Workflow.Contracts192.csproj" />
+    <ProjectReference Include="..\Portal.Tests323\Portal.Tests323.csproj" />
+    <ProjectReference Include="..\Notifications.Web90\Notifications.Web90.csproj" />
+    <ProjectReference Include="..\Utilities.Api\Utilities.Api.csproj" />
+    <ProjectReference Include="..\Export.Client414\Export.Client414.csproj" />
+    <ProjectReference Include="..\Reporting.Handlers\Reporting.Handlers.csproj" />
+    <ProjectReference Include="..\Auth.Shared\Auth.Shared.csproj" />
+  </ItemGroup>
+</Project>

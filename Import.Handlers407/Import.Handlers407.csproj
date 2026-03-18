@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>Import.Handlers407</RootNamespace>
+    <AssemblyName>Import.Handlers407</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Web46\Admin.Web46.csproj" />
+    <ProjectReference Include="..\Logging.Tests\Logging.Tests.csproj" />
+    <ProjectReference Include="..\Utilities.Core\Utilities.Core.csproj" />
+    <ProjectReference Include="..\Workflow.Api\Workflow.Api.csproj" />
+    <ProjectReference Include="..\Scheduling.Core\Scheduling.Core.csproj" />
+    <ProjectReference Include="..\DataAccess.Client\DataAccess.Client.csproj" />
+    <ProjectReference Include="..\Utilities.Processors\Utilities.Processors.csproj" />
+    <ProjectReference Include="..\Export.Service30\Export.Service30.csproj" />
+    <ProjectReference Include="..\Logging.Models379\Logging.Models379.csproj" />
+    <ProjectReference Include="..\Billing.Shared149\Billing.Shared149.csproj" />
+    <ProjectReference Include="..\Documents.Service\Documents.Service.csproj" />
+    <ProjectReference Include="..\Documents.Api\Documents.Api.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Processors\GalaxyWorks.Processors.csproj" />
+    <ProjectReference Include="..\Portal.Events139\Portal.Events139.csproj" />
+    <ProjectReference Include="..\Import.Processors\Import.Processors.csproj" />
+    <ProjectReference Include="..\Auth.Validators\Auth.Validators.csproj" />
+  </ItemGroup>
+</Project>

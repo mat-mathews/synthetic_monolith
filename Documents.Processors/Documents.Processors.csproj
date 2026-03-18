@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Documents.Processors</RootNamespace>
+    <AssemblyName>Documents.Processors</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Processors\Admin.Processors.csproj" />
+    <ProjectReference Include="..\Billing.Client\Billing.Client.csproj" />
+    <ProjectReference Include="..\Common.Web488\Common.Web488.csproj" />
+    <ProjectReference Include="..\Imaging.Models\Imaging.Models.csproj" />
+    <ProjectReference Include="..\Scheduling.Client187\Scheduling.Client187.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Mappers403\GalaxyWorks.Mappers403.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Service\GalaxyWorks.Service.csproj" />
+    <ProjectReference Include="..\Security.Web376\Security.Web376.csproj" />
+    <ProjectReference Include="..\Billing.Validators\Billing.Validators.csproj" />
+    <ProjectReference Include="..\Notifications.Handlers112\Notifications.Handlers112.csproj" />
+    <ProjectReference Include="..\Workflow.Validators201\Workflow.Validators201.csproj" />
+    <ProjectReference Include="..\Imaging.Web\Imaging.Web.csproj" />
+    <ProjectReference Include="..\Common.Events367\Common.Events367.csproj" />
+    <ProjectReference Include="..\Utilities.Data415\Utilities.Data415.csproj" />
+    <ProjectReference Include="..\Admin.Service247\Admin.Service247.csproj" />
+    <ProjectReference Include="..\Reporting.Handlers347\Reporting.Handlers347.csproj" />
+  </ItemGroup>
+</Project>

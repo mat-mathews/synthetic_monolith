@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Scheduling.Tests76</RootNamespace>
+    <AssemblyName>Scheduling.Tests76</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Client271\Auth.Client271.csproj" />
+    <ProjectReference Include="..\Admin.Handlers\Admin.Handlers.csproj" />
+    <ProjectReference Include="..\Auth.Mappers28\Auth.Mappers28.csproj" />
+    <ProjectReference Include="..\Portal.Core\Portal.Core.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Handlers\GalaxyWorks.Handlers.csproj" />
+    <ProjectReference Include="..\Workflow.Contracts\Workflow.Contracts.csproj" />
+    <ProjectReference Include="..\Documents.Events\Documents.Events.csproj" />
+    <ProjectReference Include="..\Billing.Validators305\Billing.Validators305.csproj" />
+    <ProjectReference Include="..\Export.Events276\Export.Events276.csproj" />
+    <ProjectReference Include="..\DataAccess.Client\DataAccess.Client.csproj" />
+    <ProjectReference Include="..\Security.Web376\Security.Web376.csproj" />
+    <ProjectReference Include="..\Workflow.Events327\Workflow.Events327.csproj" />
+    <ProjectReference Include="..\Imaging.Validators\Imaging.Validators.csproj" />
+    <ProjectReference Include="..\Logging.Service\Logging.Service.csproj" />
+    <ProjectReference Include="..\Reporting.Core\Reporting.Core.csproj" />
+    <ProjectReference Include="..\Billing.Tests194\Billing.Tests194.csproj" />
+    <ProjectReference Include="..\Export.Processors\Export.Processors.csproj" />
+    <ProjectReference Include="..\BatchJobs.Mappers362\BatchJobs.Mappers362.csproj" />
+  </ItemGroup>
+</Project>

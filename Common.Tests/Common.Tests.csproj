@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Common.Tests</RootNamespace>
+    <AssemblyName>Common.Tests</AssemblyName>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Data117\Admin.Data117.csproj" />
+    <ProjectReference Include="..\Auth.Mappers178\Auth.Mappers178.csproj" />
+    <ProjectReference Include="..\Admin.Contracts\Admin.Contracts.csproj" />
+    <ProjectReference Include="..\Workflow.Models\Workflow.Models.csproj" />
+    <ProjectReference Include="..\Portal.Shared\Portal.Shared.csproj" />
+    <ProjectReference Include="..\Imaging.Data\Imaging.Data.csproj" />
+    <ProjectReference Include="..\Billing.Models\Billing.Models.csproj" />
+    <ProjectReference Include="..\Auth.Models236\Auth.Models236.csproj" />
+    <ProjectReference Include="..\Integration.Shared\Integration.Shared.csproj" />
+    <ProjectReference Include="..\Imaging.Client\Imaging.Client.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Data96\GalaxyWorks.Data96.csproj" />
+    <ProjectReference Include="..\Notifications.Data\Notifications.Data.csproj" />
+    <ProjectReference Include="..\Export.Validators152\Export.Validators152.csproj" />
+    <ProjectReference Include="..\Billing.Api\Billing.Api.csproj" />
+    <ProjectReference Include="..\Integration.Service477\Integration.Service477.csproj" />
+    <ProjectReference Include="..\Logging.Handlers455\Logging.Handlers455.csproj" />
+    <ProjectReference Include="..\Integration.Service\Integration.Service.csproj" />
+  </ItemGroup>
+</Project>

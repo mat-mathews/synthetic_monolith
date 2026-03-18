@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>Common.Data21</RootNamespace>
+    <AssemblyName>Common.Data21</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Service456\Admin.Service456.csproj" />
+    <ProjectReference Include="..\Admin.Contracts\Admin.Contracts.csproj" />
+    <ProjectReference Include="..\Documents.Processors133\Documents.Processors133.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Core309\GalaxyWorks.Core309.csproj" />
+    <ProjectReference Include="..\Utilities.Contracts\Utilities.Contracts.csproj" />
+    <ProjectReference Include="..\Scheduling.Mappers\Scheduling.Mappers.csproj" />
+    <ProjectReference Include="..\Common.Web438\Common.Web438.csproj" />
+    <ProjectReference Include="..\Admin.Shared363\Admin.Shared363.csproj" />
+    <ProjectReference Include="..\Imaging.Tests\Imaging.Tests.csproj" />
+    <ProjectReference Include="..\Reporting.Shared\Reporting.Shared.csproj" />
+    <ProjectReference Include="..\DataAccess.Validators88\DataAccess.Validators88.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Contracts392\GalaxyWorks.Contracts392.csproj" />
+    <ProjectReference Include="..\Utilities.Data\Utilities.Data.csproj" />
+    <ProjectReference Include="..\Portal.Api51\Portal.Api51.csproj" />
+    <ProjectReference Include="..\Notifications.Api\Notifications.Api.csproj" />
+    <ProjectReference Include="..\Billing.Service302\Billing.Service302.csproj" />
+    <ProjectReference Include="..\Documents.Tests171\Documents.Tests171.csproj" />
+  </ItemGroup>
+</Project>

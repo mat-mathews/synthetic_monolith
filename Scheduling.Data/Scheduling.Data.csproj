@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Scheduling.Data</RootNamespace>
+    <AssemblyName>Scheduling.Data</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Tests\Admin.Tests.csproj" />
+    <ProjectReference Include="..\Admin.Client177\Admin.Client177.csproj" />
+    <ProjectReference Include="..\Utilities.Shared\Utilities.Shared.csproj" />
+    <ProjectReference Include="..\Billing.Core191\Billing.Core191.csproj" />
+    <ProjectReference Include="..\Reporting.Contracts\Reporting.Contracts.csproj" />
+    <ProjectReference Include="..\Utilities.Data\Utilities.Data.csproj" />
+    <ProjectReference Include="..\Billing.Contracts\Billing.Contracts.csproj" />
+    <ProjectReference Include="..\Notifications.Tests195\Notifications.Tests195.csproj" />
+    <ProjectReference Include="..\Import.Contracts183\Import.Contracts183.csproj" />
+    <ProjectReference Include="..\Export.Events\Export.Events.csproj" />
+    <ProjectReference Include="..\Security.Api134\Security.Api134.csproj" />
+    <ProjectReference Include="..\Scheduling.Mappers48\Scheduling.Mappers48.csproj" />
+    <ProjectReference Include="..\Documents.Contracts\Documents.Contracts.csproj" />
+    <ProjectReference Include="..\DataAccess.Api454\DataAccess.Api454.csproj" />
+    <ProjectReference Include="..\Workflow.Tests27\Workflow.Tests27.csproj" />
+    <ProjectReference Include="..\Admin.Service364\Admin.Service364.csproj" />
+    <ProjectReference Include="..\Billing.Tests194\Billing.Tests194.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>Workflow.Service161</RootNamespace>
+    <AssemblyName>Workflow.Service161</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Tests10\Admin.Tests10.csproj" />
+    <ProjectReference Include="..\Admin.Client177\Admin.Client177.csproj" />
+    <ProjectReference Include="..\Portal.Contracts\Portal.Contracts.csproj" />
+    <ProjectReference Include="..\Common.Shared297\Common.Shared297.csproj" />
+    <ProjectReference Include="..\Portal.Events\Portal.Events.csproj" />
+    <ProjectReference Include="..\Imaging.Data\Imaging.Data.csproj" />
+    <ProjectReference Include="..\Utilities.Web398\Utilities.Web398.csproj" />
+    <ProjectReference Include="..\Notifications.Shared\Notifications.Shared.csproj" />
+    <ProjectReference Include="..\Admin.Processors35\Admin.Processors35.csproj" />
+    <ProjectReference Include="..\Export.Web130\Export.Web130.csproj" />
+    <ProjectReference Include="..\Admin.Service456\Admin.Service456.csproj" />
+    <ProjectReference Include="..\Auth.Models236\Auth.Models236.csproj" />
+    <ProjectReference Include="..\Utilities.Api\Utilities.Api.csproj" />
+    <ProjectReference Include="..\Export.Events276\Export.Events276.csproj" />
+    <ProjectReference Include="..\Billing.Client73\Billing.Client73.csproj" />
+    <ProjectReference Include="..\Workflow.Validators\Workflow.Validators.csproj" />
+    <ProjectReference Include="..\Integration.Data\Integration.Data.csproj" />
+  </ItemGroup>
+</Project>

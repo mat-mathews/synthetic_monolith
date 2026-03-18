@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Logging.Tests292</RootNamespace>
+    <AssemblyName>Logging.Tests292</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Validators240\Admin.Validators240.csproj" />
+    <ProjectReference Include="..\Admin.Validators431\Admin.Validators431.csproj" />
+    <ProjectReference Include="..\Admin.Contracts\Admin.Contracts.csproj" />
+    <ProjectReference Include="..\Security.Shared448\Security.Shared448.csproj" />
+    <ProjectReference Include="..\Integration.Processors321\Integration.Processors321.csproj" />
+    <ProjectReference Include="..\Scheduling.Shared39\Scheduling.Shared39.csproj" />
+    <ProjectReference Include="..\Portal.Models\Portal.Models.csproj" />
+    <ProjectReference Include="..\Imaging.Shared338\Imaging.Shared338.csproj" />
+    <ProjectReference Include="..\Admin.Mappers324\Admin.Mappers324.csproj" />
+    <ProjectReference Include="..\Export.Handlers\Export.Handlers.csproj" />
+    <ProjectReference Include="..\Documents.Api156\Documents.Api156.csproj" />
+    <ProjectReference Include="..\Imaging.Contracts\Imaging.Contracts.csproj" />
+    <ProjectReference Include="..\Import.Events493\Import.Events493.csproj" />
+    <ProjectReference Include="..\Workflow.Data\Workflow.Data.csproj" />
+    <ProjectReference Include="..\Import.Service496\Import.Service496.csproj" />
+    <ProjectReference Include="..\Admin.Shared363\Admin.Shared363.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Events256\GalaxyWorks.Events256.csproj" />
+    <ProjectReference Include="..\Admin.Validators\Admin.Validators.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>Documents.Data</RootNamespace>
+    <AssemblyName>Documents.Data</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Shared363\Admin.Shared363.csproj" />
+    <ProjectReference Include="..\Billing.Contracts\Billing.Contracts.csproj" />
+    <ProjectReference Include="..\Auth.Service\Auth.Service.csproj" />
+    <ProjectReference Include="..\Common.Handlers\Common.Handlers.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Handlers84\GalaxyWorks.Handlers84.csproj" />
+    <ProjectReference Include="..\Export.Data150\Export.Data150.csproj" />
+    <ProjectReference Include="..\Imaging.Data\Imaging.Data.csproj" />
+    <ProjectReference Include="..\Admin.Models\Admin.Models.csproj" />
+    <ProjectReference Include="..\Notifications.Tests195\Notifications.Tests195.csproj" />
+    <ProjectReference Include="..\Security.Shared155\Security.Shared155.csproj" />
+    <ProjectReference Include="..\Admin.Core121\Admin.Core121.csproj" />
+    <ProjectReference Include="..\Portal.Shared\Portal.Shared.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Data224\GalaxyWorks.Data224.csproj" />
+    <ProjectReference Include="..\Scheduling.Api\Scheduling.Api.csproj" />
+    <ProjectReference Include="..\Export.Service\Export.Service.csproj" />
+    <ProjectReference Include="..\Notifications.Contracts\Notifications.Contracts.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Utilities.Data415</RootNamespace>
+    <AssemblyName>Utilities.Data415</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Handlers450\Admin.Handlers450.csproj" />
+    <ProjectReference Include="..\Common.Web\Common.Web.csproj" />
+    <ProjectReference Include="..\Export.Handlers\Export.Handlers.csproj" />
+    <ProjectReference Include="..\Logging.Models436\Logging.Models436.csproj" />
+    <ProjectReference Include="..\Integration.Service401\Integration.Service401.csproj" />
+    <ProjectReference Include="..\Portal.Contracts\Portal.Contracts.csproj" />
+    <ProjectReference Include="..\Security.Models18\Security.Models18.csproj" />
+    <ProjectReference Include="..\Security.Shared365\Security.Shared365.csproj" />
+    <ProjectReference Include="..\Security.Client\Security.Client.csproj" />
+    <ProjectReference Include="..\Utilities.Models\Utilities.Models.csproj" />
+    <ProjectReference Include="..\Security.Shared155\Security.Shared155.csproj" />
+    <ProjectReference Include="..\Admin.Contracts120\Admin.Contracts120.csproj" />
+    <ProjectReference Include="..\Export.Data150\Export.Data150.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Mappers\GalaxyWorks.Mappers.csproj" />
+    <ProjectReference Include="..\Logging.Models379\Logging.Models379.csproj" />
+    <ProjectReference Include="..\Utilities.Handlers\Utilities.Handlers.csproj" />
+  </ItemGroup>
+</Project>

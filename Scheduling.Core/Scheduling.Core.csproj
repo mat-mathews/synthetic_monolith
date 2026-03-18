@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Scheduling.Core</RootNamespace>
+    <AssemblyName>Scheduling.Core</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Core121\Admin.Core121.csproj" />
+    <ProjectReference Include="..\Auth.Mappers178\Auth.Mappers178.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Models\GalaxyWorks.Models.csproj" />
+    <ProjectReference Include="..\Scheduling.Core273\Scheduling.Core273.csproj" />
+    <ProjectReference Include="..\Utilities.Validators\Utilities.Validators.csproj" />
+    <ProjectReference Include="..\Documents.Models\Documents.Models.csproj" />
+    <ProjectReference Include="..\Notifications.Validators\Notifications.Validators.csproj" />
+    <ProjectReference Include="..\Documents.Data490\Documents.Data490.csproj" />
+    <ProjectReference Include="..\Portal.Web158\Portal.Web158.csproj" />
+    <ProjectReference Include="..\Import.Validators\Import.Validators.csproj" />
+    <ProjectReference Include="..\Imaging.Validators\Imaging.Validators.csproj" />
+    <ProjectReference Include="..\Admin.Processors\Admin.Processors.csproj" />
+    <ProjectReference Include="..\Integration.Tests86\Integration.Tests86.csproj" />
+    <ProjectReference Include="..\DataAccess.Contracts203\DataAccess.Contracts203.csproj" />
+    <ProjectReference Include="..\Export.Processors111\Export.Processors111.csproj" />
+    <ProjectReference Include="..\Export.Handlers\Export.Handlers.csproj" />
+    <ProjectReference Include="..\Imaging.Shared115\Imaging.Shared115.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <RootNamespace>Logging.Models436</RootNamespace>
+    <AssemblyName>Logging.Models436</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Validators240\Admin.Validators240.csproj" />
+    <ProjectReference Include="..\Admin.Shared310\Admin.Shared310.csproj" />
+    <ProjectReference Include="..\Workflow.Tests75\Workflow.Tests75.csproj" />
+    <ProjectReference Include="..\Documents.Tests106\Documents.Tests106.csproj" />
+    <ProjectReference Include="..\Auth.Service\Auth.Service.csproj" />
+    <ProjectReference Include="..\Workflow.Tests\Workflow.Tests.csproj" />
+    <ProjectReference Include="..\Logging.Shared\Logging.Shared.csproj" />
+    <ProjectReference Include="..\Common.Core417\Common.Core417.csproj" />
+    <ProjectReference Include="..\DataAccess.Processors\DataAccess.Processors.csproj" />
+    <ProjectReference Include="..\Documents.Tests458\Documents.Tests458.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Mappers318\GalaxyWorks.Mappers318.csproj" />
+    <ProjectReference Include="..\Import.Service429\Import.Service429.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Data453\GalaxyWorks.Data453.csproj" />
+    <ProjectReference Include="..\Common.Web488\Common.Web488.csproj" />
+    <ProjectReference Include="..\Logging.Validators359\Logging.Validators359.csproj" />
+    <ProjectReference Include="..\Imaging.Validators\Imaging.Validators.csproj" />
+    <ProjectReference Include="..\Portal.Tests\Portal.Tests.csproj" />
+  </ItemGroup>
+</Project>

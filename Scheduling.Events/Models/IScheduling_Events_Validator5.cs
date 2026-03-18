@@ -1,0 +1,35 @@
+using Admin.Api255;
+using Admin.Shared;
+using Auth.Api116;
+using Auth.Client271;
+using Auth.Client38;
+using Auth.Shared;
+using Billing.Core34;
+using Billing.Handlers122;
+using Billing.Mappers;
+using Billing.Processors;
+using Common.Events367;
+using Documents.Contracts;
+using Export.Client414;
+using Export.Validators;
+using Import.Api272;
+using Integration.Api469;
+using Security.Handlers;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Workflow.Client47;
+
+namespace Scheduling.Events
+{
+    public interface IScheduling_Events_Validator5
+    {
+        /// <summary>Processes the Scheduling_Events_Validator5 operation.</summary>
+        void ProcessScheduling_Events_Validator5();
+
+        /// <summary>Validates the Scheduling_Events_Validator5 state.</summary>
+        bool ValidateScheduling_Events_Validator5();
+    }
+
+}

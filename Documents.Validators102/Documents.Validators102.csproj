@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Documents.Validators102</RootNamespace>
+    <AssemblyName>Documents.Validators102</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Service339\Admin.Service339.csproj" />
+    <ProjectReference Include="..\Admin.Data117\Admin.Data117.csproj" />
+    <ProjectReference Include="..\Reporting.Mappers239\Reporting.Mappers239.csproj" />
+    <ProjectReference Include="..\Workflow.Tests222\Workflow.Tests222.csproj" />
+    <ProjectReference Include="..\Common.Service\Common.Service.csproj" />
+    <ProjectReference Include="..\Billing.Handlers\Billing.Handlers.csproj" />
+    <ProjectReference Include="..\Integration.Contracts290\Integration.Contracts290.csproj" />
+    <ProjectReference Include="..\Scheduling.Tests\Scheduling.Tests.csproj" />
+    <ProjectReference Include="..\Imaging.Validators108\Imaging.Validators108.csproj" />
+    <ProjectReference Include="..\Security.Core243\Security.Core243.csproj" />
+    <ProjectReference Include="..\Workflow.Service\Workflow.Service.csproj" />
+    <ProjectReference Include="..\Admin.Service364\Admin.Service364.csproj" />
+    <ProjectReference Include="..\Integration.Service477\Integration.Service477.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Handlers\GalaxyWorks.Handlers.csproj" />
+    <ProjectReference Include="..\Security.Shared\Security.Shared.csproj" />
+    <ProjectReference Include="..\Portal.Validators\Portal.Validators.csproj" />
+    <ProjectReference Include="..\Notifications.Shared\Notifications.Shared.csproj" />
+  </ItemGroup>
+</Project>

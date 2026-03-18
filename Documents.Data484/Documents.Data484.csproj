@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Documents.Data484</RootNamespace>
+    <AssemblyName>Documents.Data484</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Core140\Auth.Core140.csproj" />
+    <ProjectReference Include="..\Export.Api49\Export.Api49.csproj" />
+    <ProjectReference Include="..\Billing.Mappers\Billing.Mappers.csproj" />
+    <ProjectReference Include="..\Documents.Api439\Documents.Api439.csproj" />
+    <ProjectReference Include="..\Imaging.Core\Imaging.Core.csproj" />
+    <ProjectReference Include="..\Workflow.Web\Workflow.Web.csproj" />
+    <ProjectReference Include="..\Utilities.Contracts24\Utilities.Contracts24.csproj" />
+    <ProjectReference Include="..\Reporting.Client\Reporting.Client.csproj" />
+    <ProjectReference Include="..\Billing.Api\Billing.Api.csproj" />
+    <ProjectReference Include="..\Documents.Tests\Documents.Tests.csproj" />
+    <ProjectReference Include="..\Common.Models\Common.Models.csproj" />
+    <ProjectReference Include="..\Imaging.Shared322\Imaging.Shared322.csproj" />
+    <ProjectReference Include="..\Billing.Client182\Billing.Client182.csproj" />
+    <ProjectReference Include="..\Export.Data150\Export.Data150.csproj" />
+    <ProjectReference Include="..\Auth.Client38\Auth.Client38.csproj" />
+    <ProjectReference Include="..\Security.Client\Security.Client.csproj" />
+  </ItemGroup>
+</Project>

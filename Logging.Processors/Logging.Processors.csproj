@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Logging.Processors</RootNamespace>
+    <AssemblyName>Logging.Processors</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Core\Auth.Core.csproj" />
+    <ProjectReference Include="..\Auth.Mappers208\Auth.Mappers208.csproj" />
+    <ProjectReference Include="..\Workflow.Models\Workflow.Models.csproj" />
+    <ProjectReference Include="..\Admin.Data408\Admin.Data408.csproj" />
+    <ProjectReference Include="..\Common.Core\Common.Core.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Web\GalaxyWorks.Web.csproj" />
+    <ProjectReference Include="..\Export.Mappers\Export.Mappers.csproj" />
+    <ProjectReference Include="..\Workflow.Validators\Workflow.Validators.csproj" />
+    <ProjectReference Include="..\Notifications.Tests299\Notifications.Tests299.csproj" />
+    <ProjectReference Include="..\Imaging.Data\Imaging.Data.csproj" />
+    <ProjectReference Include="..\Workflow.Client\Workflow.Client.csproj" />
+    <ProjectReference Include="..\DataAccess.Tests\DataAccess.Tests.csproj" />
+    <ProjectReference Include="..\Imaging.Models\Imaging.Models.csproj" />
+    <ProjectReference Include="..\Billing.Mappers198\Billing.Mappers198.csproj" />
+    <ProjectReference Include="..\Import.Mappers56\Import.Mappers56.csproj" />
+    <ProjectReference Include="..\Portal.Handlers\Portal.Handlers.csproj" />
+    <ProjectReference Include="..\Portal.Service\Portal.Service.csproj" />
+  </ItemGroup>
+</Project>

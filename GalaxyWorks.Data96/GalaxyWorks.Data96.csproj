@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>GalaxyWorks.Data96</RootNamespace>
+    <AssemblyName>GalaxyWorks.Data96</AssemblyName>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Core\Admin.Core.csproj" />
+    <ProjectReference Include="..\Admin.Client\Admin.Client.csproj" />
+    <ProjectReference Include="..\Auth.Mappers\Auth.Mappers.csproj" />
+    <ProjectReference Include="..\Common.Models\Common.Models.csproj" />
+    <ProjectReference Include="..\Documents.Web\Documents.Web.csproj" />
+    <ProjectReference Include="..\Notifications.Tests299\Notifications.Tests299.csproj" />
+    <ProjectReference Include="..\Documents.Mappers\Documents.Mappers.csproj" />
+    <ProjectReference Include="..\Imaging.Api127\Imaging.Api127.csproj" />
+    <ProjectReference Include="..\Notifications.Mappers110\Notifications.Mappers110.csproj" />
+    <ProjectReference Include="..\BatchJobs.Models\BatchJobs.Models.csproj" />
+    <ProjectReference Include="..\Workflow.Tests27\Workflow.Tests27.csproj" />
+    <ProjectReference Include="..\DataAccess.Shared\DataAccess.Shared.csproj" />
+    <ProjectReference Include="..\Admin.Api\Admin.Api.csproj" />
+    <ProjectReference Include="..\Portal.Events139\Portal.Events139.csproj" />
+    <ProjectReference Include="..\Notifications.Web308\Notifications.Web308.csproj" />
+    <ProjectReference Include="..\Portal.Tests173\Portal.Tests173.csproj" />
+    <ProjectReference Include="..\Portal.Events\Portal.Events.csproj" />
+    <ProjectReference Include="..\Common.Tests350\Common.Tests350.csproj" />
+  </ItemGroup>
+</Project>

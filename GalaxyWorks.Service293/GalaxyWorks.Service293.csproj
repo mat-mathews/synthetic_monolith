@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>GalaxyWorks.Service293</RootNamespace>
+    <AssemblyName>GalaxyWorks.Service293</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Client177\Admin.Client177.csproj" />
+    <ProjectReference Include="..\Admin.Service247\Admin.Service247.csproj" />
+    <ProjectReference Include="..\Admin.Models476\Admin.Models476.csproj" />
+    <ProjectReference Include="..\Billing.Contracts\Billing.Contracts.csproj" />
+    <ProjectReference Include="..\Notifications.Shared\Notifications.Shared.csproj" />
+    <ProjectReference Include="..\DataAccess.Models\DataAccess.Models.csproj" />
+    <ProjectReference Include="..\Import.Processors472\Import.Processors472.csproj" />
+    <ProjectReference Include="..\Auth.Web\Auth.Web.csproj" />
+    <ProjectReference Include="..\Auth.Mappers28\Auth.Mappers28.csproj" />
+    <ProjectReference Include="..\Security.Models284\Security.Models284.csproj" />
+    <ProjectReference Include="..\DataAccess.Api454\DataAccess.Api454.csproj" />
+    <ProjectReference Include="..\Documents.Client58\Documents.Client58.csproj" />
+    <ProjectReference Include="..\Scheduling.Processors337\Scheduling.Processors337.csproj" />
+    <ProjectReference Include="..\Notifications.Mappers55\Notifications.Mappers55.csproj" />
+    <ProjectReference Include="..\Reporting.Mappers239\Reporting.Mappers239.csproj" />
+    <ProjectReference Include="..\Common.Processors142\Common.Processors142.csproj" />
+    <ProjectReference Include="..\Import.Service496\Import.Service496.csproj" />
+    <ProjectReference Include="..\Admin.Validators37\Admin.Validators37.csproj" />
+  </ItemGroup>
+</Project>

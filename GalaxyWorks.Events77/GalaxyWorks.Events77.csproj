@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <RootNamespace>GalaxyWorks.Events77</RootNamespace>
+    <AssemblyName>GalaxyWorks.Events77</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Models236\Auth.Models236.csproj" />
+    <ProjectReference Include="..\Admin.Web4\Admin.Web4.csproj" />
+    <ProjectReference Include="..\Admin.Processors35\Admin.Processors35.csproj" />
+    <ProjectReference Include="..\Admin.Handlers447\Admin.Handlers447.csproj" />
+    <ProjectReference Include="..\Imaging.Api\Imaging.Api.csproj" />
+    <ProjectReference Include="..\Imaging.Validators\Imaging.Validators.csproj" />
+    <ProjectReference Include="..\Export.Mappers\Export.Mappers.csproj" />
+    <ProjectReference Include="..\BatchJobs.Events\BatchJobs.Events.csproj" />
+    <ProjectReference Include="..\Portal.Handlers\Portal.Handlers.csproj" />
+    <ProjectReference Include="..\Documents.Shared334\Documents.Shared334.csproj" />
+    <ProjectReference Include="..\Workflow.Shared298\Workflow.Shared298.csproj" />
+    <ProjectReference Include="..\Portal.Processors389\Portal.Processors389.csproj" />
+    <ProjectReference Include="..\Common.Validators430\Common.Validators430.csproj" />
+    <ProjectReference Include="..\Integration.Core\Integration.Core.csproj" />
+    <ProjectReference Include="..\Portal.Api\Portal.Api.csproj" />
+    <ProjectReference Include="..\Security.Api320\Security.Api320.csproj" />
+    <ProjectReference Include="..\Export.Models\Export.Models.csproj" />
+    <ProjectReference Include="..\Import.Web\Import.Web.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Logging.Contracts</RootNamespace>
+    <AssemblyName>Logging.Contracts</AssemblyName>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Shared310\Admin.Shared310.csproj" />
+    <ProjectReference Include="..\DataAccess.Contracts404\DataAccess.Contracts404.csproj" />
+    <ProjectReference Include="..\Utilities.Data\Utilities.Data.csproj" />
+    <ProjectReference Include="..\Workflow.Tests27\Workflow.Tests27.csproj" />
+    <ProjectReference Include="..\Billing.Mappers225\Billing.Mappers225.csproj" />
+    <ProjectReference Include="..\BatchJobs.Events435\BatchJobs.Events435.csproj" />
+    <ProjectReference Include="..\Portal.Validators69\Portal.Validators69.csproj" />
+    <ProjectReference Include="..\Scheduling.Models260\Scheduling.Models260.csproj" />
+    <ProjectReference Include="..\BatchJobs.Mappers362\BatchJobs.Mappers362.csproj" />
+    <ProjectReference Include="..\Export.Processors\Export.Processors.csproj" />
+    <ProjectReference Include="..\Documents.Api156\Documents.Api156.csproj" />
+    <ProjectReference Include="..\Security.Api320\Security.Api320.csproj" />
+    <ProjectReference Include="..\Auth.Client249\Auth.Client249.csproj" />
+    <ProjectReference Include="..\Notifications.Handlers\Notifications.Handlers.csproj" />
+    <ProjectReference Include="..\Integration.Data\Integration.Data.csproj" />
+    <ProjectReference Include="..\Logging.Handlers141\Logging.Handlers141.csproj" />
+  </ItemGroup>
+</Project>

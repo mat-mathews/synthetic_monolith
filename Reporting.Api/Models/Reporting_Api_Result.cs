@@ -1,0 +1,33 @@
+using Admin.Handlers447;
+using Admin.Mappers;
+using Admin.Models476;
+using Common.Client53;
+using Common.Events;
+using Export.Processors361;
+using Export.Processors79;
+using GalaxyWorks.Handlers478;
+using Import.Client64;
+using Integration.Shared;
+using Logging.Shared315;
+using Notifications.Api144;
+using Notifications.Shared;
+using Reporting.Core;
+using Scheduling.Models;
+using Security.Validators418;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Utilities.Contracts24;
+using Workflow.Client47;
+
+namespace Reporting.Api
+{
+    internal struct Reporting_Api_Result
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public DateTime CreatedAt { get; set; }
+    }
+
+}

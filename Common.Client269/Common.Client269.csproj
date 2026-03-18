@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>Common.Client269</RootNamespace>
+    <AssemblyName>Common.Client269</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Contracts120\Admin.Contracts120.csproj" />
+    <ProjectReference Include="..\Admin.Data117\Admin.Data117.csproj" />
+    <ProjectReference Include="..\Security.Service\Security.Service.csproj" />
+    <ProjectReference Include="..\Security.Core\Security.Core.csproj" />
+    <ProjectReference Include="..\Import.Service15\Import.Service15.csproj" />
+    <ProjectReference Include="..\Common.Api57\Common.Api57.csproj" />
+    <ProjectReference Include="..\Common.Shared\Common.Shared.csproj" />
+    <ProjectReference Include="..\Billing.Api\Billing.Api.csproj" />
+    <ProjectReference Include="..\Common.Events367\Common.Events367.csproj" />
+    <ProjectReference Include="..\Billing.Tests\Billing.Tests.csproj" />
+    <ProjectReference Include="..\Export.Mappers237\Export.Mappers237.csproj" />
+    <ProjectReference Include="..\Common.Models381\Common.Models381.csproj" />
+    <ProjectReference Include="..\Workflow.Models\Workflow.Models.csproj" />
+    <ProjectReference Include="..\Integration.Models\Integration.Models.csproj" />
+    <ProjectReference Include="..\Import.Service429\Import.Service429.csproj" />
+    <ProjectReference Include="..\Logging.Core\Logging.Core.csproj" />
+  </ItemGroup>
+</Project>

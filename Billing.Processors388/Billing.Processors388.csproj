@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>Billing.Processors388</RootNamespace>
+    <AssemblyName>Billing.Processors388</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Contracts\Auth.Contracts.csproj" />
+    <ProjectReference Include="..\Admin.Contracts\Admin.Contracts.csproj" />
+    <ProjectReference Include="..\Logging.Service160\Logging.Service160.csproj" />
+    <ProjectReference Include="..\Portal.Core8\Portal.Core8.csproj" />
+    <ProjectReference Include="..\Scheduling.Processors\Scheduling.Processors.csproj" />
+    <ProjectReference Include="..\Documents.Data68\Documents.Data68.csproj" />
+    <ProjectReference Include="..\Common.Mappers190\Common.Mappers190.csproj" />
+    <ProjectReference Include="..\Logging.Mappers\Logging.Mappers.csproj" />
+    <ProjectReference Include="..\Export.Data\Export.Data.csproj" />
+    <ProjectReference Include="..\Security.Core\Security.Core.csproj" />
+    <ProjectReference Include="..\Security.Processors\Security.Processors.csproj" />
+    <ProjectReference Include="..\Portal.Data\Portal.Data.csproj" />
+    <ProjectReference Include="..\Portal.Events151\Portal.Events151.csproj" />
+    <ProjectReference Include="..\DataAccess.Tests\DataAccess.Tests.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Data375\GalaxyWorks.Data375.csproj" />
+    <ProjectReference Include="..\Utilities.Handlers268\Utilities.Handlers268.csproj" />
+    <ProjectReference Include="..\Imaging.Models\Imaging.Models.csproj" />
+  </ItemGroup>
+</Project>

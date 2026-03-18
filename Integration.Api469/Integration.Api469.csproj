@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Integration.Api469</RootNamespace>
+    <AssemblyName>Integration.Api469</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Core121\Admin.Core121.csproj" />
+    <ProjectReference Include="..\Auth.Contracts395\Auth.Contracts395.csproj" />
+    <ProjectReference Include="..\Scheduling.Api3\Scheduling.Api3.csproj" />
+    <ProjectReference Include="..\Security.Models420\Security.Models420.csproj" />
+    <ProjectReference Include="..\Billing.Api497\Billing.Api497.csproj" />
+    <ProjectReference Include="..\Documents.Data419\Documents.Data419.csproj" />
+    <ProjectReference Include="..\Portal.Validators125\Portal.Validators125.csproj" />
+    <ProjectReference Include="..\Imaging.Contracts\Imaging.Contracts.csproj" />
+    <ProjectReference Include="..\Security.Shared155\Security.Shared155.csproj" />
+    <ProjectReference Include="..\Workflow.Contracts\Workflow.Contracts.csproj" />
+    <ProjectReference Include="..\Billing.Processors259\Billing.Processors259.csproj" />
+    <ProjectReference Include="..\BatchJobs.Client\BatchJobs.Client.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Api390\GalaxyWorks.Api390.csproj" />
+    <ProjectReference Include="..\Auth.Core140\Auth.Core140.csproj" />
+    <ProjectReference Include="..\Utilities.Shared\Utilities.Shared.csproj" />
+    <ProjectReference Include="..\BatchJobs.Validators311\BatchJobs.Validators311.csproj" />
+    <ProjectReference Include="..\Import.Core\Import.Core.csproj" />
+  </ItemGroup>
+</Project>

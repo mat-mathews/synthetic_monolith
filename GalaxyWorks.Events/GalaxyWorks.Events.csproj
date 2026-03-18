@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <RootNamespace>GalaxyWorks.Events</RootNamespace>
+    <AssemblyName>GalaxyWorks.Events</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Contracts\Admin.Contracts.csproj" />
+    <ProjectReference Include="..\Admin.Validators431\Admin.Validators431.csproj" />
+    <ProjectReference Include="..\Auth.Data135\Auth.Data135.csproj" />
+    <ProjectReference Include="..\Export.Service\Export.Service.csproj" />
+    <ProjectReference Include="..\Security.Client137\Security.Client137.csproj" />
+    <ProjectReference Include="..\Notifications.Web90\Notifications.Web90.csproj" />
+    <ProjectReference Include="..\Portal.Core8\Portal.Core8.csproj" />
+    <ProjectReference Include="..\Documents.Api251\Documents.Api251.csproj" />
+    <ProjectReference Include="..\Scheduling.Api3\Scheduling.Api3.csproj" />
+    <ProjectReference Include="..\Reporting.Events220\Reporting.Events220.csproj" />
+    <ProjectReference Include="..\Utilities.Tests\Utilities.Tests.csproj" />
+    <ProjectReference Include="..\Logging.Contracts373\Logging.Contracts373.csproj" />
+    <ProjectReference Include="..\Documents.Shared427\Documents.Shared427.csproj" />
+    <ProjectReference Include="..\Workflow.Api433\Workflow.Api433.csproj" />
+    <ProjectReference Include="..\BatchJobs.Models329\BatchJobs.Models329.csproj" />
+    <ProjectReference Include="..\Portal.Data216\Portal.Data216.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Processors\GalaxyWorks.Processors.csproj" />
+    <ProjectReference Include="..\Import.Mappers\Import.Mappers.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,28 @@
+using Admin.Shared363;
+using Admin.Web154;
+using BatchJobs.Web;
+using Common.Mappers190;
+using Common.Web488;
+using Export.Data6;
+using Imaging.Client;
+using Imaging.Tests328;
+using Import.Models457;
+using Integration.Service147;
+using Integration.Tests;
+using Integration.Web;
+using Logging.Contracts74;
+using Notifications.Models;
+using Scheduling.Web19;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Workflow.Contracts;
+using Workflow.Core;
+
+namespace Logging.Mappers157
+{
+    /// <summary>Immutable data transfer record for Logging_Mappers157_Response4.</summary>
+    public record Logging_Mappers157_Response4(string Value, int Count, DateTime Timestamp);
+
+}

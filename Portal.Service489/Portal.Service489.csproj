@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Portal.Service489</RootNamespace>
+    <AssemblyName>Portal.Service489</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Client\Auth.Client.csproj" />
+    <ProjectReference Include="..\Integration.Service147\Integration.Service147.csproj" />
+    <ProjectReference Include="..\Imaging.Mappers\Imaging.Mappers.csproj" />
+    <ProjectReference Include="..\Reporting.Web345\Reporting.Web345.csproj" />
+    <ProjectReference Include="..\Reporting.Core\Reporting.Core.csproj" />
+    <ProjectReference Include="..\Scheduling.Tests\Scheduling.Tests.csproj" />
+    <ProjectReference Include="..\Common.Service258\Common.Service258.csproj" />
+    <ProjectReference Include="..\Documents.Processors300\Documents.Processors300.csproj" />
+    <ProjectReference Include="..\Common.Contracts279\Common.Contracts279.csproj" />
+    <ProjectReference Include="..\Integration.Contracts\Integration.Contracts.csproj" />
+    <ProjectReference Include="..\Logging.Api316\Logging.Api316.csproj" />
+    <ProjectReference Include="..\Documents.Api132\Documents.Api132.csproj" />
+    <ProjectReference Include="..\Scheduling.Client\Scheduling.Client.csproj" />
+    <ProjectReference Include="..\Security.Web376\Security.Web376.csproj" />
+    <ProjectReference Include="..\Common.Api213\Common.Api213.csproj" />
+    <ProjectReference Include="..\DataAccess.Shared189\DataAccess.Shared189.csproj" />
+  </ItemGroup>
+</Project>

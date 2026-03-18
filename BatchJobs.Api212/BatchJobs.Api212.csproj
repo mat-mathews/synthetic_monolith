@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <RootNamespace>BatchJobs.Api212</RootNamespace>
+    <AssemblyName>BatchJobs.Api212</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Processors400\Auth.Processors400.csproj" />
+    <ProjectReference Include="..\Admin.Service\Admin.Service.csproj" />
+    <ProjectReference Include="..\Import.Models457\Import.Models457.csproj" />
+    <ProjectReference Include="..\Logging.Contracts74\Logging.Contracts74.csproj" />
+    <ProjectReference Include="..\Utilities.Mappers97\Utilities.Mappers97.csproj" />
+    <ProjectReference Include="..\Notifications.Models466\Notifications.Models466.csproj" />
+    <ProjectReference Include="..\BatchJobs.Events\BatchJobs.Events.csproj" />
+    <ProjectReference Include="..\Documents.Api439\Documents.Api439.csproj" />
+    <ProjectReference Include="..\Import.Service291\Import.Service291.csproj" />
+    <ProjectReference Include="..\Integration.Handlers423\Integration.Handlers423.csproj" />
+    <ProjectReference Include="..\Export.Web210\Export.Web210.csproj" />
+    <ProjectReference Include="..\Auth.Api\Auth.Api.csproj" />
+    <ProjectReference Include="..\Admin.Handlers\Admin.Handlers.csproj" />
+    <ProjectReference Include="..\Scheduling.Client\Scheduling.Client.csproj" />
+    <ProjectReference Include="..\Documents.Tests106\Documents.Tests106.csproj" />
+    <ProjectReference Include="..\Billing.Tests\Billing.Tests.csproj" />
+    <ProjectReference Include="..\Security.Shared155\Security.Shared155.csproj" />
+  </ItemGroup>
+</Project>

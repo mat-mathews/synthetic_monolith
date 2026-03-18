@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>Logging.Contracts74</RootNamespace>
+    <AssemblyName>Logging.Contracts74</AssemblyName>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Validators37\Admin.Validators37.csproj" />
+    <ProjectReference Include="..\Auth.Mappers\Auth.Mappers.csproj" />
+    <ProjectReference Include="..\Admin.Events235\Admin.Events235.csproj" />
+    <ProjectReference Include="..\Reporting.Contracts371\Reporting.Contracts371.csproj" />
+    <ProjectReference Include="..\Common.Models381\Common.Models381.csproj" />
+    <ProjectReference Include="..\Utilities.Shared114\Utilities.Shared114.csproj" />
+    <ProjectReference Include="..\Admin.Core\Admin.Core.csproj" />
+    <ProjectReference Include="..\Export.Processors449\Export.Processors449.csproj" />
+    <ProjectReference Include="..\Workflow.Validators\Workflow.Validators.csproj" />
+    <ProjectReference Include="..\Portal.Api123\Portal.Api123.csproj" />
+    <ProjectReference Include="..\Logging.Handlers141\Logging.Handlers141.csproj" />
+    <ProjectReference Include="..\Logging.Service\Logging.Service.csproj" />
+    <ProjectReference Include="..\Admin.Web154\Admin.Web154.csproj" />
+    <ProjectReference Include="..\Import.Tests119\Import.Tests119.csproj" />
+    <ProjectReference Include="..\Scheduling.Mappers\Scheduling.Mappers.csproj" />
+    <ProjectReference Include="..\Imaging.Shared\Imaging.Shared.csproj" />
+    <ProjectReference Include="..\Portal.Tests481\Portal.Tests481.csproj" />
+    <ProjectReference Include="..\DataAccess.Api307\DataAccess.Api307.csproj" />
+  </ItemGroup>
+</Project>

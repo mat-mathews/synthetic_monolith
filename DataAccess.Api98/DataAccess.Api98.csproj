@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <RootNamespace>DataAccess.Api98</RootNamespace>
+    <AssemblyName>DataAccess.Api98</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Service\Admin.Service.csproj" />
+    <ProjectReference Include="..\Admin.Web46\Admin.Web46.csproj" />
+    <ProjectReference Include="..\Integration.Contracts290\Integration.Contracts290.csproj" />
+    <ProjectReference Include="..\Documents.Processors300\Documents.Processors300.csproj" />
+    <ProjectReference Include="..\Notifications.Models277\Notifications.Models277.csproj" />
+    <ProjectReference Include="..\Workflow.Service\Workflow.Service.csproj" />
+    <ProjectReference Include="..\Documents.Core\Documents.Core.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Events256\GalaxyWorks.Events256.csproj" />
+    <ProjectReference Include="..\Billing.Tests194\Billing.Tests194.csproj" />
+    <ProjectReference Include="..\Import.Processors\Import.Processors.csproj" />
+    <ProjectReference Include="..\Notifications.Service475\Notifications.Service475.csproj" />
+    <ProjectReference Include="..\Auth.Events5\Auth.Events5.csproj" />
+    <ProjectReference Include="..\Import.Core\Import.Core.csproj" />
+    <ProjectReference Include="..\Export.Api\Export.Api.csproj" />
+    <ProjectReference Include="..\Portal.Api51\Portal.Api51.csproj" />
+    <ProjectReference Include="..\Integration.Api469\Integration.Api469.csproj" />
+    <ProjectReference Include="..\Admin.Validators336\Admin.Validators336.csproj" />
+  </ItemGroup>
+</Project>

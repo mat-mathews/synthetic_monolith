@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <RootNamespace>Scheduling.Processors337</RootNamespace>
+    <AssemblyName>Scheduling.Processors337</AssemblyName>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Data465\Admin.Data465.csproj" />
+    <ProjectReference Include="..\Admin.Tests10\Admin.Tests10.csproj" />
+    <ProjectReference Include="..\Admin.Handlers61\Admin.Handlers61.csproj" />
+    <ProjectReference Include="..\Admin.Service339\Admin.Service339.csproj" />
+    <ProjectReference Include="..\Import.Contracts183\Import.Contracts183.csproj" />
+    <ProjectReference Include="..\Import.Data193\Import.Data193.csproj" />
+    <ProjectReference Include="..\Logging.Data29\Logging.Data29.csproj" />
+    <ProjectReference Include="..\Admin.Validators336\Admin.Validators336.csproj" />
+    <ProjectReference Include="..\BatchJobs.Mappers362\BatchJobs.Mappers362.csproj" />
+    <ProjectReference Include="..\Export.Web\Export.Web.csproj" />
+    <ProjectReference Include="..\Auth.Processors411\Auth.Processors411.csproj" />
+    <ProjectReference Include="..\Documents.Processors300\Documents.Processors300.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Api\GalaxyWorks.Api.csproj" />
+    <ProjectReference Include="..\Utilities.Web\Utilities.Web.csproj" />
+    <ProjectReference Include="..\Reporting.Client146\Reporting.Client146.csproj" />
+    <ProjectReference Include="..\Portal.Processors389\Portal.Processors389.csproj" />
+    <ProjectReference Include="..\Billing.Processors388\Billing.Processors388.csproj" />
+    <ProjectReference Include="..\Admin.Mappers324\Admin.Mappers324.csproj" />
+  </ItemGroup>
+</Project>

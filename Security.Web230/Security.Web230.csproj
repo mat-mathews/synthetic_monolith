@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Security.Web230</RootNamespace>
+    <AssemblyName>Security.Web230</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Client38\Auth.Client38.csproj" />
+    <ProjectReference Include="..\Auth.Contracts\Auth.Contracts.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Handlers\GalaxyWorks.Handlers.csproj" />
+    <ProjectReference Include="..\Auth.Data135\Auth.Data135.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Mappers\GalaxyWorks.Mappers.csproj" />
+    <ProjectReference Include="..\Common.Mappers\Common.Mappers.csproj" />
+    <ProjectReference Include="..\Scheduling.Web\Scheduling.Web.csproj" />
+    <ProjectReference Include="..\Logging.Api\Logging.Api.csproj" />
+    <ProjectReference Include="..\Scheduling.Processors80\Scheduling.Processors80.csproj" />
+    <ProjectReference Include="..\Workflow.Mappers\Workflow.Mappers.csproj" />
+    <ProjectReference Include="..\Import.Mappers56\Import.Mappers56.csproj" />
+    <ProjectReference Include="..\Auth.Mappers178\Auth.Mappers178.csproj" />
+    <ProjectReference Include="..\Billing.Contracts\Billing.Contracts.csproj" />
+    <ProjectReference Include="..\Admin.Service\Admin.Service.csproj" />
+    <ProjectReference Include="..\Portal.Tests323\Portal.Tests323.csproj" />
+    <ProjectReference Include="..\Common.Api57\Common.Api57.csproj" />
+    <ProjectReference Include="..\Portal.Data\Portal.Data.csproj" />
+  </ItemGroup>
+</Project>

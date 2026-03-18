@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <RootNamespace>Utilities.Contracts228</RootNamespace>
+    <AssemblyName>Utilities.Contracts228</AssemblyName>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Contracts402\Auth.Contracts402.csproj" />
+    <ProjectReference Include="..\Admin.Service247\Admin.Service247.csproj" />
+    <ProjectReference Include="..\Imaging.Core204\Imaging.Core204.csproj" />
+    <ProjectReference Include="..\Auth.Handlers281\Auth.Handlers281.csproj" />
+    <ProjectReference Include="..\Billing.Service\Billing.Service.csproj" />
+    <ProjectReference Include="..\Logging.Handlers455\Logging.Handlers455.csproj" />
+    <ProjectReference Include="..\Common.Processors142\Common.Processors142.csproj" />
+    <ProjectReference Include="..\Export.Contracts\Export.Contracts.csproj" />
+    <ProjectReference Include="..\Export.Web\Export.Web.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Mappers318\GalaxyWorks.Mappers318.csproj" />
+    <ProjectReference Include="..\DataAccess.Service\DataAccess.Service.csproj" />
+    <ProjectReference Include="..\Documents.Data492\Documents.Data492.csproj" />
+    <ProjectReference Include="..\Logging.Mappers\Logging.Mappers.csproj" />
+    <ProjectReference Include="..\Imaging.Contracts473\Imaging.Contracts473.csproj" />
+    <ProjectReference Include="..\Security.Contracts238\Security.Contracts238.csproj" />
+    <ProjectReference Include="..\Imaging.Web172\Imaging.Web172.csproj" />
+    <ProjectReference Include="..\Export.Validators\Export.Validators.csproj" />
+  </ItemGroup>
+</Project>

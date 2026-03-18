@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <RootNamespace>Scheduling.Tests</RootNamespace>
+    <AssemblyName>Scheduling.Tests</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Service339\Admin.Service339.csproj" />
+    <ProjectReference Include="..\Admin.Web4\Admin.Web4.csproj" />
+    <ProjectReference Include="..\Import.Contracts183\Import.Contracts183.csproj" />
+    <ProjectReference Include="..\Workflow.Validators138\Workflow.Validators138.csproj" />
+    <ProjectReference Include="..\BatchJobs.Contracts\BatchJobs.Contracts.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Data375\GalaxyWorks.Data375.csproj" />
+    <ProjectReference Include="..\Security.Models18\Security.Models18.csproj" />
+    <ProjectReference Include="..\Common.Mappers\Common.Mappers.csproj" />
+    <ProjectReference Include="..\Imaging.Shared\Imaging.Shared.csproj" />
+    <ProjectReference Include="..\Import.Contracts180\Import.Contracts180.csproj" />
+    <ProjectReference Include="..\Imaging.Events\Imaging.Events.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Data224\GalaxyWorks.Data224.csproj" />
+    <ProjectReference Include="..\Portal.Mappers233\Portal.Mappers233.csproj" />
+    <ProjectReference Include="..\Auth.Mappers\Auth.Mappers.csproj" />
+    <ProjectReference Include="..\Documents.Tests106\Documents.Tests106.csproj" />
+    <ProjectReference Include="..\Logging.Handlers455\Logging.Handlers455.csproj" />
+    <ProjectReference Include="..\Workflow.Service\Workflow.Service.csproj" />
+  </ItemGroup>
+</Project>

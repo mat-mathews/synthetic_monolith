@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>Security.Web</RootNamespace>
+    <AssemblyName>Security.Web</AssemblyName>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Service456\Admin.Service456.csproj" />
+    <ProjectReference Include="..\Auth.Contracts402\Auth.Contracts402.csproj" />
+    <ProjectReference Include="..\Admin.Events\Admin.Events.csproj" />
+    <ProjectReference Include="..\Utilities.Web\Utilities.Web.csproj" />
+    <ProjectReference Include="..\Billing.Api497\Billing.Api497.csproj" />
+    <ProjectReference Include="..\Reporting.Validators\Reporting.Validators.csproj" />
+    <ProjectReference Include="..\Export.Models\Export.Models.csproj" />
+    <ProjectReference Include="..\Workflow.Handlers\Workflow.Handlers.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Shared\GalaxyWorks.Shared.csproj" />
+    <ProjectReference Include="..\Common.Web438\Common.Web438.csproj" />
+    <ProjectReference Include="..\Security.Core274\Security.Core274.csproj" />
+    <ProjectReference Include="..\Security.Shared448\Security.Shared448.csproj" />
+    <ProjectReference Include="..\BatchJobs.Mappers362\BatchJobs.Mappers362.csproj" />
+    <ProjectReference Include="..\Auth.Tests\Auth.Tests.csproj" />
+    <ProjectReference Include="..\Security.Client353\Security.Client353.csproj" />
+    <ProjectReference Include="..\Integration.Models\Integration.Models.csproj" />
+    <ProjectReference Include="..\Logging.Shared315\Logging.Shared315.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <RootNamespace>Billing.Shared</RootNamespace>
+    <AssemblyName>Billing.Shared</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Shared310\Admin.Shared310.csproj" />
+    <ProjectReference Include="..\Notifications.Tests\Notifications.Tests.csproj" />
+    <ProjectReference Include="..\Import.Client65\Import.Client65.csproj" />
+    <ProjectReference Include="..\Notifications.Shared380\Notifications.Shared380.csproj" />
+    <ProjectReference Include="..\Security.Shared\Security.Shared.csproj" />
+    <ProjectReference Include="..\Logging.Validators\Logging.Validators.csproj" />
+    <ProjectReference Include="..\DataAccess.Validators\DataAccess.Validators.csproj" />
+    <ProjectReference Include="..\Reporting.Tests67\Reporting.Tests67.csproj" />
+    <ProjectReference Include="..\Admin.Web\Admin.Web.csproj" />
+    <ProjectReference Include="..\Integration.Api469\Integration.Api469.csproj" />
+    <ProjectReference Include="..\Billing.Mappers124\Billing.Mappers124.csproj" />
+    <ProjectReference Include="..\Documents.Service\Documents.Service.csproj" />
+    <ProjectReference Include="..\Import.Api272\Import.Api272.csproj" />
+    <ProjectReference Include="..\Logging.Data\Logging.Data.csproj" />
+    <ProjectReference Include="..\Billing.Tests\Billing.Tests.csproj" />
+    <ProjectReference Include="..\Workflow.Contracts434\Workflow.Contracts434.csproj" />
+  </ItemGroup>
+</Project>

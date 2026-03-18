@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Common.Shared95</RootNamespace>
+    <AssemblyName>Common.Shared95</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Handlers\Admin.Handlers.csproj" />
+    <ProjectReference Include="..\Admin.Models199\Admin.Models199.csproj" />
+    <ProjectReference Include="..\BatchJobs.Api\BatchJobs.Api.csproj" />
+    <ProjectReference Include="..\Billing.Events\Billing.Events.csproj" />
+    <ProjectReference Include="..\Import.Tests\Import.Tests.csproj" />
+    <ProjectReference Include="..\Security.Tests223\Security.Tests223.csproj" />
+    <ProjectReference Include="..\Workflow.Processors\Workflow.Processors.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Web\GalaxyWorks.Web.csproj" />
+    <ProjectReference Include="..\Integration.Processors248\Integration.Processors248.csproj" />
+    <ProjectReference Include="..\Scheduling.Events\Scheduling.Events.csproj" />
+    <ProjectReference Include="..\Notifications.Mappers110\Notifications.Mappers110.csproj" />
+    <ProjectReference Include="..\Portal.Validators\Portal.Validators.csproj" />
+    <ProjectReference Include="..\Portal.Events151\Portal.Events151.csproj" />
+    <ProjectReference Include="..\Common.Service258\Common.Service258.csproj" />
+    <ProjectReference Include="..\Imaging.Models459\Imaging.Models459.csproj" />
+    <ProjectReference Include="..\Admin.Events306\Admin.Events306.csproj" />
+  </ItemGroup>
+</Project>

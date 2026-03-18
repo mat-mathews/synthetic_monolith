@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Integration.Tests86</RootNamespace>
+    <AssemblyName>Integration.Tests86</AssemblyName>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Service456\Admin.Service456.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Validators\GalaxyWorks.Validators.csproj" />
+    <ProjectReference Include="..\Auth.Mappers\Auth.Mappers.csproj" />
+    <ProjectReference Include="..\Admin.Validators431\Admin.Validators431.csproj" />
+    <ProjectReference Include="..\Billing.Validators\Billing.Validators.csproj" />
+    <ProjectReference Include="..\Imaging.Events424\Imaging.Events424.csproj" />
+    <ProjectReference Include="..\Scheduling.Shared39\Scheduling.Shared39.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Data\GalaxyWorks.Data.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Handlers84\GalaxyWorks.Handlers84.csproj" />
+    <ProjectReference Include="..\Auth.Data135\Auth.Data135.csproj" />
+    <ProjectReference Include="..\BatchJobs.Tests\BatchJobs.Tests.csproj" />
+    <ProjectReference Include="..\Scheduling.Api\Scheduling.Api.csproj" />
+    <ProjectReference Include="..\Utilities.Mappers97\Utilities.Mappers97.csproj" />
+    <ProjectReference Include="..\DataAccess.Tests\DataAccess.Tests.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Data96\GalaxyWorks.Data96.csproj" />
+    <ProjectReference Include="..\Export.Core372\Export.Core372.csproj" />
+  </ItemGroup>
+</Project>

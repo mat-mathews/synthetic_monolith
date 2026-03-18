@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Export.Shared</RootNamespace>
+    <AssemblyName>Export.Shared</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Shared310\Admin.Shared310.csproj" />
+    <ProjectReference Include="..\Common.Processors245\Common.Processors245.csproj" />
+    <ProjectReference Include="..\Integration.Processors\Integration.Processors.csproj" />
+    <ProjectReference Include="..\Logging.Shared\Logging.Shared.csproj" />
+    <ProjectReference Include="..\Logging.Client405\Logging.Client405.csproj" />
+    <ProjectReference Include="..\Export.Web229\Export.Web229.csproj" />
+    <ProjectReference Include="..\Common.Data\Common.Data.csproj" />
+    <ProjectReference Include="..\Common.Api213\Common.Api213.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Web\GalaxyWorks.Web.csproj" />
+    <ProjectReference Include="..\Portal.Processors389\Portal.Processors389.csproj" />
+    <ProjectReference Include="..\Billing.Validators\Billing.Validators.csproj" />
+    <ProjectReference Include="..\Admin.Handlers447\Admin.Handlers447.csproj" />
+    <ProjectReference Include="..\Import.Mappers56\Import.Mappers56.csproj" />
+    <ProjectReference Include="..\Auth.Shared325\Auth.Shared325.csproj" />
+    <ProjectReference Include="..\Import.Client64\Import.Client64.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Processors\GalaxyWorks.Processors.csproj" />
+  </ItemGroup>
+</Project>

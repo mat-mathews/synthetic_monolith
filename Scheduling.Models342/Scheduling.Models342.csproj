@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <RootNamespace>Scheduling.Models342</RootNamespace>
+    <AssemblyName>Scheduling.Models342</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Models476\Admin.Models476.csproj" />
+    <ProjectReference Include="..\Admin.Contracts120\Admin.Contracts120.csproj" />
+    <ProjectReference Include="..\Auth.Handlers281\Auth.Handlers281.csproj" />
+    <ProjectReference Include="..\Imaging.Handlers\Imaging.Handlers.csproj" />
+    <ProjectReference Include="..\Logging.Web\Logging.Web.csproj" />
+    <ProjectReference Include="..\Auth.Contracts\Auth.Contracts.csproj" />
+    <ProjectReference Include="..\Auth.Events5\Auth.Events5.csproj" />
+    <ProjectReference Include="..\BatchJobs.Handlers443\BatchJobs.Handlers443.csproj" />
+    <ProjectReference Include="..\Utilities.Handlers462\Utilities.Handlers462.csproj" />
+    <ProjectReference Include="..\Security.Shared365\Security.Shared365.csproj" />
+    <ProjectReference Include="..\Notifications.Tests299\Notifications.Tests299.csproj" />
+    <ProjectReference Include="..\Logging.Data29\Logging.Data29.csproj" />
+    <ProjectReference Include="..\Documents.Data\Documents.Data.csproj" />
+    <ProjectReference Include="..\BatchJobs.Api\BatchJobs.Api.csproj" />
+    <ProjectReference Include="..\Export.Tests62\Export.Tests62.csproj" />
+    <ProjectReference Include="..\DataAccess.Contracts203\DataAccess.Contracts203.csproj" />
+    <ProjectReference Include="..\Portal.Web158\Portal.Web158.csproj" />
+    <ProjectReference Include="..\Auth.Web70\Auth.Web70.csproj" />
+  </ItemGroup>
+</Project>

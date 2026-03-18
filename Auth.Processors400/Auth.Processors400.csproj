@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>Auth.Processors400</RootNamespace>
+    <AssemblyName>Auth.Processors400</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+</Project>

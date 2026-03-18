@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Documents.Shared</RootNamespace>
+    <AssemblyName>Documents.Shared</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Handlers\Admin.Handlers.csproj" />
+    <ProjectReference Include="..\Admin.Handlers450\Admin.Handlers450.csproj" />
+    <ProjectReference Include="..\DataAccess.Core\DataAccess.Core.csproj" />
+    <ProjectReference Include="..\DataAccess.Handlers482\DataAccess.Handlers482.csproj" />
+    <ProjectReference Include="..\Security.Processors\Security.Processors.csproj" />
+    <ProjectReference Include="..\Billing.Validators\Billing.Validators.csproj" />
+    <ProjectReference Include="..\Billing.Processors259\Billing.Processors259.csproj" />
+    <ProjectReference Include="..\Common.Client269\Common.Client269.csproj" />
+    <ProjectReference Include="..\Utilities.Api66\Utilities.Api66.csproj" />
+    <ProjectReference Include="..\Notifications.Core\Notifications.Core.csproj" />
+    <ProjectReference Include="..\Admin.Handlers61\Admin.Handlers61.csproj" />
+    <ProjectReference Include="..\Scheduling.Handlers63\Scheduling.Handlers63.csproj" />
+    <ProjectReference Include="..\BatchJobs.Models304\BatchJobs.Models304.csproj" />
+    <ProjectReference Include="..\Workflow.Data340\Workflow.Data340.csproj" />
+    <ProjectReference Include="..\Reporting.Service207\Reporting.Service207.csproj" />
+    <ProjectReference Include="..\Export.Mappers\Export.Mappers.csproj" />
+    <ProjectReference Include="..\Documents.Mappers\Documents.Mappers.csproj" />
+  </ItemGroup>
+</Project>

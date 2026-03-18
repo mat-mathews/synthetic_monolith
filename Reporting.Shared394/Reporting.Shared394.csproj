@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>Reporting.Shared394</RootNamespace>
+    <AssemblyName>Reporting.Shared394</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Api143\Auth.Api143.csproj" />
+    <ProjectReference Include="..\Admin.Mappers324\Admin.Mappers324.csproj" />
+    <ProjectReference Include="..\Auth.Client249\Auth.Client249.csproj" />
+    <ProjectReference Include="..\Portal.Contracts181\Portal.Contracts181.csproj" />
+    <ProjectReference Include="..\DataAccess.Data36\DataAccess.Data36.csproj" />
+    <ProjectReference Include="..\Notifications.Client\Notifications.Client.csproj" />
+    <ProjectReference Include="..\Documents.Shared452\Documents.Shared452.csproj" />
+    <ProjectReference Include="..\Notifications.Data406\Notifications.Data406.csproj" />
+    <ProjectReference Include="..\Integration.Events301\Integration.Events301.csproj" />
+    <ProjectReference Include="..\Import.Events374\Import.Events374.csproj" />
+    <ProjectReference Include="..\DataAccess.Contracts\DataAccess.Contracts.csproj" />
+    <ProjectReference Include="..\Notifications.Models466\Notifications.Models466.csproj" />
+    <ProjectReference Include="..\Admin.Models476\Admin.Models476.csproj" />
+    <ProjectReference Include="..\Common.Api\Common.Api.csproj" />
+    <ProjectReference Include="..\Admin.Handlers447\Admin.Handlers447.csproj" />
+    <ProjectReference Include="..\Security.Models\Security.Models.csproj" />
+    <ProjectReference Include="..\Logging.Data\Logging.Data.csproj" />
+    <ProjectReference Include="..\Import.Client65\Import.Client65.csproj" />
+  </ItemGroup>
+</Project>

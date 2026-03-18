@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>GalaxyWorks.Handlers478</RootNamespace>
+    <AssemblyName>GalaxyWorks.Handlers478</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Web\Admin.Web.csproj" />
+    <ProjectReference Include="..\Auth.Contracts\Auth.Contracts.csproj" />
+    <ProjectReference Include="..\Auth.Mappers206\Auth.Mappers206.csproj" />
+    <ProjectReference Include="..\Import.Contracts131\Import.Contracts131.csproj" />
+    <ProjectReference Include="..\Imaging.Mappers275\Imaging.Mappers275.csproj" />
+    <ProjectReference Include="..\Common.Core\Common.Core.csproj" />
+    <ProjectReference Include="..\Export.Processors426\Export.Processors426.csproj" />
+    <ProjectReference Include="..\Admin.Validators240\Admin.Validators240.csproj" />
+    <ProjectReference Include="..\Imaging.Models184\Imaging.Models184.csproj" />
+    <ProjectReference Include="..\Billing.Processors388\Billing.Processors388.csproj" />
+    <ProjectReference Include="..\Billing.Core\Billing.Core.csproj" />
+    <ProjectReference Include="..\Billing.Api\Billing.Api.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Contracts\GalaxyWorks.Contracts.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Mappers403\GalaxyWorks.Mappers403.csproj" />
+    <ProjectReference Include="..\Reporting.Tests226\Reporting.Tests226.csproj" />
+    <ProjectReference Include="..\Reporting.Events483\Reporting.Events483.csproj" />
+    <ProjectReference Include="..\Integration.Contracts\Integration.Contracts.csproj" />
+    <ProjectReference Include="..\Logging.Data\Logging.Data.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>GalaxyWorks.Mappers</RootNamespace>
+    <AssemblyName>GalaxyWorks.Mappers</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Client177\Admin.Client177.csproj" />
+    <ProjectReference Include="..\Admin.Shared14\Admin.Shared14.csproj" />
+    <ProjectReference Include="..\Logging.Tests\Logging.Tests.csproj" />
+    <ProjectReference Include="..\Export.Service205\Export.Service205.csproj" />
+    <ProjectReference Include="..\Logging.Data29\Logging.Data29.csproj" />
+    <ProjectReference Include="..\Imaging.Validators108\Imaging.Validators108.csproj" />
+    <ProjectReference Include="..\Export.Processors449\Export.Processors449.csproj" />
+    <ProjectReference Include="..\Notifications.Web90\Notifications.Web90.csproj" />
+    <ProjectReference Include="..\Export.Events\Export.Events.csproj" />
+    <ProjectReference Include="..\Security.Mappers313\Security.Mappers313.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Contracts392\GalaxyWorks.Contracts392.csproj" />
+    <ProjectReference Include="..\Imaging.Events424\Imaging.Events424.csproj" />
+    <ProjectReference Include="..\Reporting.Events317\Reporting.Events317.csproj" />
+    <ProjectReference Include="..\DataAccess.Shared189\DataAccess.Shared189.csproj" />
+    <ProjectReference Include="..\Reporting.Mappers\Reporting.Mappers.csproj" />
+    <ProjectReference Include="..\Integration.Contracts\Integration.Contracts.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Contracts485\GalaxyWorks.Contracts485.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>GalaxyWorks.Handlers</RootNamespace>
+    <AssemblyName>GalaxyWorks.Handlers</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Mappers208\Auth.Mappers208.csproj" />
+    <ProjectReference Include="..\Admin.Contracts120\Admin.Contracts120.csproj" />
+    <ProjectReference Include="..\Logging.Web\Logging.Web.csproj" />
+    <ProjectReference Include="..\Workflow.Models\Workflow.Models.csproj" />
+    <ProjectReference Include="..\Logging.Data29\Logging.Data29.csproj" />
+    <ProjectReference Include="..\Utilities.Events\Utilities.Events.csproj" />
+    <ProjectReference Include="..\Admin.Mappers\Admin.Mappers.csproj" />
+    <ProjectReference Include="..\Scheduling.Tests444\Scheduling.Tests444.csproj" />
+    <ProjectReference Include="..\Billing.Api497\Billing.Api497.csproj" />
+    <ProjectReference Include="..\Notifications.Shared\Notifications.Shared.csproj" />
+    <ProjectReference Include="..\Logging.Client\Logging.Client.csproj" />
+    <ProjectReference Include="..\Common.Client269\Common.Client269.csproj" />
+    <ProjectReference Include="..\Import.Handlers354\Import.Handlers354.csproj" />
+    <ProjectReference Include="..\Scheduling.Processors25\Scheduling.Processors25.csproj" />
+    <ProjectReference Include="..\Admin.Tests\Admin.Tests.csproj" />
+    <ProjectReference Include="..\Admin.Shared\Admin.Shared.csproj" />
+    <ProjectReference Include="..\BatchJobs.Tests\BatchJobs.Tests.csproj" />
+  </ItemGroup>
+</Project>

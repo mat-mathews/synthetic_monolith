@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>Common.Data126</RootNamespace>
+    <AssemblyName>Common.Data126</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Models476\Admin.Models476.csproj" />
+    <ProjectReference Include="..\Portal.Data216\Portal.Data216.csproj" />
+    <ProjectReference Include="..\Notifications.Validators252\Notifications.Validators252.csproj" />
+    <ProjectReference Include="..\Imaging.Models184\Imaging.Models184.csproj" />
+    <ProjectReference Include="..\Security.Mappers\Security.Mappers.csproj" />
+    <ProjectReference Include="..\Common.Core417\Common.Core417.csproj" />
+    <ProjectReference Include="..\Auth.Models23\Auth.Models23.csproj" />
+    <ProjectReference Include="..\Logging.Contracts\Logging.Contracts.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Shared437\GalaxyWorks.Shared437.csproj" />
+    <ProjectReference Include="..\Utilities.Client\Utilities.Client.csproj" />
+    <ProjectReference Include="..\Admin.Data465\Admin.Data465.csproj" />
+    <ProjectReference Include="..\Scheduling.Tests444\Scheduling.Tests444.csproj" />
+    <ProjectReference Include="..\Notifications.Web90\Notifications.Web90.csproj" />
+    <ProjectReference Include="..\Auth.Events5\Auth.Events5.csproj" />
+    <ProjectReference Include="..\Auth.Mappers\Auth.Mappers.csproj" />
+    <ProjectReference Include="..\Reporting.Processors495\Reporting.Processors495.csproj" />
+  </ItemGroup>
+</Project>

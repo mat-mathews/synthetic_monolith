@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>DataAccess.Tests</RootNamespace>
+    <AssemblyName>DataAccess.Tests</AssemblyName>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Contracts395\Auth.Contracts395.csproj" />
+    <ProjectReference Include="..\BatchJobs.Models\BatchJobs.Models.csproj" />
+    <ProjectReference Include="..\Workflow.Tests75\Workflow.Tests75.csproj" />
+    <ProjectReference Include="..\BatchJobs.Service\BatchJobs.Service.csproj" />
+    <ProjectReference Include="..\Logging.Web\Logging.Web.csproj" />
+    <ProjectReference Include="..\Integration.Client\Integration.Client.csproj" />
+    <ProjectReference Include="..\DataAccess.Data\DataAccess.Data.csproj" />
+    <ProjectReference Include="..\Notifications.Tests195\Notifications.Tests195.csproj" />
+    <ProjectReference Include="..\Imaging.Events303\Imaging.Events303.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Data224\GalaxyWorks.Data224.csproj" />
+    <ProjectReference Include="..\Portal.Contracts170\Portal.Contracts170.csproj" />
+    <ProjectReference Include="..\Auth.Tests\Auth.Tests.csproj" />
+    <ProjectReference Include="..\Utilities.Models\Utilities.Models.csproj" />
+    <ProjectReference Include="..\Reporting.Client\Reporting.Client.csproj" />
+    <ProjectReference Include="..\Export.Tests62\Export.Tests62.csproj" />
+    <ProjectReference Include="..\Portal.Service\Portal.Service.csproj" />
+  </ItemGroup>
+</Project>

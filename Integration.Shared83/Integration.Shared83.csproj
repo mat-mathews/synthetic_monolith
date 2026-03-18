@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <RootNamespace>Integration.Shared83</RootNamespace>
+    <AssemblyName>Integration.Shared83</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Models23\Auth.Models23.csproj" />
+    <ProjectReference Include="..\Auth.Api\Auth.Api.csproj" />
+    <ProjectReference Include="..\Admin.Client\Admin.Client.csproj" />
+    <ProjectReference Include="..\Integration.Processors241\Integration.Processors241.csproj" />
+    <ProjectReference Include="..\Utilities.Handlers462\Utilities.Handlers462.csproj" />
+    <ProjectReference Include="..\Admin.Api\Admin.Api.csproj" />
+    <ProjectReference Include="..\Notifications.Client257\Notifications.Client257.csproj" />
+    <ProjectReference Include="..\Portal.Client\Portal.Client.csproj" />
+    <ProjectReference Include="..\Integration.Api469\Integration.Api469.csproj" />
+    <ProjectReference Include="..\Export.Processors426\Export.Processors426.csproj" />
+    <ProjectReference Include="..\Admin.Client177\Admin.Client177.csproj" />
+    <ProjectReference Include="..\Import.Models\Import.Models.csproj" />
+    <ProjectReference Include="..\Workflow.Contracts192\Workflow.Contracts192.csproj" />
+    <ProjectReference Include="..\Logging.Shared\Logging.Shared.csproj" />
+    <ProjectReference Include="..\Imaging.Contracts\Imaging.Contracts.csproj" />
+    <ProjectReference Include="..\Workflow.Data340\Workflow.Data340.csproj" />
+    <ProjectReference Include="..\Import.Handlers\Import.Handlers.csproj" />
+    <ProjectReference Include="..\Admin.Models199\Admin.Models199.csproj" />
+  </ItemGroup>
+</Project>

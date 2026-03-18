@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <RootNamespace>DataAccess.Data</RootNamespace>
+    <AssemblyName>DataAccess.Data</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Contracts402\Auth.Contracts402.csproj" />
+    <ProjectReference Include="..\Export.Core372\Export.Core372.csproj" />
+    <ProjectReference Include="..\Admin.Web154\Admin.Web154.csproj" />
+    <ProjectReference Include="..\Logging.Models436\Logging.Models436.csproj" />
+    <ProjectReference Include="..\BatchJobs.Events435\BatchJobs.Events435.csproj" />
+    <ProjectReference Include="..\Workflow.Service\Workflow.Service.csproj" />
+    <ProjectReference Include="..\Integration.Events\Integration.Events.csproj" />
+    <ProjectReference Include="..\Security.Validators217\Security.Validators217.csproj" />
+    <ProjectReference Include="..\Common.Tests\Common.Tests.csproj" />
+    <ProjectReference Include="..\Billing.Core191\Billing.Core191.csproj" />
+    <ProjectReference Include="..\Integration.Shared83\Integration.Shared83.csproj" />
+    <ProjectReference Include="..\Reporting.Events\Reporting.Events.csproj" />
+    <ProjectReference Include="..\Portal.Contracts170\Portal.Contracts170.csproj" />
+    <ProjectReference Include="..\Auth.Client\Auth.Client.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Shared437\GalaxyWorks.Shared437.csproj" />
+    <ProjectReference Include="..\Security.Web230\Security.Web230.csproj" />
+  </ItemGroup>
+</Project>

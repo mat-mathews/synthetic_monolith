@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>Utilities.Shared</RootNamespace>
+    <AssemblyName>Utilities.Shared</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Mappers\Admin.Mappers.csproj" />
+    <ProjectReference Include="..\Admin.Tests\Admin.Tests.csproj" />
+    <ProjectReference Include="..\Auth.Api143\Auth.Api143.csproj" />
+    <ProjectReference Include="..\Import.Client7\Import.Client7.csproj" />
+    <ProjectReference Include="..\Scheduling.Web196\Scheduling.Web196.csproj" />
+    <ProjectReference Include="..\Billing.Processors388\Billing.Processors388.csproj" />
+    <ProjectReference Include="..\BatchJobs.Core11\BatchJobs.Core11.csproj" />
+    <ProjectReference Include="..\Integration.Validators369\Integration.Validators369.csproj" />
+    <ProjectReference Include="..\Workflow.Web59\Workflow.Web59.csproj" />
+    <ProjectReference Include="..\Security.Tests223\Security.Tests223.csproj" />
+    <ProjectReference Include="..\Logging.Events289\Logging.Events289.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Data96\GalaxyWorks.Data96.csproj" />
+    <ProjectReference Include="..\Portal.Handlers\Portal.Handlers.csproj" />
+    <ProjectReference Include="..\Admin.Web46\Admin.Web46.csproj" />
+    <ProjectReference Include="..\Auth.Mappers206\Auth.Mappers206.csproj" />
+    <ProjectReference Include="..\Security.Handlers\Security.Handlers.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Data153\GalaxyWorks.Data153.csproj" />
+    <ProjectReference Include="..\Notifications.Web\Notifications.Web.csproj" />
+  </ItemGroup>
+</Project>

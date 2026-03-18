@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Scheduling.Web221</RootNamespace>
+    <AssemblyName>Scheduling.Web221</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Handlers\Admin.Handlers.csproj" />
+    <ProjectReference Include="..\Billing.Client182\Billing.Client182.csproj" />
+    <ProjectReference Include="..\Export.Data\Export.Data.csproj" />
+    <ProjectReference Include="..\Import.Client\Import.Client.csproj" />
+    <ProjectReference Include="..\Common.Web438\Common.Web438.csproj" />
+    <ProjectReference Include="..\Reporting.Contracts\Reporting.Contracts.csproj" />
+    <ProjectReference Include="..\Workflow.Shared\Workflow.Shared.csproj" />
+    <ProjectReference Include="..\Export.Models262\Export.Models262.csproj" />
+    <ProjectReference Include="..\Workflow.Tests75\Workflow.Tests75.csproj" />
+    <ProjectReference Include="..\Integration.Data\Integration.Data.csproj" />
+    <ProjectReference Include="..\Import.Api314\Import.Api314.csproj" />
+    <ProjectReference Include="..\Common.Processors142\Common.Processors142.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Client\GalaxyWorks.Client.csproj" />
+    <ProjectReference Include="..\Scheduling.Models342\Scheduling.Models342.csproj" />
+    <ProjectReference Include="..\Export.Client\Export.Client.csproj" />
+    <ProjectReference Include="..\Billing.Processors388\Billing.Processors388.csproj" />
+  </ItemGroup>
+</Project>

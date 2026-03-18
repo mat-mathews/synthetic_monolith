@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Scheduling.Contracts</RootNamespace>
+    <AssemblyName>Scheduling.Contracts</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Models236\Auth.Models236.csproj" />
+    <ProjectReference Include="..\Security.Validators\Security.Validators.csproj" />
+    <ProjectReference Include="..\Security.Client349\Security.Client349.csproj" />
+    <ProjectReference Include="..\Billing.Service432\Billing.Service432.csproj" />
+    <ProjectReference Include="..\Scheduling.Web264\Scheduling.Web264.csproj" />
+    <ProjectReference Include="..\Integration.Contracts\Integration.Contracts.csproj" />
+    <ProjectReference Include="..\DataAccess.Web200\DataAccess.Web200.csproj" />
+    <ProjectReference Include="..\BatchJobs.Mappers31\BatchJobs.Mappers31.csproj" />
+    <ProjectReference Include="..\Notifications.Contracts\Notifications.Contracts.csproj" />
+    <ProjectReference Include="..\Imaging.Web172\Imaging.Web172.csproj" />
+    <ProjectReference Include="..\Portal.Events139\Portal.Events139.csproj" />
+    <ProjectReference Include="..\Workflow.Validators\Workflow.Validators.csproj" />
+    <ProjectReference Include="..\Utilities.Web40\Utilities.Web40.csproj" />
+    <ProjectReference Include="..\DataAccess.Contracts203\DataAccess.Contracts203.csproj" />
+    <ProjectReference Include="..\Utilities.Api\Utilities.Api.csproj" />
+    <ProjectReference Include="..\Admin.Validators\Admin.Validators.csproj" />
+  </ItemGroup>
+</Project>

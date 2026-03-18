@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Documents.Processors133</RootNamespace>
+    <AssemblyName>Documents.Processors133</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Models199\Admin.Models199.csproj" />
+    <ProjectReference Include="..\Auth.Mappers28\Auth.Mappers28.csproj" />
+    <ProjectReference Include="..\Auth.Events\Auth.Events.csproj" />
+    <ProjectReference Include="..\Documents.Data490\Documents.Data490.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Mappers403\GalaxyWorks.Mappers403.csproj" />
+    <ProjectReference Include="..\Billing.Core191\Billing.Core191.csproj" />
+    <ProjectReference Include="..\Utilities.Data415\Utilities.Data415.csproj" />
+    <ProjectReference Include="..\Imaging.Mappers\Imaging.Mappers.csproj" />
+    <ProjectReference Include="..\Reporting.Web345\Reporting.Web345.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Shared437\GalaxyWorks.Shared437.csproj" />
+    <ProjectReference Include="..\Scheduling.Web221\Scheduling.Web221.csproj" />
+    <ProjectReference Include="..\Security.Mappers\Security.Mappers.csproj" />
+    <ProjectReference Include="..\DataAccess.Events283\DataAccess.Events283.csproj" />
+    <ProjectReference Include="..\Documents.Api132\Documents.Api132.csproj" />
+    <ProjectReference Include="..\Billing.Shared312\Billing.Shared312.csproj" />
+    <ProjectReference Include="..\Common.Data126\Common.Data126.csproj" />
+    <ProjectReference Include="..\Billing.Tests194\Billing.Tests194.csproj" />
+    <ProjectReference Include="..\Scheduling.Models441\Scheduling.Models441.csproj" />
+  </ItemGroup>
+</Project>

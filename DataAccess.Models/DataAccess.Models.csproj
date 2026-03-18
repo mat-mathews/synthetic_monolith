@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>DataAccess.Models</RootNamespace>
+    <AssemblyName>DataAccess.Models</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Tests\Admin.Tests.csproj" />
+    <ProjectReference Include="..\BatchJobs.Models\BatchJobs.Models.csproj" />
+    <ProjectReference Include="..\Integration.Service147\Integration.Service147.csproj" />
+    <ProjectReference Include="..\Notifications.Validators\Notifications.Validators.csproj" />
+    <ProjectReference Include="..\Documents.Models\Documents.Models.csproj" />
+    <ProjectReference Include="..\Common.Processors142\Common.Processors142.csproj" />
+    <ProjectReference Include="..\Portal.Web\Portal.Web.csproj" />
+    <ProjectReference Include="..\Auth.Events5\Auth.Events5.csproj" />
+    <ProjectReference Include="..\Scheduling.Core273\Scheduling.Core273.csproj" />
+    <ProjectReference Include="..\Common.Service258\Common.Service258.csproj" />
+    <ProjectReference Include="..\Scheduling.Web221\Scheduling.Web221.csproj" />
+    <ProjectReference Include="..\Portal.Shared\Portal.Shared.csproj" />
+    <ProjectReference Include="..\Security.Tests360\Security.Tests360.csproj" />
+    <ProjectReference Include="..\Workflow.Web59\Workflow.Web59.csproj" />
+    <ProjectReference Include="..\Billing.Shared312\Billing.Shared312.csproj" />
+    <ProjectReference Include="..\DataAccess.Processors\DataAccess.Processors.csproj" />
+  </ItemGroup>
+</Project>

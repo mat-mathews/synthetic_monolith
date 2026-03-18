@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Auth.Shared</RootNamespace>
+    <AssemblyName>Auth.Shared</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Mappers28\Auth.Mappers28.csproj" />
+    <ProjectReference Include="..\Admin.Processors\Admin.Processors.csproj" />
+    <ProjectReference Include="..\Auth.Events5\Auth.Events5.csproj" />
+    <ProjectReference Include="..\Workflow.Contracts330\Workflow.Contracts330.csproj" />
+    <ProjectReference Include="..\Admin.Validators336\Admin.Validators336.csproj" />
+    <ProjectReference Include="..\Scheduling.Processors335\Scheduling.Processors335.csproj" />
+    <ProjectReference Include="..\Notifications.Shared396\Notifications.Shared396.csproj" />
+    <ProjectReference Include="..\Export.Web479\Export.Web479.csproj" />
+    <ProjectReference Include="..\Security.Handlers162\Security.Handlers162.csproj" />
+    <ProjectReference Include="..\Notifications.Models466\Notifications.Models466.csproj" />
+    <ProjectReference Include="..\Admin.Api\Admin.Api.csproj" />
+    <ProjectReference Include="..\Import.Client7\Import.Client7.csproj" />
+    <ProjectReference Include="..\Common.Shared297\Common.Shared297.csproj" />
+    <ProjectReference Include="..\Security.Handlers460\Security.Handlers460.csproj" />
+    <ProjectReference Include="..\Scheduling.Core273\Scheduling.Core273.csproj" />
+    <ProjectReference Include="..\Documents.Client\Documents.Client.csproj" />
+    <ProjectReference Include="..\Imaging.Events\Imaging.Events.csproj" />
+    <ProjectReference Include="..\Auth.Contracts\Auth.Contracts.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Security.Mappers</RootNamespace>
+    <AssemblyName>Security.Mappers</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Client346\Admin.Client346.csproj" />
+    <ProjectReference Include="..\Admin.Api\Admin.Api.csproj" />
+    <ProjectReference Include="..\Documents.Web164\Documents.Web164.csproj" />
+    <ProjectReference Include="..\BatchJobs.Contracts\BatchJobs.Contracts.csproj" />
+    <ProjectReference Include="..\Admin.Validators37\Admin.Validators37.csproj" />
+    <ProjectReference Include="..\Utilities.Mappers197\Utilities.Mappers197.csproj" />
+    <ProjectReference Include="..\Workflow.Contracts434\Workflow.Contracts434.csproj" />
+    <ProjectReference Include="..\Portal.Data\Portal.Data.csproj" />
+    <ProjectReference Include="..\Documents.Tests171\Documents.Tests171.csproj" />
+    <ProjectReference Include="..\Integration.Processors\Integration.Processors.csproj" />
+    <ProjectReference Include="..\Reporting.Processors\Reporting.Processors.csproj" />
+    <ProjectReference Include="..\BatchJobs.Validators311\BatchJobs.Validators311.csproj" />
+    <ProjectReference Include="..\DataAccess.Validators\DataAccess.Validators.csproj" />
+    <ProjectReference Include="..\Imaging.Events416\Imaging.Events416.csproj" />
+    <ProjectReference Include="..\BatchJobs.Mappers\BatchJobs.Mappers.csproj" />
+    <ProjectReference Include="..\Security.Validators418\Security.Validators418.csproj" />
+    <ProjectReference Include="..\Documents.Data484\Documents.Data484.csproj" />
+  </ItemGroup>
+</Project>

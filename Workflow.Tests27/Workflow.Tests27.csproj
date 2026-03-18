@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <RootNamespace>Workflow.Tests27</RootNamespace>
+    <AssemblyName>Workflow.Tests27</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Api143\Auth.Api143.csproj" />
+    <ProjectReference Include="..\Common.Core169\Common.Core169.csproj" />
+    <ProjectReference Include="..\Admin.Validators431\Admin.Validators431.csproj" />
+    <ProjectReference Include="..\Admin.Events\Admin.Events.csproj" />
+    <ProjectReference Include="..\Logging.Shared\Logging.Shared.csproj" />
+    <ProjectReference Include="..\Scheduling.Mappers48\Scheduling.Mappers48.csproj" />
+    <ProjectReference Include="..\Common.Web\Common.Web.csproj" />
+    <ProjectReference Include="..\Admin.Mappers\Admin.Mappers.csproj" />
+    <ProjectReference Include="..\Billing.Mappers\Billing.Mappers.csproj" />
+    <ProjectReference Include="..\Documents.Service471\Documents.Service471.csproj" />
+    <ProjectReference Include="..\Common.Data21\Common.Data21.csproj" />
+    <ProjectReference Include="..\Imaging.Shared115\Imaging.Shared115.csproj" />
+    <ProjectReference Include="..\Scheduling.Service211\Scheduling.Service211.csproj" />
+    <ProjectReference Include="..\Security.Web376\Security.Web376.csproj" />
+    <ProjectReference Include="..\Import.Processors412\Import.Processors412.csproj" />
+    <ProjectReference Include="..\Billing.Mappers225\Billing.Mappers225.csproj" />
+  </ItemGroup>
+</Project>

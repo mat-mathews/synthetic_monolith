@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Common.Data</RootNamespace>
+    <AssemblyName>Common.Data</AssemblyName>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Processors400\Auth.Processors400.csproj" />
+    <ProjectReference Include="..\Admin.Data117\Admin.Data117.csproj" />
+    <ProjectReference Include="..\Auth.Core\Auth.Core.csproj" />
+    <ProjectReference Include="..\Integration.Core\Integration.Core.csproj" />
+    <ProjectReference Include="..\Workflow.Validators201\Workflow.Validators201.csproj" />
+    <ProjectReference Include="..\Import.Client65\Import.Client65.csproj" />
+    <ProjectReference Include="..\Workflow.Service161\Workflow.Service161.csproj" />
+    <ProjectReference Include="..\DataAccess.Contracts404\DataAccess.Contracts404.csproj" />
+    <ProjectReference Include="..\Documents.Data\Documents.Data.csproj" />
+    <ProjectReference Include="..\Security.Api320\Security.Api320.csproj" />
+    <ProjectReference Include="..\Export.Models\Export.Models.csproj" />
+    <ProjectReference Include="..\Scheduling.Processors397\Scheduling.Processors397.csproj" />
+    <ProjectReference Include="..\Scheduling.Processors\Scheduling.Processors.csproj" />
+    <ProjectReference Include="..\Security.Events\Security.Events.csproj" />
+    <ProjectReference Include="..\Workflow.Api148\Workflow.Api148.csproj" />
+    <ProjectReference Include="..\Common.Core169\Common.Core169.csproj" />
+    <ProjectReference Include="..\Logging.Models379\Logging.Models379.csproj" />
+    <ProjectReference Include="..\Common.Data21\Common.Data21.csproj" />
+  </ItemGroup>
+</Project>

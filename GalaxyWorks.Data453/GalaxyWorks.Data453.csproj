@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <RootNamespace>GalaxyWorks.Data453</RootNamespace>
+    <AssemblyName>GalaxyWorks.Data453</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Handlers\Auth.Handlers.csproj" />
+    <ProjectReference Include="..\Import.Api179\Import.Api179.csproj" />
+    <ProjectReference Include="..\Admin.Data117\Admin.Data117.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Contracts392\GalaxyWorks.Contracts392.csproj" />
+    <ProjectReference Include="..\Common.Data126\Common.Data126.csproj" />
+    <ProjectReference Include="..\Billing.Api\Billing.Api.csproj" />
+    <ProjectReference Include="..\Admin.Shared\Admin.Shared.csproj" />
+    <ProjectReference Include="..\Common.Client53\Common.Client53.csproj" />
+    <ProjectReference Include="..\Import.Client64\Import.Client64.csproj" />
+    <ProjectReference Include="..\Billing.Mappers225\Billing.Mappers225.csproj" />
+    <ProjectReference Include="..\Integration.Service107\Integration.Service107.csproj" />
+    <ProjectReference Include="..\Admin.Validators336\Admin.Validators336.csproj" />
+    <ProjectReference Include="..\Import.Client\Import.Client.csproj" />
+    <ProjectReference Include="..\Import.Client65\Import.Client65.csproj" />
+    <ProjectReference Include="..\Export.Events\Export.Events.csproj" />
+    <ProjectReference Include="..\Portal.Core8\Portal.Core8.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Security.Models18</RootNamespace>
+    <AssemblyName>Security.Models18</AssemblyName>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Core140\Auth.Core140.csproj" />
+    <ProjectReference Include="..\Admin.Tests\Admin.Tests.csproj" />
+    <ProjectReference Include="..\Utilities.Processors91\Utilities.Processors91.csproj" />
+    <ProjectReference Include="..\Scheduling.Core480\Scheduling.Core480.csproj" />
+    <ProjectReference Include="..\Billing.Core191\Billing.Core191.csproj" />
+    <ProjectReference Include="..\Portal.Contracts170\Portal.Contracts170.csproj" />
+    <ProjectReference Include="..\Admin.Validators\Admin.Validators.csproj" />
+    <ProjectReference Include="..\Common.Events367\Common.Events367.csproj" />
+    <ProjectReference Include="..\Auth.Web70\Auth.Web70.csproj" />
+    <ProjectReference Include="..\Scheduling.Models342\Scheduling.Models342.csproj" />
+    <ProjectReference Include="..\Notifications.Core166\Notifications.Core166.csproj" />
+    <ProjectReference Include="..\Security.Contracts72\Security.Contracts72.csproj" />
+    <ProjectReference Include="..\Portal.Data216\Portal.Data216.csproj" />
+    <ProjectReference Include="..\Reporting.Shared\Reporting.Shared.csproj" />
+    <ProjectReference Include="..\DataAccess.Shared189\DataAccess.Shared189.csproj" />
+    <ProjectReference Include="..\Admin.Models199\Admin.Models199.csproj" />
+    <ProjectReference Include="..\Imaging.Shared322\Imaging.Shared322.csproj" />
+  </ItemGroup>
+</Project>

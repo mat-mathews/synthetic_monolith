@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>Imaging.Models184</RootNamespace>
+    <AssemblyName>Imaging.Models184</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Service247\Admin.Service247.csproj" />
+    <ProjectReference Include="..\Admin.Service339\Admin.Service339.csproj" />
+    <ProjectReference Include="..\Admin.Service\Admin.Service.csproj" />
+    <ProjectReference Include="..\Import.Core\Import.Core.csproj" />
+    <ProjectReference Include="..\Export.Data\Export.Data.csproj" />
+    <ProjectReference Include="..\Workflow.Models253\Workflow.Models253.csproj" />
+    <ProjectReference Include="..\Logging.Contracts74\Logging.Contracts74.csproj" />
+    <ProjectReference Include="..\Integration.Models\Integration.Models.csproj" />
+    <ProjectReference Include="..\Admin.Events235\Admin.Events235.csproj" />
+    <ProjectReference Include="..\Documents.Handlers\Documents.Handlers.csproj" />
+    <ProjectReference Include="..\BatchJobs.Core11\BatchJobs.Core11.csproj" />
+    <ProjectReference Include="..\Documents.Api\Documents.Api.csproj" />
+    <ProjectReference Include="..\Utilities.Core\Utilities.Core.csproj" />
+    <ProjectReference Include="..\Admin.Core121\Admin.Core121.csproj" />
+    <ProjectReference Include="..\Reporting.Processors495\Reporting.Processors495.csproj" />
+    <ProjectReference Include="..\Admin.Data465\Admin.Data465.csproj" />
+    <ProjectReference Include="..\Scheduling.Contracts425\Scheduling.Contracts425.csproj" />
+    <ProjectReference Include="..\BatchJobs.Tests270\BatchJobs.Tests270.csproj" />
+  </ItemGroup>
+</Project>

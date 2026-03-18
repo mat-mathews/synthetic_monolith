@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>Export.Models461</RootNamespace>
+    <AssemblyName>Export.Models461</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Contracts\Admin.Contracts.csproj" />
+    <ProjectReference Include="..\Billing.Contracts44\Billing.Contracts44.csproj" />
+    <ProjectReference Include="..\Notifications.Web\Notifications.Web.csproj" />
+    <ProjectReference Include="..\Export.Models\Export.Models.csproj" />
+    <ProjectReference Include="..\Integration.Service107\Integration.Service107.csproj" />
+    <ProjectReference Include="..\Auth.Mappers178\Auth.Mappers178.csproj" />
+    <ProjectReference Include="..\Portal.Validators69\Portal.Validators69.csproj" />
+    <ProjectReference Include="..\Utilities.Web398\Utilities.Web398.csproj" />
+    <ProjectReference Include="..\Workflow.Tests222\Workflow.Tests222.csproj" />
+    <ProjectReference Include="..\Admin.Handlers447\Admin.Handlers447.csproj" />
+    <ProjectReference Include="..\BatchJobs.Client109\BatchJobs.Client109.csproj" />
+    <ProjectReference Include="..\Integration.Processors248\Integration.Processors248.csproj" />
+    <ProjectReference Include="..\Utilities.Contracts24\Utilities.Contracts24.csproj" />
+    <ProjectReference Include="..\Common.Client269\Common.Client269.csproj" />
+    <ProjectReference Include="..\Common.Client53\Common.Client53.csproj" />
+    <ProjectReference Include="..\Scheduling.Web221\Scheduling.Web221.csproj" />
+  </ItemGroup>
+</Project>

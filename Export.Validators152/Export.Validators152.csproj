@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Export.Validators152</RootNamespace>
+    <AssemblyName>Export.Validators152</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Client38\Auth.Client38.csproj" />
+    <ProjectReference Include="..\Auth.Handlers467\Auth.Handlers467.csproj" />
+    <ProjectReference Include="..\Auth.Events5\Auth.Events5.csproj" />
+    <ProjectReference Include="..\Import.Contracts180\Import.Contracts180.csproj" />
+    <ProjectReference Include="..\Export.Processors104\Export.Processors104.csproj" />
+    <ProjectReference Include="..\Admin.Core121\Admin.Core121.csproj" />
+    <ProjectReference Include="..\BatchJobs.Models\BatchJobs.Models.csproj" />
+    <ProjectReference Include="..\Workflow.Service\Workflow.Service.csproj" />
+    <ProjectReference Include="..\Portal.Web494\Portal.Web494.csproj" />
+    <ProjectReference Include="..\BatchJobs.Service\BatchJobs.Service.csproj" />
+    <ProjectReference Include="..\Notifications.Shared380\Notifications.Shared380.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Core\GalaxyWorks.Core.csproj" />
+    <ProjectReference Include="..\Documents.Shared427\Documents.Shared427.csproj" />
+    <ProjectReference Include="..\Portal.Events139\Portal.Events139.csproj" />
+    <ProjectReference Include="..\Notifications.Validators391\Notifications.Validators391.csproj" />
+    <ProjectReference Include="..\Auth.Data\Auth.Data.csproj" />
+    <ProjectReference Include="..\Imaging.Web\Imaging.Web.csproj" />
+    <ProjectReference Include="..\Export.Shared145\Export.Shared145.csproj" />
+  </ItemGroup>
+</Project>

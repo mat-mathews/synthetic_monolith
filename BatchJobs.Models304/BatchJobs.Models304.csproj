@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <RootNamespace>BatchJobs.Models304</RootNamespace>
+    <AssemblyName>BatchJobs.Models304</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Core2\Auth.Core2.csproj" />
+    <ProjectReference Include="..\Auth.Handlers281\Auth.Handlers281.csproj" />
+    <ProjectReference Include="..\Auth.Events5\Auth.Events5.csproj" />
+    <ProjectReference Include="..\Utilities.Data415\Utilities.Data415.csproj" />
+    <ProjectReference Include="..\BatchJobs.Validators\BatchJobs.Validators.csproj" />
+    <ProjectReference Include="..\DataAccess.Handlers482\DataAccess.Handlers482.csproj" />
+    <ProjectReference Include="..\Logging.Models436\Logging.Models436.csproj" />
+    <ProjectReference Include="..\Security.Web376\Security.Web376.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Core\GalaxyWorks.Core.csproj" />
+    <ProjectReference Include="..\Billing.Processors\Billing.Processors.csproj" />
+    <ProjectReference Include="..\Portal.Validators69\Portal.Validators69.csproj" />
+    <ProjectReference Include="..\Portal.Handlers\Portal.Handlers.csproj" />
+    <ProjectReference Include="..\Notifications.Mappers\Notifications.Mappers.csproj" />
+    <ProjectReference Include="..\Documents.Data\Documents.Data.csproj" />
+    <ProjectReference Include="..\Billing.Handlers\Billing.Handlers.csproj" />
+    <ProjectReference Include="..\Billing.Tests\Billing.Tests.csproj" />
+    <ProjectReference Include="..\Admin.Service247\Admin.Service247.csproj" />
+    <ProjectReference Include="..\Security.Core274\Security.Core274.csproj" />
+  </ItemGroup>
+</Project>

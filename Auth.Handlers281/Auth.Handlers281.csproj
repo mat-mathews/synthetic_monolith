@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Auth.Handlers281</RootNamespace>
+    <AssemblyName>Auth.Handlers281</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+</Project>

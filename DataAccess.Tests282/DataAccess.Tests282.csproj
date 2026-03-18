@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>DataAccess.Tests282</RootNamespace>
+    <AssemblyName>DataAccess.Tests282</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Core2\Auth.Core2.csproj" />
+    <ProjectReference Include="..\Auth.Data\Auth.Data.csproj" />
+    <ProjectReference Include="..\Admin.Mappers324\Admin.Mappers324.csproj" />
+    <ProjectReference Include="..\Security.Validators418\Security.Validators418.csproj" />
+    <ProjectReference Include="..\Security.Processors246\Security.Processors246.csproj" />
+    <ProjectReference Include="..\BatchJobs.Core11\BatchJobs.Core11.csproj" />
+    <ProjectReference Include="..\Imaging.Shared\Imaging.Shared.csproj" />
+    <ProjectReference Include="..\Portal.Events139\Portal.Events139.csproj" />
+    <ProjectReference Include="..\Notifications.Handlers33\Notifications.Handlers33.csproj" />
+    <ProjectReference Include="..\Admin.Web46\Admin.Web46.csproj" />
+    <ProjectReference Include="..\Utilities.Api\Utilities.Api.csproj" />
+    <ProjectReference Include="..\Auth.Client271\Auth.Client271.csproj" />
+    <ProjectReference Include="..\Workflow.Contracts434\Workflow.Contracts434.csproj" />
+    <ProjectReference Include="..\Workflow.Validators138\Workflow.Validators138.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Handlers385\GalaxyWorks.Handlers385.csproj" />
+    <ProjectReference Include="..\Documents.Api439\Documents.Api439.csproj" />
+    <ProjectReference Include="..\Logging.Data29\Logging.Data29.csproj" />
+    <ProjectReference Include="..\Notifications.Tests299\Notifications.Tests299.csproj" />
+  </ItemGroup>
+</Project>

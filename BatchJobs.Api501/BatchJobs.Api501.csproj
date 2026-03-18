@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>BatchJobs.Api501</RootNamespace>
+    <AssemblyName>BatchJobs.Api501</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Events\Admin.Events.csproj" />
+    <ProjectReference Include="..\Admin.Tests\Admin.Tests.csproj" />
+    <ProjectReference Include="..\Admin.Data408\Admin.Data408.csproj" />
+    <ProjectReference Include="..\Admin.Validators240\Admin.Validators240.csproj" />
+    <ProjectReference Include="..\Workflow.Web377\Workflow.Web377.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Tests445\GalaxyWorks.Tests445.csproj" />
+    <ProjectReference Include="..\Common.Mappers343\Common.Mappers343.csproj" />
+    <ProjectReference Include="..\Integration.Service107\Integration.Service107.csproj" />
+    <ProjectReference Include="..\Imaging.Shared322\Imaging.Shared322.csproj" />
+    <ProjectReference Include="..\Reporting.Web345\Reporting.Web345.csproj" />
+    <ProjectReference Include="..\Notifications.Service475\Notifications.Service475.csproj" />
+    <ProjectReference Include="..\Billing.Client491\Billing.Client491.csproj" />
+    <ProjectReference Include="..\Security.Shared155\Security.Shared155.csproj" />
+    <ProjectReference Include="..\Reporting.Core\Reporting.Core.csproj" />
+    <ProjectReference Include="..\Notifications.Models466\Notifications.Models466.csproj" />
+    <ProjectReference Include="..\Logging.Contracts\Logging.Contracts.csproj" />
+    <ProjectReference Include="..\Portal.Mappers233\Portal.Mappers233.csproj" />
+    <ProjectReference Include="..\Auth.Events78\Auth.Events78.csproj" />
+  </ItemGroup>
+</Project>

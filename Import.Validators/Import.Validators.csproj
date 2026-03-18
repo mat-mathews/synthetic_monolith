@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>Import.Validators</RootNamespace>
+    <AssemblyName>Import.Validators</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Service339\Admin.Service339.csproj" />
+    <ProjectReference Include="..\Admin.Contracts\Admin.Contracts.csproj" />
+    <ProjectReference Include="..\Integration.Handlers423\Integration.Handlers423.csproj" />
+    <ProjectReference Include="..\Import.Models\Import.Models.csproj" />
+    <ProjectReference Include="..\Portal.Handlers26\Portal.Handlers26.csproj" />
+    <ProjectReference Include="..\BatchJobs.Models304\BatchJobs.Models304.csproj" />
+    <ProjectReference Include="..\Admin.Core121\Admin.Core121.csproj" />
+    <ProjectReference Include="..\Common.Processors\Common.Processors.csproj" />
+    <ProjectReference Include="..\Export.Data344\Export.Data344.csproj" />
+    <ProjectReference Include="..\Portal.Client\Portal.Client.csproj" />
+    <ProjectReference Include="..\Admin.Handlers\Admin.Handlers.csproj" />
+    <ProjectReference Include="..\Security.Contracts72\Security.Contracts72.csproj" />
+    <ProjectReference Include="..\Utilities.Handlers268\Utilities.Handlers268.csproj" />
+    <ProjectReference Include="..\Utilities.Contracts24\Utilities.Contracts24.csproj" />
+    <ProjectReference Include="..\Portal.Contracts170\Portal.Contracts170.csproj" />
+    <ProjectReference Include="..\Imaging.Contracts89\Imaging.Contracts89.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Service293\GalaxyWorks.Service293.csproj" />
+  </ItemGroup>
+</Project>

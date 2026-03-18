@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Logging.Client</RootNamespace>
+    <AssemblyName>Logging.Client</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Client249\Auth.Client249.csproj" />
+    <ProjectReference Include="..\Admin.Shared\Admin.Shared.csproj" />
+    <ProjectReference Include="..\Auth.Api143\Auth.Api143.csproj" />
+    <ProjectReference Include="..\BatchJobs.Mappers362\BatchJobs.Mappers362.csproj" />
+    <ProjectReference Include="..\Billing.Processors388\Billing.Processors388.csproj" />
+    <ProjectReference Include="..\Security.Validators\Security.Validators.csproj" />
+    <ProjectReference Include="..\Admin.Processors35\Admin.Processors35.csproj" />
+    <ProjectReference Include="..\Scheduling.Client187\Scheduling.Client187.csproj" />
+    <ProjectReference Include="..\Import.Service265\Import.Service265.csproj" />
+    <ProjectReference Include="..\Billing.Client182\Billing.Client182.csproj" />
+    <ProjectReference Include="..\Integration.Mappers\Integration.Mappers.csproj" />
+    <ProjectReference Include="..\Workflow.Shared\Workflow.Shared.csproj" />
+    <ProjectReference Include="..\DataAccess.Validators409\DataAccess.Validators409.csproj" />
+    <ProjectReference Include="..\Admin.Service\Admin.Service.csproj" />
+    <ProjectReference Include="..\Admin.Client346\Admin.Client346.csproj" />
+    <ProjectReference Include="..\Portal.Shared\Portal.Shared.csproj" />
+    <ProjectReference Include="..\Reporting.Events\Reporting.Events.csproj" />
+    <ProjectReference Include="..\Common.Api57\Common.Api57.csproj" />
+  </ItemGroup>
+</Project>

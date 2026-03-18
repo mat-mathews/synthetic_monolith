@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Auth.Validators87</RootNamespace>
+    <AssemblyName>Auth.Validators87</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Service247\Admin.Service247.csproj" />
+    <ProjectReference Include="..\Admin.Web\Admin.Web.csproj" />
+    <ProjectReference Include="..\Auth.Handlers281\Auth.Handlers281.csproj" />
+    <ProjectReference Include="..\Reporting.Shared\Reporting.Shared.csproj" />
+    <ProjectReference Include="..\Security.Models136\Security.Models136.csproj" />
+    <ProjectReference Include="..\Imaging.Events303\Imaging.Events303.csproj" />
+    <ProjectReference Include="..\BatchJobs.Mappers362\BatchJobs.Mappers362.csproj" />
+    <ProjectReference Include="..\DataAccess.Tests\DataAccess.Tests.csproj" />
+    <ProjectReference Include="..\Notifications.Client\Notifications.Client.csproj" />
+    <ProjectReference Include="..\BatchJobs.Processors\BatchJobs.Processors.csproj" />
+    <ProjectReference Include="..\Portal.Mappers\Portal.Mappers.csproj" />
+    <ProjectReference Include="..\Utilities.Api387\Utilities.Api387.csproj" />
+    <ProjectReference Include="..\Import.Api\Import.Api.csproj" />
+    <ProjectReference Include="..\Imaging.Core\Imaging.Core.csproj" />
+    <ProjectReference Include="..\Admin.Processors35\Admin.Processors35.csproj" />
+    <ProjectReference Include="..\Scheduling.Processors80\Scheduling.Processors80.csproj" />
+    <ProjectReference Include="..\Logging.Models379\Logging.Models379.csproj" />
+    <ProjectReference Include="..\Notifications.Mappers\Notifications.Mappers.csproj" />
+  </ItemGroup>
+</Project>

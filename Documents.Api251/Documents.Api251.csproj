@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <RootNamespace>Documents.Api251</RootNamespace>
+    <AssemblyName>Documents.Api251</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Api255\Admin.Api255.csproj" />
+    <ProjectReference Include="..\Admin.Validators\Admin.Validators.csproj" />
+    <ProjectReference Include="..\Scheduling.Processors80\Scheduling.Processors80.csproj" />
+    <ProjectReference Include="..\Reporting.Processors326\Reporting.Processors326.csproj" />
+    <ProjectReference Include="..\Imaging.Mappers93\Imaging.Mappers93.csproj" />
+    <ProjectReference Include="..\Common.Core169\Common.Core169.csproj" />
+    <ProjectReference Include="..\Integration.Processors248\Integration.Processors248.csproj" />
+    <ProjectReference Include="..\Common.Tests\Common.Tests.csproj" />
+    <ProjectReference Include="..\Billing.Core34\Billing.Core34.csproj" />
+    <ProjectReference Include="..\Common.Core417\Common.Core417.csproj" />
+    <ProjectReference Include="..\Imaging.Shared338\Imaging.Shared338.csproj" />
+    <ProjectReference Include="..\Billing.Handlers122\Billing.Handlers122.csproj" />
+    <ProjectReference Include="..\Integration.Api\Integration.Api.csproj" />
+    <ProjectReference Include="..\Billing.Api\Billing.Api.csproj" />
+    <ProjectReference Include="..\BatchJobs.Api501\BatchJobs.Api501.csproj" />
+    <ProjectReference Include="..\Export.Models262\Export.Models262.csproj" />
+    <ProjectReference Include="..\Billing.Shared\Billing.Shared.csproj" />
+  </ItemGroup>
+</Project>

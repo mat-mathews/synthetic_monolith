@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Integration.Processors</RootNamespace>
+    <AssemblyName>Integration.Processors</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Data\Auth.Data.csproj" />
+    <ProjectReference Include="..\Auth.Events78\Auth.Events78.csproj" />
+    <ProjectReference Include="..\Auth.Models236\Auth.Models236.csproj" />
+    <ProjectReference Include="..\Integration.Tests45\Integration.Tests45.csproj" />
+    <ProjectReference Include="..\Logging.Validators\Logging.Validators.csproj" />
+    <ProjectReference Include="..\Utilities.Api387\Utilities.Api387.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Handlers\GalaxyWorks.Handlers.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Mappers318\GalaxyWorks.Mappers318.csproj" />
+    <ProjectReference Include="..\Documents.Processors\Documents.Processors.csproj" />
+    <ProjectReference Include="..\Common.Api57\Common.Api57.csproj" />
+    <ProjectReference Include="..\Integration.Client\Integration.Client.csproj" />
+    <ProjectReference Include="..\Auth.Service\Auth.Service.csproj" />
+    <ProjectReference Include="..\Reporting.Client\Reporting.Client.csproj" />
+    <ProjectReference Include="..\Security.Validators428\Security.Validators428.csproj" />
+    <ProjectReference Include="..\Admin.Service247\Admin.Service247.csproj" />
+    <ProjectReference Include="..\Documents.Core\Documents.Core.csproj" />
+    <ProjectReference Include="..\Notifications.Service\Notifications.Service.csproj" />
+    <ProjectReference Include="..\Documents.Service471\Documents.Service471.csproj" />
+  </ItemGroup>
+</Project>

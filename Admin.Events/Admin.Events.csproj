@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Admin.Events</RootNamespace>
+    <AssemblyName>Admin.Events</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+</Project>

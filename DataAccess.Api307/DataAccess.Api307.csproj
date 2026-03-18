@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>DataAccess.Api307</RootNamespace>
+    <AssemblyName>DataAccess.Api307</AssemblyName>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Tests10\Admin.Tests10.csproj" />
+    <ProjectReference Include="..\Admin.Service339\Admin.Service339.csproj" />
+    <ProjectReference Include="..\Scheduling.Processors397\Scheduling.Processors397.csproj" />
+    <ProjectReference Include="..\Billing.Processors103\Billing.Processors103.csproj" />
+    <ProjectReference Include="..\Portal.Service\Portal.Service.csproj" />
+    <ProjectReference Include="..\Notifications.Mappers55\Notifications.Mappers55.csproj" />
+    <ProjectReference Include="..\Integration.Validators369\Integration.Validators369.csproj" />
+    <ProjectReference Include="..\Import.Handlers167\Import.Handlers167.csproj" />
+    <ProjectReference Include="..\Reporting.Data\Reporting.Data.csproj" />
+    <ProjectReference Include="..\Portal.Data266\Portal.Data266.csproj" />
+    <ProjectReference Include="..\Portal.Tests\Portal.Tests.csproj" />
+    <ProjectReference Include="..\DataAccess.Events283\DataAccess.Events283.csproj" />
+    <ProjectReference Include="..\Import.Handlers\Import.Handlers.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Mappers318\GalaxyWorks.Mappers318.csproj" />
+    <ProjectReference Include="..\Billing.Events\Billing.Events.csproj" />
+    <ProjectReference Include="..\Reporting.Events188\Reporting.Events188.csproj" />
+    <ProjectReference Include="..\Documents.Service\Documents.Service.csproj" />
+  </ItemGroup>
+</Project>

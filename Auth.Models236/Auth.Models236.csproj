@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Auth.Models236</RootNamespace>
+    <AssemblyName>Auth.Models236</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+</Project>

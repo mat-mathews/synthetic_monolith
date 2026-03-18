@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Documents.Api132</RootNamespace>
+    <AssemblyName>Documents.Api132</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Api\Auth.Api.csproj" />
+    <ProjectReference Include="..\Auth.Client38\Auth.Client38.csproj" />
+    <ProjectReference Include="..\Auth.Client\Auth.Client.csproj" />
+    <ProjectReference Include="..\Integration.Shared\Integration.Shared.csproj" />
+    <ProjectReference Include="..\Workflow.Data340\Workflow.Data340.csproj" />
+    <ProjectReference Include="..\Admin.Validators37\Admin.Validators37.csproj" />
+    <ProjectReference Include="..\Imaging.Shared322\Imaging.Shared322.csproj" />
+    <ProjectReference Include="..\Documents.Api129\Documents.Api129.csproj" />
+    <ProjectReference Include="..\Security.Tests360\Security.Tests360.csproj" />
+    <ProjectReference Include="..\Import.Api314\Import.Api314.csproj" />
+    <ProjectReference Include="..\Billing.Validators174\Billing.Validators174.csproj" />
+    <ProjectReference Include="..\Auth.Web70\Auth.Web70.csproj" />
+    <ProjectReference Include="..\Portal.Shared\Portal.Shared.csproj" />
+    <ProjectReference Include="..\Notifications.Data446\Notifications.Data446.csproj" />
+    <ProjectReference Include="..\Imaging.Client331\Imaging.Client331.csproj" />
+    <ProjectReference Include="..\Auth.Events78\Auth.Events78.csproj" />
+    <ProjectReference Include="..\Export.Processors79\Export.Processors79.csproj" />
+    <ProjectReference Include="..\Portal.Web158\Portal.Web158.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <RootNamespace>Imaging.Processors</RootNamespace>
+    <AssemblyName>Imaging.Processors</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Service339\Admin.Service339.csproj" />
+    <ProjectReference Include="..\Auth.Web\Auth.Web.csproj" />
+    <ProjectReference Include="..\Reporting.Shared394\Reporting.Shared394.csproj" />
+    <ProjectReference Include="..\Admin.Tests\Admin.Tests.csproj" />
+    <ProjectReference Include="..\Utilities.Handlers268\Utilities.Handlers268.csproj" />
+    <ProjectReference Include="..\Scheduling.Tests\Scheduling.Tests.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Tests\GalaxyWorks.Tests.csproj" />
+    <ProjectReference Include="..\Integration.Mappers242\Integration.Mappers242.csproj" />
+    <ProjectReference Include="..\Integration.Service477\Integration.Service477.csproj" />
+    <ProjectReference Include="..\Billing.Handlers101\Billing.Handlers101.csproj" />
+    <ProjectReference Include="..\Admin.Core\Admin.Core.csproj" />
+    <ProjectReference Include="..\Documents.Tests106\Documents.Tests106.csproj" />
+    <ProjectReference Include="..\Workflow.Handlers\Workflow.Handlers.csproj" />
+    <ProjectReference Include="..\Export.Client414\Export.Client414.csproj" />
+    <ProjectReference Include="..\Auth.Handlers467\Auth.Handlers467.csproj" />
+    <ProjectReference Include="..\Admin.Mappers\Admin.Mappers.csproj" />
+  </ItemGroup>
+</Project>

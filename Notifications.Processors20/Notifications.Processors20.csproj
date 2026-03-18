@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Notifications.Processors20</RootNamespace>
+    <AssemblyName>Notifications.Processors20</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Handlers61\Admin.Handlers61.csproj" />
+    <ProjectReference Include="..\Auth.Models23\Auth.Models23.csproj" />
+    <ProjectReference Include="..\Auth.Processors\Auth.Processors.csproj" />
+    <ProjectReference Include="..\Utilities.Service358\Utilities.Service358.csproj" />
+    <ProjectReference Include="..\Portal.Contracts170\Portal.Contracts170.csproj" />
+    <ProjectReference Include="..\Documents.Data492\Documents.Data492.csproj" />
+    <ProjectReference Include="..\DataAccess.Handlers482\DataAccess.Handlers482.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Api390\GalaxyWorks.Api390.csproj" />
+    <ProjectReference Include="..\Workflow.Core\Workflow.Core.csproj" />
+    <ProjectReference Include="..\Portal.Data216\Portal.Data216.csproj" />
+    <ProjectReference Include="..\Utilities.Shared\Utilities.Shared.csproj" />
+    <ProjectReference Include="..\Logging.Core\Logging.Core.csproj" />
+    <ProjectReference Include="..\Import.Client7\Import.Client7.csproj" />
+    <ProjectReference Include="..\Portal.Events139\Portal.Events139.csproj" />
+    <ProjectReference Include="..\Notifications.Events42\Notifications.Events42.csproj" />
+    <ProjectReference Include="..\Integration.Tests45\Integration.Tests45.csproj" />
+    <ProjectReference Include="..\Utilities.Api387\Utilities.Api387.csproj" />
+    <ProjectReference Include="..\Logging.Service382\Logging.Service382.csproj" />
+  </ItemGroup>
+</Project>

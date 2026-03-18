@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Security.Validators</RootNamespace>
+    <AssemblyName>Security.Validators</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Contracts120\Admin.Contracts120.csproj" />
+    <ProjectReference Include="..\Admin.Events\Admin.Events.csproj" />
+    <ProjectReference Include="..\Auth.Mappers28\Auth.Mappers28.csproj" />
+    <ProjectReference Include="..\Documents.Client58\Documents.Client58.csproj" />
+    <ProjectReference Include="..\Scheduling.Processors25\Scheduling.Processors25.csproj" />
+    <ProjectReference Include="..\Documents.Data\Documents.Data.csproj" />
+    <ProjectReference Include="..\DataAccess.Data474\DataAccess.Data474.csproj" />
+    <ProjectReference Include="..\Imaging.Handlers\Imaging.Handlers.csproj" />
+    <ProjectReference Include="..\Scheduling.Api185\Scheduling.Api185.csproj" />
+    <ProjectReference Include="..\DataAccess.Tests286\DataAccess.Tests286.csproj" />
+    <ProjectReference Include="..\Logging.Models\Logging.Models.csproj" />
+    <ProjectReference Include="..\Reporting.Processors\Reporting.Processors.csproj" />
+    <ProjectReference Include="..\Logging.Handlers455\Logging.Handlers455.csproj" />
+    <ProjectReference Include="..\Auth.Web70\Auth.Web70.csproj" />
+    <ProjectReference Include="..\Auth.Handlers\Auth.Handlers.csproj" />
+    <ProjectReference Include="..\Admin.Client\Admin.Client.csproj" />
+    <ProjectReference Include="..\Auth.Data135\Auth.Data135.csproj" />
+    <ProjectReference Include="..\Scheduling.Processors397\Scheduling.Processors397.csproj" />
+  </ItemGroup>
+</Project>

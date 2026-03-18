@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Security.Client</RootNamespace>
+    <AssemblyName>Security.Client</AssemblyName>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Mappers208\Auth.Mappers208.csproj" />
+    <ProjectReference Include="..\Portal.Api123\Portal.Api123.csproj" />
+    <ProjectReference Include="..\Security.Models420\Security.Models420.csproj" />
+    <ProjectReference Include="..\Documents.Shared452\Documents.Shared452.csproj" />
+    <ProjectReference Include="..\BatchJobs.Api212\BatchJobs.Api212.csproj" />
+    <ProjectReference Include="..\Utilities.Mappers232\Utilities.Mappers232.csproj" />
+    <ProjectReference Include="..\Auth.Events5\Auth.Events5.csproj" />
+    <ProjectReference Include="..\Auth.Mappers28\Auth.Mappers28.csproj" />
+    <ProjectReference Include="..\Import.Validators\Import.Validators.csproj" />
+    <ProjectReference Include="..\Logging.Models436\Logging.Models436.csproj" />
+    <ProjectReference Include="..\Reporting.Events483\Reporting.Events483.csproj" />
+    <ProjectReference Include="..\DataAccess.Handlers\DataAccess.Handlers.csproj" />
+    <ProjectReference Include="..\Admin.Validators\Admin.Validators.csproj" />
+    <ProjectReference Include="..\Auth.Models236\Auth.Models236.csproj" />
+    <ProjectReference Include="..\Documents.Events\Documents.Events.csproj" />
+    <ProjectReference Include="..\Portal.Api\Portal.Api.csproj" />
+  </ItemGroup>
+</Project>

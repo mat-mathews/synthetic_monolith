@@ -1,0 +1,38 @@
+using Admin.Api255;
+using Admin.Web4;
+using Auth.Mappers28;
+using BatchJobs.Client267;
+using BatchJobs.Shared;
+using Billing.Shared149;
+using Common.Events280;
+using DataAccess.Api341;
+using DataAccess.Shared486;
+using DataAccess.Validators254;
+using Documents.Web;
+using GalaxyWorks.Contracts485;
+using Import.Service;
+using Import.Service265;
+using Integration.Handlers17;
+using Integration.Tests;
+using Scheduling.Web196;
+using Security.Core;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace Logging.Handlers455
+{
+    /// <summary>Defines the possible states for Logging_Handlers455_Level4.</summary>
+    public enum Logging_Handlers455_Level4
+    {
+        None = 0,
+        Active = 1,
+        Inactive = 2,
+        Pending = 3,
+        Processing = 4,
+        Completed = 5,
+        Failed = 6,
+    }
+
+}

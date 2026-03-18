@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>Notifications.Models</RootNamespace>
+    <AssemblyName>Notifications.Models</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Events306\Admin.Events306.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Service\GalaxyWorks.Service.csproj" />
+    <ProjectReference Include="..\Utilities.Contracts24\Utilities.Contracts24.csproj" />
+    <ProjectReference Include="..\Portal.Service231\Portal.Service231.csproj" />
+    <ProjectReference Include="..\Integration.Mappers242\Integration.Mappers242.csproj" />
+    <ProjectReference Include="..\Logging.Shared\Logging.Shared.csproj" />
+    <ProjectReference Include="..\Documents.Data490\Documents.Data490.csproj" />
+    <ProjectReference Include="..\Notifications.Handlers\Notifications.Handlers.csproj" />
+    <ProjectReference Include="..\Imaging.Core204\Imaging.Core204.csproj" />
+    <ProjectReference Include="..\Export.Api49\Export.Api49.csproj" />
+    <ProjectReference Include="..\Utilities.Api387\Utilities.Api387.csproj" />
+    <ProjectReference Include="..\Import.Client64\Import.Client64.csproj" />
+    <ProjectReference Include="..\Import.Data193\Import.Data193.csproj" />
+    <ProjectReference Include="..\Billing.Tests\Billing.Tests.csproj" />
+    <ProjectReference Include="..\Common.Web488\Common.Web488.csproj" />
+    <ProjectReference Include="..\Billing.Contracts44\Billing.Contracts44.csproj" />
+  </ItemGroup>
+</Project>

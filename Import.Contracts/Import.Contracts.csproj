@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Import.Contracts</RootNamespace>
+    <AssemblyName>Import.Contracts</AssemblyName>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Service364\Admin.Service364.csproj" />
+    <ProjectReference Include="..\Auth.Models23\Auth.Models23.csproj" />
+    <ProjectReference Include="..\BatchJobs.Service\BatchJobs.Service.csproj" />
+    <ProjectReference Include="..\Reporting.Tests226\Reporting.Tests226.csproj" />
+    <ProjectReference Include="..\Admin.Client346\Admin.Client346.csproj" />
+    <ProjectReference Include="..\Admin.Client177\Admin.Client177.csproj" />
+    <ProjectReference Include="..\Notifications.Handlers\Notifications.Handlers.csproj" />
+    <ProjectReference Include="..\Notifications.Mappers110\Notifications.Mappers110.csproj" />
+    <ProjectReference Include="..\Portal.Shared\Portal.Shared.csproj" />
+    <ProjectReference Include="..\Workflow.Shared298\Workflow.Shared298.csproj" />
+    <ProjectReference Include="..\Workflow.Web59\Workflow.Web59.csproj" />
+    <ProjectReference Include="..\Portal.Service\Portal.Service.csproj" />
+    <ProjectReference Include="..\BatchJobs.Client109\BatchJobs.Client109.csproj" />
+    <ProjectReference Include="..\Billing.Client182\Billing.Client182.csproj" />
+    <ProjectReference Include="..\Documents.Handlers\Documents.Handlers.csproj" />
+    <ProjectReference Include="..\Billing.Api497\Billing.Api497.csproj" />
+    <ProjectReference Include="..\Import.Core\Import.Core.csproj" />
+  </ItemGroup>
+</Project>

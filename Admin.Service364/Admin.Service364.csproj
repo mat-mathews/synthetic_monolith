@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Admin.Service364</RootNamespace>
+    <AssemblyName>Admin.Service364</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+</Project>

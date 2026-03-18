@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Reporting.Processors</RootNamespace>
+    <AssemblyName>Reporting.Processors</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Api143\Auth.Api143.csproj" />
+    <ProjectReference Include="..\Import.Contracts\Import.Contracts.csproj" />
+    <ProjectReference Include="..\Common.Models381\Common.Models381.csproj" />
+    <ProjectReference Include="..\Reporting.Client146\Reporting.Client146.csproj" />
+    <ProjectReference Include="..\DataAccess.Data474\DataAccess.Data474.csproj" />
+    <ProjectReference Include="..\Scheduling.Tests85\Scheduling.Tests85.csproj" />
+    <ProjectReference Include="..\Scheduling.Models441\Scheduling.Models441.csproj" />
+    <ProjectReference Include="..\Security.Events288\Security.Events288.csproj" />
+    <ProjectReference Include="..\Auth.Web70\Auth.Web70.csproj" />
+    <ProjectReference Include="..\Imaging.Events\Imaging.Events.csproj" />
+    <ProjectReference Include="..\BatchJobs.Client267\BatchJobs.Client267.csproj" />
+    <ProjectReference Include="..\Notifications.Service\Notifications.Service.csproj" />
+    <ProjectReference Include="..\Workflow.Processors\Workflow.Processors.csproj" />
+    <ProjectReference Include="..\BatchJobs.Client\BatchJobs.Client.csproj" />
+    <ProjectReference Include="..\Integration.Tests92\Integration.Tests92.csproj" />
+    <ProjectReference Include="..\Notifications.Validators391\Notifications.Validators391.csproj" />
+  </ItemGroup>
+</Project>

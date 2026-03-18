@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Portal.Web158</RootNamespace>
+    <AssemblyName>Portal.Web158</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Tests10\Admin.Tests10.csproj" />
+    <ProjectReference Include="..\Admin.Service\Admin.Service.csproj" />
+    <ProjectReference Include="..\Billing.Core\Billing.Core.csproj" />
+    <ProjectReference Include="..\Billing.Events\Billing.Events.csproj" />
+    <ProjectReference Include="..\Workflow.Client\Workflow.Client.csproj" />
+    <ProjectReference Include="..\DataAccess.Shared\DataAccess.Shared.csproj" />
+    <ProjectReference Include="..\Reporting.Contracts\Reporting.Contracts.csproj" />
+    <ProjectReference Include="..\Documents.Processors300\Documents.Processors300.csproj" />
+    <ProjectReference Include="..\Imaging.Processors\Imaging.Processors.csproj" />
+    <ProjectReference Include="..\BatchJobs.Handlers443\BatchJobs.Handlers443.csproj" />
+    <ProjectReference Include="..\Billing.Data\Billing.Data.csproj" />
+    <ProjectReference Include="..\Common.Api\Common.Api.csproj" />
+    <ProjectReference Include="..\Utilities.Core\Utilities.Core.csproj" />
+    <ProjectReference Include="..\Portal.Client\Portal.Client.csproj" />
+    <ProjectReference Include="..\Reporting.Api287\Reporting.Api287.csproj" />
+    <ProjectReference Include="..\Security.Validators217\Security.Validators217.csproj" />
+    <ProjectReference Include="..\Notifications.Shared396\Notifications.Shared396.csproj" />
+  </ItemGroup>
+</Project>

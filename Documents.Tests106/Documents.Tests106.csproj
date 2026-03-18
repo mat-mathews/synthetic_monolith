@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Documents.Tests106</RootNamespace>
+    <AssemblyName>Documents.Tests106</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Data408\Admin.Data408.csproj" />
+    <ProjectReference Include="..\Auth.Contracts\Auth.Contracts.csproj" />
+    <ProjectReference Include="..\Utilities.Data415\Utilities.Data415.csproj" />
+    <ProjectReference Include="..\Documents.Tests458\Documents.Tests458.csproj" />
+    <ProjectReference Include="..\Auth.Models23\Auth.Models23.csproj" />
+    <ProjectReference Include="..\Auth.Service\Auth.Service.csproj" />
+    <ProjectReference Include="..\Portal.Processors389\Portal.Processors389.csproj" />
+    <ProjectReference Include="..\Workflow.Service463\Workflow.Service463.csproj" />
+    <ProjectReference Include="..\Security.Contracts72\Security.Contracts72.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Handlers84\GalaxyWorks.Handlers84.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Data\GalaxyWorks.Data.csproj" />
+    <ProjectReference Include="..\Import.Service496\Import.Service496.csproj" />
+    <ProjectReference Include="..\Documents.Web164\Documents.Web164.csproj" />
+    <ProjectReference Include="..\Admin.Handlers450\Admin.Handlers450.csproj" />
+    <ProjectReference Include="..\Portal.Service378\Portal.Service378.csproj" />
+    <ProjectReference Include="..\Security.Contracts\Security.Contracts.csproj" />
+    <ProjectReference Include="..\BatchJobs.Client267\BatchJobs.Client267.csproj" />
+  </ItemGroup>
+</Project>

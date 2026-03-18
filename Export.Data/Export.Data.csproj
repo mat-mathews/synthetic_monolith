@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Export.Data</RootNamespace>
+    <AssemblyName>Export.Data</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Models476\Admin.Models476.csproj" />
+    <ProjectReference Include="..\Admin.Tests\Admin.Tests.csproj" />
+    <ProjectReference Include="..\Scheduling.Events\Scheduling.Events.csproj" />
+    <ProjectReference Include="..\Utilities.Api\Utilities.Api.csproj" />
+    <ProjectReference Include="..\Import.Handlers\Import.Handlers.csproj" />
+    <ProjectReference Include="..\Imaging.Events303\Imaging.Events303.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Events\GalaxyWorks.Events.csproj" />
+    <ProjectReference Include="..\Logging.Client\Logging.Client.csproj" />
+    <ProjectReference Include="..\Reporting.Api287\Reporting.Api287.csproj" />
+    <ProjectReference Include="..\Billing.Handlers\Billing.Handlers.csproj" />
+    <ProjectReference Include="..\Workflow.Web59\Workflow.Web59.csproj" />
+    <ProjectReference Include="..\Billing.Contracts\Billing.Contracts.csproj" />
+    <ProjectReference Include="..\Admin.Validators336\Admin.Validators336.csproj" />
+    <ProjectReference Include="..\Documents.Data\Documents.Data.csproj" />
+    <ProjectReference Include="..\Admin.Data117\Admin.Data117.csproj" />
+    <ProjectReference Include="..\Admin.Web4\Admin.Web4.csproj" />
+    <ProjectReference Include="..\Export.Processors449\Export.Processors449.csproj" />
+  </ItemGroup>
+</Project>

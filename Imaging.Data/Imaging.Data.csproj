@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Imaging.Data</RootNamespace>
+    <AssemblyName>Imaging.Data</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Tests10\Admin.Tests10.csproj" />
+    <ProjectReference Include="..\Auth.Core\Auth.Core.csproj" />
+    <ProjectReference Include="..\Security.Api320\Security.Api320.csproj" />
+    <ProjectReference Include="..\Documents.Data484\Documents.Data484.csproj" />
+    <ProjectReference Include="..\BatchJobs.Api\BatchJobs.Api.csproj" />
+    <ProjectReference Include="..\Scheduling.Shared39\Scheduling.Shared39.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Data375\GalaxyWorks.Data375.csproj" />
+    <ProjectReference Include="..\Imaging.Tests\Imaging.Tests.csproj" />
+    <ProjectReference Include="..\Imaging.Mappers275\Imaging.Mappers275.csproj" />
+    <ProjectReference Include="..\Documents.Client\Documents.Client.csproj" />
+    <ProjectReference Include="..\Reporting.Api\Reporting.Api.csproj" />
+    <ProjectReference Include="..\Logging.Mappers\Logging.Mappers.csproj" />
+    <ProjectReference Include="..\Portal.Service\Portal.Service.csproj" />
+    <ProjectReference Include="..\Common.Service258\Common.Service258.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Validators\GalaxyWorks.Validators.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Models\GalaxyWorks.Models.csproj" />
+    <ProjectReference Include="..\BatchJobs.Validators311\BatchJobs.Validators311.csproj" />
+  </ItemGroup>
+</Project>

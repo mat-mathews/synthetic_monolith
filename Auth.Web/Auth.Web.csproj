@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Auth.Web</RootNamespace>
+    <AssemblyName>Auth.Web</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Api143\Auth.Api143.csproj" />
+    <ProjectReference Include="..\Auth.Mappers206\Auth.Mappers206.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Contracts392\GalaxyWorks.Contracts392.csproj" />
+    <ProjectReference Include="..\Admin.Handlers\Admin.Handlers.csproj" />
+    <ProjectReference Include="..\Reporting.Shared394\Reporting.Shared394.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Api390\GalaxyWorks.Api390.csproj" />
+    <ProjectReference Include="..\Workflow.Events327\Workflow.Events327.csproj" />
+    <ProjectReference Include="..\Logging.Mappers\Logging.Mappers.csproj" />
+    <ProjectReference Include="..\Workflow.Validators\Workflow.Validators.csproj" />
+    <ProjectReference Include="..\Security.Events288\Security.Events288.csproj" />
+    <ProjectReference Include="..\Export.Events\Export.Events.csproj" />
+    <ProjectReference Include="..\Documents.Shared334\Documents.Shared334.csproj" />
+    <ProjectReference Include="..\DataAccess.Tests\DataAccess.Tests.csproj" />
+    <ProjectReference Include="..\Admin.Core\Admin.Core.csproj" />
+    <ProjectReference Include="..\Common.Web\Common.Web.csproj" />
+    <ProjectReference Include="..\Export.Service205\Export.Service205.csproj" />
+    <ProjectReference Include="..\Scheduling.Data\Scheduling.Data.csproj" />
+  </ItemGroup>
+</Project>

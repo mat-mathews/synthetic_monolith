@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <RootNamespace>Utilities.Handlers</RootNamespace>
+    <AssemblyName>Utilities.Handlers</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Core\Auth.Core.csproj" />
+    <ProjectReference Include="..\Auth.Mappers206\Auth.Mappers206.csproj" />
+    <ProjectReference Include="..\Security.Events\Security.Events.csproj" />
+    <ProjectReference Include="..\Billing.Service\Billing.Service.csproj" />
+    <ProjectReference Include="..\Workflow.Validators138\Workflow.Validators138.csproj" />
+    <ProjectReference Include="..\Documents.Core\Documents.Core.csproj" />
+    <ProjectReference Include="..\Common.Validators430\Common.Validators430.csproj" />
+    <ProjectReference Include="..\Integration.Handlers\Integration.Handlers.csproj" />
+    <ProjectReference Include="..\Scheduling.Processors335\Scheduling.Processors335.csproj" />
+    <ProjectReference Include="..\Utilities.Processors\Utilities.Processors.csproj" />
+    <ProjectReference Include="..\Billing.Web\Billing.Web.csproj" />
+    <ProjectReference Include="..\Security.Processors295\Security.Processors295.csproj" />
+    <ProjectReference Include="..\Auth.Core140\Auth.Core140.csproj" />
+    <ProjectReference Include="..\Portal.Processors52\Portal.Processors52.csproj" />
+    <ProjectReference Include="..\Security.Shared365\Security.Shared365.csproj" />
+    <ProjectReference Include="..\Security.Validators\Security.Validators.csproj" />
+    <ProjectReference Include="..\Documents.Validators\Documents.Validators.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>Workflow.Events</RootNamespace>
+    <AssemblyName>Workflow.Events</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Core121\Admin.Core121.csproj" />
+    <ProjectReference Include="..\Admin.Validators431\Admin.Validators431.csproj" />
+    <ProjectReference Include="..\Portal.Api\Portal.Api.csproj" />
+    <ProjectReference Include="..\Reporting.Handlers\Reporting.Handlers.csproj" />
+    <ProjectReference Include="..\Workflow.Events327\Workflow.Events327.csproj" />
+    <ProjectReference Include="..\Common.Models\Common.Models.csproj" />
+    <ProjectReference Include="..\Scheduling.Contracts425\Scheduling.Contracts425.csproj" />
+    <ProjectReference Include="..\Security.Handlers162\Security.Handlers162.csproj" />
+    <ProjectReference Include="..\Auth.Client38\Auth.Client38.csproj" />
+    <ProjectReference Include="..\Scheduling.Client\Scheduling.Client.csproj" />
+    <ProjectReference Include="..\Utilities.Validators\Utilities.Validators.csproj" />
+    <ProjectReference Include="..\DataAccess.Validators409\DataAccess.Validators409.csproj" />
+    <ProjectReference Include="..\Auth.Client271\Auth.Client271.csproj" />
+    <ProjectReference Include="..\Documents.Shared334\Documents.Shared334.csproj" />
+    <ProjectReference Include="..\Security.Validators428\Security.Validators428.csproj" />
+    <ProjectReference Include="..\DataAccess.Service\DataAccess.Service.csproj" />
+    <ProjectReference Include="..\Scheduling.Handlers\Scheduling.Handlers.csproj" />
+  </ItemGroup>
+</Project>

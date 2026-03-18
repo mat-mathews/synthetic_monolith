@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Portal.Processors</RootNamespace>
+    <AssemblyName>Portal.Processors</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Processors35\Admin.Processors35.csproj" />
+    <ProjectReference Include="..\Documents.Data\Documents.Data.csproj" />
+    <ProjectReference Include="..\Reporting.Client422\Reporting.Client422.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Contracts392\GalaxyWorks.Contracts392.csproj" />
+    <ProjectReference Include="..\Export.Service\Export.Service.csproj" />
+    <ProjectReference Include="..\Integration.Data\Integration.Data.csproj" />
+    <ProjectReference Include="..\Portal.Processors389\Portal.Processors389.csproj" />
+    <ProjectReference Include="..\Documents.Shared452\Documents.Shared452.csproj" />
+    <ProjectReference Include="..\Auth.Core140\Auth.Core140.csproj" />
+    <ProjectReference Include="..\Security.Web376\Security.Web376.csproj" />
+    <ProjectReference Include="..\Imaging.Handlers\Imaging.Handlers.csproj" />
+    <ProjectReference Include="..\Documents.Shared427\Documents.Shared427.csproj" />
+    <ProjectReference Include="..\Utilities.Processors\Utilities.Processors.csproj" />
+    <ProjectReference Include="..\Workflow.Api433\Workflow.Api433.csproj" />
+    <ProjectReference Include="..\Imaging.Contracts\Imaging.Contracts.csproj" />
+    <ProjectReference Include="..\DataAccess.Data474\DataAccess.Data474.csproj" />
+  </ItemGroup>
+</Project>

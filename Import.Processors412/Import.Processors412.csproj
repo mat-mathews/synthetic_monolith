@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <RootNamespace>Import.Processors412</RootNamespace>
+    <AssemblyName>Import.Processors412</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Shared363\Admin.Shared363.csproj" />
+    <ProjectReference Include="..\Admin.Tests\Admin.Tests.csproj" />
+    <ProjectReference Include="..\Admin.Data408\Admin.Data408.csproj" />
+    <ProjectReference Include="..\Workflow.Shared\Workflow.Shared.csproj" />
+    <ProjectReference Include="..\Billing.Client73\Billing.Client73.csproj" />
+    <ProjectReference Include="..\BatchJobs.Mappers\BatchJobs.Mappers.csproj" />
+    <ProjectReference Include="..\Security.Contracts238\Security.Contracts238.csproj" />
+    <ProjectReference Include="..\Utilities.Api387\Utilities.Api387.csproj" />
+    <ProjectReference Include="..\Reporting.Validators\Reporting.Validators.csproj" />
+    <ProjectReference Include="..\Logging.Service\Logging.Service.csproj" />
+    <ProjectReference Include="..\Workflow.Validators201\Workflow.Validators201.csproj" />
+    <ProjectReference Include="..\Common.Web488\Common.Web488.csproj" />
+    <ProjectReference Include="..\Portal.Client\Portal.Client.csproj" />
+    <ProjectReference Include="..\Portal.Core\Portal.Core.csproj" />
+    <ProjectReference Include="..\Auth.Tests498\Auth.Tests498.csproj" />
+    <ProjectReference Include="..\Notifications.Shared380\Notifications.Shared380.csproj" />
+    <ProjectReference Include="..\Billing.Shared149\Billing.Shared149.csproj" />
+    <ProjectReference Include="..\Integration.Tests45\Integration.Tests45.csproj" />
+  </ItemGroup>
+</Project>

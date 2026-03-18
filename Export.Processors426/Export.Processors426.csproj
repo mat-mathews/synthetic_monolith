@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>Export.Processors426</RootNamespace>
+    <AssemblyName>Export.Processors426</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Handlers281\Auth.Handlers281.csproj" />
+    <ProjectReference Include="..\Integration.Service\Integration.Service.csproj" />
+    <ProjectReference Include="..\Notifications.Data406\Notifications.Data406.csproj" />
+    <ProjectReference Include="..\Admin.Validators431\Admin.Validators431.csproj" />
+    <ProjectReference Include="..\Documents.Api129\Documents.Api129.csproj" />
+    <ProjectReference Include="..\Security.Shared\Security.Shared.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Mappers403\GalaxyWorks.Mappers403.csproj" />
+    <ProjectReference Include="..\Security.Models136\Security.Models136.csproj" />
+    <ProjectReference Include="..\Portal.Core8\Portal.Core8.csproj" />
+    <ProjectReference Include="..\Import.Handlers354\Import.Handlers354.csproj" />
+    <ProjectReference Include="..\Utilities.Web40\Utilities.Web40.csproj" />
+    <ProjectReference Include="..\Reporting.Tests67\Reporting.Tests67.csproj" />
+    <ProjectReference Include="..\Auth.Client249\Auth.Client249.csproj" />
+    <ProjectReference Include="..\Security.Client349\Security.Client349.csproj" />
+    <ProjectReference Include="..\Auth.Models236\Auth.Models236.csproj" />
+    <ProjectReference Include="..\Integration.Processors248\Integration.Processors248.csproj" />
+  </ItemGroup>
+</Project>

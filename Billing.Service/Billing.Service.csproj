@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Billing.Service</RootNamespace>
+    <AssemblyName>Billing.Service</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Events\Admin.Events.csproj" />
+    <ProjectReference Include="..\Auth.Core140\Auth.Core140.csproj" />
+    <ProjectReference Include="..\Portal.Validators69\Portal.Validators69.csproj" />
+    <ProjectReference Include="..\Scheduling.Web19\Scheduling.Web19.csproj" />
+    <ProjectReference Include="..\Security.Contracts\Security.Contracts.csproj" />
+    <ProjectReference Include="..\Scheduling.Models441\Scheduling.Models441.csproj" />
+    <ProjectReference Include="..\Import.Client64\Import.Client64.csproj" />
+    <ProjectReference Include="..\Common.Processors142\Common.Processors142.csproj" />
+    <ProjectReference Include="..\Export.Mappers\Export.Mappers.csproj" />
+    <ProjectReference Include="..\Scheduling.Models342\Scheduling.Models342.csproj" />
+    <ProjectReference Include="..\Auth.Api\Auth.Api.csproj" />
+    <ProjectReference Include="..\Reporting.Processors326\Reporting.Processors326.csproj" />
+    <ProjectReference Include="..\Import.Processors412\Import.Processors412.csproj" />
+    <ProjectReference Include="..\Security.Tests360\Security.Tests360.csproj" />
+    <ProjectReference Include="..\Export.Core386\Export.Core386.csproj" />
+    <ProjectReference Include="..\Reporting.Shared394\Reporting.Shared394.csproj" />
+    <ProjectReference Include="..\Imaging.Mappers93\Imaging.Mappers93.csproj" />
+  </ItemGroup>
+</Project>

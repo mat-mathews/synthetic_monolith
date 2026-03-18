@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>DataAccess.Shared</RootNamespace>
+    <AssemblyName>DataAccess.Shared</AssemblyName>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Service339\Admin.Service339.csproj" />
+    <ProjectReference Include="..\Documents.Client58\Documents.Client58.csproj" />
+    <ProjectReference Include="..\Import.Models\Import.Models.csproj" />
+    <ProjectReference Include="..\Security.Contracts\Security.Contracts.csproj" />
+    <ProjectReference Include="..\Common.Mappers190\Common.Mappers190.csproj" />
+    <ProjectReference Include="..\Admin.Core121\Admin.Core121.csproj" />
+    <ProjectReference Include="..\Security.Processors295\Security.Processors295.csproj" />
+    <ProjectReference Include="..\Billing.Processors\Billing.Processors.csproj" />
+    <ProjectReference Include="..\Integration.Service\Integration.Service.csproj" />
+    <ProjectReference Include="..\Imaging.Data\Imaging.Data.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Shared437\GalaxyWorks.Shared437.csproj" />
+    <ProjectReference Include="..\Notifications.Mappers\Notifications.Mappers.csproj" />
+    <ProjectReference Include="..\Common.Service258\Common.Service258.csproj" />
+    <ProjectReference Include="..\Auth.Processors411\Auth.Processors411.csproj" />
+    <ProjectReference Include="..\Documents.Processors\Documents.Processors.csproj" />
+    <ProjectReference Include="..\Integration.Shared\Integration.Shared.csproj" />
+  </ItemGroup>
+</Project>

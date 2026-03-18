@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Common.Api213</RootNamespace>
+    <AssemblyName>Common.Api213</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Mappers206\Auth.Mappers206.csproj" />
+    <ProjectReference Include="..\Auth.Processors319\Auth.Processors319.csproj" />
+    <ProjectReference Include="..\Integration.Api469\Integration.Api469.csproj" />
+    <ProjectReference Include="..\Import.Tests119\Import.Tests119.csproj" />
+    <ProjectReference Include="..\Logging.Shared315\Logging.Shared315.csproj" />
+    <ProjectReference Include="..\Import.Events374\Import.Events374.csproj" />
+    <ProjectReference Include="..\Auth.Client249\Auth.Client249.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Contracts94\GalaxyWorks.Contracts94.csproj" />
+    <ProjectReference Include="..\Integration.Client\Integration.Client.csproj" />
+    <ProjectReference Include="..\Documents.Shared427\Documents.Shared427.csproj" />
+    <ProjectReference Include="..\Common.Client53\Common.Client53.csproj" />
+    <ProjectReference Include="..\Admin.Events235\Admin.Events235.csproj" />
+    <ProjectReference Include="..\Export.Tests\Export.Tests.csproj" />
+    <ProjectReference Include="..\Export.Web\Export.Web.csproj" />
+    <ProjectReference Include="..\Import.Service\Import.Service.csproj" />
+    <ProjectReference Include="..\Imaging.Contracts\Imaging.Contracts.csproj" />
+    <ProjectReference Include="..\Logging.Models\Logging.Models.csproj" />
+  </ItemGroup>
+</Project>

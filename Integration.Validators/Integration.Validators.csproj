@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Integration.Validators</RootNamespace>
+    <AssemblyName>Integration.Validators</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Service456\Admin.Service456.csproj" />
+    <ProjectReference Include="..\Auth.Client\Auth.Client.csproj" />
+    <ProjectReference Include="..\Common.Contracts\Common.Contracts.csproj" />
+    <ProjectReference Include="..\Reporting.Core\Reporting.Core.csproj" />
+    <ProjectReference Include="..\Import.Service265\Import.Service265.csproj" />
+    <ProjectReference Include="..\Billing.Handlers\Billing.Handlers.csproj" />
+    <ProjectReference Include="..\Admin.Core\Admin.Core.csproj" />
+    <ProjectReference Include="..\Notifications.Validators252\Notifications.Validators252.csproj" />
+    <ProjectReference Include="..\Admin.Service\Admin.Service.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Models\GalaxyWorks.Models.csproj" />
+    <ProjectReference Include="..\Portal.Models413\Portal.Models413.csproj" />
+    <ProjectReference Include="..\Workflow.Client351\Workflow.Client351.csproj" />
+    <ProjectReference Include="..\Utilities.Web398\Utilities.Web398.csproj" />
+    <ProjectReference Include="..\Notifications.Validators391\Notifications.Validators391.csproj" />
+    <ProjectReference Include="..\Scheduling.Processors337\Scheduling.Processors337.csproj" />
+    <ProjectReference Include="..\DataAccess.Validators88\DataAccess.Validators88.csproj" />
+    <ProjectReference Include="..\Billing.Client22\Billing.Client22.csproj" />
+  </ItemGroup>
+</Project>

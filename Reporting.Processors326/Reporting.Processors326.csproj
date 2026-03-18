@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Reporting.Processors326</RootNamespace>
+    <AssemblyName>Reporting.Processors326</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Handlers61\Admin.Handlers61.csproj" />
+    <ProjectReference Include="..\Admin.Tests10\Admin.Tests10.csproj" />
+    <ProjectReference Include="..\Admin.Handlers450\Admin.Handlers450.csproj" />
+    <ProjectReference Include="..\Imaging.Service\Imaging.Service.csproj" />
+    <ProjectReference Include="..\Imaging.Client261\Imaging.Client261.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Handlers385\GalaxyWorks.Handlers385.csproj" />
+    <ProjectReference Include="..\Portal.Models\Portal.Models.csproj" />
+    <ProjectReference Include="..\Export.Tests62\Export.Tests62.csproj" />
+    <ProjectReference Include="..\Import.Handlers354\Import.Handlers354.csproj" />
+    <ProjectReference Include="..\Scheduling.Contracts425\Scheduling.Contracts425.csproj" />
+    <ProjectReference Include="..\Portal.Contracts\Portal.Contracts.csproj" />
+    <ProjectReference Include="..\Reporting.Data\Reporting.Data.csproj" />
+    <ProjectReference Include="..\Admin.Processors\Admin.Processors.csproj" />
+    <ProjectReference Include="..\Import.Processors\Import.Processors.csproj" />
+    <ProjectReference Include="..\Billing.Validators174\Billing.Validators174.csproj" />
+    <ProjectReference Include="..\Documents.Api156\Documents.Api156.csproj" />
+    <ProjectReference Include="..\Billing.Handlers122\Billing.Handlers122.csproj" />
+    <ProjectReference Include="..\Integration.Service477\Integration.Service477.csproj" />
+  </ItemGroup>
+</Project>

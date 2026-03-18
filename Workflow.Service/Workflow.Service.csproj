@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Workflow.Service</RootNamespace>
+    <AssemblyName>Workflow.Service</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Validators336\Admin.Validators336.csproj" />
+    <ProjectReference Include="..\Portal.Models413\Portal.Models413.csproj" />
+    <ProjectReference Include="..\Notifications.Tests\Notifications.Tests.csproj" />
+    <ProjectReference Include="..\BatchJobs.Models\BatchJobs.Models.csproj" />
+    <ProjectReference Include="..\Billing.Handlers122\Billing.Handlers122.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Client\GalaxyWorks.Client.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Handlers\GalaxyWorks.Handlers.csproj" />
+    <ProjectReference Include="..\Scheduling.Client\Scheduling.Client.csproj" />
+    <ProjectReference Include="..\Logging.Contracts373\Logging.Contracts373.csproj" />
+    <ProjectReference Include="..\Logging.Core159\Logging.Core159.csproj" />
+    <ProjectReference Include="..\Integration.Tests\Integration.Tests.csproj" />
+    <ProjectReference Include="..\Billing.Tests\Billing.Tests.csproj" />
+    <ProjectReference Include="..\Import.Validators\Import.Validators.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Api390\GalaxyWorks.Api390.csproj" />
+    <ProjectReference Include="..\Reporting.Mappers\Reporting.Mappers.csproj" />
+    <ProjectReference Include="..\Logging.Service\Logging.Service.csproj" />
+  </ItemGroup>
+</Project>

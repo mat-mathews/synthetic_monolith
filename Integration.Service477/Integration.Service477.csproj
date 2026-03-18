@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Integration.Service477</RootNamespace>
+    <AssemblyName>Integration.Service477</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Mappers\Admin.Mappers.csproj" />
+    <ProjectReference Include="..\Portal.Shared\Portal.Shared.csproj" />
+    <ProjectReference Include="..\BatchJobs.Web\BatchJobs.Web.csproj" />
+    <ProjectReference Include="..\Imaging.Shared338\Imaging.Shared338.csproj" />
+    <ProjectReference Include="..\DataAccess.Service464\DataAccess.Service464.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Models\GalaxyWorks.Models.csproj" />
+    <ProjectReference Include="..\Scheduling.Shared39\Scheduling.Shared39.csproj" />
+    <ProjectReference Include="..\Auth.Api143\Auth.Api143.csproj" />
+    <ProjectReference Include="..\Export.Models461\Export.Models461.csproj" />
+    <ProjectReference Include="..\Workflow.Tests27\Workflow.Tests27.csproj" />
+    <ProjectReference Include="..\Portal.Mappers233\Portal.Mappers233.csproj" />
+    <ProjectReference Include="..\Import.Service429\Import.Service429.csproj" />
+    <ProjectReference Include="..\Auth.Data135\Auth.Data135.csproj" />
+    <ProjectReference Include="..\Billing.Client73\Billing.Client73.csproj" />
+    <ProjectReference Include="..\Import.Service496\Import.Service496.csproj" />
+    <ProjectReference Include="..\Utilities.Contracts32\Utilities.Contracts32.csproj" />
+  </ItemGroup>
+</Project>

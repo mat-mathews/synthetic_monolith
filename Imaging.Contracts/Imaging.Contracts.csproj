@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <RootNamespace>Imaging.Contracts</RootNamespace>
+    <AssemblyName>Imaging.Contracts</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Validators336\Admin.Validators336.csproj" />
+    <ProjectReference Include="..\Auth.Events78\Auth.Events78.csproj" />
+    <ProjectReference Include="..\Auth.Handlers467\Auth.Handlers467.csproj" />
+    <ProjectReference Include="..\Workflow.Contracts434\Workflow.Contracts434.csproj" />
+    <ProjectReference Include="..\Admin.Mappers324\Admin.Mappers324.csproj" />
+    <ProjectReference Include="..\Workflow.Events\Workflow.Events.csproj" />
+    <ProjectReference Include="..\Utilities.Handlers268\Utilities.Handlers268.csproj" />
+    <ProjectReference Include="..\Integration.Tests86\Integration.Tests86.csproj" />
+    <ProjectReference Include="..\Workflow.Contracts192\Workflow.Contracts192.csproj" />
+    <ProjectReference Include="..\Admin.Data465\Admin.Data465.csproj" />
+    <ProjectReference Include="..\Workflow.Tests222\Workflow.Tests222.csproj" />
+    <ProjectReference Include="..\Security.Client353\Security.Client353.csproj" />
+    <ProjectReference Include="..\Export.Web479\Export.Web479.csproj" />
+    <ProjectReference Include="..\Common.Web438\Common.Web438.csproj" />
+    <ProjectReference Include="..\Billing.Core\Billing.Core.csproj" />
+    <ProjectReference Include="..\Security.Core\Security.Core.csproj" />
+    <ProjectReference Include="..\Import.Client\Import.Client.csproj" />
+    <ProjectReference Include="..\Admin.Mappers\Admin.Mappers.csproj" />
+  </ItemGroup>
+</Project>

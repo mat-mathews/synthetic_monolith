@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Scheduling.Handlers</RootNamespace>
+    <AssemblyName>Scheduling.Handlers</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Data465\Admin.Data465.csproj" />
+    <ProjectReference Include="..\Logging.Client\Logging.Client.csproj" />
+    <ProjectReference Include="..\Integration.Models\Integration.Models.csproj" />
+    <ProjectReference Include="..\Reporting.Tests67\Reporting.Tests67.csproj" />
+    <ProjectReference Include="..\Auth.Models\Auth.Models.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Contracts485\GalaxyWorks.Contracts485.csproj" />
+    <ProjectReference Include="..\Billing.Shared312\Billing.Shared312.csproj" />
+    <ProjectReference Include="..\Scheduling.Handlers63\Scheduling.Handlers63.csproj" />
+    <ProjectReference Include="..\Export.Processors449\Export.Processors449.csproj" />
+    <ProjectReference Include="..\Export.Api12\Export.Api12.csproj" />
+    <ProjectReference Include="..\Import.Contracts131\Import.Contracts131.csproj" />
+    <ProjectReference Include="..\Billing.Api9\Billing.Api9.csproj" />
+    <ProjectReference Include="..\Documents.Web164\Documents.Web164.csproj" />
+    <ProjectReference Include="..\Export.Handlers202\Export.Handlers202.csproj" />
+    <ProjectReference Include="..\Admin.Service247\Admin.Service247.csproj" />
+    <ProjectReference Include="..\Reporting.Web\Reporting.Web.csproj" />
+  </ItemGroup>
+</Project>

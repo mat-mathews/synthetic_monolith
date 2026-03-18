@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Utilities.Mappers</RootNamespace>
+    <AssemblyName>Utilities.Mappers</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Processors35\Admin.Processors35.csproj" />
+    <ProjectReference Include="..\Admin.Service\Admin.Service.csproj" />
+    <ProjectReference Include="..\Auth.Contracts\Auth.Contracts.csproj" />
+    <ProjectReference Include="..\Integration.Processors\Integration.Processors.csproj" />
+    <ProjectReference Include="..\Security.Core243\Security.Core243.csproj" />
+    <ProjectReference Include="..\Portal.Validators\Portal.Validators.csproj" />
+    <ProjectReference Include="..\Imaging.Service\Imaging.Service.csproj" />
+    <ProjectReference Include="..\Admin.Models199\Admin.Models199.csproj" />
+    <ProjectReference Include="..\Notifications.Core166\Notifications.Core166.csproj" />
+    <ProjectReference Include="..\Common.Core169\Common.Core169.csproj" />
+    <ProjectReference Include="..\Security.Processors\Security.Processors.csproj" />
+    <ProjectReference Include="..\Notifications.Web308\Notifications.Web308.csproj" />
+    <ProjectReference Include="..\Reporting.Processors326\Reporting.Processors326.csproj" />
+    <ProjectReference Include="..\Import.Core\Import.Core.csproj" />
+    <ProjectReference Include="..\Logging.Tests\Logging.Tests.csproj" />
+    <ProjectReference Include="..\Utilities.Handlers462\Utilities.Handlers462.csproj" />
+    <ProjectReference Include="..\Utilities.Web398\Utilities.Web398.csproj" />
+    <ProjectReference Include="..\Scheduling.Models\Scheduling.Models.csproj" />
+  </ItemGroup>
+</Project>

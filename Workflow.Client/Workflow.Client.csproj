@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Workflow.Client</RootNamespace>
+    <AssemblyName>Workflow.Client</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Data\Admin.Data.csproj" />
+    <ProjectReference Include="..\Admin.Shared14\Admin.Shared14.csproj" />
+    <ProjectReference Include="..\Admin.Service456\Admin.Service456.csproj" />
+    <ProjectReference Include="..\Scheduling.Contracts425\Scheduling.Contracts425.csproj" />
+    <ProjectReference Include="..\Security.Validators217\Security.Validators217.csproj" />
+    <ProjectReference Include="..\Admin.Events235\Admin.Events235.csproj" />
+    <ProjectReference Include="..\Integration.Service147\Integration.Service147.csproj" />
+    <ProjectReference Include="..\Admin.Models\Admin.Models.csproj" />
+    <ProjectReference Include="..\Imaging.Client261\Imaging.Client261.csproj" />
+    <ProjectReference Include="..\Security.Processors295\Security.Processors295.csproj" />
+    <ProjectReference Include="..\Export.Data150\Export.Data150.csproj" />
+    <ProjectReference Include="..\Logging.Core159\Logging.Core159.csproj" />
+    <ProjectReference Include="..\Security.Contracts238\Security.Contracts238.csproj" />
+    <ProjectReference Include="..\Documents.Data\Documents.Data.csproj" />
+    <ProjectReference Include="..\Import.Processors412\Import.Processors412.csproj" />
+    <ProjectReference Include="..\Auth.Contracts\Auth.Contracts.csproj" />
+    <ProjectReference Include="..\Workflow.Processors\Workflow.Processors.csproj" />
+    <ProjectReference Include="..\BatchJobs.Validators\BatchJobs.Validators.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,37 @@
+using Auth.Core;
+using BatchJobs.Events435;
+using Billing.Tests194;
+using GalaxyWorks.Data224;
+using Import.Data;
+using Import.Service496;
+using Logging.Core159;
+using Notifications.Models277;
+using Portal.Service489;
+using Reporting.Web;
+using Scheduling.Models441;
+using Scheduling.Shared39;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Utilities.Processors440;
+using Workflow.Events327;
+using Workflow.Processors;
+using Workflow.Tests222;
+
+namespace Notifications.Tests195
+{
+    internal interface INotifications_Tests195_Handler6
+    {
+        /// <summary>Processes the Notifications_Tests195_Handler6 operation.</summary>
+        void ProcessNotifications_Tests195_Handler6();
+
+        /// <summary>Validates the Notifications_Tests195_Handler6 state.</summary>
+        bool ValidateNotifications_Tests195_Handler6();
+    }
+
+    public class Tests195Context : DbContext
+    {
+    }
+
+}

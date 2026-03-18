@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>Security.Validators428</RootNamespace>
+    <AssemblyName>Security.Validators428</AssemblyName>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Service\Admin.Service.csproj" />
+    <ProjectReference Include="..\Admin.Handlers447\Admin.Handlers447.csproj" />
+    <ProjectReference Include="..\Admin.Service339\Admin.Service339.csproj" />
+    <ProjectReference Include="..\Auth.Validators87\Auth.Validators87.csproj" />
+    <ProjectReference Include="..\Imaging.Shared338\Imaging.Shared338.csproj" />
+    <ProjectReference Include="..\Scheduling.Shared39\Scheduling.Shared39.csproj" />
+    <ProjectReference Include="..\Scheduling.Core480\Scheduling.Core480.csproj" />
+    <ProjectReference Include="..\Integration.Validators369\Integration.Validators369.csproj" />
+    <ProjectReference Include="..\Integration.Tests86\Integration.Tests86.csproj" />
+    <ProjectReference Include="..\Notifications.Tests195\Notifications.Tests195.csproj" />
+    <ProjectReference Include="..\Workflow.Tests\Workflow.Tests.csproj" />
+    <ProjectReference Include="..\Auth.Processors411\Auth.Processors411.csproj" />
+    <ProjectReference Include="..\Export.Data150\Export.Data150.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Data224\GalaxyWorks.Data224.csproj" />
+    <ProjectReference Include="..\Imaging.Mappers93\Imaging.Mappers93.csproj" />
+    <ProjectReference Include="..\Export.Events276\Export.Events276.csproj" />
+    <ProjectReference Include="..\Integration.Data175\Integration.Data175.csproj" />
+    <ProjectReference Include="..\Utilities.Service358\Utilities.Service358.csproj" />
+  </ItemGroup>
+</Project>

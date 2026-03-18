@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <RootNamespace>BatchJobs.Core</RootNamespace>
+    <AssemblyName>BatchJobs.Core</AssemblyName>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Contracts\Auth.Contracts.csproj" />
+    <ProjectReference Include="..\Auth.Mappers206\Auth.Mappers206.csproj" />
+    <ProjectReference Include="..\Admin.Models199\Admin.Models199.csproj" />
+    <ProjectReference Include="..\Security.Handlers460\Security.Handlers460.csproj" />
+    <ProjectReference Include="..\BatchJobs.Mappers\BatchJobs.Mappers.csproj" />
+    <ProjectReference Include="..\Export.Data150\Export.Data150.csproj" />
+    <ProjectReference Include="..\Export.Processors79\Export.Processors79.csproj" />
+    <ProjectReference Include="..\Export.Data344\Export.Data344.csproj" />
+    <ProjectReference Include="..\Notifications.Mappers110\Notifications.Mappers110.csproj" />
+    <ProjectReference Include="..\Notifications.Processors\Notifications.Processors.csproj" />
+    <ProjectReference Include="..\Scheduling.Api\Scheduling.Api.csproj" />
+    <ProjectReference Include="..\Imaging.Shared322\Imaging.Shared322.csproj" />
+    <ProjectReference Include="..\Imaging.Tests328\Imaging.Tests328.csproj" />
+    <ProjectReference Include="..\Reporting.Client\Reporting.Client.csproj" />
+    <ProjectReference Include="..\Scheduling.Client\Scheduling.Client.csproj" />
+    <ProjectReference Include="..\Utilities.Contracts32\Utilities.Contracts32.csproj" />
+    <ProjectReference Include="..\Logging.Models436\Logging.Models436.csproj" />
+    <ProjectReference Include="..\Billing.Service432\Billing.Service432.csproj" />
+  </ItemGroup>
+</Project>

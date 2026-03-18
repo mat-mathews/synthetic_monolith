@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Imaging.Tests</RootNamespace>
+    <AssemblyName>Imaging.Tests</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Client\Auth.Client.csproj" />
+    <ProjectReference Include="..\Import.Handlers167\Import.Handlers167.csproj" />
+    <ProjectReference Include="..\Utilities.Data415\Utilities.Data415.csproj" />
+    <ProjectReference Include="..\Billing.Handlers122\Billing.Handlers122.csproj" />
+    <ProjectReference Include="..\Auth.Mappers208\Auth.Mappers208.csproj" />
+    <ProjectReference Include="..\Portal.Service378\Portal.Service378.csproj" />
+    <ProjectReference Include="..\Imaging.Api\Imaging.Api.csproj" />
+    <ProjectReference Include="..\Common.Web438\Common.Web438.csproj" />
+    <ProjectReference Include="..\Import.Data193\Import.Data193.csproj" />
+    <ProjectReference Include="..\Portal.Api\Portal.Api.csproj" />
+    <ProjectReference Include="..\Portal.Web158\Portal.Web158.csproj" />
+    <ProjectReference Include="..\Admin.Service456\Admin.Service456.csproj" />
+    <ProjectReference Include="..\Admin.Data117\Admin.Data117.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Events256\GalaxyWorks.Events256.csproj" />
+    <ProjectReference Include="..\Integration.Tests45\Integration.Tests45.csproj" />
+    <ProjectReference Include="..\Logging.Contracts373\Logging.Contracts373.csproj" />
+  </ItemGroup>
+</Project>

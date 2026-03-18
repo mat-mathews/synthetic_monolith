@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>BatchJobs.Validators311</RootNamespace>
+    <AssemblyName>BatchJobs.Validators311</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Models\Admin.Models.csproj" />
+    <ProjectReference Include="..\Auth.Core140\Auth.Core140.csproj" />
+    <ProjectReference Include="..\Admin.Validators\Admin.Validators.csproj" />
+    <ProjectReference Include="..\Workflow.Web59\Workflow.Web59.csproj" />
+    <ProjectReference Include="..\Notifications.Mappers55\Notifications.Mappers55.csproj" />
+    <ProjectReference Include="..\BatchJobs.Models\BatchJobs.Models.csproj" />
+    <ProjectReference Include="..\Billing.Tests194\Billing.Tests194.csproj" />
+    <ProjectReference Include="..\Workflow.Service161\Workflow.Service161.csproj" />
+    <ProjectReference Include="..\Export.Core386\Export.Core386.csproj" />
+    <ProjectReference Include="..\Common.Mappers190\Common.Mappers190.csproj" />
+    <ProjectReference Include="..\BatchJobs.Handlers443\BatchJobs.Handlers443.csproj" />
+    <ProjectReference Include="..\BatchJobs.Client267\BatchJobs.Client267.csproj" />
+    <ProjectReference Include="..\Export.Data344\Export.Data344.csproj" />
+    <ProjectReference Include="..\Admin.Models476\Admin.Models476.csproj" />
+    <ProjectReference Include="..\Portal.Handlers\Portal.Handlers.csproj" />
+    <ProjectReference Include="..\Security.Mappers\Security.Mappers.csproj" />
+    <ProjectReference Include="..\Import.Client\Import.Client.csproj" />
+    <ProjectReference Include="..\Scheduling.Core273\Scheduling.Core273.csproj" />
+  </ItemGroup>
+</Project>

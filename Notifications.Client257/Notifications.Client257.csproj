@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <RootNamespace>Notifications.Client257</RootNamespace>
+    <AssemblyName>Notifications.Client257</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Models\Auth.Models.csproj" />
+    <ProjectReference Include="..\Admin.Models\Admin.Models.csproj" />
+    <ProjectReference Include="..\Auth.Handlers\Auth.Handlers.csproj" />
+    <ProjectReference Include="..\Reporting.Web345\Reporting.Web345.csproj" />
+    <ProjectReference Include="..\Auth.Tests498\Auth.Tests498.csproj" />
+    <ProjectReference Include="..\Security.Core\Security.Core.csproj" />
+    <ProjectReference Include="..\Portal.Service\Portal.Service.csproj" />
+    <ProjectReference Include="..\Notifications.Validators252\Notifications.Validators252.csproj" />
+    <ProjectReference Include="..\Common.Client\Common.Client.csproj" />
+    <ProjectReference Include="..\Logging.Models379\Logging.Models379.csproj" />
+    <ProjectReference Include="..\Billing.Client\Billing.Client.csproj" />
+    <ProjectReference Include="..\Portal.Models\Portal.Models.csproj" />
+    <ProjectReference Include="..\Billing.Validators305\Billing.Validators305.csproj" />
+    <ProjectReference Include="..\Import.Models\Import.Models.csproj" />
+    <ProjectReference Include="..\Security.Validators217\Security.Validators217.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Client366\GalaxyWorks.Client366.csproj" />
+    <ProjectReference Include="..\Workflow.Tests222\Workflow.Tests222.csproj" />
+    <ProjectReference Include="..\DataAccess.Client113\DataAccess.Client113.csproj" />
+  </ItemGroup>
+</Project>

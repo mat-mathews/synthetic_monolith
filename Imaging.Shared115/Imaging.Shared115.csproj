@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>Imaging.Shared115</RootNamespace>
+    <AssemblyName>Imaging.Shared115</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Shared\Admin.Shared.csproj" />
+    <ProjectReference Include="..\Auth.Mappers28\Auth.Mappers28.csproj" />
+    <ProjectReference Include="..\Import.Data\Import.Data.csproj" />
+    <ProjectReference Include="..\DataAccess.Client113\DataAccess.Client113.csproj" />
+    <ProjectReference Include="..\Common.Processors142\Common.Processors142.csproj" />
+    <ProjectReference Include="..\Common.Mappers\Common.Mappers.csproj" />
+    <ProjectReference Include="..\Imaging.Events424\Imaging.Events424.csproj" />
+    <ProjectReference Include="..\Auth.Shared\Auth.Shared.csproj" />
+    <ProjectReference Include="..\Logging.Service382\Logging.Service382.csproj" />
+    <ProjectReference Include="..\Export.Processors\Export.Processors.csproj" />
+    <ProjectReference Include="..\Billing.Service\Billing.Service.csproj" />
+    <ProjectReference Include="..\Common.Service\Common.Service.csproj" />
+    <ProjectReference Include="..\Export.Events163\Export.Events163.csproj" />
+    <ProjectReference Include="..\Admin.Events235\Admin.Events235.csproj" />
+    <ProjectReference Include="..\Documents.Shared487\Documents.Shared487.csproj" />
+    <ProjectReference Include="..\Security.Service\Security.Service.csproj" />
+    <ProjectReference Include="..\Scheduling.Processors397\Scheduling.Processors397.csproj" />
+  </ItemGroup>
+</Project>

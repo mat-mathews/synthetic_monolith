@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>Scheduling.Api185</RootNamespace>
+    <AssemblyName>Scheduling.Api185</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Service339\Admin.Service339.csproj" />
+    <ProjectReference Include="..\Scheduling.Processors80\Scheduling.Processors80.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Api390\GalaxyWorks.Api390.csproj" />
+    <ProjectReference Include="..\Auth.Client249\Auth.Client249.csproj" />
+    <ProjectReference Include="..\DataAccess.Api\DataAccess.Api.csproj" />
+    <ProjectReference Include="..\Import.Client65\Import.Client65.csproj" />
+    <ProjectReference Include="..\Notifications.Tests\Notifications.Tests.csproj" />
+    <ProjectReference Include="..\Integration.Events\Integration.Events.csproj" />
+    <ProjectReference Include="..\BatchJobs.Tests\BatchJobs.Tests.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Client366\GalaxyWorks.Client366.csproj" />
+    <ProjectReference Include="..\Scheduling.Core273\Scheduling.Core273.csproj" />
+    <ProjectReference Include="..\Workflow.Contracts192\Workflow.Contracts192.csproj" />
+    <ProjectReference Include="..\Imaging.Web172\Imaging.Web172.csproj" />
+    <ProjectReference Include="..\Workflow.Web\Workflow.Web.csproj" />
+    <ProjectReference Include="..\Notifications.Shared380\Notifications.Shared380.csproj" />
+    <ProjectReference Include="..\Reporting.Handlers347\Reporting.Handlers347.csproj" />
+  </ItemGroup>
+</Project>

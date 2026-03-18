@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <RootNamespace>Export.Models</RootNamespace>
+    <AssemblyName>Export.Models</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Web46\Admin.Web46.csproj" />
+    <ProjectReference Include="..\Admin.Api255\Admin.Api255.csproj" />
+    <ProjectReference Include="..\Integration.Contracts290\Integration.Contracts290.csproj" />
+    <ProjectReference Include="..\Import.Service429\Import.Service429.csproj" />
+    <ProjectReference Include="..\Billing.Processors259\Billing.Processors259.csproj" />
+    <ProjectReference Include="..\Workflow.Web\Workflow.Web.csproj" />
+    <ProjectReference Include="..\Logging.Core159\Logging.Core159.csproj" />
+    <ProjectReference Include="..\Reporting.Shared394\Reporting.Shared394.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Models219\GalaxyWorks.Models219.csproj" />
+    <ProjectReference Include="..\Workflow.Contracts330\Workflow.Contracts330.csproj" />
+    <ProjectReference Include="..\Export.Web\Export.Web.csproj" />
+    <ProjectReference Include="..\Documents.Data68\Documents.Data68.csproj" />
+    <ProjectReference Include="..\Workflow.Contracts\Workflow.Contracts.csproj" />
+    <ProjectReference Include="..\Auth.Data\Auth.Data.csproj" />
+    <ProjectReference Include="..\Common.Events\Common.Events.csproj" />
+    <ProjectReference Include="..\Export.Client13\Export.Client13.csproj" />
+    <ProjectReference Include="..\Scheduling.Processors\Scheduling.Processors.csproj" />
+  </ItemGroup>
+</Project>

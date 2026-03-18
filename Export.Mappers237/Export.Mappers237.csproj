@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Export.Mappers237</RootNamespace>
+    <AssemblyName>Export.Mappers237</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Processors35\Admin.Processors35.csproj" />
+    <ProjectReference Include="..\Admin.Data117\Admin.Data117.csproj" />
+    <ProjectReference Include="..\DataAccess.Validators254\DataAccess.Validators254.csproj" />
+    <ProjectReference Include="..\Admin.Models\Admin.Models.csproj" />
+    <ProjectReference Include="..\DataAccess.Models\DataAccess.Models.csproj" />
+    <ProjectReference Include="..\Common.Web488\Common.Web488.csproj" />
+    <ProjectReference Include="..\Documents.Handlers\Documents.Handlers.csproj" />
+    <ProjectReference Include="..\Import.Data100\Import.Data100.csproj" />
+    <ProjectReference Include="..\Integration.Validators\Integration.Validators.csproj" />
+    <ProjectReference Include="..\Integration.Data\Integration.Data.csproj" />
+    <ProjectReference Include="..\Auth.Mappers178\Auth.Mappers178.csproj" />
+    <ProjectReference Include="..\Utilities.Processors91\Utilities.Processors91.csproj" />
+    <ProjectReference Include="..\Security.Processors\Security.Processors.csproj" />
+    <ProjectReference Include="..\Billing.Client182\Billing.Client182.csproj" />
+    <ProjectReference Include="..\Security.Client353\Security.Client353.csproj" />
+    <ProjectReference Include="..\Import.Service429\Import.Service429.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>Notifications.Events</RootNamespace>
+    <AssemblyName>Notifications.Events</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Handlers209\Auth.Handlers209.csproj" />
+    <ProjectReference Include="..\Scheduling.Models260\Scheduling.Models260.csproj" />
+    <ProjectReference Include="..\Auth.Handlers467\Auth.Handlers467.csproj" />
+    <ProjectReference Include="..\Integration.Processors241\Integration.Processors241.csproj" />
+    <ProjectReference Include="..\Common.Api213\Common.Api213.csproj" />
+    <ProjectReference Include="..\Import.Client7\Import.Client7.csproj" />
+    <ProjectReference Include="..\Billing.Shared312\Billing.Shared312.csproj" />
+    <ProjectReference Include="..\Notifications.Service\Notifications.Service.csproj" />
+    <ProjectReference Include="..\Common.Contracts279\Common.Contracts279.csproj" />
+    <ProjectReference Include="..\Reporting.Handlers347\Reporting.Handlers347.csproj" />
+    <ProjectReference Include="..\Import.Handlers\Import.Handlers.csproj" />
+    <ProjectReference Include="..\Portal.Contracts170\Portal.Contracts170.csproj" />
+    <ProjectReference Include="..\Common.Events\Common.Events.csproj" />
+    <ProjectReference Include="..\Scheduling.Shared\Scheduling.Shared.csproj" />
+    <ProjectReference Include="..\Workflow.Tests\Workflow.Tests.csproj" />
+    <ProjectReference Include="..\Export.Models\Export.Models.csproj" />
+  </ItemGroup>
+</Project>

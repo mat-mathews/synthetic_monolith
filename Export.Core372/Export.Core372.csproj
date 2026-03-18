@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Export.Core372</RootNamespace>
+    <AssemblyName>Export.Core372</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Events78\Auth.Events78.csproj" />
+    <ProjectReference Include="..\Auth.Client38\Auth.Client38.csproj" />
+    <ProjectReference Include="..\Billing.Core191\Billing.Core191.csproj" />
+    <ProjectReference Include="..\Reporting.Processors326\Reporting.Processors326.csproj" />
+    <ProjectReference Include="..\Utilities.Handlers268\Utilities.Handlers268.csproj" />
+    <ProjectReference Include="..\Logging.Core\Logging.Core.csproj" />
+    <ProjectReference Include="..\DataAccess.Models\DataAccess.Models.csproj" />
+    <ProjectReference Include="..\Portal.Tests481\Portal.Tests481.csproj" />
+    <ProjectReference Include="..\Security.Client353\Security.Client353.csproj" />
+    <ProjectReference Include="..\Notifications.Shared396\Notifications.Shared396.csproj" />
+    <ProjectReference Include="..\Scheduling.Processors\Scheduling.Processors.csproj" />
+    <ProjectReference Include="..\Workflow.Tests27\Workflow.Tests27.csproj" />
+    <ProjectReference Include="..\Notifications.Mappers55\Notifications.Mappers55.csproj" />
+    <ProjectReference Include="..\Portal.Web158\Portal.Web158.csproj" />
+    <ProjectReference Include="..\Documents.Validators\Documents.Validators.csproj" />
+    <ProjectReference Include="..\BatchJobs.Handlers\BatchJobs.Handlers.csproj" />
+    <ProjectReference Include="..\Documents.Data68\Documents.Data68.csproj" />
+  </ItemGroup>
+</Project>

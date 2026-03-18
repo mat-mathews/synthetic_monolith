@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>Workflow.Contracts</RootNamespace>
+    <AssemblyName>Workflow.Contracts</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Events78\Auth.Events78.csproj" />
+    <ProjectReference Include="..\Admin.Processors35\Admin.Processors35.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Validators355\GalaxyWorks.Validators355.csproj" />
+    <ProjectReference Include="..\Logging.Models379\Logging.Models379.csproj" />
+    <ProjectReference Include="..\BatchJobs.Client\BatchJobs.Client.csproj" />
+    <ProjectReference Include="..\Reporting.Handlers\Reporting.Handlers.csproj" />
+    <ProjectReference Include="..\Common.Shared\Common.Shared.csproj" />
+    <ProjectReference Include="..\BatchJobs.Processors\BatchJobs.Processors.csproj" />
+    <ProjectReference Include="..\Export.Core386\Export.Core386.csproj" />
+    <ProjectReference Include="..\Portal.Service378\Portal.Service378.csproj" />
+    <ProjectReference Include="..\Import.Contracts131\Import.Contracts131.csproj" />
+    <ProjectReference Include="..\Logging.Api316\Logging.Api316.csproj" />
+    <ProjectReference Include="..\Portal.Service231\Portal.Service231.csproj" />
+    <ProjectReference Include="..\BatchJobs.Client267\BatchJobs.Client267.csproj" />
+    <ProjectReference Include="..\Documents.Handlers\Documents.Handlers.csproj" />
+    <ProjectReference Include="..\Imaging.Shared115\Imaging.Shared115.csproj" />
+    <ProjectReference Include="..\Documents.Core\Documents.Core.csproj" />
+  </ItemGroup>
+</Project>

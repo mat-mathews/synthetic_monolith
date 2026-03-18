@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Notifications.Processors</RootNamespace>
+    <AssemblyName>Notifications.Processors</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Api255\Admin.Api255.csproj" />
+    <ProjectReference Include="..\Imaging.Shared\Imaging.Shared.csproj" />
+    <ProjectReference Include="..\Import.Handlers354\Import.Handlers354.csproj" />
+    <ProjectReference Include="..\Import.Client\Import.Client.csproj" />
+    <ProjectReference Include="..\Auth.Models23\Auth.Models23.csproj" />
+    <ProjectReference Include="..\Integration.Processors\Integration.Processors.csproj" />
+    <ProjectReference Include="..\Portal.Service\Portal.Service.csproj" />
+    <ProjectReference Include="..\Portal.Web158\Portal.Web158.csproj" />
+    <ProjectReference Include="..\Import.Core\Import.Core.csproj" />
+    <ProjectReference Include="..\Common.Handlers\Common.Handlers.csproj" />
+    <ProjectReference Include="..\Common.Shared297\Common.Shared297.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Mappers\GalaxyWorks.Mappers.csproj" />
+    <ProjectReference Include="..\Imaging.Mappers275\Imaging.Mappers275.csproj" />
+    <ProjectReference Include="..\Reporting.Shared\Reporting.Shared.csproj" />
+    <ProjectReference Include="..\Reporting.Client422\Reporting.Client422.csproj" />
+    <ProjectReference Include="..\Reporting.Handlers347\Reporting.Handlers347.csproj" />
+  </ItemGroup>
+</Project>

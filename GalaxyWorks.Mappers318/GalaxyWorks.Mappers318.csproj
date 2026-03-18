@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>GalaxyWorks.Mappers318</RootNamespace>
+    <AssemblyName>GalaxyWorks.Mappers318</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Data465\Admin.Data465.csproj" />
+    <ProjectReference Include="..\DataAccess.Validators88\DataAccess.Validators88.csproj" />
+    <ProjectReference Include="..\Notifications.Tests\Notifications.Tests.csproj" />
+    <ProjectReference Include="..\DataAccess.Shared486\DataAccess.Shared486.csproj" />
+    <ProjectReference Include="..\Export.Tests\Export.Tests.csproj" />
+    <ProjectReference Include="..\Admin.Contracts120\Admin.Contracts120.csproj" />
+    <ProjectReference Include="..\Logging.Mappers\Logging.Mappers.csproj" />
+    <ProjectReference Include="..\Auth.Tests\Auth.Tests.csproj" />
+    <ProjectReference Include="..\Billing.Mappers124\Billing.Mappers124.csproj" />
+    <ProjectReference Include="..\Export.Data344\Export.Data344.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Data224\GalaxyWorks.Data224.csproj" />
+    <ProjectReference Include="..\Utilities.Mappers97\Utilities.Mappers97.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Models219\GalaxyWorks.Models219.csproj" />
+    <ProjectReference Include="..\DataAccess.Mappers\DataAccess.Mappers.csproj" />
+    <ProjectReference Include="..\BatchJobs.Handlers443\BatchJobs.Handlers443.csproj" />
+    <ProjectReference Include="..\Common.Core\Common.Core.csproj" />
+  </ItemGroup>
+</Project>

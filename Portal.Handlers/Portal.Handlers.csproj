@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Portal.Handlers</RootNamespace>
+    <AssemblyName>Portal.Handlers</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Validators37\Admin.Validators37.csproj" />
+    <ProjectReference Include="..\Admin.Shared\Admin.Shared.csproj" />
+    <ProjectReference Include="..\Documents.Web164\Documents.Web164.csproj" />
+    <ProjectReference Include="..\Scheduling.Events\Scheduling.Events.csproj" />
+    <ProjectReference Include="..\Reporting.Contracts\Reporting.Contracts.csproj" />
+    <ProjectReference Include="..\Billing.Mappers198\Billing.Mappers198.csproj" />
+    <ProjectReference Include="..\Admin.Web46\Admin.Web46.csproj" />
+    <ProjectReference Include="..\Export.Web229\Export.Web229.csproj" />
+    <ProjectReference Include="..\Export.Data150\Export.Data150.csproj" />
+    <ProjectReference Include="..\Workflow.Client47\Workflow.Client47.csproj" />
+    <ProjectReference Include="..\Portal.Events\Portal.Events.csproj" />
+    <ProjectReference Include="..\Reporting.Processors326\Reporting.Processors326.csproj" />
+    <ProjectReference Include="..\Export.Core168\Export.Core168.csproj" />
+    <ProjectReference Include="..\Security.Service\Security.Service.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Core309\GalaxyWorks.Core309.csproj" />
+    <ProjectReference Include="..\DataAccess.Tests\DataAccess.Tests.csproj" />
+    <ProjectReference Include="..\Notifications.Data446\Notifications.Data446.csproj" />
+  </ItemGroup>
+</Project>

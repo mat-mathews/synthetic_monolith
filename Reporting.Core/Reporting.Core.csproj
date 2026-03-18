@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>Reporting.Core</RootNamespace>
+    <AssemblyName>Reporting.Core</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Core121\Admin.Core121.csproj" />
+    <ProjectReference Include="..\Auth.Handlers\Auth.Handlers.csproj" />
+    <ProjectReference Include="..\Reporting.Client\Reporting.Client.csproj" />
+    <ProjectReference Include="..\Reporting.Tests226\Reporting.Tests226.csproj" />
+    <ProjectReference Include="..\Logging.Api316\Logging.Api316.csproj" />
+    <ProjectReference Include="..\Export.Models262\Export.Models262.csproj" />
+    <ProjectReference Include="..\Admin.Contracts\Admin.Contracts.csproj" />
+    <ProjectReference Include="..\Billing.Service\Billing.Service.csproj" />
+    <ProjectReference Include="..\DataAccess.Api454\DataAccess.Api454.csproj" />
+    <ProjectReference Include="..\Notifications.Service\Notifications.Service.csproj" />
+    <ProjectReference Include="..\Import.Core\Import.Core.csproj" />
+    <ProjectReference Include="..\Notifications.Tests\Notifications.Tests.csproj" />
+    <ProjectReference Include="..\Import.Service265\Import.Service265.csproj" />
+    <ProjectReference Include="..\Admin.Handlers450\Admin.Handlers450.csproj" />
+    <ProjectReference Include="..\Notifications.Data348\Notifications.Data348.csproj" />
+    <ProjectReference Include="..\Workflow.Web\Workflow.Web.csproj" />
+    <ProjectReference Include="..\DataAccess.Web200\DataAccess.Web200.csproj" />
+  </ItemGroup>
+</Project>

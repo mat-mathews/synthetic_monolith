@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>Notifications.Service475</RootNamespace>
+    <AssemblyName>Notifications.Service475</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Core2\Auth.Core2.csproj" />
+    <ProjectReference Include="..\Import.Client356\Import.Client356.csproj" />
+    <ProjectReference Include="..\Billing.Service432\Billing.Service432.csproj" />
+    <ProjectReference Include="..\Reporting.Web105\Reporting.Web105.csproj" />
+    <ProjectReference Include="..\Utilities.Handlers268\Utilities.Handlers268.csproj" />
+    <ProjectReference Include="..\Workflow.Client\Workflow.Client.csproj" />
+    <ProjectReference Include="..\Auth.Mappers\Auth.Mappers.csproj" />
+    <ProjectReference Include="..\Export.Processors468\Export.Processors468.csproj" />
+    <ProjectReference Include="..\Utilities.Web\Utilities.Web.csproj" />
+    <ProjectReference Include="..\Scheduling.Shared39\Scheduling.Shared39.csproj" />
+    <ProjectReference Include="..\Scheduling.Web221\Scheduling.Web221.csproj" />
+    <ProjectReference Include="..\DataAccess.Tests282\DataAccess.Tests282.csproj" />
+    <ProjectReference Include="..\Admin.Shared310\Admin.Shared310.csproj" />
+    <ProjectReference Include="..\Export.Core386\Export.Core386.csproj" />
+    <ProjectReference Include="..\Utilities.Models41\Utilities.Models41.csproj" />
+    <ProjectReference Include="..\Portal.Models\Portal.Models.csproj" />
+  </ItemGroup>
+</Project>

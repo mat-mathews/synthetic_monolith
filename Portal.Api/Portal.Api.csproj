@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>Portal.Api</RootNamespace>
+    <AssemblyName>Portal.Api</AssemblyName>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Shared310\Admin.Shared310.csproj" />
+    <ProjectReference Include="..\Auth.Processors400\Auth.Processors400.csproj" />
+    <ProjectReference Include="..\Imaging.Web172\Imaging.Web172.csproj" />
+    <ProjectReference Include="..\Security.Client353\Security.Client353.csproj" />
+    <ProjectReference Include="..\Imaging.Contracts473\Imaging.Contracts473.csproj" />
+    <ProjectReference Include="..\Documents.Data492\Documents.Data492.csproj" />
+    <ProjectReference Include="..\Reporting.Mappers239\Reporting.Mappers239.csproj" />
+    <ProjectReference Include="..\Security.Client\Security.Client.csproj" />
+    <ProjectReference Include="..\BatchJobs.Web\BatchJobs.Web.csproj" />
+    <ProjectReference Include="..\Import.Client356\Import.Client356.csproj" />
+    <ProjectReference Include="..\Auth.Api143\Auth.Api143.csproj" />
+    <ProjectReference Include="..\Scheduling.Processors80\Scheduling.Processors80.csproj" />
+    <ProjectReference Include="..\Logging.Models379\Logging.Models379.csproj" />
+    <ProjectReference Include="..\Logging.Client\Logging.Client.csproj" />
+    <ProjectReference Include="..\Admin.Client\Admin.Client.csproj" />
+    <ProjectReference Include="..\Auth.Client271\Auth.Client271.csproj" />
+    <ProjectReference Include="..\Export.Data\Export.Data.csproj" />
+  </ItemGroup>
+</Project>

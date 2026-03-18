@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Security.Core243</RootNamespace>
+    <AssemblyName>Security.Core243</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Contracts120\Admin.Contracts120.csproj" />
+    <ProjectReference Include="..\Auth.Client271\Auth.Client271.csproj" />
+    <ProjectReference Include="..\Reporting.Events220\Reporting.Events220.csproj" />
+    <ProjectReference Include="..\Scheduling.Web60\Scheduling.Web60.csproj" />
+    <ProjectReference Include="..\Import.Validators\Import.Validators.csproj" />
+    <ProjectReference Include="..\Scheduling.Web221\Scheduling.Web221.csproj" />
+    <ProjectReference Include="..\Common.Service\Common.Service.csproj" />
+    <ProjectReference Include="..\Imaging.Tests328\Imaging.Tests328.csproj" />
+    <ProjectReference Include="..\Auth.Mappers178\Auth.Mappers178.csproj" />
+    <ProjectReference Include="..\Import.Core\Import.Core.csproj" />
+    <ProjectReference Include="..\Portal.Client\Portal.Client.csproj" />
+    <ProjectReference Include="..\Documents.Mappers\Documents.Mappers.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Mappers\GalaxyWorks.Mappers.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Events\GalaxyWorks.Events.csproj" />
+    <ProjectReference Include="..\Common.Core169\Common.Core169.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Client\GalaxyWorks.Client.csproj" />
+    <ProjectReference Include="..\Common.Events367\Common.Events367.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <RootNamespace>Imaging.Web</RootNamespace>
+    <AssemblyName>Imaging.Web</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Api\Admin.Api.csproj" />
+    <ProjectReference Include="..\Auth.Core140\Auth.Core140.csproj" />
+    <ProjectReference Include="..\Documents.Processors133\Documents.Processors133.csproj" />
+    <ProjectReference Include="..\Export.Service\Export.Service.csproj" />
+    <ProjectReference Include="..\Documents.Data\Documents.Data.csproj" />
+    <ProjectReference Include="..\Import.Data\Import.Data.csproj" />
+    <ProjectReference Include="..\Auth.Contracts402\Auth.Contracts402.csproj" />
+    <ProjectReference Include="..\Billing.Service302\Billing.Service302.csproj" />
+    <ProjectReference Include="..\DataAccess.Tests\DataAccess.Tests.csproj" />
+    <ProjectReference Include="..\Workflow.Mappers\Workflow.Mappers.csproj" />
+    <ProjectReference Include="..\Export.Processors361\Export.Processors361.csproj" />
+    <ProjectReference Include="..\Export.Mappers\Export.Mappers.csproj" />
+    <ProjectReference Include="..\Billing.Events\Billing.Events.csproj" />
+    <ProjectReference Include="..\Common.Processors245\Common.Processors245.csproj" />
+    <ProjectReference Include="..\Imaging.Api127\Imaging.Api127.csproj" />
+    <ProjectReference Include="..\Billing.Service\Billing.Service.csproj" />
+    <ProjectReference Include="..\BatchJobs.Contracts399\BatchJobs.Contracts399.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <RootNamespace>Imaging.Client261</RootNamespace>
+    <AssemblyName>Imaging.Client261</AssemblyName>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Contracts395\Auth.Contracts395.csproj" />
+    <ProjectReference Include="..\Auth.Handlers467\Auth.Handlers467.csproj" />
+    <ProjectReference Include="..\BatchJobs.Tests270\BatchJobs.Tests270.csproj" />
+    <ProjectReference Include="..\Workflow.Validators201\Workflow.Validators201.csproj" />
+    <ProjectReference Include="..\Auth.Tests498\Auth.Tests498.csproj" />
+    <ProjectReference Include="..\Portal.Validators125\Portal.Validators125.csproj" />
+    <ProjectReference Include="..\Documents.Data419\Documents.Data419.csproj" />
+    <ProjectReference Include="..\Reporting.Shared394\Reporting.Shared394.csproj" />
+    <ProjectReference Include="..\Logging.Models436\Logging.Models436.csproj" />
+    <ProjectReference Include="..\Notifications.Validators391\Notifications.Validators391.csproj" />
+    <ProjectReference Include="..\Auth.Shared325\Auth.Shared325.csproj" />
+    <ProjectReference Include="..\Export.Api12\Export.Api12.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Data96\GalaxyWorks.Data96.csproj" />
+    <ProjectReference Include="..\Portal.Validators\Portal.Validators.csproj" />
+    <ProjectReference Include="..\Admin.Data408\Admin.Data408.csproj" />
+    <ProjectReference Include="..\Admin.Models199\Admin.Models199.csproj" />
+    <ProjectReference Include="..\Utilities.Tests\Utilities.Tests.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>DataAccess.Api341</RootNamespace>
+    <AssemblyName>DataAccess.Api341</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Data\Auth.Data.csproj" />
+    <ProjectReference Include="..\Admin.Events235\Admin.Events235.csproj" />
+    <ProjectReference Include="..\Import.Handlers167\Import.Handlers167.csproj" />
+    <ProjectReference Include="..\Utilities.Processors91\Utilities.Processors91.csproj" />
+    <ProjectReference Include="..\BatchJobs.Api501\BatchJobs.Api501.csproj" />
+    <ProjectReference Include="..\Scheduling.Core\Scheduling.Core.csproj" />
+    <ProjectReference Include="..\Utilities.Events\Utilities.Events.csproj" />
+    <ProjectReference Include="..\Notifications.Events42\Notifications.Events42.csproj" />
+    <ProjectReference Include="..\Billing.Processors103\Billing.Processors103.csproj" />
+    <ProjectReference Include="..\Logging.Contracts\Logging.Contracts.csproj" />
+    <ProjectReference Include="..\DataAccess.Client\DataAccess.Client.csproj" />
+    <ProjectReference Include="..\Export.Tests\Export.Tests.csproj" />
+    <ProjectReference Include="..\Notifications.Validators391\Notifications.Validators391.csproj" />
+    <ProjectReference Include="..\Auth.Validators\Auth.Validators.csproj" />
+    <ProjectReference Include="..\DataAccess.Events283\DataAccess.Events283.csproj" />
+    <ProjectReference Include="..\Workflow.Tests27\Workflow.Tests27.csproj" />
+    <ProjectReference Include="..\Utilities.Mappers\Utilities.Mappers.csproj" />
+  </ItemGroup>
+</Project>

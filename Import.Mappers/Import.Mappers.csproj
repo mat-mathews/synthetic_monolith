@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Import.Mappers</RootNamespace>
+    <AssemblyName>Import.Mappers</AssemblyName>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Client271\Auth.Client271.csproj" />
+    <ProjectReference Include="..\Auth.Handlers467\Auth.Handlers467.csproj" />
+    <ProjectReference Include="..\Common.Data\Common.Data.csproj" />
+    <ProjectReference Include="..\Common.Contracts\Common.Contracts.csproj" />
+    <ProjectReference Include="..\Export.Web210\Export.Web210.csproj" />
+    <ProjectReference Include="..\Workflow.Handlers\Workflow.Handlers.csproj" />
+    <ProjectReference Include="..\BatchJobs.Handlers443\BatchJobs.Handlers443.csproj" />
+    <ProjectReference Include="..\Workflow.Contracts192\Workflow.Contracts192.csproj" />
+    <ProjectReference Include="..\Security.Events\Security.Events.csproj" />
+    <ProjectReference Include="..\Billing.Contracts44\Billing.Contracts44.csproj" />
+    <ProjectReference Include="..\Integration.Service147\Integration.Service147.csproj" />
+    <ProjectReference Include="..\Security.Client349\Security.Client349.csproj" />
+    <ProjectReference Include="..\Common.Processors142\Common.Processors142.csproj" />
+    <ProjectReference Include="..\Import.Api179\Import.Api179.csproj" />
+    <ProjectReference Include="..\Integration.Processors241\Integration.Processors241.csproj" />
+    <ProjectReference Include="..\Admin.Client177\Admin.Client177.csproj" />
+    <ProjectReference Include="..\Notifications.Core166\Notifications.Core166.csproj" />
+  </ItemGroup>
+</Project>

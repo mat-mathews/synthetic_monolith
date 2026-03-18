@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Documents.Api129</RootNamespace>
+    <AssemblyName>Documents.Api129</AssemblyName>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Core121\Admin.Core121.csproj" />
+    <ProjectReference Include="..\Auth.Processors400\Auth.Processors400.csproj" />
+    <ProjectReference Include="..\Imaging.Tests328\Imaging.Tests328.csproj" />
+    <ProjectReference Include="..\Import.Api\Import.Api.csproj" />
+    <ProjectReference Include="..\Common.Client53\Common.Client53.csproj" />
+    <ProjectReference Include="..\Billing.Tests\Billing.Tests.csproj" />
+    <ProjectReference Include="..\Portal.Service\Portal.Service.csproj" />
+    <ProjectReference Include="..\Auth.Tests498\Auth.Tests498.csproj" />
+    <ProjectReference Include="..\DataAccess.Api98\DataAccess.Api98.csproj" />
+    <ProjectReference Include="..\Billing.Api497\Billing.Api497.csproj" />
+    <ProjectReference Include="..\Import.Models457\Import.Models457.csproj" />
+    <ProjectReference Include="..\Logging.Handlers455\Logging.Handlers455.csproj" />
+    <ProjectReference Include="..\Admin.Events306\Admin.Events306.csproj" />
+    <ProjectReference Include="..\Logging.Validators359\Logging.Validators359.csproj" />
+    <ProjectReference Include="..\Auth.Core140\Auth.Core140.csproj" />
+    <ProjectReference Include="..\Imaging.Core\Imaging.Core.csproj" />
+    <ProjectReference Include="..\Import.Core\Import.Core.csproj" />
+  </ItemGroup>
+</Project>

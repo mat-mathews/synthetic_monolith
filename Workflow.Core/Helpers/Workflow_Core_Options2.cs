@@ -1,0 +1,32 @@
+using Admin.Handlers450;
+using Admin.Processors35;
+using Auth.Data;
+using BatchJobs.Validators;
+using DataAccess.Api;
+using DataAccess.Api98;
+using Documents.Api129;
+using Export.Web479;
+using Import.Client7;
+using Import.Models457;
+using Logging.Service160;
+using Scheduling.Processors335;
+using Scheduling.Shared39;
+using Scheduling.Tests76;
+using Security.Service383;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Utilities.Handlers462;
+using Utilities.Models;
+
+namespace Workflow.Core
+{
+    internal struct Workflow_Core_Options2
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public DateTime CreatedAt { get; set; }
+    }
+
+}

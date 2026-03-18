@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>DataAccess.Validators</RootNamespace>
+    <AssemblyName>DataAccess.Validators</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Handlers447\Admin.Handlers447.csproj" />
+    <ProjectReference Include="..\Admin.Mappers324\Admin.Mappers324.csproj" />
+    <ProjectReference Include="..\Auth.Data135\Auth.Data135.csproj" />
+    <ProjectReference Include="..\Common.Contracts\Common.Contracts.csproj" />
+    <ProjectReference Include="..\Admin.Api255\Admin.Api255.csproj" />
+    <ProjectReference Include="..\Auth.Core\Auth.Core.csproj" />
+    <ProjectReference Include="..\Common.Mappers190\Common.Mappers190.csproj" />
+    <ProjectReference Include="..\Portal.Core8\Portal.Core8.csproj" />
+    <ProjectReference Include="..\DataAccess.Events283\DataAccess.Events283.csproj" />
+    <ProjectReference Include="..\Reporting.Web105\Reporting.Web105.csproj" />
+    <ProjectReference Include="..\Export.Models262\Export.Models262.csproj" />
+    <ProjectReference Include="..\Notifications.Validators252\Notifications.Validators252.csproj" />
+    <ProjectReference Include="..\Billing.Core191\Billing.Core191.csproj" />
+    <ProjectReference Include="..\Scheduling.Core273\Scheduling.Core273.csproj" />
+    <ProjectReference Include="..\DataAccess.Validators88\DataAccess.Validators88.csproj" />
+    <ProjectReference Include="..\Billing.Mappers124\Billing.Mappers124.csproj" />
+    <ProjectReference Include="..\Security.Api\Security.Api.csproj" />
+    <ProjectReference Include="..\Common.Api\Common.Api.csproj" />
+  </ItemGroup>
+</Project>

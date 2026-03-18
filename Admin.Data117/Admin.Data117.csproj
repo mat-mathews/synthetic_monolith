@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>Admin.Data117</RootNamespace>
+    <AssemblyName>Admin.Data117</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+</Project>

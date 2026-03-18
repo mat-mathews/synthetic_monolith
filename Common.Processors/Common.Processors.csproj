@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>Common.Processors</RootNamespace>
+    <AssemblyName>Common.Processors</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Service456\Admin.Service456.csproj" />
+    <ProjectReference Include="..\Admin.Data117\Admin.Data117.csproj" />
+    <ProjectReference Include="..\Auth.Models23\Auth.Models23.csproj" />
+    <ProjectReference Include="..\Notifications.Data348\Notifications.Data348.csproj" />
+    <ProjectReference Include="..\Workflow.Events327\Workflow.Events327.csproj" />
+    <ProjectReference Include="..\Auth.Client\Auth.Client.csproj" />
+    <ProjectReference Include="..\Logging.Handlers141\Logging.Handlers141.csproj" />
+    <ProjectReference Include="..\Export.Client13\Export.Client13.csproj" />
+    <ProjectReference Include="..\Import.Processors472\Import.Processors472.csproj" />
+    <ProjectReference Include="..\Workflow.Core\Workflow.Core.csproj" />
+    <ProjectReference Include="..\Workflow.Shared\Workflow.Shared.csproj" />
+    <ProjectReference Include="..\Portal.Core\Portal.Core.csproj" />
+    <ProjectReference Include="..\Scheduling.Processors\Scheduling.Processors.csproj" />
+    <ProjectReference Include="..\Billing.Models\Billing.Models.csproj" />
+    <ProjectReference Include="..\Common.Web488\Common.Web488.csproj" />
+    <ProjectReference Include="..\Export.Web130\Export.Web130.csproj" />
+    <ProjectReference Include="..\Export.Shared332\Export.Shared332.csproj" />
+    <ProjectReference Include="..\Import.Events\Import.Events.csproj" />
+  </ItemGroup>
+</Project>

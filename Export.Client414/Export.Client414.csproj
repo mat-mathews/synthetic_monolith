@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Export.Client414</RootNamespace>
+    <AssemblyName>Export.Client414</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Mappers\Admin.Mappers.csproj" />
+    <ProjectReference Include="..\Notifications.Service\Notifications.Service.csproj" />
+    <ProjectReference Include="..\Common.Api57\Common.Api57.csproj" />
+    <ProjectReference Include="..\Integration.Shared\Integration.Shared.csproj" />
+    <ProjectReference Include="..\Import.Handlers\Import.Handlers.csproj" />
+    <ProjectReference Include="..\Security.Contracts72\Security.Contracts72.csproj" />
+    <ProjectReference Include="..\DataAccess.Client82\DataAccess.Client82.csproj" />
+    <ProjectReference Include="..\Import.Service265\Import.Service265.csproj" />
+    <ProjectReference Include="..\Export.Processors104\Export.Processors104.csproj" />
+    <ProjectReference Include="..\Documents.Api\Documents.Api.csproj" />
+    <ProjectReference Include="..\Auth.Service\Auth.Service.csproj" />
+    <ProjectReference Include="..\Export.Validators\Export.Validators.csproj" />
+    <ProjectReference Include="..\Reporting.Tests67\Reporting.Tests67.csproj" />
+    <ProjectReference Include="..\Export.Events163\Export.Events163.csproj" />
+    <ProjectReference Include="..\Notifications.Models277\Notifications.Models277.csproj" />
+    <ProjectReference Include="..\Scheduling.Api3\Scheduling.Api3.csproj" />
+  </ItemGroup>
+</Project>

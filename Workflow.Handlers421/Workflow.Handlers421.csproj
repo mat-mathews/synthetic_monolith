@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <RootNamespace>Workflow.Handlers421</RootNamespace>
+    <AssemblyName>Workflow.Handlers421</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Web154\Admin.Web154.csproj" />
+    <ProjectReference Include="..\Security.Events\Security.Events.csproj" />
+    <ProjectReference Include="..\Portal.Api99\Portal.Api99.csproj" />
+    <ProjectReference Include="..\DataAccess.Data36\DataAccess.Data36.csproj" />
+    <ProjectReference Include="..\Security.Contracts499\Security.Contracts499.csproj" />
+    <ProjectReference Include="..\Utilities.Web\Utilities.Web.csproj" />
+    <ProjectReference Include="..\Documents.Core357\Documents.Core357.csproj" />
+    <ProjectReference Include="..\Admin.Core121\Admin.Core121.csproj" />
+    <ProjectReference Include="..\Reporting.Tests\Reporting.Tests.csproj" />
+    <ProjectReference Include="..\Import.Tests119\Import.Tests119.csproj" />
+    <ProjectReference Include="..\Logging.Service382\Logging.Service382.csproj" />
+    <ProjectReference Include="..\DataAccess.Api454\DataAccess.Api454.csproj" />
+    <ProjectReference Include="..\Reporting.Models\Reporting.Models.csproj" />
+    <ProjectReference Include="..\Integration.Handlers244\Integration.Handlers244.csproj" />
+    <ProjectReference Include="..\Reporting.Web345\Reporting.Web345.csproj" />
+    <ProjectReference Include="..\Logging.Validators359\Logging.Validators359.csproj" />
+  </ItemGroup>
+</Project>

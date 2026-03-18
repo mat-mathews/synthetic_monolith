@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <RootNamespace>Documents.Mappers</RootNamespace>
+    <AssemblyName>Documents.Mappers</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Handlers209\Auth.Handlers209.csproj" />
+    <ProjectReference Include="..\Admin.Contracts\Admin.Contracts.csproj" />
+    <ProjectReference Include="..\Admin.Client346\Admin.Client346.csproj" />
+    <ProjectReference Include="..\Admin.Service\Admin.Service.csproj" />
+    <ProjectReference Include="..\Billing.Validators\Billing.Validators.csproj" />
+    <ProjectReference Include="..\Logging.Handlers285\Logging.Handlers285.csproj" />
+    <ProjectReference Include="..\Security.Handlers460\Security.Handlers460.csproj" />
+    <ProjectReference Include="..\Common.Mappers343\Common.Mappers343.csproj" />
+    <ProjectReference Include="..\Utilities.Models41\Utilities.Models41.csproj" />
+    <ProjectReference Include="..\Billing.Core34\Billing.Core34.csproj" />
+    <ProjectReference Include="..\Auth.Mappers178\Auth.Mappers178.csproj" />
+    <ProjectReference Include="..\Export.Shared332\Export.Shared332.csproj" />
+    <ProjectReference Include="..\Common.Shared\Common.Shared.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Api390\GalaxyWorks.Api390.csproj" />
+    <ProjectReference Include="..\Integration.Tests45\Integration.Tests45.csproj" />
+    <ProjectReference Include="..\Security.Api\Security.Api.csproj" />
+    <ProjectReference Include="..\Common.Web438\Common.Web438.csproj" />
+    <ProjectReference Include="..\Billing.Client\Billing.Client.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>Documents.Tests</RootNamespace>
+    <AssemblyName>Documents.Tests</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Data\Auth.Data.csproj" />
+    <ProjectReference Include="..\Admin.Web46\Admin.Web46.csproj" />
+    <ProjectReference Include="..\Auth.Api143\Auth.Api143.csproj" />
+    <ProjectReference Include="..\Auth.Handlers281\Auth.Handlers281.csproj" />
+    <ProjectReference Include="..\Export.Web\Export.Web.csproj" />
+    <ProjectReference Include="..\Utilities.Processors440\Utilities.Processors440.csproj" />
+    <ProjectReference Include="..\Export.Client414\Export.Client414.csproj" />
+    <ProjectReference Include="..\Logging.Core\Logging.Core.csproj" />
+    <ProjectReference Include="..\Auth.Api\Auth.Api.csproj" />
+    <ProjectReference Include="..\Imaging.Client331\Imaging.Client331.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Api\GalaxyWorks.Api.csproj" />
+    <ProjectReference Include="..\Documents.Handlers\Documents.Handlers.csproj" />
+    <ProjectReference Include="..\Portal.Service378\Portal.Service378.csproj" />
+    <ProjectReference Include="..\Auth.Processors\Auth.Processors.csproj" />
+    <ProjectReference Include="..\Common.Events367\Common.Events367.csproj" />
+    <ProjectReference Include="..\Scheduling.Core480\Scheduling.Core480.csproj" />
+    <ProjectReference Include="..\Scheduling.Web221\Scheduling.Web221.csproj" />
+    <ProjectReference Include="..\Auth.Mappers206\Auth.Mappers206.csproj" />
+  </ItemGroup>
+</Project>

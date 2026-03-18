@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Workflow.Web377</RootNamespace>
+    <AssemblyName>Workflow.Web377</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Client271\Auth.Client271.csproj" />
+    <ProjectReference Include="..\Workflow.Tests\Workflow.Tests.csproj" />
+    <ProjectReference Include="..\Reporting.Service207\Reporting.Service207.csproj" />
+    <ProjectReference Include="..\Portal.Handlers\Portal.Handlers.csproj" />
+    <ProjectReference Include="..\DataAccess.Mappers\DataAccess.Mappers.csproj" />
+    <ProjectReference Include="..\Scheduling.Tests76\Scheduling.Tests76.csproj" />
+    <ProjectReference Include="..\Scheduling.Processors80\Scheduling.Processors80.csproj" />
+    <ProjectReference Include="..\Documents.Events\Documents.Events.csproj" />
+    <ProjectReference Include="..\Export.Processors104\Export.Processors104.csproj" />
+    <ProjectReference Include="..\Documents.Core\Documents.Core.csproj" />
+    <ProjectReference Include="..\Utilities.Mappers232\Utilities.Mappers232.csproj" />
+    <ProjectReference Include="..\Import.Service496\Import.Service496.csproj" />
+    <ProjectReference Include="..\Reporting.Events188\Reporting.Events188.csproj" />
+    <ProjectReference Include="..\Security.Models284\Security.Models284.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Data96\GalaxyWorks.Data96.csproj" />
+    <ProjectReference Include="..\Notifications.Tests\Notifications.Tests.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>Imaging.Mappers93</RootNamespace>
+    <AssemblyName>Imaging.Mappers93</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Core140\Auth.Core140.csproj" />
+    <ProjectReference Include="..\Admin.Handlers447\Admin.Handlers447.csproj" />
+    <ProjectReference Include="..\Auth.Events\Auth.Events.csproj" />
+    <ProjectReference Include="..\Billing.Client73\Billing.Client73.csproj" />
+    <ProjectReference Include="..\Integration.Processors321\Integration.Processors321.csproj" />
+    <ProjectReference Include="..\Documents.Tests106\Documents.Tests106.csproj" />
+    <ProjectReference Include="..\DataAccess.Api\DataAccess.Api.csproj" />
+    <ProjectReference Include="..\Admin.Models\Admin.Models.csproj" />
+    <ProjectReference Include="..\Scheduling.Processors25\Scheduling.Processors25.csproj" />
+    <ProjectReference Include="..\Import.Service291\Import.Service291.csproj" />
+    <ProjectReference Include="..\Portal.Data216\Portal.Data216.csproj" />
+    <ProjectReference Include="..\Portal.Mappers\Portal.Mappers.csproj" />
+    <ProjectReference Include="..\Billing.Client\Billing.Client.csproj" />
+    <ProjectReference Include="..\BatchJobs.Models329\BatchJobs.Models329.csproj" />
+    <ProjectReference Include="..\Workflow.Handlers421\Workflow.Handlers421.csproj" />
+    <ProjectReference Include="..\Imaging.Shared322\Imaging.Shared322.csproj" />
+    <ProjectReference Include="..\Documents.Web\Documents.Web.csproj" />
+    <ProjectReference Include="..\Workflow.Web377\Workflow.Web377.csproj" />
+  </ItemGroup>
+</Project>

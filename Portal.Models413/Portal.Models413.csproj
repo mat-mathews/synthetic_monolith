@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Portal.Models413</RootNamespace>
+    <AssemblyName>Portal.Models413</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Data408\Admin.Data408.csproj" />
+    <ProjectReference Include="..\Import.Processors412\Import.Processors412.csproj" />
+    <ProjectReference Include="..\Logging.Service160\Logging.Service160.csproj" />
+    <ProjectReference Include="..\BatchJobs.Contracts399\BatchJobs.Contracts399.csproj" />
+    <ProjectReference Include="..\Export.Validators152\Export.Validators152.csproj" />
+    <ProjectReference Include="..\Auth.Contracts402\Auth.Contracts402.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Mappers403\GalaxyWorks.Mappers403.csproj" />
+    <ProjectReference Include="..\Notifications.Models466\Notifications.Models466.csproj" />
+    <ProjectReference Include="..\Integration.Contracts290\Integration.Contracts290.csproj" />
+    <ProjectReference Include="..\Portal.Service489\Portal.Service489.csproj" />
+    <ProjectReference Include="..\Auth.Events78\Auth.Events78.csproj" />
+    <ProjectReference Include="..\Imaging.Events416\Imaging.Events416.csproj" />
+    <ProjectReference Include="..\Billing.Core191\Billing.Core191.csproj" />
+    <ProjectReference Include="..\Common.Mappers190\Common.Mappers190.csproj" />
+    <ProjectReference Include="..\Documents.Models\Documents.Models.csproj" />
+    <ProjectReference Include="..\Export.Processors361\Export.Processors361.csproj" />
+  </ItemGroup>
+</Project>

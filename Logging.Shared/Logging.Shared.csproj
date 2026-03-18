@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <RootNamespace>Logging.Shared</RootNamespace>
+    <AssemblyName>Logging.Shared</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Tests10\Admin.Tests10.csproj" />
+    <ProjectReference Include="..\DataAccess.Service464\DataAccess.Service464.csproj" />
+    <ProjectReference Include="..\Integration.Processors248\Integration.Processors248.csproj" />
+    <ProjectReference Include="..\Notifications.Api144\Notifications.Api144.csproj" />
+    <ProjectReference Include="..\Notifications.Mappers55\Notifications.Mappers55.csproj" />
+    <ProjectReference Include="..\Documents.Shared\Documents.Shared.csproj" />
+    <ProjectReference Include="..\Export.Api12\Export.Api12.csproj" />
+    <ProjectReference Include="..\DataAccess.Data36\DataAccess.Data36.csproj" />
+    <ProjectReference Include="..\Integration.Processors71\Integration.Processors71.csproj" />
+    <ProjectReference Include="..\Auth.Client38\Auth.Client38.csproj" />
+    <ProjectReference Include="..\Import.Api272\Import.Api272.csproj" />
+    <ProjectReference Include="..\Utilities.Mappers232\Utilities.Mappers232.csproj" />
+    <ProjectReference Include="..\Imaging.Handlers\Imaging.Handlers.csproj" />
+    <ProjectReference Include="..\Auth.Tests498\Auth.Tests498.csproj" />
+    <ProjectReference Include="..\Notifications.Web90\Notifications.Web90.csproj" />
+    <ProjectReference Include="..\Workflow.Contracts434\Workflow.Contracts434.csproj" />
+  </ItemGroup>
+</Project>

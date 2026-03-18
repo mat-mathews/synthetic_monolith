@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>GalaxyWorks.Validators355</RootNamespace>
+    <AssemblyName>GalaxyWorks.Validators355</AssemblyName>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Web\Admin.Web.csproj" />
+    <ProjectReference Include="..\Admin.Mappers\Admin.Mappers.csproj" />
+    <ProjectReference Include="..\Admin.Data465\Admin.Data465.csproj" />
+    <ProjectReference Include="..\Security.Validators428\Security.Validators428.csproj" />
+    <ProjectReference Include="..\BatchJobs.Api\BatchJobs.Api.csproj" />
+    <ProjectReference Include="..\Notifications.Web90\Notifications.Web90.csproj" />
+    <ProjectReference Include="..\Reporting.Events188\Reporting.Events188.csproj" />
+    <ProjectReference Include="..\Import.Events374\Import.Events374.csproj" />
+    <ProjectReference Include="..\Security.Api134\Security.Api134.csproj" />
+    <ProjectReference Include="..\Notifications.Models\Notifications.Models.csproj" />
+    <ProjectReference Include="..\Export.Handlers\Export.Handlers.csproj" />
+    <ProjectReference Include="..\Export.Events\Export.Events.csproj" />
+    <ProjectReference Include="..\Common.Data21\Common.Data21.csproj" />
+    <ProjectReference Include="..\Scheduling.Tests\Scheduling.Tests.csproj" />
+    <ProjectReference Include="..\Export.Models\Export.Models.csproj" />
+    <ProjectReference Include="..\Imaging.Web172\Imaging.Web172.csproj" />
+    <ProjectReference Include="..\Export.Client13\Export.Client13.csproj" />
+    <ProjectReference Include="..\Utilities.Shared114\Utilities.Shared114.csproj" />
+  </ItemGroup>
+</Project>

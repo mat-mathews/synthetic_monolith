@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Workflow.Contracts192</RootNamespace>
+    <AssemblyName>Workflow.Contracts192</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Events78\Auth.Events78.csproj" />
+    <ProjectReference Include="..\Auth.Client271\Auth.Client271.csproj" />
+    <ProjectReference Include="..\Auth.Api143\Auth.Api143.csproj" />
+    <ProjectReference Include="..\Export.Data\Export.Data.csproj" />
+    <ProjectReference Include="..\Security.Events\Security.Events.csproj" />
+    <ProjectReference Include="..\Documents.Client58\Documents.Client58.csproj" />
+    <ProjectReference Include="..\Common.Api\Common.Api.csproj" />
+    <ProjectReference Include="..\Admin.Models199\Admin.Models199.csproj" />
+    <ProjectReference Include="..\DataAccess.Contracts404\DataAccess.Contracts404.csproj" />
+    <ProjectReference Include="..\BatchJobs.Contracts\BatchJobs.Contracts.csproj" />
+    <ProjectReference Include="..\Logging.Service160\Logging.Service160.csproj" />
+    <ProjectReference Include="..\Security.Processors295\Security.Processors295.csproj" />
+    <ProjectReference Include="..\Billing.Processors\Billing.Processors.csproj" />
+    <ProjectReference Include="..\Scheduling.Web\Scheduling.Web.csproj" />
+    <ProjectReference Include="..\Import.Data100\Import.Data100.csproj" />
+    <ProjectReference Include="..\Import.Service\Import.Service.csproj" />
+    <ProjectReference Include="..\Imaging.Contracts473\Imaging.Contracts473.csproj" />
+    <ProjectReference Include="..\Billing.Shared\Billing.Shared.csproj" />
+  </ItemGroup>
+</Project>

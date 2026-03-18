@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Portal.Validators</RootNamespace>
+    <AssemblyName>Portal.Validators</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Contracts402\Auth.Contracts402.csproj" />
+    <ProjectReference Include="..\Admin.Client177\Admin.Client177.csproj" />
+    <ProjectReference Include="..\DataAccess.Contracts\DataAccess.Contracts.csproj" />
+    <ProjectReference Include="..\Portal.Events\Portal.Events.csproj" />
+    <ProjectReference Include="..\Imaging.Api127\Imaging.Api127.csproj" />
+    <ProjectReference Include="..\Auth.Client38\Auth.Client38.csproj" />
+    <ProjectReference Include="..\Documents.Api156\Documents.Api156.csproj" />
+    <ProjectReference Include="..\Imaging.Mappers93\Imaging.Mappers93.csproj" />
+    <ProjectReference Include="..\Admin.Shared363\Admin.Shared363.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Data375\GalaxyWorks.Data375.csproj" />
+    <ProjectReference Include="..\Reporting.Validators\Reporting.Validators.csproj" />
+    <ProjectReference Include="..\Export.Tests\Export.Tests.csproj" />
+    <ProjectReference Include="..\Common.Core417\Common.Core417.csproj" />
+    <ProjectReference Include="..\Scheduling.Contracts\Scheduling.Contracts.csproj" />
+    <ProjectReference Include="..\Logging.Validators359\Logging.Validators359.csproj" />
+    <ProjectReference Include="..\Export.Processors449\Export.Processors449.csproj" />
+  </ItemGroup>
+</Project>

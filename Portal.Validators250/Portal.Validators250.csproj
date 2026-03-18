@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Portal.Validators250</RootNamespace>
+    <AssemblyName>Portal.Validators250</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Handlers\Auth.Handlers.csproj" />
+    <ProjectReference Include="..\Scheduling.Web264\Scheduling.Web264.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Tests445\GalaxyWorks.Tests445.csproj" />
+    <ProjectReference Include="..\Scheduling.Handlers43\Scheduling.Handlers43.csproj" />
+    <ProjectReference Include="..\Import.Contracts131\Import.Contracts131.csproj" />
+    <ProjectReference Include="..\Documents.Shared\Documents.Shared.csproj" />
+    <ProjectReference Include="..\Import.Events\Import.Events.csproj" />
+    <ProjectReference Include="..\Utilities.Mappers97\Utilities.Mappers97.csproj" />
+    <ProjectReference Include="..\Auth.Mappers28\Auth.Mappers28.csproj" />
+    <ProjectReference Include="..\Export.Core168\Export.Core168.csproj" />
+    <ProjectReference Include="..\Portal.Shared\Portal.Shared.csproj" />
+    <ProjectReference Include="..\Integration.Handlers244\Integration.Handlers244.csproj" />
+    <ProjectReference Include="..\Documents.Tests\Documents.Tests.csproj" />
+    <ProjectReference Include="..\Export.Validators\Export.Validators.csproj" />
+    <ProjectReference Include="..\Reporting.Events\Reporting.Events.csproj" />
+    <ProjectReference Include="..\Logging.Handlers141\Logging.Handlers141.csproj" />
+  </ItemGroup>
+</Project>

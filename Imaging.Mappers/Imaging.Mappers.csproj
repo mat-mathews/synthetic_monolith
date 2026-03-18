@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <RootNamespace>Imaging.Mappers</RootNamespace>
+    <AssemblyName>Imaging.Mappers</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Service\Admin.Service.csproj" />
+    <ProjectReference Include="..\Admin.Client\Admin.Client.csproj" />
+    <ProjectReference Include="..\Portal.Tests481\Portal.Tests481.csproj" />
+    <ProjectReference Include="..\Import.Events493\Import.Events493.csproj" />
+    <ProjectReference Include="..\Portal.Tests323\Portal.Tests323.csproj" />
+    <ProjectReference Include="..\Auth.Api\Auth.Api.csproj" />
+    <ProjectReference Include="..\Import.Models\Import.Models.csproj" />
+    <ProjectReference Include="..\Logging.Service382\Logging.Service382.csproj" />
+    <ProjectReference Include="..\Import.Contracts131\Import.Contracts131.csproj" />
+    <ProjectReference Include="..\Documents.Service471\Documents.Service471.csproj" />
+    <ProjectReference Include="..\Security.Service383\Security.Service383.csproj" />
+    <ProjectReference Include="..\Workflow.Events327\Workflow.Events327.csproj" />
+    <ProjectReference Include="..\Scheduling.Web196\Scheduling.Web196.csproj" />
+    <ProjectReference Include="..\Reporting.Service\Reporting.Service.csproj" />
+    <ProjectReference Include="..\Scheduling.Core273\Scheduling.Core273.csproj" />
+    <ProjectReference Include="..\Security.Processors246\Security.Processors246.csproj" />
+    <ProjectReference Include="..\Admin.Client346\Admin.Client346.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Export.Data6</RootNamespace>
+    <AssemblyName>Export.Data6</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Api\Admin.Api.csproj" />
+    <ProjectReference Include="..\Auth.Mappers206\Auth.Mappers206.csproj" />
+    <ProjectReference Include="..\Import.Tests\Import.Tests.csproj" />
+    <ProjectReference Include="..\Auth.Shared\Auth.Shared.csproj" />
+    <ProjectReference Include="..\Portal.Tests173\Portal.Tests173.csproj" />
+    <ProjectReference Include="..\Reporting.Shared394\Reporting.Shared394.csproj" />
+    <ProjectReference Include="..\DataAccess.Models\DataAccess.Models.csproj" />
+    <ProjectReference Include="..\Auth.Mappers208\Auth.Mappers208.csproj" />
+    <ProjectReference Include="..\Documents.Shared\Documents.Shared.csproj" />
+    <ProjectReference Include="..\Security.Validators428\Security.Validators428.csproj" />
+    <ProjectReference Include="..\Imaging.Client\Imaging.Client.csproj" />
+    <ProjectReference Include="..\Portal.Core8\Portal.Core8.csproj" />
+    <ProjectReference Include="..\Export.Processors104\Export.Processors104.csproj" />
+    <ProjectReference Include="..\Common.Shared95\Common.Shared95.csproj" />
+    <ProjectReference Include="..\Documents.Service215\Documents.Service215.csproj" />
+    <ProjectReference Include="..\Security.Shared\Security.Shared.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Core\GalaxyWorks.Core.csproj" />
+  </ItemGroup>
+</Project>

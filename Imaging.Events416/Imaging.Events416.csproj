@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Imaging.Events416</RootNamespace>
+    <AssemblyName>Imaging.Events416</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Core121\Admin.Core121.csproj" />
+    <ProjectReference Include="..\Auth.Client271\Auth.Client271.csproj" />
+    <ProjectReference Include="..\Auth.Processors411\Auth.Processors411.csproj" />
+    <ProjectReference Include="..\Admin.Tests\Admin.Tests.csproj" />
+    <ProjectReference Include="..\BatchJobs.Models\BatchJobs.Models.csproj" />
+    <ProjectReference Include="..\Scheduling.Contracts425\Scheduling.Contracts425.csproj" />
+    <ProjectReference Include="..\Security.Shared155\Security.Shared155.csproj" />
+    <ProjectReference Include="..\Integration.Shared\Integration.Shared.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Client366\GalaxyWorks.Client366.csproj" />
+    <ProjectReference Include="..\Scheduling.Handlers63\Scheduling.Handlers63.csproj" />
+    <ProjectReference Include="..\DataAccess.Client113\DataAccess.Client113.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Data375\GalaxyWorks.Data375.csproj" />
+    <ProjectReference Include="..\Notifications.Tests299\Notifications.Tests299.csproj" />
+    <ProjectReference Include="..\Scheduling.Mappers\Scheduling.Mappers.csproj" />
+    <ProjectReference Include="..\Export.Processors104\Export.Processors104.csproj" />
+    <ProjectReference Include="..\Import.Events\Import.Events.csproj" />
+    <ProjectReference Include="..\Documents.Shared487\Documents.Shared487.csproj" />
+  </ItemGroup>
+</Project>

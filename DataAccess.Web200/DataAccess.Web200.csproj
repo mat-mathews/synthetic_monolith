@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>DataAccess.Web200</RootNamespace>
+    <AssemblyName>DataAccess.Web200</AssemblyName>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Core140\Auth.Core140.csproj" />
+    <ProjectReference Include="..\Admin.Web4\Admin.Web4.csproj" />
+    <ProjectReference Include="..\Import.Client64\Import.Client64.csproj" />
+    <ProjectReference Include="..\Reporting.Api\Reporting.Api.csproj" />
+    <ProjectReference Include="..\BatchJobs.Data\BatchJobs.Data.csproj" />
+    <ProjectReference Include="..\Reporting.Tests\Reporting.Tests.csproj" />
+    <ProjectReference Include="..\Notifications.Validators252\Notifications.Validators252.csproj" />
+    <ProjectReference Include="..\DataAccess.Shared486\DataAccess.Shared486.csproj" />
+    <ProjectReference Include="..\Billing.Handlers\Billing.Handlers.csproj" />
+    <ProjectReference Include="..\Workflow.Shared298\Workflow.Shared298.csproj" />
+    <ProjectReference Include="..\Auth.Models\Auth.Models.csproj" />
+    <ProjectReference Include="..\Security.Mappers\Security.Mappers.csproj" />
+    <ProjectReference Include="..\Admin.Models199\Admin.Models199.csproj" />
+    <ProjectReference Include="..\Scheduling.Tests\Scheduling.Tests.csproj" />
+    <ProjectReference Include="..\Common.Client269\Common.Client269.csproj" />
+    <ProjectReference Include="..\Reporting.Events483\Reporting.Events483.csproj" />
+    <ProjectReference Include="..\BatchJobs.Client\BatchJobs.Client.csproj" />
+  </ItemGroup>
+</Project>

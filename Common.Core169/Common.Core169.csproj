@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>Common.Core169</RootNamespace>
+    <AssemblyName>Common.Core169</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Service339\Admin.Service339.csproj" />
+    <ProjectReference Include="..\Auth.Events78\Auth.Events78.csproj" />
+    <ProjectReference Include="..\Admin.Validators37\Admin.Validators37.csproj" />
+    <ProjectReference Include="..\Documents.Processors\Documents.Processors.csproj" />
+    <ProjectReference Include="..\Imaging.Client331\Imaging.Client331.csproj" />
+    <ProjectReference Include="..\Workflow.Data\Workflow.Data.csproj" />
+    <ProjectReference Include="..\Documents.Validators\Documents.Validators.csproj" />
+    <ProjectReference Include="..\Auth.Client\Auth.Client.csproj" />
+    <ProjectReference Include="..\Admin.Shared14\Admin.Shared14.csproj" />
+    <ProjectReference Include="..\Security.Data\Security.Data.csproj" />
+    <ProjectReference Include="..\Import.Tests\Import.Tests.csproj" />
+    <ProjectReference Include="..\Documents.Processors133\Documents.Processors133.csproj" />
+    <ProjectReference Include="..\Export.Service205\Export.Service205.csproj" />
+    <ProjectReference Include="..\Scheduling.Tests444\Scheduling.Tests444.csproj" />
+    <ProjectReference Include="..\Imaging.Data\Imaging.Data.csproj" />
+    <ProjectReference Include="..\Export.Data6\Export.Data6.csproj" />
+    <ProjectReference Include="..\Scheduling.Tests214\Scheduling.Tests214.csproj" />
+    <ProjectReference Include="..\Integration.Validators369\Integration.Validators369.csproj" />
+  </ItemGroup>
+</Project>

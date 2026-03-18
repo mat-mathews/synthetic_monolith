@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Billing.Client73</RootNamespace>
+    <AssemblyName>Billing.Client73</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Client346\Admin.Client346.csproj" />
+    <ProjectReference Include="..\DataAccess.Contracts203\DataAccess.Contracts203.csproj" />
+    <ProjectReference Include="..\Admin.Service247\Admin.Service247.csproj" />
+    <ProjectReference Include="..\Utilities.Shared\Utilities.Shared.csproj" />
+    <ProjectReference Include="..\Import.Events493\Import.Events493.csproj" />
+    <ProjectReference Include="..\Portal.Data\Portal.Data.csproj" />
+    <ProjectReference Include="..\DataAccess.Validators409\DataAccess.Validators409.csproj" />
+    <ProjectReference Include="..\BatchJobs.Events435\BatchJobs.Events435.csproj" />
+    <ProjectReference Include="..\Integration.Mappers\Integration.Mappers.csproj" />
+    <ProjectReference Include="..\Import.Client64\Import.Client64.csproj" />
+    <ProjectReference Include="..\Export.Api49\Export.Api49.csproj" />
+    <ProjectReference Include="..\Workflow.Models253\Workflow.Models253.csproj" />
+    <ProjectReference Include="..\BatchJobs.Client\BatchJobs.Client.csproj" />
+    <ProjectReference Include="..\Logging.Mappers\Logging.Mappers.csproj" />
+    <ProjectReference Include="..\Common.Client269\Common.Client269.csproj" />
+    <ProjectReference Include="..\Import.Processors472\Import.Processors472.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>Logging.Data29</RootNamespace>
+    <AssemblyName>Logging.Data29</AssemblyName>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Validators336\Admin.Validators336.csproj" />
+    <ProjectReference Include="..\Auth.Api\Auth.Api.csproj" />
+    <ProjectReference Include="..\Admin.Data117\Admin.Data117.csproj" />
+    <ProjectReference Include="..\Reporting.Api393\Reporting.Api393.csproj" />
+    <ProjectReference Include="..\Import.Api\Import.Api.csproj" />
+    <ProjectReference Include="..\Common.Data\Common.Data.csproj" />
+    <ProjectReference Include="..\Portal.Events\Portal.Events.csproj" />
+    <ProjectReference Include="..\Common.Api57\Common.Api57.csproj" />
+    <ProjectReference Include="..\Common.Events\Common.Events.csproj" />
+    <ProjectReference Include="..\Common.Processors245\Common.Processors245.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Service\GalaxyWorks.Service.csproj" />
+    <ProjectReference Include="..\Admin.Core121\Admin.Core121.csproj" />
+    <ProjectReference Include="..\Workflow.Events327\Workflow.Events327.csproj" />
+    <ProjectReference Include="..\BatchJobs.Models329\BatchJobs.Models329.csproj" />
+    <ProjectReference Include="..\Notifications.Tests195\Notifications.Tests195.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Shared437\GalaxyWorks.Shared437.csproj" />
+    <ProjectReference Include="..\Utilities.Models41\Utilities.Models41.csproj" />
+    <ProjectReference Include="..\Security.Api134\Security.Api134.csproj" />
+  </ItemGroup>
+</Project>

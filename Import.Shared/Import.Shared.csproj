@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Import.Shared</RootNamespace>
+    <AssemblyName>Import.Shared</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Web\Admin.Web.csproj" />
+    <ProjectReference Include="..\Admin.Service247\Admin.Service247.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Events\GalaxyWorks.Events.csproj" />
+    <ProjectReference Include="..\Notifications.Service475\Notifications.Service475.csproj" />
+    <ProjectReference Include="..\Common.Core\Common.Core.csproj" />
+    <ProjectReference Include="..\Security.Web\Security.Web.csproj" />
+    <ProjectReference Include="..\Billing.Api9\Billing.Api9.csproj" />
+    <ProjectReference Include="..\Admin.Models199\Admin.Models199.csproj" />
+    <ProjectReference Include="..\Logging.Client\Logging.Client.csproj" />
+    <ProjectReference Include="..\Common.Core118\Common.Core118.csproj" />
+    <ProjectReference Include="..\Portal.Events151\Portal.Events151.csproj" />
+    <ProjectReference Include="..\Notifications.Service165\Notifications.Service165.csproj" />
+    <ProjectReference Include="..\Security.Core274\Security.Core274.csproj" />
+    <ProjectReference Include="..\Integration.Handlers\Integration.Handlers.csproj" />
+    <ProjectReference Include="..\Notifications.Models\Notifications.Models.csproj" />
+    <ProjectReference Include="..\Workflow.Api433\Workflow.Api433.csproj" />
+    <ProjectReference Include="..\Admin.Client177\Admin.Client177.csproj" />
+  </ItemGroup>
+</Project>

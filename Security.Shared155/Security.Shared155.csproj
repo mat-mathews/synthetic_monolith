@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <RootNamespace>Security.Shared155</RootNamespace>
+    <AssemblyName>Security.Shared155</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Web\Admin.Web.csproj" />
+    <ProjectReference Include="..\Admin.Service456\Admin.Service456.csproj" />
+    <ProjectReference Include="..\Import.Client356\Import.Client356.csproj" />
+    <ProjectReference Include="..\Reporting.Handlers\Reporting.Handlers.csproj" />
+    <ProjectReference Include="..\BatchJobs.Processors\BatchJobs.Processors.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Contracts94\GalaxyWorks.Contracts94.csproj" />
+    <ProjectReference Include="..\Notifications.Tests\Notifications.Tests.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Events256\GalaxyWorks.Events256.csproj" />
+    <ProjectReference Include="..\Export.Validators152\Export.Validators152.csproj" />
+    <ProjectReference Include="..\Integration.Service107\Integration.Service107.csproj" />
+    <ProjectReference Include="..\Export.Core168\Export.Core168.csproj" />
+    <ProjectReference Include="..\Portal.Web494\Portal.Web494.csproj" />
+    <ProjectReference Include="..\Admin.Service339\Admin.Service339.csproj" />
+    <ProjectReference Include="..\Imaging.Shared115\Imaging.Shared115.csproj" />
+    <ProjectReference Include="..\Common.Events280\Common.Events280.csproj" />
+    <ProjectReference Include="..\Logging.Shared315\Logging.Shared315.csproj" />
+    <ProjectReference Include="..\Portal.Mappers233\Portal.Mappers233.csproj" />
+  </ItemGroup>
+</Project>

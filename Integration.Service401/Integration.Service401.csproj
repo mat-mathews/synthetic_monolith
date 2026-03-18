@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Integration.Service401</RootNamespace>
+    <AssemblyName>Integration.Service401</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Processors319\Auth.Processors319.csproj" />
+    <ProjectReference Include="..\Auth.Mappers178\Auth.Mappers178.csproj" />
+    <ProjectReference Include="..\Admin.Validators37\Admin.Validators37.csproj" />
+    <ProjectReference Include="..\BatchJobs.Processors500\BatchJobs.Processors500.csproj" />
+    <ProjectReference Include="..\Security.Tests\Security.Tests.csproj" />
+    <ProjectReference Include="..\Reporting.Processors326\Reporting.Processors326.csproj" />
+    <ProjectReference Include="..\DataAccess.Service\DataAccess.Service.csproj" />
+    <ProjectReference Include="..\Utilities.Validators\Utilities.Validators.csproj" />
+    <ProjectReference Include="..\Reporting.Processors495\Reporting.Processors495.csproj" />
+    <ProjectReference Include="..\DataAccess.Tests282\DataAccess.Tests282.csproj" />
+    <ProjectReference Include="..\Billing.Core191\Billing.Core191.csproj" />
+    <ProjectReference Include="..\Integration.Tests\Integration.Tests.csproj" />
+    <ProjectReference Include="..\Security.Tests360\Security.Tests360.csproj" />
+    <ProjectReference Include="..\Common.Api213\Common.Api213.csproj" />
+    <ProjectReference Include="..\Workflow.Mappers\Workflow.Mappers.csproj" />
+    <ProjectReference Include="..\Logging.Service160\Logging.Service160.csproj" />
+    <ProjectReference Include="..\Common.Models381\Common.Models381.csproj" />
+    <ProjectReference Include="..\Notifications.Web90\Notifications.Web90.csproj" />
+  </ItemGroup>
+</Project>

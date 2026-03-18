@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Common.Events</RootNamespace>
+    <AssemblyName>Common.Events</AssemblyName>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Contracts\Auth.Contracts.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Mappers318\GalaxyWorks.Mappers318.csproj" />
+    <ProjectReference Include="..\Common.Data21\Common.Data21.csproj" />
+    <ProjectReference Include="..\Export.Client414\Export.Client414.csproj" />
+    <ProjectReference Include="..\Documents.Models\Documents.Models.csproj" />
+    <ProjectReference Include="..\Security.Client353\Security.Client353.csproj" />
+    <ProjectReference Include="..\Imaging.Api\Imaging.Api.csproj" />
+    <ProjectReference Include="..\Documents.Shared\Documents.Shared.csproj" />
+    <ProjectReference Include="..\Documents.Shared334\Documents.Shared334.csproj" />
+    <ProjectReference Include="..\Import.Service291\Import.Service291.csproj" />
+    <ProjectReference Include="..\Auth.Contracts395\Auth.Contracts395.csproj" />
+    <ProjectReference Include="..\Notifications.Shared\Notifications.Shared.csproj" />
+    <ProjectReference Include="..\DataAccess.Data\DataAccess.Data.csproj" />
+    <ProjectReference Include="..\Notifications.Tests\Notifications.Tests.csproj" />
+    <ProjectReference Include="..\Imaging.Client\Imaging.Client.csproj" />
+    <ProjectReference Include="..\Security.Models136\Security.Models136.csproj" />
+  </ItemGroup>
+</Project>

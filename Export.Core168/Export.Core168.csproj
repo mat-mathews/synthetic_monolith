@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Export.Core168</RootNamespace>
+    <AssemblyName>Export.Core168</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Service247\Admin.Service247.csproj" />
+    <ProjectReference Include="..\Auth.Mappers28\Auth.Mappers28.csproj" />
+    <ProjectReference Include="..\Documents.Validators\Documents.Validators.csproj" />
+    <ProjectReference Include="..\Import.Events\Import.Events.csproj" />
+    <ProjectReference Include="..\Documents.Shared452\Documents.Shared452.csproj" />
+    <ProjectReference Include="..\Admin.Handlers447\Admin.Handlers447.csproj" />
+    <ProjectReference Include="..\Notifications.Processors\Notifications.Processors.csproj" />
+    <ProjectReference Include="..\Workflow.Mappers\Workflow.Mappers.csproj" />
+    <ProjectReference Include="..\Security.Core274\Security.Core274.csproj" />
+    <ProjectReference Include="..\Scheduling.Web\Scheduling.Web.csproj" />
+    <ProjectReference Include="..\Security.Tests\Security.Tests.csproj" />
+    <ProjectReference Include="..\Portal.Mappers\Portal.Mappers.csproj" />
+    <ProjectReference Include="..\Common.Data21\Common.Data21.csproj" />
+    <ProjectReference Include="..\Billing.Service432\Billing.Service432.csproj" />
+    <ProjectReference Include="..\DataAccess.Shared486\DataAccess.Shared486.csproj" />
+    <ProjectReference Include="..\Auth.Api143\Auth.Api143.csproj" />
+    <ProjectReference Include="..\Reporting.Data\Reporting.Data.csproj" />
+  </ItemGroup>
+</Project>

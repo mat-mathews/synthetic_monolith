@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Scheduling.Core218</RootNamespace>
+    <AssemblyName>Scheduling.Core218</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Shared\Admin.Shared.csproj" />
+    <ProjectReference Include="..\Auth.Api143\Auth.Api143.csproj" />
+    <ProjectReference Include="..\Common.Handlers\Common.Handlers.csproj" />
+    <ProjectReference Include="..\Utilities.Mappers232\Utilities.Mappers232.csproj" />
+    <ProjectReference Include="..\Billing.Client22\Billing.Client22.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Mappers318\GalaxyWorks.Mappers318.csproj" />
+    <ProjectReference Include="..\Workflow.Api\Workflow.Api.csproj" />
+    <ProjectReference Include="..\Scheduling.Handlers\Scheduling.Handlers.csproj" />
+    <ProjectReference Include="..\Portal.Shared\Portal.Shared.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Validators\GalaxyWorks.Validators.csproj" />
+    <ProjectReference Include="..\Portal.Api123\Portal.Api123.csproj" />
+    <ProjectReference Include="..\Export.Core386\Export.Core386.csproj" />
+    <ProjectReference Include="..\Scheduling.Shared\Scheduling.Shared.csproj" />
+    <ProjectReference Include="..\Auth.Validators\Auth.Validators.csproj" />
+    <ProjectReference Include="..\Scheduling.Core480\Scheduling.Core480.csproj" />
+    <ProjectReference Include="..\Logging.Handlers368\Logging.Handlers368.csproj" />
+    <ProjectReference Include="..\Documents.Tests171\Documents.Tests171.csproj" />
+  </ItemGroup>
+</Project>

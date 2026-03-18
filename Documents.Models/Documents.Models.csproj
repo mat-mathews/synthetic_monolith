@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>Documents.Models</RootNamespace>
+    <AssemblyName>Documents.Models</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Client177\Admin.Client177.csproj" />
+    <ProjectReference Include="..\Auth.Processors\Auth.Processors.csproj" />
+    <ProjectReference Include="..\Export.Processors426\Export.Processors426.csproj" />
+    <ProjectReference Include="..\DataAccess.Tests286\DataAccess.Tests286.csproj" />
+    <ProjectReference Include="..\Portal.Tests173\Portal.Tests173.csproj" />
+    <ProjectReference Include="..\Security.Processors246\Security.Processors246.csproj" />
+    <ProjectReference Include="..\Billing.Client491\Billing.Client491.csproj" />
+    <ProjectReference Include="..\Workflow.Tests\Workflow.Tests.csproj" />
+    <ProjectReference Include="..\DataAccess.Mappers\DataAccess.Mappers.csproj" />
+    <ProjectReference Include="..\Workflow.Processors\Workflow.Processors.csproj" />
+    <ProjectReference Include="..\Import.Client64\Import.Client64.csproj" />
+    <ProjectReference Include="..\Notifications.Service165\Notifications.Service165.csproj" />
+    <ProjectReference Include="..\Scheduling.Core480\Scheduling.Core480.csproj" />
+    <ProjectReference Include="..\Security.Service\Security.Service.csproj" />
+    <ProjectReference Include="..\BatchJobs.Api\BatchJobs.Api.csproj" />
+    <ProjectReference Include="..\Logging.Service160\Logging.Service160.csproj" />
+    <ProjectReference Include="..\Common.Contracts279\Common.Contracts279.csproj" />
+  </ItemGroup>
+</Project>

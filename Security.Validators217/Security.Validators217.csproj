@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>Security.Validators217</RootNamespace>
+    <AssemblyName>Security.Validators217</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Models199\Admin.Models199.csproj" />
+    <ProjectReference Include="..\Security.Web230\Security.Web230.csproj" />
+    <ProjectReference Include="..\Portal.Validators250\Portal.Validators250.csproj" />
+    <ProjectReference Include="..\Scheduling.Processors397\Scheduling.Processors397.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Handlers\GalaxyWorks.Handlers.csproj" />
+    <ProjectReference Include="..\Import.Service496\Import.Service496.csproj" />
+    <ProjectReference Include="..\BatchJobs.Events\BatchJobs.Events.csproj" />
+    <ProjectReference Include="..\Imaging.Mappers\Imaging.Mappers.csproj" />
+    <ProjectReference Include="..\Billing.Service302\Billing.Service302.csproj" />
+    <ProjectReference Include="..\Common.Processors142\Common.Processors142.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Events77\GalaxyWorks.Events77.csproj" />
+    <ProjectReference Include="..\Utilities.Contracts\Utilities.Contracts.csproj" />
+    <ProjectReference Include="..\Utilities.Contracts32\Utilities.Contracts32.csproj" />
+    <ProjectReference Include="..\Security.Core243\Security.Core243.csproj" />
+    <ProjectReference Include="..\Export.Contracts\Export.Contracts.csproj" />
+    <ProjectReference Include="..\Security.Shared365\Security.Shared365.csproj" />
+  </ItemGroup>
+</Project>

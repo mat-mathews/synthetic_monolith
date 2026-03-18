@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Reporting.Processors495</RootNamespace>
+    <AssemblyName>Reporting.Processors495</AssemblyName>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Handlers450\Admin.Handlers450.csproj" />
+    <ProjectReference Include="..\Admin.Service247\Admin.Service247.csproj" />
+    <ProjectReference Include="..\Auth.Data\Auth.Data.csproj" />
+    <ProjectReference Include="..\Billing.Api9\Billing.Api9.csproj" />
+    <ProjectReference Include="..\Integration.Models\Integration.Models.csproj" />
+    <ProjectReference Include="..\Scheduling.Core218\Scheduling.Core218.csproj" />
+    <ProjectReference Include="..\Logging.Web\Logging.Web.csproj" />
+    <ProjectReference Include="..\Portal.Validators250\Portal.Validators250.csproj" />
+    <ProjectReference Include="..\Admin.Service339\Admin.Service339.csproj" />
+    <ProjectReference Include="..\Billing.Validators\Billing.Validators.csproj" />
+    <ProjectReference Include="..\Common.Data81\Common.Data81.csproj" />
+    <ProjectReference Include="..\DataAccess.Validators254\DataAccess.Validators254.csproj" />
+    <ProjectReference Include="..\Logging.Api316\Logging.Api316.csproj" />
+    <ProjectReference Include="..\Security.Events288\Security.Events288.csproj" />
+    <ProjectReference Include="..\Portal.Tests\Portal.Tests.csproj" />
+    <ProjectReference Include="..\Auth.Core2\Auth.Core2.csproj" />
+    <ProjectReference Include="..\Admin.Validators\Admin.Validators.csproj" />
+    <ProjectReference Include="..\Utilities.Api\Utilities.Api.csproj" />
+  </ItemGroup>
+</Project>

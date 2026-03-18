@@ -1,0 +1,31 @@
+using Auth.Api143;
+using Auth.Client249;
+using Auth.Processors400;
+using DataAccess.Api294;
+using Documents.Models;
+using Export.Processors79;
+using Imaging.Core204;
+using Imaging.Shared;
+using Import.Client65;
+using Integration.Tests86;
+using Notifications.Mappers;
+using Portal.Tests173;
+using Scheduling.Models441;
+using Security.Shared155;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Utilities.Handlers;
+using Utilities.Models41;
+
+namespace Reporting.Api393
+{
+    internal struct Reporting_Api393_Options6
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public DateTime CreatedAt { get; set; }
+    }
+
+}

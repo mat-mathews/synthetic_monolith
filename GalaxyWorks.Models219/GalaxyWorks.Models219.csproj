@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <RootNamespace>GalaxyWorks.Models219</RootNamespace>
+    <AssemblyName>GalaxyWorks.Models219</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Models199\Admin.Models199.csproj" />
+    <ProjectReference Include="..\Portal.Web494\Portal.Web494.csproj" />
+    <ProjectReference Include="..\Security.Client137\Security.Client137.csproj" />
+    <ProjectReference Include="..\Export.Processors468\Export.Processors468.csproj" />
+    <ProjectReference Include="..\Common.Data\Common.Data.csproj" />
+    <ProjectReference Include="..\Security.Events288\Security.Events288.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Mappers318\GalaxyWorks.Mappers318.csproj" />
+    <ProjectReference Include="..\Billing.Models\Billing.Models.csproj" />
+    <ProjectReference Include="..\Utilities.Api387\Utilities.Api387.csproj" />
+    <ProjectReference Include="..\Export.Tests\Export.Tests.csproj" />
+    <ProjectReference Include="..\BatchJobs.Handlers\BatchJobs.Handlers.csproj" />
+    <ProjectReference Include="..\Import.Contracts296\Import.Contracts296.csproj" />
+    <ProjectReference Include="..\BatchJobs.Validators\BatchJobs.Validators.csproj" />
+    <ProjectReference Include="..\Logging.Validators359\Logging.Validators359.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Contracts485\GalaxyWorks.Contracts485.csproj" />
+    <ProjectReference Include="..\Logging.Mappers\Logging.Mappers.csproj" />
+  </ItemGroup>
+</Project>

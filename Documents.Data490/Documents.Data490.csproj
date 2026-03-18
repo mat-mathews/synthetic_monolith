@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Documents.Data490</RootNamespace>
+    <AssemblyName>Documents.Data490</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Mappers\Auth.Mappers.csproj" />
+    <ProjectReference Include="..\Auth.Models\Auth.Models.csproj" />
+    <ProjectReference Include="..\Common.Web438\Common.Web438.csproj" />
+    <ProjectReference Include="..\Documents.Data492\Documents.Data492.csproj" />
+    <ProjectReference Include="..\Common.Api186\Common.Api186.csproj" />
+    <ProjectReference Include="..\Import.Handlers407\Import.Handlers407.csproj" />
+    <ProjectReference Include="..\BatchJobs.Web\BatchJobs.Web.csproj" />
+    <ProjectReference Include="..\Export.Processors426\Export.Processors426.csproj" />
+    <ProjectReference Include="..\Workflow.Web377\Workflow.Web377.csproj" />
+    <ProjectReference Include="..\Export.Web210\Export.Web210.csproj" />
+    <ProjectReference Include="..\Export.Shared145\Export.Shared145.csproj" />
+    <ProjectReference Include="..\DataAccess.Events\DataAccess.Events.csproj" />
+    <ProjectReference Include="..\Utilities.Core\Utilities.Core.csproj" />
+    <ProjectReference Include="..\Auth.Core\Auth.Core.csproj" />
+    <ProjectReference Include="..\Integration.Processors241\Integration.Processors241.csproj" />
+    <ProjectReference Include="..\Portal.Processors52\Portal.Processors52.csproj" />
+    <ProjectReference Include="..\Import.Handlers\Import.Handlers.csproj" />
+  </ItemGroup>
+</Project>

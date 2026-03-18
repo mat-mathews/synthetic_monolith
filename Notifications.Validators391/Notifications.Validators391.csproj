@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Notifications.Validators391</RootNamespace>
+    <AssemblyName>Notifications.Validators391</AssemblyName>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Models476\Admin.Models476.csproj" />
+    <ProjectReference Include="..\Export.Models461\Export.Models461.csproj" />
+    <ProjectReference Include="..\Utilities.Processors\Utilities.Processors.csproj" />
+    <ProjectReference Include="..\Common.Processors142\Common.Processors142.csproj" />
+    <ProjectReference Include="..\Export.Handlers202\Export.Handlers202.csproj" />
+    <ProjectReference Include="..\Export.Shared\Export.Shared.csproj" />
+    <ProjectReference Include="..\Export.Api\Export.Api.csproj" />
+    <ProjectReference Include="..\Integration.Handlers333\Integration.Handlers333.csproj" />
+    <ProjectReference Include="..\Export.Data150\Export.Data150.csproj" />
+    <ProjectReference Include="..\Portal.Contracts170\Portal.Contracts170.csproj" />
+    <ProjectReference Include="..\Reporting.Service207\Reporting.Service207.csproj" />
+    <ProjectReference Include="..\Admin.Api\Admin.Api.csproj" />
+    <ProjectReference Include="..\Documents.Validators\Documents.Validators.csproj" />
+    <ProjectReference Include="..\Logging.Models436\Logging.Models436.csproj" />
+    <ProjectReference Include="..\Import.Shared\Import.Shared.csproj" />
+    <ProjectReference Include="..\Admin.Service\Admin.Service.csproj" />
+  </ItemGroup>
+</Project>

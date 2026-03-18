@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Workflow.Api</RootNamespace>
+    <AssemblyName>Workflow.Api</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Processors400\Auth.Processors400.csproj" />
+    <ProjectReference Include="..\Utilities.Api\Utilities.Api.csproj" />
+    <ProjectReference Include="..\Import.Service265\Import.Service265.csproj" />
+    <ProjectReference Include="..\Billing.Api9\Billing.Api9.csproj" />
+    <ProjectReference Include="..\Security.Core274\Security.Core274.csproj" />
+    <ProjectReference Include="..\Portal.Validators125\Portal.Validators125.csproj" />
+    <ProjectReference Include="..\Portal.Validators69\Portal.Validators69.csproj" />
+    <ProjectReference Include="..\Scheduling.Data54\Scheduling.Data54.csproj" />
+    <ProjectReference Include="..\Logging.Client405\Logging.Client405.csproj" />
+    <ProjectReference Include="..\BatchJobs.Models329\BatchJobs.Models329.csproj" />
+    <ProjectReference Include="..\Imaging.Mappers\Imaging.Mappers.csproj" />
+    <ProjectReference Include="..\Imaging.Client331\Imaging.Client331.csproj" />
+    <ProjectReference Include="..\Security.Web230\Security.Web230.csproj" />
+    <ProjectReference Include="..\Reporting.Service207\Reporting.Service207.csproj" />
+    <ProjectReference Include="..\Import.Validators\Import.Validators.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Processors\GalaxyWorks.Processors.csproj" />
+  </ItemGroup>
+</Project>

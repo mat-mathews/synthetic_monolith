@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Security.Api134</RootNamespace>
+    <AssemblyName>Security.Api134</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Events\Admin.Events.csproj" />
+    <ProjectReference Include="..\Admin.Mappers324\Admin.Mappers324.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Processors16\GalaxyWorks.Processors16.csproj" />
+    <ProjectReference Include="..\Workflow.Validators\Workflow.Validators.csproj" />
+    <ProjectReference Include="..\Portal.Service378\Portal.Service378.csproj" />
+    <ProjectReference Include="..\Admin.Service364\Admin.Service364.csproj" />
+    <ProjectReference Include="..\BatchJobs.Tests270\BatchJobs.Tests270.csproj" />
+    <ProjectReference Include="..\Import.Client7\Import.Client7.csproj" />
+    <ProjectReference Include="..\Workflow.Web\Workflow.Web.csproj" />
+    <ProjectReference Include="..\Utilities.Core\Utilities.Core.csproj" />
+    <ProjectReference Include="..\Documents.Data484\Documents.Data484.csproj" />
+    <ProjectReference Include="..\Portal.Processors52\Portal.Processors52.csproj" />
+    <ProjectReference Include="..\Reporting.Mappers\Reporting.Mappers.csproj" />
+    <ProjectReference Include="..\Documents.Web\Documents.Web.csproj" />
+    <ProjectReference Include="..\Utilities.Processors\Utilities.Processors.csproj" />
+    <ProjectReference Include="..\Reporting.Api\Reporting.Api.csproj" />
+    <ProjectReference Include="..\Admin.Tests\Admin.Tests.csproj" />
+  </ItemGroup>
+</Project>

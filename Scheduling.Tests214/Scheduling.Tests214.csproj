@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Scheduling.Tests214</RootNamespace>
+    <AssemblyName>Scheduling.Tests214</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Mappers\Admin.Mappers.csproj" />
+    <ProjectReference Include="..\Auth.Api\Auth.Api.csproj" />
+    <ProjectReference Include="..\Documents.Data484\Documents.Data484.csproj" />
+    <ProjectReference Include="..\Scheduling.Models\Scheduling.Models.csproj" />
+    <ProjectReference Include="..\Notifications.Data\Notifications.Data.csproj" />
+    <ProjectReference Include="..\Auth.Events78\Auth.Events78.csproj" />
+    <ProjectReference Include="..\Scheduling.Api185\Scheduling.Api185.csproj" />
+    <ProjectReference Include="..\Import.Handlers407\Import.Handlers407.csproj" />
+    <ProjectReference Include="..\Export.Processors111\Export.Processors111.csproj" />
+    <ProjectReference Include="..\BatchJobs.Models\BatchJobs.Models.csproj" />
+    <ProjectReference Include="..\Documents.Tests\Documents.Tests.csproj" />
+    <ProjectReference Include="..\Logging.Client\Logging.Client.csproj" />
+    <ProjectReference Include="..\Imaging.Data\Imaging.Data.csproj" />
+    <ProjectReference Include="..\DataAccess.Processors\DataAccess.Processors.csproj" />
+    <ProjectReference Include="..\Documents.Data68\Documents.Data68.csproj" />
+    <ProjectReference Include="..\Import.Contracts183\Import.Contracts183.csproj" />
+    <ProjectReference Include="..\Portal.Validators69\Portal.Validators69.csproj" />
+  </ItemGroup>
+</Project>

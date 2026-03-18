@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>Scheduling.Models441</RootNamespace>
+    <AssemblyName>Scheduling.Models441</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Data408\Admin.Data408.csproj" />
+    <ProjectReference Include="..\Admin.Core121\Admin.Core121.csproj" />
+    <ProjectReference Include="..\Documents.Events\Documents.Events.csproj" />
+    <ProjectReference Include="..\DataAccess.Validators254\DataAccess.Validators254.csproj" />
+    <ProjectReference Include="..\Import.Validators\Import.Validators.csproj" />
+    <ProjectReference Include="..\Logging.Data29\Logging.Data29.csproj" />
+    <ProjectReference Include="..\Notifications.Tests\Notifications.Tests.csproj" />
+    <ProjectReference Include="..\Import.Events493\Import.Events493.csproj" />
+    <ProjectReference Include="..\Common.Data126\Common.Data126.csproj" />
+    <ProjectReference Include="..\Scheduling.Events\Scheduling.Events.csproj" />
+    <ProjectReference Include="..\BatchJobs.Mappers362\BatchJobs.Mappers362.csproj" />
+    <ProjectReference Include="..\Admin.Handlers447\Admin.Handlers447.csproj" />
+    <ProjectReference Include="..\Logging.Handlers285\Logging.Handlers285.csproj" />
+    <ProjectReference Include="..\Portal.Client\Portal.Client.csproj" />
+    <ProjectReference Include="..\Auth.Service\Auth.Service.csproj" />
+    <ProjectReference Include="..\Integration.Processors71\Integration.Processors71.csproj" />
+    <ProjectReference Include="..\BatchJobs.Data176\BatchJobs.Data176.csproj" />
+  </ItemGroup>
+</Project>

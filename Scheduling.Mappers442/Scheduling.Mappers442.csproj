@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Scheduling.Mappers442</RootNamespace>
+    <AssemblyName>Scheduling.Mappers442</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Models\Admin.Models.csproj" />
+    <ProjectReference Include="..\Utilities.Web40\Utilities.Web40.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Data263\GalaxyWorks.Data263.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Handlers478\GalaxyWorks.Handlers478.csproj" />
+    <ProjectReference Include="..\Auth.Handlers209\Auth.Handlers209.csproj" />
+    <ProjectReference Include="..\Utilities.Mappers97\Utilities.Mappers97.csproj" />
+    <ProjectReference Include="..\Utilities.Events\Utilities.Events.csproj" />
+    <ProjectReference Include="..\DataAccess.Contracts203\DataAccess.Contracts203.csproj" />
+    <ProjectReference Include="..\Documents.Validators\Documents.Validators.csproj" />
+    <ProjectReference Include="..\Export.Data6\Export.Data6.csproj" />
+    <ProjectReference Include="..\Security.Handlers162\Security.Handlers162.csproj" />
+    <ProjectReference Include="..\Documents.Models\Documents.Models.csproj" />
+    <ProjectReference Include="..\Portal.Client\Portal.Client.csproj" />
+    <ProjectReference Include="..\Import.Client356\Import.Client356.csproj" />
+    <ProjectReference Include="..\Logging.Data\Logging.Data.csproj" />
+    <ProjectReference Include="..\Billing.Processors\Billing.Processors.csproj" />
+  </ItemGroup>
+</Project>

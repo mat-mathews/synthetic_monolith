@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <RootNamespace>Security.Contracts</RootNamespace>
+    <AssemblyName>Security.Contracts</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Core\Admin.Core.csproj" />
+    <ProjectReference Include="..\Auth.Data135\Auth.Data135.csproj" />
+    <ProjectReference Include="..\Portal.Processors\Portal.Processors.csproj" />
+    <ProjectReference Include="..\Security.Contracts238\Security.Contracts238.csproj" />
+    <ProjectReference Include="..\BatchJobs.Data\BatchJobs.Data.csproj" />
+    <ProjectReference Include="..\Logging.Handlers285\Logging.Handlers285.csproj" />
+    <ProjectReference Include="..\Reporting.Contracts\Reporting.Contracts.csproj" />
+    <ProjectReference Include="..\BatchJobs.Handlers\BatchJobs.Handlers.csproj" />
+    <ProjectReference Include="..\DataAccess.Client82\DataAccess.Client82.csproj" />
+    <ProjectReference Include="..\Portal.Api\Portal.Api.csproj" />
+    <ProjectReference Include="..\Imaging.Service\Imaging.Service.csproj" />
+    <ProjectReference Include="..\Auth.Events\Auth.Events.csproj" />
+    <ProjectReference Include="..\Auth.Shared325\Auth.Shared325.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Client366\GalaxyWorks.Client366.csproj" />
+    <ProjectReference Include="..\Logging.Data29\Logging.Data29.csproj" />
+    <ProjectReference Include="..\BatchJobs.Events435\BatchJobs.Events435.csproj" />
+    <ProjectReference Include="..\Security.Tests360\Security.Tests360.csproj" />
+  </ItemGroup>
+</Project>

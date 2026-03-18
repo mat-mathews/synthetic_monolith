@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>Common.Events367</RootNamespace>
+    <AssemblyName>Common.Events367</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Models236\Auth.Models236.csproj" />
+    <ProjectReference Include="..\Billing.Client22\Billing.Client22.csproj" />
+    <ProjectReference Include="..\Billing.Service432\Billing.Service432.csproj" />
+    <ProjectReference Include="..\Notifications.Tests299\Notifications.Tests299.csproj" />
+    <ProjectReference Include="..\Integration.Processors71\Integration.Processors71.csproj" />
+    <ProjectReference Include="..\Logging.Validators359\Logging.Validators359.csproj" />
+    <ProjectReference Include="..\Notifications.Data348\Notifications.Data348.csproj" />
+    <ProjectReference Include="..\Scheduling.Web196\Scheduling.Web196.csproj" />
+    <ProjectReference Include="..\Documents.Processors\Documents.Processors.csproj" />
+    <ProjectReference Include="..\Notifications.Validators252\Notifications.Validators252.csproj" />
+    <ProjectReference Include="..\Utilities.Service\Utilities.Service.csproj" />
+    <ProjectReference Include="..\Imaging.Shared338\Imaging.Shared338.csproj" />
+    <ProjectReference Include="..\Scheduling.Client187\Scheduling.Client187.csproj" />
+    <ProjectReference Include="..\Portal.Processors52\Portal.Processors52.csproj" />
+    <ProjectReference Include="..\Portal.Validators227\Portal.Validators227.csproj" />
+    <ProjectReference Include="..\Import.Service15\Import.Service15.csproj" />
+  </ItemGroup>
+</Project>

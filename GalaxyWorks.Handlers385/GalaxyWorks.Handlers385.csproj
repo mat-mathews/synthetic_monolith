@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>GalaxyWorks.Handlers385</RootNamespace>
+    <AssemblyName>GalaxyWorks.Handlers385</AssemblyName>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Processors35\Admin.Processors35.csproj" />
+    <ProjectReference Include="..\Auth.Contracts\Auth.Contracts.csproj" />
+    <ProjectReference Include="..\Auth.Api\Auth.Api.csproj" />
+    <ProjectReference Include="..\Security.Models284\Security.Models284.csproj" />
+    <ProjectReference Include="..\Billing.Client491\Billing.Client491.csproj" />
+    <ProjectReference Include="..\Auth.Client\Auth.Client.csproj" />
+    <ProjectReference Include="..\DataAccess.Web\DataAccess.Web.csproj" />
+    <ProjectReference Include="..\Documents.Web\Documents.Web.csproj" />
+    <ProjectReference Include="..\Export.Models262\Export.Models262.csproj" />
+    <ProjectReference Include="..\Export.Processors468\Export.Processors468.csproj" />
+    <ProjectReference Include="..\Documents.Mappers\Documents.Mappers.csproj" />
+    <ProjectReference Include="..\Billing.Handlers\Billing.Handlers.csproj" />
+    <ProjectReference Include="..\Reporting.Mappers239\Reporting.Mappers239.csproj" />
+    <ProjectReference Include="..\Reporting.Events220\Reporting.Events220.csproj" />
+    <ProjectReference Include="..\Admin.Web4\Admin.Web4.csproj" />
+    <ProjectReference Include="..\Import.Api272\Import.Api272.csproj" />
+    <ProjectReference Include="..\Logging.Handlers285\Logging.Handlers285.csproj" />
+    <ProjectReference Include="..\Export.Api12\Export.Api12.csproj" />
+  </ItemGroup>
+</Project>

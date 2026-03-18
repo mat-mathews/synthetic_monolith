@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Portal.Core</RootNamespace>
+    <AssemblyName>Portal.Core</AssemblyName>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Validators336\Admin.Validators336.csproj" />
+    <ProjectReference Include="..\DataAccess.Tests\DataAccess.Tests.csproj" />
+    <ProjectReference Include="..\Reporting.Handlers347\Reporting.Handlers347.csproj" />
+    <ProjectReference Include="..\Integration.Validators369\Integration.Validators369.csproj" />
+    <ProjectReference Include="..\Security.Data\Security.Data.csproj" />
+    <ProjectReference Include="..\Admin.Core\Admin.Core.csproj" />
+    <ProjectReference Include="..\Logging.Contracts\Logging.Contracts.csproj" />
+    <ProjectReference Include="..\Logging.Contracts373\Logging.Contracts373.csproj" />
+    <ProjectReference Include="..\Documents.Web\Documents.Web.csproj" />
+    <ProjectReference Include="..\Imaging.Client261\Imaging.Client261.csproj" />
+    <ProjectReference Include="..\Utilities.Api234\Utilities.Api234.csproj" />
+    <ProjectReference Include="..\Export.Client13\Export.Client13.csproj" />
+    <ProjectReference Include="..\Export.Models\Export.Models.csproj" />
+    <ProjectReference Include="..\Logging.Core159\Logging.Core159.csproj" />
+    <ProjectReference Include="..\Utilities.Mappers\Utilities.Mappers.csproj" />
+    <ProjectReference Include="..\Security.Shared155\Security.Shared155.csproj" />
+  </ItemGroup>
+</Project>

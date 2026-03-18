@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>DataAccess.Shared189</RootNamespace>
+    <AssemblyName>DataAccess.Shared189</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Client177\Admin.Client177.csproj" />
+    <ProjectReference Include="..\Auth.Models236\Auth.Models236.csproj" />
+    <ProjectReference Include="..\Billing.Contracts44\Billing.Contracts44.csproj" />
+    <ProjectReference Include="..\Admin.Api255\Admin.Api255.csproj" />
+    <ProjectReference Include="..\Integration.Handlers17\Integration.Handlers17.csproj" />
+    <ProjectReference Include="..\BatchJobs.Validators\BatchJobs.Validators.csproj" />
+    <ProjectReference Include="..\BatchJobs.Client267\BatchJobs.Client267.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Mappers318\GalaxyWorks.Mappers318.csproj" />
+    <ProjectReference Include="..\Common.Client269\Common.Client269.csproj" />
+    <ProjectReference Include="..\DataAccess.Tests286\DataAccess.Tests286.csproj" />
+    <ProjectReference Include="..\Utilities.Client\Utilities.Client.csproj" />
+    <ProjectReference Include="..\Workflow.Contracts434\Workflow.Contracts434.csproj" />
+    <ProjectReference Include="..\Portal.Contracts181\Portal.Contracts181.csproj" />
+    <ProjectReference Include="..\Admin.Core\Admin.Core.csproj" />
+    <ProjectReference Include="..\Common.Models381\Common.Models381.csproj" />
+    <ProjectReference Include="..\Common.Shared95\Common.Shared95.csproj" />
+    <ProjectReference Include="..\Import.Tests119\Import.Tests119.csproj" />
+  </ItemGroup>
+</Project>

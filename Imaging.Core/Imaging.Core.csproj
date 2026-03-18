@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Imaging.Core</RootNamespace>
+    <AssemblyName>Imaging.Core</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Core2\Auth.Core2.csproj" />
+    <ProjectReference Include="..\Admin.Processors35\Admin.Processors35.csproj" />
+    <ProjectReference Include="..\Auth.Client249\Auth.Client249.csproj" />
+    <ProjectReference Include="..\Auth.Models\Auth.Models.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Mappers\GalaxyWorks.Mappers.csproj" />
+    <ProjectReference Include="..\Security.Shared365\Security.Shared365.csproj" />
+    <ProjectReference Include="..\Notifications.Shared380\Notifications.Shared380.csproj" />
+    <ProjectReference Include="..\Logging.Shared315\Logging.Shared315.csproj" />
+    <ProjectReference Include="..\DataAccess.Contracts\DataAccess.Contracts.csproj" />
+    <ProjectReference Include="..\Imaging.Processors\Imaging.Processors.csproj" />
+    <ProjectReference Include="..\Workflow.Handlers421\Workflow.Handlers421.csproj" />
+    <ProjectReference Include="..\Import.Contracts180\Import.Contracts180.csproj" />
+    <ProjectReference Include="..\Billing.Processors103\Billing.Processors103.csproj" />
+    <ProjectReference Include="..\Integration.Data175\Integration.Data175.csproj" />
+    <ProjectReference Include="..\Auth.Shared325\Auth.Shared325.csproj" />
+    <ProjectReference Include="..\DataAccess.Models\DataAccess.Models.csproj" />
+    <ProjectReference Include="..\Security.Processors\Security.Processors.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Processors16\GalaxyWorks.Processors16.csproj" />
+  </ItemGroup>
+</Project>

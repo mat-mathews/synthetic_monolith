@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Export.Validators</RootNamespace>
+    <AssemblyName>Export.Validators</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Mappers\Admin.Mappers.csproj" />
+    <ProjectReference Include="..\Admin.Core121\Admin.Core121.csproj" />
+    <ProjectReference Include="..\Admin.Data117\Admin.Data117.csproj" />
+    <ProjectReference Include="..\Common.Mappers190\Common.Mappers190.csproj" />
+    <ProjectReference Include="..\Billing.Validators\Billing.Validators.csproj" />
+    <ProjectReference Include="..\BatchJobs.Core11\BatchJobs.Core11.csproj" />
+    <ProjectReference Include="..\Common.Events280\Common.Events280.csproj" />
+    <ProjectReference Include="..\Auth.Service\Auth.Service.csproj" />
+    <ProjectReference Include="..\Imaging.Handlers\Imaging.Handlers.csproj" />
+    <ProjectReference Include="..\Workflow.Contracts330\Workflow.Contracts330.csproj" />
+    <ProjectReference Include="..\Export.Models461\Export.Models461.csproj" />
+    <ProjectReference Include="..\Notifications.Data406\Notifications.Data406.csproj" />
+    <ProjectReference Include="..\Security.Api\Security.Api.csproj" />
+    <ProjectReference Include="..\BatchJobs.Tests270\BatchJobs.Tests270.csproj" />
+    <ProjectReference Include="..\Utilities.Api66\Utilities.Api66.csproj" />
+    <ProjectReference Include="..\Notifications.Web\Notifications.Web.csproj" />
+    <ProjectReference Include="..\Billing.Validators305\Billing.Validators305.csproj" />
+    <ProjectReference Include="..\Integration.Client\Integration.Client.csproj" />
+  </ItemGroup>
+</Project>

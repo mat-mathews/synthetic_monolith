@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <RootNamespace>Common.Core</RootNamespace>
+    <AssemblyName>Common.Core</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Handlers450\Admin.Handlers450.csproj" />
+    <ProjectReference Include="..\Utilities.Models\Utilities.Models.csproj" />
+    <ProjectReference Include="..\BatchJobs.Processors500\BatchJobs.Processors500.csproj" />
+    <ProjectReference Include="..\Common.Contracts\Common.Contracts.csproj" />
+    <ProjectReference Include="..\Auth.Contracts395\Auth.Contracts395.csproj" />
+    <ProjectReference Include="..\DataAccess.Client\DataAccess.Client.csproj" />
+    <ProjectReference Include="..\Notifications.Service\Notifications.Service.csproj" />
+    <ProjectReference Include="..\Documents.Events451\Documents.Events451.csproj" />
+    <ProjectReference Include="..\DataAccess.Validators254\DataAccess.Validators254.csproj" />
+    <ProjectReference Include="..\Utilities.Service358\Utilities.Service358.csproj" />
+    <ProjectReference Include="..\Workflow.Handlers421\Workflow.Handlers421.csproj" />
+    <ProjectReference Include="..\Logging.Core159\Logging.Core159.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Handlers478\GalaxyWorks.Handlers478.csproj" />
+    <ProjectReference Include="..\DataAccess.Validators\DataAccess.Validators.csproj" />
+    <ProjectReference Include="..\Import.Shared\Import.Shared.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Mappers403\GalaxyWorks.Mappers403.csproj" />
+  </ItemGroup>
+</Project>

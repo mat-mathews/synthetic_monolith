@@ -1,0 +1,31 @@
+using Auth.Processors;
+using BatchJobs.Client;
+using DataAccess.Api98;
+using DataAccess.Client82;
+using Documents.Api132;
+using Export.Core168;
+using GalaxyWorks.Events;
+using GalaxyWorks.Handlers385;
+using Imaging.Processors;
+using Integration.Api469;
+using Reporting.Handlers;
+using Security.Processors;
+using Security.Shared155;
+using Security.Web376;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Utilities.Data415;
+using Utilities.Events;
+
+namespace Portal.Api99
+{
+    internal struct Portal_Api99_Options10
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public DateTime CreatedAt { get; set; }
+    }
+
+}

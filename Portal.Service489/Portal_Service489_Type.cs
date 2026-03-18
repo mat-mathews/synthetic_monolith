@@ -1,0 +1,36 @@
+using Auth.Client;
+using Common.Api213;
+using Common.Contracts279;
+using Common.Service258;
+using DataAccess.Shared189;
+using Documents.Api132;
+using Documents.Processors300;
+using Imaging.Mappers;
+using Integration.Contracts;
+using Integration.Service147;
+using Logging.Api316;
+using Reporting.Core;
+using Reporting.Web345;
+using Scheduling.Client;
+using Scheduling.Tests;
+using Security.Web376;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace Portal.Service489
+{
+    /// <summary>Defines the possible states for Portal_Service489_Type.</summary>
+    internal enum Portal_Service489_Type
+    {
+        None = 0,
+        Active = 1,
+        Inactive = 2,
+        Pending = 3,
+        Processing = 4,
+        Completed = 5,
+        Failed = 6,
+    }
+
+}

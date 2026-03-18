@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>Export.Shared332</RootNamespace>
+    <AssemblyName>Export.Shared332</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Contracts\Admin.Contracts.csproj" />
+    <ProjectReference Include="..\Billing.Tests\Billing.Tests.csproj" />
+    <ProjectReference Include="..\Reporting.Contracts\Reporting.Contracts.csproj" />
+    <ProjectReference Include="..\Export.Web210\Export.Web210.csproj" />
+    <ProjectReference Include="..\Export.Web\Export.Web.csproj" />
+    <ProjectReference Include="..\Workflow.Events327\Workflow.Events327.csproj" />
+    <ProjectReference Include="..\Security.Api\Security.Api.csproj" />
+    <ProjectReference Include="..\Security.Tests\Security.Tests.csproj" />
+    <ProjectReference Include="..\Portal.Validators69\Portal.Validators69.csproj" />
+    <ProjectReference Include="..\Import.Contracts\Import.Contracts.csproj" />
+    <ProjectReference Include="..\DataAccess.Web\DataAccess.Web.csproj" />
+    <ProjectReference Include="..\Integration.Api469\Integration.Api469.csproj" />
+    <ProjectReference Include="..\Documents.Core357\Documents.Core357.csproj" />
+    <ProjectReference Include="..\Integration.Shared83\Integration.Shared83.csproj" />
+    <ProjectReference Include="..\Security.Client137\Security.Client137.csproj" />
+    <ProjectReference Include="..\Utilities.Data\Utilities.Data.csproj" />
+  </ItemGroup>
+</Project>

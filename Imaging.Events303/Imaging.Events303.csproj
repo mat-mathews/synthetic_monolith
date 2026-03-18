@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Imaging.Events303</RootNamespace>
+    <AssemblyName>Imaging.Events303</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Mappers\Auth.Mappers.csproj" />
+    <ProjectReference Include="..\Reporting.Data\Reporting.Data.csproj" />
+    <ProjectReference Include="..\Import.Processors\Import.Processors.csproj" />
+    <ProjectReference Include="..\Workflow.Service161\Workflow.Service161.csproj" />
+    <ProjectReference Include="..\Scheduling.Service211\Scheduling.Service211.csproj" />
+    <ProjectReference Include="..\Imaging.Models\Imaging.Models.csproj" />
+    <ProjectReference Include="..\Import.Data193\Import.Data193.csproj" />
+    <ProjectReference Include="..\Admin.Client346\Admin.Client346.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Handlers478\GalaxyWorks.Handlers478.csproj" />
+    <ProjectReference Include="..\Documents.Data492\Documents.Data492.csproj" />
+    <ProjectReference Include="..\Export.Mappers237\Export.Mappers237.csproj" />
+    <ProjectReference Include="..\Common.Handlers\Common.Handlers.csproj" />
+    <ProjectReference Include="..\Notifications.Mappers\Notifications.Mappers.csproj" />
+    <ProjectReference Include="..\Auth.Tests498\Auth.Tests498.csproj" />
+    <ProjectReference Include="..\Imaging.Mappers93\Imaging.Mappers93.csproj" />
+    <ProjectReference Include="..\Documents.Models\Documents.Models.csproj" />
+  </ItemGroup>
+</Project>

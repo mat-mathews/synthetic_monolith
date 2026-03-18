@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Security.Models284</RootNamespace>
+    <AssemblyName>Security.Models284</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Web154\Admin.Web154.csproj" />
+    <ProjectReference Include="..\Logging.Service382\Logging.Service382.csproj" />
+    <ProjectReference Include="..\Portal.Events139\Portal.Events139.csproj" />
+    <ProjectReference Include="..\Scheduling.Models342\Scheduling.Models342.csproj" />
+    <ProjectReference Include="..\Utilities.Api\Utilities.Api.csproj" />
+    <ProjectReference Include="..\Admin.Processors\Admin.Processors.csproj" />
+    <ProjectReference Include="..\Security.Contracts238\Security.Contracts238.csproj" />
+    <ProjectReference Include="..\DataAccess.Tests282\DataAccess.Tests282.csproj" />
+    <ProjectReference Include="..\Integration.Shared83\Integration.Shared83.csproj" />
+    <ProjectReference Include="..\Portal.Events\Portal.Events.csproj" />
+    <ProjectReference Include="..\Portal.Web494\Portal.Web494.csproj" />
+    <ProjectReference Include="..\Workflow.Tests75\Workflow.Tests75.csproj" />
+    <ProjectReference Include="..\BatchJobs.Validators\BatchJobs.Validators.csproj" />
+    <ProjectReference Include="..\Security.Api320\Security.Api320.csproj" />
+    <ProjectReference Include="..\Billing.Service302\Billing.Service302.csproj" />
+    <ProjectReference Include="..\BatchJobs.Data\BatchJobs.Data.csproj" />
+  </ItemGroup>
+</Project>

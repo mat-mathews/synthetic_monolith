@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>Logging.Api316</RootNamespace>
+    <AssemblyName>Logging.Api316</AssemblyName>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Core\Auth.Core.csproj" />
+    <ProjectReference Include="..\Admin.Data\Admin.Data.csproj" />
+    <ProjectReference Include="..\Security.Validators\Security.Validators.csproj" />
+    <ProjectReference Include="..\DataAccess.Validators254\DataAccess.Validators254.csproj" />
+    <ProjectReference Include="..\BatchJobs.Handlers\BatchJobs.Handlers.csproj" />
+    <ProjectReference Include="..\Logging.Events289\Logging.Events289.csproj" />
+    <ProjectReference Include="..\Imaging.Events416\Imaging.Events416.csproj" />
+    <ProjectReference Include="..\DataAccess.Web\DataAccess.Web.csproj" />
+    <ProjectReference Include="..\Utilities.Handlers\Utilities.Handlers.csproj" />
+    <ProjectReference Include="..\Import.Client7\Import.Client7.csproj" />
+    <ProjectReference Include="..\Billing.Core191\Billing.Core191.csproj" />
+    <ProjectReference Include="..\Import.Processors472\Import.Processors472.csproj" />
+    <ProjectReference Include="..\Export.Api\Export.Api.csproj" />
+    <ProjectReference Include="..\Logging.Client405\Logging.Client405.csproj" />
+    <ProjectReference Include="..\Export.Web229\Export.Web229.csproj" />
+    <ProjectReference Include="..\Billing.Tests\Billing.Tests.csproj" />
+    <ProjectReference Include="..\Security.Client137\Security.Client137.csproj" />
+  </ItemGroup>
+</Project>

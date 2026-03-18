@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>Admin.Handlers450</RootNamespace>
+    <AssemblyName>Admin.Handlers450</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Import.Processors</RootNamespace>
+    <AssemblyName>Import.Processors</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Data408\Admin.Data408.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Data453\GalaxyWorks.Data453.csproj" />
+    <ProjectReference Include="..\Scheduling.Mappers442\Scheduling.Mappers442.csproj" />
+    <ProjectReference Include="..\Import.Validators\Import.Validators.csproj" />
+    <ProjectReference Include="..\Documents.Events451\Documents.Events451.csproj" />
+    <ProjectReference Include="..\Reporting.Processors\Reporting.Processors.csproj" />
+    <ProjectReference Include="..\Utilities.Shared114\Utilities.Shared114.csproj" />
+    <ProjectReference Include="..\Workflow.Contracts330\Workflow.Contracts330.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Tests\GalaxyWorks.Tests.csproj" />
+    <ProjectReference Include="..\Common.Client53\Common.Client53.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Tests445\GalaxyWorks.Tests445.csproj" />
+    <ProjectReference Include="..\Documents.Processors\Documents.Processors.csproj" />
+    <ProjectReference Include="..\Portal.Tests173\Portal.Tests173.csproj" />
+    <ProjectReference Include="..\Common.Data21\Common.Data21.csproj" />
+    <ProjectReference Include="..\Admin.Handlers450\Admin.Handlers450.csproj" />
+    <ProjectReference Include="..\Import.Client64\Import.Client64.csproj" />
+  </ItemGroup>
+</Project>

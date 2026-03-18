@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <RootNamespace>Reporting.Api287</RootNamespace>
+    <AssemblyName>Reporting.Api287</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Auth.Events\Auth.Events.csproj" />
+    <ProjectReference Include="..\Admin.Core121\Admin.Core121.csproj" />
+    <ProjectReference Include="..\Auth.Handlers\Auth.Handlers.csproj" />
+    <ProjectReference Include="..\Workflow.Validators201\Workflow.Validators201.csproj" />
+    <ProjectReference Include="..\Logging.Validators359\Logging.Validators359.csproj" />
+    <ProjectReference Include="..\Notifications.Processors\Notifications.Processors.csproj" />
+    <ProjectReference Include="..\Billing.Processors259\Billing.Processors259.csproj" />
+    <ProjectReference Include="..\Billing.Core34\Billing.Core34.csproj" />
+    <ProjectReference Include="..\DataAccess.Client82\DataAccess.Client82.csproj" />
+    <ProjectReference Include="..\Integration.Models\Integration.Models.csproj" />
+    <ProjectReference Include="..\Scheduling.Processors335\Scheduling.Processors335.csproj" />
+    <ProjectReference Include="..\Portal.Api99\Portal.Api99.csproj" />
+    <ProjectReference Include="..\Scheduling.Shared\Scheduling.Shared.csproj" />
+    <ProjectReference Include="..\Logging.Handlers\Logging.Handlers.csproj" />
+    <ProjectReference Include="..\Auth.Data\Auth.Data.csproj" />
+    <ProjectReference Include="..\GalaxyWorks.Data\GalaxyWorks.Data.csproj" />
+    <ProjectReference Include="..\Scheduling.Web19\Scheduling.Web19.csproj" />
+    <ProjectReference Include="..\Export.Handlers\Export.Handlers.csproj" />
+  </ItemGroup>
+</Project>

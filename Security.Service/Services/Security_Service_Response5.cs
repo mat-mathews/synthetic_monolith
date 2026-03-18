@@ -1,0 +1,27 @@
+using Admin.Mappers;
+using Admin.Validators;
+using Auth.Data;
+using Billing.Models;
+using Common.Validators50;
+using DataAccess.Processors;
+using Export.Contracts;
+using GalaxyWorks.Validators;
+using Import.Client356;
+using Logging.Core;
+using Notifications.Data;
+using Portal.Contracts181;
+using Reporting.Api287;
+using Reporting.Validators;
+using Scheduling.Handlers43;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Utilities.Handlers;
+
+namespace Security.Service
+{
+    /// <summary>Immutable data transfer record for Security_Service_Response5.</summary>
+    public record Security_Service_Response5(string Value, int Count, DateTime Timestamp);
+
+}

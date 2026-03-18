@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>Auth.Mappers206</RootNamespace>
+    <AssemblyName>Auth.Mappers206</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+</Project>

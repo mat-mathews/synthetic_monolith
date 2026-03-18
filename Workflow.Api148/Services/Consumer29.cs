@@ -1,0 +1,713 @@
+using Admin.Handlers;
+using Admin.Handlers447;
+using Admin.Validators37;
+using Auth.Client249;
+using Auth.Core140;
+using Common.Web;
+using Documents.Api129;
+using Documents.Tests;
+using Export.Data6;
+using Export.Models262;
+using Imaging.Mappers93;
+using Import.Core;
+using Notifications.Models;
+using Reporting.Processors495;
+using Reporting.Shared;
+using Security.Events288;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using Utilities.Handlers;
+
+namespace Workflow.Api148
+{
+    /// <summary>
+    /// Consumes services from referenced projects.
+    /// Auto-generated for benchmark testing.
+    /// </summary>
+    public class Consumer29
+    {
+        private readonly Auth_Client249_Processor3 _auth_Client249_Processor3;
+        private readonly Auth_Client249_Factory4 _auth_Client249_Factory4;
+        private readonly IAuth_Core140_Service1 _iAuth_Core140_Service1;
+        private readonly IAuth_Core140_Factory4 _iAuth_Core140_Factory4;
+        private readonly Auth_Core140_Processor12 _auth_Core140_Processor12;
+        private readonly Import_Core_Handler6 _import_Core_Handler6;
+        private readonly Import_Core_Service7 _import_Core_Service7;
+        private readonly Export_Models262_Info6 _export_Models262_Info6;
+
+        public Consumer29(Auth_Client249_Processor3 auth_Client249_Processor3, Auth_Client249_Factory4 auth_Client249_Factory4, IAuth_Core140_Service1 iAuth_Core140_Service1, IAuth_Core140_Factory4 iAuth_Core140_Factory4, Auth_Core140_Processor12 auth_Core140_Processor12, Import_Core_Handler6 import_Core_Handler6, Import_Core_Service7 import_Core_Service7, Export_Models262_Info6 export_Models262_Info6)
+        {
+            _auth_Client249_Processor3 = auth_Client249_Processor3 ?? throw new ArgumentNullException(nameof(auth_Client249_Processor3));
+            _auth_Client249_Factory4 = auth_Client249_Factory4 ?? throw new ArgumentNullException(nameof(auth_Client249_Factory4));
+            _iAuth_Core140_Service1 = iAuth_Core140_Service1 ?? throw new ArgumentNullException(nameof(iAuth_Core140_Service1));
+            _iAuth_Core140_Factory4 = iAuth_Core140_Factory4 ?? throw new ArgumentNullException(nameof(iAuth_Core140_Factory4));
+            _auth_Core140_Processor12 = auth_Core140_Processor12 ?? throw new ArgumentNullException(nameof(auth_Core140_Processor12));
+            _import_Core_Handler6 = import_Core_Handler6 ?? throw new ArgumentNullException(nameof(import_Core_Handler6));
+            _import_Core_Service7 = import_Core_Service7 ?? throw new ArgumentNullException(nameof(import_Core_Service7));
+            _export_Models262_Info6 = export_Models262_Info6 ?? throw new ArgumentNullException(nameof(export_Models262_Info6));
+        }
+
+        public Auth_Client249_Processor3 GetAuth_Client249_Processor3() => _auth_Client249_Processor3;
+        public Auth_Client249_Factory4 GetAuth_Client249_Factory4() => _auth_Client249_Factory4;
+        public IAuth_Core140_Service1 GetIAuth_Core140_Service1() => _iAuth_Core140_Service1;
+        public IAuth_Core140_Factory4 GetIAuth_Core140_Factory4() => _iAuth_Core140_Factory4;
+        public Auth_Core140_Processor12 GetAuth_Core140_Processor12() => _auth_Core140_Processor12;
+        public Import_Core_Handler6 GetImport_Core_Handler6() => _import_Core_Handler6;
+        public Import_Core_Service7 GetImport_Core_Service7() => _import_Core_Service7;
+        public Export_Models262_Info6 GetExport_Models262_Info6() => _export_Models262_Info6;
+
+/// <summary>
+/// Validates the Consumer29 before processing.
+/// Checks required fields, business rules, and data integrity.
+/// </summary>
+/// <param name="input">The input to validate.</param>
+/// <returns>True if valid, false otherwise.</returns>
+public bool ValidateConsumer29(Consumer29Request input)
+{
+    if (input == null)
+        throw new ArgumentNullException(nameof(input));
+
+    if (string.IsNullOrWhiteSpace(input.Name))
+    {
+        _logger.LogWarning("Validation failed: Name is required for {Type}", nameof(Consumer29));
+        return false;
+    }
+
+    /* Multi-line validation logic:
+     * 1. Check field lengths
+     * 2. Validate business rules
+     * 3. Cross-reference with existing data */
+    if (input.Name.Length > 255)
+    {
+        _logger.LogWarning("Validation failed: Name exceeds maximum length");
+        return false;
+    }
+
+    // Additional business rule checks
+    var existingItems = _repository.FindByName(input.Name);
+    if (existingItems.Any(x => x.Id != input.Id))
+    {
+        _logger.LogWarning("Duplicate name detected: {Name}", input.Name);
+        return false;
+    }
+
+    return true;
+}
+
+/// <summary>
+/// Processes the Consumer29 operation asynchronously.
+/// </summary>
+public async Task<Consumer29Result> ProcessConsumer29Async(
+    Consumer29Request request,
+    CancellationToken cancellationToken = default)
+{
+    _logger.LogInformation("Processing {Operation} for {Id}",
+        nameof(Consumer29), request.Id);
+
+    // Validate input parameters
+    if (request == null)
+        throw new ArgumentNullException(nameof(request));
+
+    try
+    {
+        /* Begin transaction scope for data consistency.
+         * This ensures all database operations either
+         * complete successfully or roll back together. */
+        using var scope = new TransactionScope(
+            TransactionScopeAsyncFlowOption.Enabled);
+
+        var entity = await _repository
+            .GetByIdAsync(request.Id, cancellationToken)
+            .ConfigureAwait(false);
+
+        if (entity == null)
+        {
+            _logger.LogWarning("Entity not found: {Id}", request.Id);
+            return new Consumer29Result { Success = false, ErrorCode = "NOT_FOUND" };
+        }
+
+        // Apply business logic transformations
+        entity.UpdatedAt = DateTime.UtcNow;
+        entity.UpdatedBy = request.UserId;
+        entity.Status = CalculateNewStatus(entity, request);
+
+        await _repository.UpdateAsync(entity, cancellationToken);
+        scope.Complete();
+
+        _logger.LogInformation("Successfully processed {Operation}", nameof(Consumer29));
+        return new Consumer29Result { Success = true, Data = entity };
+    }
+    catch (DbUpdateConcurrencyException ex)
+    {
+        _logger.LogError(ex, "Concurrency conflict processing {Operation}", nameof(Consumer29));
+        return new Consumer29Result { Success = false, ErrorCode = "CONCURRENCY_CONFLICT" };
+    }
+}
+
+/// <summary>
+/// Retrieves a filtered and paginated list of Consumer29 entities.
+/// </summary>
+/// <param name="filter">Filter criteria.</param>
+/// <param name="page">Page number (1-based).</param>
+/// <param name="pageSize">Items per page.</param>
+public async Task<PagedResult<Consumer29Dto>> GetConsumer29ListAsync(
+    Consumer29Filter filter, int page = 1, int pageSize = 25)
+{
+    // Ensure valid pagination parameters
+    page = Math.Max(1, page);
+    pageSize = Math.Clamp(pageSize, 1, 100);
+
+    var query = _dbContext.Set<Consumer29Entity>().AsQueryable();
+
+    // Apply filters conditionally
+    if (!string.IsNullOrEmpty(filter.SearchTerm))
+    {
+        var term = filter.SearchTerm.ToLowerInvariant();
+        query = query.Where(x =>
+            x.Name.ToLower().Contains(term) ||
+            x.Description.ToLower().Contains(term));
+    }
+
+    if (filter.Status.HasValue)
+        query = query.Where(x => x.Status == filter.Status.Value);
+
+    if (filter.CreatedAfter.HasValue)
+        query = query.Where(x => x.CreatedAt >= filter.CreatedAfter.Value);
+
+    // Get total count for pagination
+    var totalCount = await query.CountAsync();
+
+    // Apply sorting and pagination
+    var items = await query
+        .OrderByDescending(x => x.CreatedAt)
+        .Skip((page - 1) * pageSize)
+        .Take(pageSize)
+        .Select(x => new Consumer29Dto
+        {
+            Id = x.Id,
+            Name = x.Name,
+            Status = x.Status.ToString(),
+            CreatedAt = x.CreatedAt,
+        })
+        .ToListAsync();
+
+    return new PagedResult<Consumer29Dto>
+    {
+        Items = items,
+        TotalCount = totalCount,
+        Page = page,
+        PageSize = pageSize,
+    };
+}
+
+// Configuration and dependency injection setup
+private readonly ILogger<Consumer29Service> _logger;
+private readonly IConfiguration _configuration;
+private readonly IMemoryCache _cache;
+private readonly TimeSpan _cacheDuration;
+
+/*
+ * Constructor initializes all dependencies.
+ * Uses the options pattern for configuration binding.
+ * Cache duration is configurable via appsettings.json.
+ */
+public Consumer29Service(
+    ILogger<Consumer29Service> logger,
+    IConfiguration configuration,
+    IMemoryCache cache)
+{
+    _logger = logger ?? throw new ArgumentNullException(nameof(logger));
+    _configuration = configuration ?? throw new ArgumentNullException(nameof(configuration));
+    _cache = cache ?? throw new ArgumentNullException(nameof(cache));
+    _cacheDuration = TimeSpan.FromMinutes(
+        _configuration.GetValue<int>("Consumer29:CacheDurationMinutes", 30));
+}
+
+/// <summary>
+/// Gets or creates a cached Consumer29 instance.
+/// Uses IMemoryCache with sliding expiration.
+/// </summary>
+public async Task<Consumer29Data> GetCachedConsumer29Async(string key)
+{
+    var cacheKey = $"Consumer29_{key}";
+
+    if (_cache.TryGetValue(cacheKey, out Consumer29Data cached))
+    {
+        _logger.LogDebug("Cache hit for {Key}", cacheKey);
+        return cached;
+    }
+
+    _logger.LogDebug("Cache miss for {Key}, loading from source", cacheKey);
+
+    var data = await LoadFromConsumer29SourceAsync(key);
+
+    var cacheOptions = new MemoryCacheEntryOptions()
+        .SetSlidingExpiration(_cacheDuration)
+        .SetAbsoluteExpiration(TimeSpan.FromHours(4));
+
+    _cache.Set(cacheKey, data, cacheOptions);
+    return data;
+}
+
+public int Entry33Id { get; set; }
+public string Entry33Name { get; set; }
+public string Entry33Description { get; set; }
+public DateTime Entry33CreatedAt { get; set; }
+public DateTime? Entry33UpdatedAt { get; set; }
+public string Entry33CreatedBy { get; set; }
+public bool IsEntry33Active { get; set; }
+public int Entry33SortOrder { get; set; }
+
+
+public int Attr46Id { get; set; }
+public string Attr46Name { get; set; }
+public string Attr46Description { get; set; }
+public DateTime Attr46CreatedAt { get; set; }
+public DateTime? Attr46UpdatedAt { get; set; }
+public string Attr46CreatedBy { get; set; }
+public bool IsAttr46Active { get; set; }
+public int Attr46SortOrder { get; set; }
+
+
+public int Record32Id { get; set; }
+public string Record32Name { get; set; }
+public string Record32Description { get; set; }
+public DateTime Record32CreatedAt { get; set; }
+public DateTime? Record32UpdatedAt { get; set; }
+public string Record32CreatedBy { get; set; }
+public bool IsRecord32Active { get; set; }
+public int Record32SortOrder { get; set; }
+
+
+public int Config7Id { get; set; }
+public string Config7Name { get; set; }
+public string Config7Description { get; set; }
+public DateTime Config7CreatedAt { get; set; }
+public DateTime? Config7UpdatedAt { get; set; }
+public string Config7CreatedBy { get; set; }
+public bool IsConfig7Active { get; set; }
+public int Config7SortOrder { get; set; }
+
+
+public int Attr14Id { get; set; }
+public string Attr14Name { get; set; }
+public string Attr14Description { get; set; }
+public DateTime Attr14CreatedAt { get; set; }
+public DateTime? Attr14UpdatedAt { get; set; }
+public string Attr14CreatedBy { get; set; }
+public bool IsAttr14Active { get; set; }
+public int Attr14SortOrder { get; set; }
+
+
+public int Detail99Id { get; set; }
+public string Detail99Name { get; set; }
+public string Detail99Description { get; set; }
+public DateTime Detail99CreatedAt { get; set; }
+public DateTime? Detail99UpdatedAt { get; set; }
+public string Detail99CreatedBy { get; set; }
+public bool IsDetail99Active { get; set; }
+public int Detail99SortOrder { get; set; }
+
+
+public int Detail34Id { get; set; }
+public string Detail34Name { get; set; }
+public string Detail34Description { get; set; }
+public DateTime Detail34CreatedAt { get; set; }
+public DateTime? Detail34UpdatedAt { get; set; }
+public string Detail34CreatedBy { get; set; }
+public bool IsDetail34Active { get; set; }
+public int Detail34SortOrder { get; set; }
+
+
+public int Config56Id { get; set; }
+public string Config56Name { get; set; }
+public string Config56Description { get; set; }
+public DateTime Config56CreatedAt { get; set; }
+public DateTime? Config56UpdatedAt { get; set; }
+public string Config56CreatedBy { get; set; }
+public bool IsConfig56Active { get; set; }
+public int Config56SortOrder { get; set; }
+
+
+public int Field92Id { get; set; }
+public string Field92Name { get; set; }
+public string Field92Description { get; set; }
+public DateTime Field92CreatedAt { get; set; }
+public DateTime? Field92UpdatedAt { get; set; }
+public string Field92CreatedBy { get; set; }
+public bool IsField92Active { get; set; }
+public int Field92SortOrder { get; set; }
+
+
+public int Param56Id { get; set; }
+public string Param56Name { get; set; }
+public string Param56Description { get; set; }
+public DateTime Param56CreatedAt { get; set; }
+public DateTime? Param56UpdatedAt { get; set; }
+public string Param56CreatedBy { get; set; }
+public bool IsParam56Active { get; set; }
+public int Param56SortOrder { get; set; }
+
+
+public int Param70Id { get; set; }
+public string Param70Name { get; set; }
+public string Param70Description { get; set; }
+public DateTime Param70CreatedAt { get; set; }
+public DateTime? Param70UpdatedAt { get; set; }
+public string Param70CreatedBy { get; set; }
+public bool IsParam70Active { get; set; }
+public int Param70SortOrder { get; set; }
+
+
+public int Entry24Id { get; set; }
+public string Entry24Name { get; set; }
+public string Entry24Description { get; set; }
+public DateTime Entry24CreatedAt { get; set; }
+public DateTime? Entry24UpdatedAt { get; set; }
+public string Entry24CreatedBy { get; set; }
+public bool IsEntry24Active { get; set; }
+public int Entry24SortOrder { get; set; }
+
+
+public int Entry95Id { get; set; }
+public string Entry95Name { get; set; }
+public string Entry95Description { get; set; }
+public DateTime Entry95CreatedAt { get; set; }
+public DateTime? Entry95UpdatedAt { get; set; }
+public string Entry95CreatedBy { get; set; }
+public bool IsEntry95Active { get; set; }
+public int Entry95SortOrder { get; set; }
+
+
+public int Field86Id { get; set; }
+public string Field86Name { get; set; }
+public string Field86Description { get; set; }
+public DateTime Field86CreatedAt { get; set; }
+public DateTime? Field86UpdatedAt { get; set; }
+public string Field86CreatedBy { get; set; }
+public bool IsField86Active { get; set; }
+public int Field86SortOrder { get; set; }
+
+
+public int Item52Id { get; set; }
+public string Item52Name { get; set; }
+public string Item52Description { get; set; }
+public DateTime Item52CreatedAt { get; set; }
+public DateTime? Item52UpdatedAt { get; set; }
+public string Item52CreatedBy { get; set; }
+public bool IsItem52Active { get; set; }
+public int Item52SortOrder { get; set; }
+
+
+public int Detail21Id { get; set; }
+public string Detail21Name { get; set; }
+public string Detail21Description { get; set; }
+public DateTime Detail21CreatedAt { get; set; }
+public DateTime? Detail21UpdatedAt { get; set; }
+public string Detail21CreatedBy { get; set; }
+public bool IsDetail21Active { get; set; }
+public int Detail21SortOrder { get; set; }
+
+
+public int Config62Id { get; set; }
+public string Config62Name { get; set; }
+public string Config62Description { get; set; }
+public DateTime Config62CreatedAt { get; set; }
+public DateTime? Config62UpdatedAt { get; set; }
+public string Config62CreatedBy { get; set; }
+public bool IsConfig62Active { get; set; }
+public int Config62SortOrder { get; set; }
+
+
+public int Item50Id { get; set; }
+public string Item50Name { get; set; }
+public string Item50Description { get; set; }
+public DateTime Item50CreatedAt { get; set; }
+public DateTime? Item50UpdatedAt { get; set; }
+public string Item50CreatedBy { get; set; }
+public bool IsItem50Active { get; set; }
+public int Item50SortOrder { get; set; }
+
+
+public int Field28Id { get; set; }
+public string Field28Name { get; set; }
+public string Field28Description { get; set; }
+public DateTime Field28CreatedAt { get; set; }
+public DateTime? Field28UpdatedAt { get; set; }
+public string Field28CreatedBy { get; set; }
+public bool IsField28Active { get; set; }
+public int Field28SortOrder { get; set; }
+
+
+public int Attr99Id { get; set; }
+public string Attr99Name { get; set; }
+public string Attr99Description { get; set; }
+public DateTime Attr99CreatedAt { get; set; }
+public DateTime? Attr99UpdatedAt { get; set; }
+public string Attr99CreatedBy { get; set; }
+public bool IsAttr99Active { get; set; }
+public int Attr99SortOrder { get; set; }
+
+
+public int Attr52Id { get; set; }
+public string Attr52Name { get; set; }
+public string Attr52Description { get; set; }
+public DateTime Attr52CreatedAt { get; set; }
+public DateTime? Attr52UpdatedAt { get; set; }
+public string Attr52CreatedBy { get; set; }
+public bool IsAttr52Active { get; set; }
+public int Attr52SortOrder { get; set; }
+
+
+public int Record47Id { get; set; }
+public string Record47Name { get; set; }
+public string Record47Description { get; set; }
+public DateTime Record47CreatedAt { get; set; }
+public DateTime? Record47UpdatedAt { get; set; }
+public string Record47CreatedBy { get; set; }
+public bool IsRecord47Active { get; set; }
+public int Record47SortOrder { get; set; }
+
+
+public int Item33Id { get; set; }
+public string Item33Name { get; set; }
+public string Item33Description { get; set; }
+public DateTime Item33CreatedAt { get; set; }
+public DateTime? Item33UpdatedAt { get; set; }
+public string Item33CreatedBy { get; set; }
+public bool IsItem33Active { get; set; }
+public int Item33SortOrder { get; set; }
+
+
+public int Field48Id { get; set; }
+public string Field48Name { get; set; }
+public string Field48Description { get; set; }
+public DateTime Field48CreatedAt { get; set; }
+public DateTime? Field48UpdatedAt { get; set; }
+public string Field48CreatedBy { get; set; }
+public bool IsField48Active { get; set; }
+public int Field48SortOrder { get; set; }
+
+
+public int Entry62Id { get; set; }
+public string Entry62Name { get; set; }
+public string Entry62Description { get; set; }
+public DateTime Entry62CreatedAt { get; set; }
+public DateTime? Entry62UpdatedAt { get; set; }
+public string Entry62CreatedBy { get; set; }
+public bool IsEntry62Active { get; set; }
+public int Entry62SortOrder { get; set; }
+
+
+public int Item62Id { get; set; }
+public string Item62Name { get; set; }
+public string Item62Description { get; set; }
+public DateTime Item62CreatedAt { get; set; }
+public DateTime? Item62UpdatedAt { get; set; }
+public string Item62CreatedBy { get; set; }
+public bool IsItem62Active { get; set; }
+public int Item62SortOrder { get; set; }
+
+
+public int Field40Id { get; set; }
+public string Field40Name { get; set; }
+public string Field40Description { get; set; }
+public DateTime Field40CreatedAt { get; set; }
+public DateTime? Field40UpdatedAt { get; set; }
+public string Field40CreatedBy { get; set; }
+public bool IsField40Active { get; set; }
+public int Field40SortOrder { get; set; }
+
+
+public int Detail15Id { get; set; }
+public string Detail15Name { get; set; }
+public string Detail15Description { get; set; }
+public DateTime Detail15CreatedAt { get; set; }
+public DateTime? Detail15UpdatedAt { get; set; }
+public string Detail15CreatedBy { get; set; }
+public bool IsDetail15Active { get; set; }
+public int Detail15SortOrder { get; set; }
+
+
+public int Detail8Id { get; set; }
+public string Detail8Name { get; set; }
+public string Detail8Description { get; set; }
+public DateTime Detail8CreatedAt { get; set; }
+public DateTime? Detail8UpdatedAt { get; set; }
+public string Detail8CreatedBy { get; set; }
+public bool IsDetail8Active { get; set; }
+public int Detail8SortOrder { get; set; }
+
+
+public int Config36Id { get; set; }
+public string Config36Name { get; set; }
+public string Config36Description { get; set; }
+public DateTime Config36CreatedAt { get; set; }
+public DateTime? Config36UpdatedAt { get; set; }
+public string Config36CreatedBy { get; set; }
+public bool IsConfig36Active { get; set; }
+public int Config36SortOrder { get; set; }
+
+
+public int Entry80Id { get; set; }
+public string Entry80Name { get; set; }
+public string Entry80Description { get; set; }
+public DateTime Entry80CreatedAt { get; set; }
+public DateTime? Entry80UpdatedAt { get; set; }
+public string Entry80CreatedBy { get; set; }
+public bool IsEntry80Active { get; set; }
+public int Entry80SortOrder { get; set; }
+
+
+public int Detail84Id { get; set; }
+public string Detail84Name { get; set; }
+public string Detail84Description { get; set; }
+public DateTime Detail84CreatedAt { get; set; }
+public DateTime? Detail84UpdatedAt { get; set; }
+public string Detail84CreatedBy { get; set; }
+public bool IsDetail84Active { get; set; }
+public int Detail84SortOrder { get; set; }
+
+
+public int Param89Id { get; set; }
+public string Param89Name { get; set; }
+public string Param89Description { get; set; }
+public DateTime Param89CreatedAt { get; set; }
+public DateTime? Param89UpdatedAt { get; set; }
+public string Param89CreatedBy { get; set; }
+public bool IsParam89Active { get; set; }
+public int Param89SortOrder { get; set; }
+
+
+public int Field61Id { get; set; }
+public string Field61Name { get; set; }
+public string Field61Description { get; set; }
+public DateTime Field61CreatedAt { get; set; }
+public DateTime? Field61UpdatedAt { get; set; }
+public string Field61CreatedBy { get; set; }
+public bool IsField61Active { get; set; }
+public int Field61SortOrder { get; set; }
+
+
+public int Item26Id { get; set; }
+public string Item26Name { get; set; }
+public string Item26Description { get; set; }
+public DateTime Item26CreatedAt { get; set; }
+public DateTime? Item26UpdatedAt { get; set; }
+public string Item26CreatedBy { get; set; }
+public bool IsItem26Active { get; set; }
+public int Item26SortOrder { get; set; }
+
+
+public int Field52Id { get; set; }
+public string Field52Name { get; set; }
+public string Field52Description { get; set; }
+public DateTime Field52CreatedAt { get; set; }
+public DateTime? Field52UpdatedAt { get; set; }
+public string Field52CreatedBy { get; set; }
+public bool IsField52Active { get; set; }
+public int Field52SortOrder { get; set; }
+
+
+public int Detail98Id { get; set; }
+public string Detail98Name { get; set; }
+public string Detail98Description { get; set; }
+public DateTime Detail98CreatedAt { get; set; }
+public DateTime? Detail98UpdatedAt { get; set; }
+public string Detail98CreatedBy { get; set; }
+public bool IsDetail98Active { get; set; }
+public int Detail98SortOrder { get; set; }
+
+
+public int Entry2Id { get; set; }
+public string Entry2Name { get; set; }
+public string Entry2Description { get; set; }
+public DateTime Entry2CreatedAt { get; set; }
+public DateTime? Entry2UpdatedAt { get; set; }
+public string Entry2CreatedBy { get; set; }
+public bool IsEntry2Active { get; set; }
+public int Entry2SortOrder { get; set; }
+
+
+public int Detail56Id { get; set; }
+public string Detail56Name { get; set; }
+public string Detail56Description { get; set; }
+public DateTime Detail56CreatedAt { get; set; }
+public DateTime? Detail56UpdatedAt { get; set; }
+public string Detail56CreatedBy { get; set; }
+public bool IsDetail56Active { get; set; }
+public int Detail56SortOrder { get; set; }
+
+
+public int Param84Id { get; set; }
+public string Param84Name { get; set; }
+public string Param84Description { get; set; }
+public DateTime Param84CreatedAt { get; set; }
+public DateTime? Param84UpdatedAt { get; set; }
+public string Param84CreatedBy { get; set; }
+public bool IsParam84Active { get; set; }
+public int Param84SortOrder { get; set; }
+
+
+public int Detail71Id { get; set; }
+public string Detail71Name { get; set; }
+public string Detail71Description { get; set; }
+public DateTime Detail71CreatedAt { get; set; }
+public DateTime? Detail71UpdatedAt { get; set; }
+public string Detail71CreatedBy { get; set; }
+public bool IsDetail71Active { get; set; }
+public int Detail71SortOrder { get; set; }
+
+
+public int Item94Id { get; set; }
+public string Item94Name { get; set; }
+public string Item94Description { get; set; }
+public DateTime Item94CreatedAt { get; set; }
+public DateTime? Item94UpdatedAt { get; set; }
+public string Item94CreatedBy { get; set; }
+public bool IsItem94Active { get; set; }
+public int Item94SortOrder { get; set; }
+
+
+public int Item90Id { get; set; }
+public string Item90Name { get; set; }
+public string Item90Description { get; set; }
+public DateTime Item90CreatedAt { get; set; }
+public DateTime? Item90UpdatedAt { get; set; }
+public string Item90CreatedBy { get; set; }
+public bool IsItem90Active { get; set; }
+public int Item90SortOrder { get; set; }
+
+
+public int Config29Id { get; set; }
+public string Config29Name { get; set; }
+public string Config29Description { get; set; }
+public DateTime Config29CreatedAt { get; set; }
+public DateTime? Config29UpdatedAt { get; set; }
+public string Config29CreatedBy { get; set; }
+public bool IsConfig29Active { get; set; }
+public int Config29SortOrder { get; set; }
+
+
+public int Field73Id { get; set; }
+public string Field73Name { get; set; }
+public string Field73Description { get; set; }
+public DateTime Field73CreatedAt { get; set; }
+public DateTime? Field73UpdatedAt { get; set; }
+public string Field73CreatedBy { get; set; }
+public bool IsField73Active { get; set; }
+public int Field73SortOrder { get; set; }
+
+
+public int Param52Id { get; set; }
+public string Param52Name { get; set; }
+public string Param52Description { get; set; }
+public DateTime Param52CreatedAt { get; set; }
+public DateTime? Param52UpdatedAt { get; set; }
+public string Param52CreatedBy { get; set; }
+public bool IsParam52Active { get; set; }
+public int Param52SortOrder { get; set; }
+
+    }
+}

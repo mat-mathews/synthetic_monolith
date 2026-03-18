@@ -1,0 +1,35 @@
+using Admin.Api255;
+using Admin.Contracts;
+using Admin.Shared14;
+using Auth.Events78;
+using Auth.Mappers;
+using BatchJobs.Events;
+using BatchJobs.Processors;
+using BatchJobs.Processors410;
+using Billing.Shared384;
+using GalaxyWorks.Mappers;
+using Imaging.Core204;
+using Integration.Mappers;
+using Notifications.Handlers33;
+using Reporting.Data;
+using Security.Contracts238;
+using Security.Validators428;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Utilities.Events;
+using Utilities.Mappers97;
+
+namespace Billing.Contracts
+{
+    public interface IBilling_Contracts_Service8
+    {
+        /// <summary>Processes the Billing_Contracts_Service8 operation.</summary>
+        void ProcessBilling_Contracts_Service8();
+
+        /// <summary>Validates the Billing_Contracts_Service8 state.</summary>
+        bool ValidateBilling_Contracts_Service8();
+    }
+
+}

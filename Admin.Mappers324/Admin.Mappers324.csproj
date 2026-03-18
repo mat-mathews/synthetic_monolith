@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Admin.Mappers324</RootNamespace>
+    <AssemblyName>Admin.Mappers324</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+</Project>

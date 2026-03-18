@@ -1,0 +1,29 @@
+using Admin.Api255;
+using Admin.Contracts;
+using Admin.Shared14;
+using Auth.Events78;
+using Auth.Mappers;
+using BatchJobs.Events;
+using BatchJobs.Processors;
+using BatchJobs.Processors410;
+using Billing.Shared384;
+using GalaxyWorks.Mappers;
+using Imaging.Core204;
+using Integration.Mappers;
+using Notifications.Handlers33;
+using Reporting.Data;
+using Security.Contracts238;
+using Security.Validators428;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Utilities.Events;
+using Utilities.Mappers97;
+
+namespace Billing.Contracts
+{
+    /// <summary>Immutable data transfer record for Billing_Contracts_Dto3.</summary>
+    internal record Billing_Contracts_Dto3(string Value, int Count, DateTime Timestamp);
+
+}

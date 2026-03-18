@@ -1,0 +1,29 @@
+using Auth.Api116;
+using Auth.Contracts395;
+using Auth.Core140;
+using Auth.Handlers209;
+using Auth.Mappers178;
+using BatchJobs.Mappers362;
+using Billing.Client22;
+using Common.Mappers;
+using Common.Processors245;
+using Documents.Core;
+using Import.Api179;
+using Integration.Data175;
+using Integration.Service147;
+using Logging.Api;
+using Portal.Contracts181;
+using Scheduling.Processors397;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Utilities.Data;
+using Utilities.Processors;
+
+namespace BatchJobs.Handlers
+{
+    /// <summary>Immutable data transfer record for BatchJobs_Handlers_Dto7.</summary>
+    public record BatchJobs_Handlers_Dto7(string Value, int Count, DateTime Timestamp);
+
+}

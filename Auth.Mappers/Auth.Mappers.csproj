@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Auth.Mappers</RootNamespace>
+    <AssemblyName>Auth.Mappers</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+</Project>

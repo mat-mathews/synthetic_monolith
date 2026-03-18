@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Admin.Validators</RootNamespace>
+    <AssemblyName>Admin.Validators</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Admin.Models199</RootNamespace>
+    <AssemblyName>Admin.Models199</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+</Project>

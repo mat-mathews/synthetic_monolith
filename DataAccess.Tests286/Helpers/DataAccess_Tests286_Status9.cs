@@ -1,0 +1,38 @@
+using Admin.Core121;
+using Admin.Service;
+using Auth.Contracts402;
+using Auth.Processors;
+using BatchJobs.Data176;
+using Billing.Web;
+using Common.Events;
+using Export.Client13;
+using Export.Tests62;
+using GalaxyWorks.Data263;
+using Imaging.Mappers93;
+using Logging.Events;
+using Notifications.Core166;
+using Notifications.Data;
+using Portal.Contracts;
+using Portal.Web158;
+using Reporting.Shared394;
+using Scheduling.Web19;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace DataAccess.Tests286
+{
+    /// <summary>Defines the possible states for DataAccess_Tests286_Status9.</summary>
+    internal enum DataAccess_Tests286_Status9
+    {
+        None = 0,
+        Active = 1,
+        Inactive = 2,
+        Pending = 3,
+        Processing = 4,
+        Completed = 5,
+        Failed = 6,
+    }
+
+}

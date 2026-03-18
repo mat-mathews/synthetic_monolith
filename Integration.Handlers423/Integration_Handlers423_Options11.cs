@@ -1,0 +1,32 @@
+using Admin.Handlers450;
+using Admin.Processors35;
+using Auth.Mappers206;
+using Billing.Mappers225;
+using DataAccess.Contracts;
+using DataAccess.Contracts404;
+using GalaxyWorks.Events256;
+using GalaxyWorks.Validators355;
+using Import.Client7;
+using Import.Mappers;
+using Logging.Contracts74;
+using Logging.Core159;
+using Portal.Contracts;
+using Reporting.Processors;
+using Security.Processors246;
+using Security.Web;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Utilities.Mappers232;
+
+namespace Integration.Handlers423
+{
+    internal struct Integration_Handlers423_Options11
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public DateTime CreatedAt { get; set; }
+    }
+
+}

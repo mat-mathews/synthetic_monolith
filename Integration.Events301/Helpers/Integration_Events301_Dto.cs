@@ -1,0 +1,27 @@
+using Admin.Tests10;
+using Admin.Validators;
+using Auth.Handlers281;
+using Billing.Processors;
+using Export.Client414;
+using Export.Handlers;
+using GalaxyWorks.Validators;
+using Imaging.Core204;
+using Import.Processors;
+using Import.Web;
+using Integration.Shared;
+using Integration.Validators;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Utilities.Shared114;
+using Workflow.Handlers;
+using Workflow.Tests27;
+using Workflow.Tests75;
+
+namespace Integration.Events301
+{
+    /// <summary>Immutable data transfer record for Integration_Events301_Dto.</summary>
+    public record Integration_Events301_Dto(string Value, int Count, DateTime Timestamp);
+
+}

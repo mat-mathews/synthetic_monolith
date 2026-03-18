@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>Admin.Events306</RootNamespace>
+    <AssemblyName>Admin.Events306</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+</Project>

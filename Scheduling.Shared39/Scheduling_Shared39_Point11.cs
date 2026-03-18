@@ -1,0 +1,33 @@
+using Admin.Service456;
+using Admin.Web4;
+using Auth.Contracts395;
+using Common.Mappers190;
+using Documents.Core357;
+using Export.Client13;
+using Imaging.Client;
+using Integration.Processors248;
+using Logging.Client405;
+using Portal.Contracts181;
+using Portal.Tests;
+using Scheduling.Client187;
+using Scheduling.Core218;
+using Scheduling.Mappers442;
+using Scheduling.Mappers48;
+using Scheduling.Web60;
+using Security.Contracts238;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Workflow.Contracts434;
+
+namespace Scheduling.Shared39
+{
+    internal struct Scheduling_Shared39_Point11
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public DateTime CreatedAt { get; set; }
+    }
+
+}
