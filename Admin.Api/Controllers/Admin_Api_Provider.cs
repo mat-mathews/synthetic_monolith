@@ -12,6 +12,16 @@ namespace Admin.Api
             // Admin_Api_Provider implementation
         }
 
+        /// <summary>
+        /// Validates whether the provider is eligible for bulk deactivation.
+        /// </summary>
+        public bool IsEligibleForDeactivation(DateTime cutoffDate)
+        {
+            return !IsConfig64Active
+                && Config64UpdatedAt.HasValue
+                && Config64UpdatedAt.Value < cutoffDate;
+        }
+
 /// <summary>
 /// Validates the Provider before processing.
 /// Checks required fields, business rules, and data integrity.
