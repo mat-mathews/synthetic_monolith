@@ -64,6 +64,7 @@ jobs:
       - name: Run impact analysis
         id: analyze
         run: |
+          set +e
           uv run --project /tmp/scatter scatter \
             --branch-name "${{ github.head_ref }}" \
             --base-branch "${{ github.base_ref }}" \
@@ -71,8 +72,12 @@ jobs:
             --search-scope . \
             --output-format markdown \
             --output-file /tmp/impact-report.md \
-            2>/tmp/scatter-stderr.log
-          EXIT_CODE=$?
+            2>&1 | tee /tmp/scatter-stderr.log
+          EXIT_CODE=${PIPESTATUS[0]}
+          set -e
+
+          # Always show scatter output for debugging
+          echo "--- Scatter exit code: $EXIT_CODE ---"
 
           # Check if report was generated
           if [ -f /tmp/impact-report.md ] && [ -s /tmp/impact-report.md ]; then
@@ -80,7 +85,6 @@ jobs:
           elif [ $EXIT_CODE -ne 0 ]; then
             echo "has_report=false" >> "$GITHUB_OUTPUT"
             echo "::error::Scatter failed with exit code $EXIT_CODE"
-            cat /tmp/scatter-stderr.log || true
           else
             echo "has_report=false" >> "$GITHUB_OUTPUT"
             echo "::warning::Scatter did not produce an impact report. PR may not affect .NET dependencies."
